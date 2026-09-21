@@ -1,38 +1,252 @@
 #!/usr/bin/env python3
 from __future__ import annotations
-from pathlib import Path
-import json,shlex,sys
 
-ROOT=Path(__file__).resolve().parent
-sys.path.insert(0,str(ROOT))
-SETTINGS=ROOT/"data"/"settings.json"
+from pathlib import Path
+import importlib.util
+import json
+import os
+import platform
+import shlex
+import shutil
+import subprocess
+import sys
+
+ROOT = Path(__file__).resolve().parent
+sys.path.insert(0, str(ROOT))
+SETTINGS = ROOT / "data" / "settings.json"
+
 
 def load_language():
     try:
-        d=json.loads(SETTINGS.read_text(encoding="utf-8"))
-        return "el" if d.get("language")=="el" else "en"
+        data = json.loads(SETTINGS.read_text(encoding="utf-8"))
+        return "el" if data.get("language") == "el" else "en"
     except Exception:
         return "en"
 
+
 def save_language(lang):
-    try: SETTINGS.write_text(json.dumps({"language":lang},indent=2),encoding="utf-8")
-    except Exception: pass
+    try:
+        SETTINGS.write_text(json.dumps({"language": lang}, indent=2), encoding="utf-8")
+    except Exception:
+        pass
 
-lang=load_language()
 
-from modules.bootstrap import ensure_runtime,ensure_narration
-ensure_runtime(ROOT,lang)
-ensure_narration(ROOT,lang)
+lang = load_language()
 
-from modules.gallery import ensure_gallery,open_image,export_gallery
+
+def _msg(en, el):
+    return el if lang == "el" else en
+
+
+def _run(command, timeout=900):
+    try:
+        return subprocess.run(command, check=False, timeout=timeout).returncode == 0
+    except Exception:
+        return False
+
+
+def _is_termux():
+    prefix = os.environ.get("PREFIX", "")
+    return "com.termux" in prefix or Path("/data/data/com.termux").exists()
+
+
+def _linux_distribution():
+    if _is_termux():
+        return "termux"
+    path = Path("/etc/os-release")
+    if not path.exists():
+        return platform.system().lower()
+    values = {}
+    for line in path.read_text(encoding="utf-8", errors="ignore").splitlines():
+        if "=" in line:
+            key, value = line.split("=", 1)
+            values[key] = value.strip().strip('"')
+    distro = values.get("ID", "").lower()
+    like = values.get("ID_LIKE", "").lower()
+    if distro in {"ubuntu", "kali", "linuxmint"}:
+        return distro
+    if "debian" in like or "ubuntu" in like:
+        return distro or "debian"
+    return distro or "unknown"
+
+
+def _install_termux_packages(packages):
+    packages = [x for x in packages if x]
+    if not packages:
+        return True
+    if not shutil.which("pkg"):
+        return False
+    print(_msg(
+        "[Ghost Project] Installing missing Termux packages: " + ", ".join(packages),
+        "[Ghost Project] Εγκατάσταση Termux packages που λείπουν: " + ", ".join(packages),
+    ))
+    _run(["pkg", "update", "-y"], timeout=900)
+    return _run(["pkg", "install", "-y", *packages], timeout=1200)
+
+
+def _desktop_apt_command():
+    if shutil.which("apt-get") is None:
+        return None
+    if hasattr(os, "geteuid") and os.geteuid() == 0:
+        return ["apt-get"]
+    if shutil.which("sudo"):
+        return ["sudo", "apt-get"]
+    return None
+
+
+def _install_desktop_packages(packages):
+    packages = [x for x in packages if x]
+    if not packages:
+        return True
+    apt = _desktop_apt_command()
+    if apt is None:
+        print(_msg(
+            "[Ghost Project] sudo/apt-get is required to install missing Linux packages.",
+            "[Ghost Project] Απαιτείται sudo/apt-get για εγκατάσταση των Linux packages που λείπουν.",
+        ))
+        return False
+    print(_msg(
+        "[Ghost Project] Installing missing Linux packages: " + ", ".join(packages),
+        "[Ghost Project] Εγκατάσταση Linux packages που λείπουν: " + ", ".join(packages),
+    ))
+    _run([*apt, "update"], timeout=1200)
+    return _run([*apt, "install", "-y", *packages], timeout=1800)
+
+
+def _ensure_python_packages(python_exe):
+    check = subprocess.run(
+        [str(python_exe), "-c", "import rich, PIL"],
+        check=False,
+        stdout=subprocess.DEVNULL,
+        stderr=subprocess.DEVNULL,
+    )
+    if check.returncode == 0:
+        return True
+    req = ROOT / "requirements.txt"
+    print(_msg(
+        "[Ghost Project] Installing Python dependencies...",
+        "[Ghost Project] Εγκατάσταση Python dependencies...",
+    ))
+    return _run([str(python_exe), "-m", "pip", "install", "-r", str(req)], timeout=1200)
+
+
+def _ensure_termux_environment():
+    missing = []
+    if shutil.which("mpv") is None and shutil.which("termux-media-player") is None:
+        missing.append("mpv")
+    if shutil.which("ffmpeg") is None:
+        missing.append("ffmpeg")
+    if shutil.which("espeak") is None and shutil.which("espeak-ng") is None:
+        missing.append("espeak-ng")
+    if shutil.which("termux-microphone-record") is None:
+        missing.append("termux-api")
+
+    if missing:
+        _install_termux_packages(missing)
+
+    _ensure_python_packages(sys.executable)
+
+    pictures = Path.home() / "storage" / "pictures"
+    if not pictures.exists() and shutil.which("termux-setup-storage"):
+        print(_msg(
+            "[Ghost Project] Android storage access may be requested for gallery export.",
+            "[Ghost Project] Μπορεί να ζητηθεί πρόσβαση Android storage για gallery export.",
+        ))
+        _run(["termux-setup-storage"], timeout=120)
+
+
+def _inside_project_venv():
+    expected = (ROOT / ".venv").resolve()
+    try:
+        return Path(sys.prefix).resolve() == expected
+    except Exception:
+        return False
+
+
+def _ensure_desktop_environment():
+    distro = _linux_distribution()
+    if distro not in {"ubuntu", "kali", "linuxmint", "debian"}:
+        print(_msg(
+            "Ghost Project supports Termux, Ubuntu, Kali Linux, and Linux Mint.",
+            "Το Ghost Project υποστηρίζει Termux, Ubuntu, Kali Linux και Linux Mint.",
+        ))
+        raise SystemExit(1)
+
+    venv_python = ROOT / ".venv" / "bin" / "python"
+
+    required_commands = {
+        "mpv": "mpv",
+        "ffmpeg": "ffmpeg",
+        "espeak": "espeak",
+        "xdg-open": "xdg-utils",
+        "arecord": "alsa-utils",
+    }
+    missing_packages = []
+    for command, package_name in required_commands.items():
+        if shutil.which(command) is None:
+            # espeak-ng also satisfies speech synthesis.
+            if command == "espeak" and shutil.which("espeak-ng"):
+                continue
+            missing_packages.append(package_name)
+
+    if not venv_python.exists():
+        missing_packages.extend(["python3-venv", "python3-pip"])
+
+    # Preserve order while deduplicating.
+    missing_packages = list(dict.fromkeys(missing_packages))
+    if missing_packages:
+        if not _install_desktop_packages(missing_packages):
+            raise SystemExit(1)
+
+    if not venv_python.exists():
+        print(_msg(
+            "[Ghost Project] Creating local Python environment...",
+            "[Ghost Project] Δημιουργία τοπικού Python environment...",
+        ))
+        if not _run([sys.executable, "-m", "venv", str(ROOT / ".venv")], timeout=600):
+            print(_msg(
+                "[Ghost Project] Could not create .venv.",
+                "[Ghost Project] Δεν ήταν δυνατή η δημιουργία του .venv.",
+            ))
+            raise SystemExit(1)
+
+    if not _ensure_python_packages(venv_python):
+        print(_msg(
+            "[Ghost Project] Could not install Python dependencies.",
+            "[Ghost Project] Δεν ήταν δυνατή η εγκατάσταση των Python dependencies.",
+        ))
+        raise SystemExit(1)
+
+    if not _inside_project_venv():
+        os.execv(
+            str(venv_python),
+            [str(venv_python), str(main_path := ROOT / "Ghost Project.py"), *sys.argv[1:]],
+        )
+
+
+def bootstrap_environment():
+    if _is_termux():
+        _ensure_termux_environment()
+    else:
+        _ensure_desktop_environment()
+
+
+bootstrap_environment()
+
+from modules.bootstrap import ensure_runtime, ensure_narration
+ensure_runtime(ROOT, lang)
+ensure_narration(ROOT, lang)
+
+from modules.gallery import ensure_gallery, open_image, export_gallery
 ensure_gallery(ROOT)
 
 from modules.archive import Archive
-from modules.display import banner,clear,help_text,list_items,show_item,show_search,tr,category_label
-from modules.audio import open_url,play_entry_audio,record_voice
-from modules.weapon_stats import find_weapons,show_stats,compare_weapons
-from modules.loadouts import create_loadout,list_loadouts,get_loadout,show_loadout,delete_loadout,random_loadout
-from modules.ui import COMMAND_ALIASES,CATEGORY_ALIASES
+from modules.display import banner, clear, help_text, list_items, show_item, show_search, tr, category_label
+from modules.audio import open_url, play_entry_audio, record_voice
+from modules.weapon_stats import find_weapons, show_stats, compare_weapons
+from modules.loadouts import create_loadout, list_loadouts, get_loadout, show_loadout, delete_loadout, random_loadout
+from modules.ui import COMMAND_ALIASES, CATEGORY_ALIASES
+
 
 def norm_cat(value):
     low=value.lower()
