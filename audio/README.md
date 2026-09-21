@@ -1,7 +1,7 @@
 # Ghost Project Audio / Ήχος
 
 <details>
-<summary><strong>🇬🇧 English</strong></summary>
+<summary><strong>English</strong></summary>
 
 Ghost Project includes generated narration MP3 files for its own archive summaries.
 
@@ -22,16 +22,18 @@ Play an entry:
 audio rorke RF01
 ```
 
-Record a personal note through Termux:API:
+Record a personal note:
 
 ```text
 record my_note
 ```
 
+Termux uses Termux:API for microphone recording. Ubuntu, Kali Linux, and Linux Mint use available Linux audio tools such as `ffmpeg` or `arecord`.
+
 </details>
 
 <details>
-<summary><strong>🇬🇷 Ελληνικά</strong></summary>
+<summary><strong>Ελληνικά</strong></summary>
 
 Το Ghost Project περιλαμβάνει generated narration MP3 για τις δικές του περιλήψεις αρχείου.
 
@@ -52,10 +54,12 @@ audio/original/extinction/
 ήχος rorke RF01
 ```
 
-Ηχογράφηση προσωπικής σημείωσης μέσω Termux:API:
+Ηχογράφηση προσωπικής σημείωσης:
 
 ```text
 εγγραφή my_note
 ```
+
+Στο Termux χρησιμοποιείται Termux:API. Σε Ubuntu, Kali Linux και Linux Mint χρησιμοποιούνται διαθέσιμα Linux audio tools όπως `ffmpeg` ή `arecord`.
 
 </details>

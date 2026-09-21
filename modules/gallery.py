@@ -1,6 +1,7 @@
 from __future__ import annotations
 from pathlib import Path
 import importlib.util, json, shutil, subprocess, sys
+from modules.platforms import pictures_directory
 
 CATEGORIES={"maps":"maps.json","weapons":"weapons.json","characters":"characters.json"}
 
@@ -138,9 +139,13 @@ def open_image(root,item):
 
 def export_gallery(root,category="all"):
     root=Path(root)
-    dest=Path.home()/"storage"/"pictures"/"Ghost Project"
-    if not dest.parent.exists():
-        return False,"Android Pictures storage is unavailable. Run termux-setup-storage, then try again."
+    base=pictures_directory()
+    if not base.exists():
+        try:
+            base.mkdir(parents=True,exist_ok=True)
+        except Exception:
+            return False,f"Pictures directory is unavailable: {base}"
+    dest=base/"Ghost Project"
     dest.mkdir(parents=True,exist_ok=True)
     cats=list(CATEGORIES) if category=="all" else [category]
     n=0

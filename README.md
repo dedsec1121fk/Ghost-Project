@@ -1,60 +1,90 @@
 # Ghost Project
 
-> **Ghost Project** is a Termux/Python searchable archive for **Call of Duty: Ghosts**, covering the campaign, Rorke Files, Extinction intel, characters, locations, maps, weapons, Easter eggs, timelines, and cross-game lore.
+> **Ghost Project** is a cross-platform Python archive for **Call of Duty: Ghosts**, covering the campaign, Rorke Files, Extinction intel, characters, locations, maps, weapons, Easter eggs, timelines, generated narration, gallery cards, and cross-game lore.
 >
-> Το **Ghost Project** είναι ένα αναζητήσιμο αρχείο για Termux/Python γύρω από το **Call of Duty: Ghosts**, με campaign, Rorke Files, Extinction intel, χαρακτήρες, τοποθεσίες, χάρτες, όπλα, Easter eggs, χρονολόγια και lore που συνδέεται με άλλα παιχνίδια.
+> Το **Ghost Project** είναι ένα cross-platform Python archive για το **Call of Duty: Ghosts**, με campaign, Rorke Files, Extinction intel, χαρακτήρες, τοποθεσίες, χάρτες, όπλα, Easter eggs, χρονολόγια, generated narration, gallery cards και lore που συνδέεται με άλλα Call of Duty παιχνίδια.
 
------
+---
 
 <details>
-<summary><strong>🇬🇧 English</strong></summary>
+<summary><strong>English</strong></summary>
 
 ## About
 
-Ghost Project is an unofficial fan-made research and archive tool. It stores original summaries, structured metadata, public source links, searchable lore, and generated narration.
+Ghost Project is an unofficial fan-made research and archive tool. It stores original summaries, structured metadata, public source links, searchable lore, generated narration, and offline JPG reference cards.
 
 <details>
-<summary>📚 <strong>Archive content</strong></summary>
+<summary><strong>Supported platforms</strong></summary>
 
-- Complete 18-mission campaign index
-- Complete multiplayer + Extinction map archive with 36 detailed map entries
-- Campaign story overview
-- Rorke File collectible archive
-- Extinction intel archive for Nightfall, Mayday, Awakening, and Exodus
-- Character archive
-- Location archive
-- Campaign and Extinction timelines
-- Detailed maps index
-- Detailed weapons index
-- Easter eggs
-- Cross-game references and lore connections
-- Public source links attached to archive entries
+Ghost Project is prepared for:
+
+- Termux on Android
+- Ubuntu
+- Kali Linux
+- Linux Mint
+
+The shared workflow is:
+
+```bash
+bash Setup.sh
+./Run.sh
+```
+
+On Ubuntu, Kali Linux, and Linux Mint, `Setup.sh` creates a local `.venv` and installs Python packages there.
+
+On Termux, the project uses the native Termux Python installation and native packages.
+
+The Python launcher also checks for missing runtime dependencies and attempts to install them when possible.
 
 </details>
 
 <details>
-<summary>🔎 <strong>Search</strong></summary>
+<summary><strong>Archive content</strong></summary>
 
-Search the entire archive:
+- Complete 18-mission campaign index
+- Campaign story overview
+- 18 Rorke File archive entries
+- Extinction intel archive for Nightfall, Mayday, Awakening, and Exodus
+- 36 detailed Multiplayer and Extinction map entries
+- 50 detailed weapon entries
+- 43 campaign and Extinction character entries
+- Location archive
+- Campaign and Extinction timelines
+- Easter eggs
+- Cross-game references and lore connections
+- Public source links attached to archive entries
+- English and Greek archive data
+- Generated narration for archive summaries
+- Offline JPG reference gallery
+
+</details>
+
+<details>
+<summary><strong>Search</strong></summary>
+
+Search the whole archive:
 
 ```text
 search rorke
 search honey badger
 search infinite warfare
+search warhawk
 ```
 
 Search one category:
 
 ```text
 search missions rorke
+search maps warhawk
 search weapons honey badger
+search characters logan
 search connections infinite warfare
 ```
 
 </details>
 
 <details>
-<summary>🌐 <strong>English / Greek language switching</strong></summary>
+<summary><strong>English and Greek</strong></summary>
 
 Switch to Greek:
 
@@ -68,16 +98,16 @@ Switch to English:
 lang en
 ```
 
-The selected language is remembered between runs.
+The selected language is saved between runs.
 
-The Greek archive includes translated menus, help text, field labels, story summaries, mission descriptions, Rorke File summaries, Extinction intel, character information, locations, timeline events, weapon categories and notes, Easter eggs, and cross-game lore.
+The Greek archive includes translated interface text, help text, field labels, story summaries, mission descriptions, Rorke File summaries, Extinction intel, character information, locations, timeline events, map details, weapon categories and notes, Easter eggs, and cross-game lore.
 
-Mission names, weapon names, proper names, and other official game names remain unchanged where an official Greek title is not available.
+Mission names, weapon names, character names, and other official game names remain unchanged where an official Greek title is not available.
 
 </details>
 
 <details>
-<summary>🔊 <strong>Audio</strong></summary>
+<summary><strong>Audio</strong></summary>
 
 Ghost Project includes generated narration MP3 files for:
 
@@ -95,7 +125,7 @@ audio/original/rorke/
 audio/original/extinction/
 ```
 
-Ghost Project checks original local audio first and then falls back to bundled narration.
+Ghost Project checks local original audio first and then falls back to bundled narration.
 
 Example:
 
@@ -103,65 +133,99 @@ Example:
 audio rorke RF01
 ```
 
+Audio playback is supported through available system tools such as Termux media playback, `mpv`, `ffplay`, or `play`.
+
 </details>
 
 <details>
-<summary>🎙️ <strong>Personal voice notes</strong></summary>
+<summary><strong>Voice notes</strong></summary>
 
-With Termux:API support:
+Record a personal note:
 
 ```text
 record my_note
 ```
 
-Ghost Project attempts to install the required Termux command-line package automatically when needed. Android still requires the Termux:API companion application for microphone access.
+On Termux, recording uses Termux:API. The Android Termux:API companion application is still required for microphone access.
+
+On Ubuntu, Kali Linux, and Linux Mint, Ghost Project uses available Linux recording tools such as `ffmpeg` or `arecord`.
 
 </details>
 
-
 <details>
-<summary>🖼️ <strong>Phone gallery</strong></summary>
+<summary><strong>Image gallery</strong></summary>
 
-Ghost Project includes offline JPG reference cards for every indexed map, weapon, and campaign/Extinction character.
+Ghost Project contains offline JPG reference cards for every indexed map, weapon, and campaign/Extinction character:
 
-- 36 map JPGs
-- 50 weapon JPGs
-- 43 character JPGs
+- 36 map JPG files
+- 50 weapon JPG files
+- 43 character JPG files
 
-The cards are original Ghost Project-generated reference images rather than copied game screenshots. Each includes the archive ID and detailed facts, with bilingual context where useful.
+These are original Ghost Project reference cards, not copied game screenshots or official artwork.
+
+Open one image:
 
 ```text
 image maps MAP011
 image weapons W007
 image characters C01
-gallery all
 ```
 
-`gallery all` exports the files into Android Pictures so they can be viewed with normal gallery or file-manager apps. Missing cards are rebuilt automatically when possible.
+Export the gallery:
+
+```text
+gallery all
+gallery maps
+gallery weapons
+gallery characters
+```
+
+On Termux, exported files go to the Android Pictures directory when storage access is available.
+
+On Ubuntu, Kali Linux, and Linux Mint, exported files go to the user's Pictures directory.
+
+Missing JPG cards are rebuilt automatically when possible.
 
 </details>
 
 <details>
-<summary>📱 <strong>Termux setup</strong></summary>
+<summary><strong>Setup and run</strong></summary>
+
+From the project directory:
 
 ```bash
-pkg install python -y
-cd ~/Ghost-Project
+bash Setup.sh
+./Run.sh
+```
+
+`Setup.sh` installs the required system and Python dependencies for the detected supported platform.
+
+`Run.sh` uses native Termux Python on Android and the local `.venv` on supported desktop Linux systems.
+
+You can also run the Python entry point directly when the environment is already prepared:
+
+```bash
 python "Ghost Project.py"
 ```
 
-The launcher checks for missing runtime dependencies and installs them automatically when possible.
+or on desktop Linux:
+
+```bash
+python3 "Ghost Project.py"
+```
 
 </details>
 
 <details>
-<summary>⌨️ <strong>Commands</strong></summary>
+<summary><strong>Commands</strong></summary>
 
 ```text
 help
 categories
 list missions
 list maps
+list weapons
+list characters
 show missions M07
 show maps MAP014
 search rorke
@@ -182,20 +246,25 @@ quit
 </details>
 
 <details>
-<summary>🗂️ <strong>Project structure</strong></summary>
+<summary><strong>Project structure</strong></summary>
 
 ```text
 Ghost Project/
 ├── Ghost Project.py
+├── Setup.sh
+├── Run.sh
 ├── modules/
 │   ├── archive.py
 │   ├── audio.py
 │   ├── bootstrap.py
 │   ├── display.py
+│   ├── gallery.py
+│   ├── platforms.py
 │   └── ui.py
 ├── data/
 │   ├── stories.json
 │   ├── missions.json
+│   ├── maps.json
 │   ├── rorke_files.json
 │   ├── extinction_intel.json
 │   ├── characters.json
@@ -218,10 +287,6 @@ Ghost Project/
 │   ├── narration/
 │   ├── original/
 │   └── user/
-├── gallery/
-│   ├── maps/
-│   ├── weapons/
-│   └── characters/
 ├── tools/
 │   └── validate_data.py
 ├── requirements.txt
@@ -231,67 +296,97 @@ Ghost Project/
 </details>
 
 <details>
-<summary>⚖️ <strong>Content notice</strong></summary>
+<summary><strong>Content notice</strong></summary>
 
 Call of Duty, Call of Duty: Ghosts, mission names, character names, game audio, artwork, and related game content belong to their respective rights holders.
 
-Ghost Project does not bundle ripped voice recordings, complete game transcripts, textures, models, or other extracted game assets. It contains original summaries, metadata, generated narration, and links to public references.
+Ghost Project does not bundle ripped voice recordings, complete game transcripts, textures, models, or other extracted game assets. It contains original summaries, structured metadata, generated narration, original reference cards, and links to public references.
 
 </details>
 
 </details>
 
------
+---
 
 <details>
-<summary><strong>🇬🇷 Ελληνικά</strong></summary>
+<summary><strong>Ελληνικά</strong></summary>
 
 ## Σχετικά με το Project
 
-Το Ghost Project είναι ένα ανεπίσημο fan-made εργαλείο έρευνας και αρχειοθέτησης. Περιλαμβάνει πρωτότυπες περιλήψεις, οργανωμένα metadata, δημόσιες πηγές, αναζητήσιμο lore και generated narration.
+Το Ghost Project είναι ένα ανεπίσημο fan-made εργαλείο έρευνας και αρχειοθέτησης. Περιλαμβάνει πρωτότυπες περιλήψεις, οργανωμένα metadata, δημόσιες πηγές, αναζητήσιμο lore, generated narration και offline JPG reference cards.
 
 <details>
-<summary>📚 <strong>Περιεχόμενο αρχείου</strong></summary>
+<summary><strong>Υποστηριζόμενες πλατφόρμες</strong></summary>
 
-- Πλήρες ευρετήριο και των 18 campaign αποστολών
-- Πλήρες αρχείο multiplayer + Extinction με 36 αναλυτικές καταχωρήσεις χαρτών
-- Επισκόπηση της campaign ιστορίας
-- Αρχείο Rorke File collectibles
-- Extinction intel για Nightfall, Mayday, Awakening και Exodus
-- Αρχείο χαρακτήρων
-- Αρχείο τοποθεσιών
-- Ξεχωριστά χρονολόγια Campaign και Extinction
-- Αναλυτικό ευρετήριο χαρτών
-- Αναλυτικό ευρετήριο όπλων
-- Easter eggs
-- Αναφορές και lore συνδέσεις με άλλα παιχνίδια
-- Δημόσιες πηγές συνδεδεμένες με τις καταχωρήσεις
+Το Ghost Project είναι προετοιμασμένο για:
+
+- Termux σε Android
+- Ubuntu
+- Kali Linux
+- Linux Mint
+
+Η κοινή διαδικασία είναι:
+
+```bash
+bash Setup.sh
+./Run.sh
+```
+
+Σε Ubuntu, Kali Linux και Linux Mint, το `Setup.sh` δημιουργεί τοπικό `.venv` και εγκαθιστά εκεί τα Python packages.
+
+Στο Termux χρησιμοποιείται το native Python και τα native packages του Termux.
+
+Ο Python launcher ελέγχει επίσης για runtime dependencies που λείπουν και προσπαθεί να τα εγκαταστήσει αυτόματα όταν είναι δυνατό.
 
 </details>
 
 <details>
-<summary>🔎 <strong>Αναζήτηση</strong></summary>
+<summary><strong>Περιεχόμενο αρχείου</strong></summary>
 
-Αναζήτηση σε ολόκληρο το αρχείο:
+- Πλήρες ευρετήριο και των 18 campaign αποστολών
+- Επισκόπηση campaign ιστορίας
+- 18 Rorke File καταχωρήσεις
+- Extinction intel για Nightfall, Mayday, Awakening και Exodus
+- 36 αναλυτικές καταχωρήσεις Multiplayer και Extinction χαρτών
+- 50 αναλυτικές καταχωρήσεις όπλων
+- 43 campaign και Extinction χαρακτήρες
+- Αρχείο τοποθεσιών
+- Ξεχωριστά χρονολόγια Campaign και Extinction
+- Easter eggs
+- Cross-game references και lore συνδέσεις
+- Δημόσιες πηγές συνδεδεμένες με τις καταχωρήσεις
+- Αγγλικά και Ελληνικά archive data
+- Generated narration για περιλήψεις αρχείου
+- Offline JPG gallery
+
+</details>
+
+<details>
+<summary><strong>Αναζήτηση</strong></summary>
+
+Αναζήτηση σε όλο το αρχείο:
 
 ```text
 αναζήτηση rorke
 αναζήτηση federation
 αναζήτηση cryptids
+αναζήτηση warhawk
 ```
 
 Αναζήτηση σε συγκεκριμένη κατηγορία:
 
 ```text
 search missions rorke
+search maps warhawk
 search weapons honey badger
+search characters logan
 search connections infinite warfare
 ```
 
 </details>
 
 <details>
-<summary>🌐 <strong>Αγγλικά / Ελληνικά</strong></summary>
+<summary><strong>Αγγλικά και Ελληνικά</strong></summary>
 
 Αλλαγή σε Ελληνικά:
 
@@ -307,32 +402,32 @@ search connections infinite warfare
 
 Η επιλεγμένη γλώσσα αποθηκεύεται και χρησιμοποιείται ξανά στην επόμενη εκτέλεση.
 
-Η ελληνική βάση περιλαμβάνει μεταφρασμένα menus, help text, labels, περιλήψεις ιστορίας, περιγραφές αποστολών, Rorke Files, Extinction intel, χαρακτήρες, τοποθεσίες, χρονολόγιο, κατηγορίες και σημειώσεις όπλων, Easter eggs και cross-game lore.
+Η ελληνική βάση περιλαμβάνει μεταφρασμένο interface, help text, labels, story summaries, mission descriptions, Rorke Files, Extinction intel, χαρακτήρες, τοποθεσίες, timeline events, map details, κατηγορίες και σημειώσεις όπλων, Easter eggs και cross-game lore.
 
-Τα ονόματα αποστολών, όπλων, χαρακτήρων και άλλα επίσημα ονόματα του παιχνιδιού παραμένουν αμετάφραστα όπου δεν υπάρχει επίσημος ελληνικός τίτλος.
+Τα επίσημα ονόματα αποστολών, όπλων, χαρακτήρων και άλλων game elements παραμένουν αμετάφραστα όπου δεν υπάρχει επίσημος ελληνικός τίτλος.
 
 </details>
 
 <details>
-<summary>🔊 <strong>Ήχος</strong></summary>
+<summary><strong>Ήχος</strong></summary>
 
 Το Ghost Project περιλαμβάνει generated narration MP3 για:
 
-- Περιλήψεις ιστορίας Campaign και Extinction
+- Περιλήψεις Campaign και Extinction ιστορίας
 - Περιλήψεις όλων των campaign αποστολών
 - Περιλήψεις των Rorke Files
 - Περιλήψεις του καταχωρημένου Extinction intel
 
-Ο ήχος που περιλαμβάνεται έχει δημιουργηθεί από τις πρωτότυπες περιλήψεις του Ghost Project και δεν είναι ripped game audio.
+Ο bundled ήχος δημιουργείται από τις πρωτότυπες περιλήψεις του Ghost Project και δεν είναι ripped game audio.
 
-Αν διαθέτεις νόμιμα αυθεντικές ηχογραφήσεις, μπορείς να τις τοποθετήσεις στα:
+Αν διαθέτεις νόμιμα αυθεντικές ηχογραφήσεις, τοποθέτησέ τες στα:
 
 ```text
 audio/original/rorke/
 audio/original/extinction/
 ```
 
-Το Ghost Project ελέγχει πρώτα για αυθεντικό local audio και μετά χρησιμοποιεί το bundled narration.
+Το Ghost Project ελέγχει πρώτα για local original audio και μετά χρησιμοποιεί το bundled narration.
 
 Παράδειγμα:
 
@@ -340,65 +435,99 @@ audio/original/extinction/
 ήχος rorke RF01
 ```
 
+Η αναπαραγωγή χρησιμοποιεί διαθέσιμα system tools όπως Termux media playback, `mpv`, `ffplay` ή `play`.
+
 </details>
 
 <details>
-<summary>🎙️ <strong>Προσωπικές φωνητικές σημειώσεις</strong></summary>
+<summary><strong>Φωνητικές σημειώσεις</strong></summary>
 
-Με υποστήριξη Termux:API:
+Ηχογράφηση προσωπικής σημείωσης:
 
 ```text
 εγγραφή my_note
 ```
 
-Το Ghost Project προσπαθεί να εγκαταστήσει αυτόματα το απαραίτητο command-line package όταν λείπει. Για πρόσβαση στο μικρόφωνο στο Android απαιτείται και η εφαρμογή Termux:API.
+Στο Termux χρησιμοποιείται Termux:API. Η Android εφαρμογή Termux:API εξακολουθεί να απαιτείται για πρόσβαση στο μικρόφωνο.
+
+Σε Ubuntu, Kali Linux και Linux Mint χρησιμοποιούνται διαθέσιμα Linux recording tools όπως `ffmpeg` ή `arecord`.
 
 </details>
 
-
 <details>
-<summary>🖼️ <strong>Gallery κινητού</strong></summary>
+<summary><strong>Image gallery</strong></summary>
 
-Το Ghost Project περιλαμβάνει offline JPG κάρτες αναφοράς για κάθε καταχωρημένο χάρτη, όπλο και campaign/Extinction χαρακτήρα.
+Το Ghost Project περιλαμβάνει offline JPG reference cards για κάθε καταχωρημένο χάρτη, όπλο και campaign/Extinction χαρακτήρα:
 
 - 36 JPG χαρτών
 - 50 JPG όπλων
 - 43 JPG χαρακτήρων
 
-Οι κάρτες είναι πρωτότυπες εικόνες αναφοράς του Ghost Project και όχι αντιγραμμένα screenshots του παιχνιδιού.
+Οι εικόνες είναι πρωτότυπες κάρτες αναφοράς του Ghost Project και όχι αντιγραμμένα screenshots ή official artwork.
+
+Άνοιγμα εικόνας:
 
 ```text
 image maps MAP011
 image weapons W007
 image characters C01
-gallery all
 ```
 
-Το `gallery all` κάνει export τις εικόνες στο Android Pictures ώστε να ανοίγουν από gallery/file-manager εφαρμογές.
+Export gallery:
+
+```text
+gallery all
+gallery maps
+gallery weapons
+gallery characters
+```
+
+Στο Termux οι εικόνες εξάγονται στο Android Pictures όταν υπάρχει storage access.
+
+Σε Ubuntu, Kali Linux και Linux Mint εξάγονται στον φάκελο Pictures του χρήστη.
+
+Αν λείπει JPG card, το Ghost Project προσπαθεί να το δημιουργήσει ξανά αυτόματα.
 
 </details>
 
 <details>
-<summary>📱 <strong>Ρύθμιση στο Termux</strong></summary>
+<summary><strong>Setup και εκτέλεση</strong></summary>
+
+Από τον φάκελο του project:
 
 ```bash
-pkg install python -y
-cd ~/Ghost-Project
+bash Setup.sh
+./Run.sh
+```
+
+Το `Setup.sh` εγκαθιστά τα απαιτούμενα system και Python dependencies για την υποστηριζόμενη πλατφόρμα που εντοπίζεται.
+
+Το `Run.sh` χρησιμοποιεί native Termux Python στο Android και το τοπικό `.venv` στα υποστηριζόμενα desktop Linux συστήματα.
+
+Μπορείς επίσης να τρέξεις απευθείας το Python entry point όταν το environment είναι ήδη έτοιμο:
+
+```bash
 python "Ghost Project.py"
 ```
 
-Ο launcher ελέγχει για εξαρτήσεις που λείπουν και προσπαθεί να τις εγκαταστήσει αυτόματα όταν είναι δυνατό.
+ή σε desktop Linux:
+
+```bash
+python3 "Ghost Project.py"
+```
 
 </details>
 
 <details>
-<summary>⌨️ <strong>Εντολές</strong></summary>
+<summary><strong>Εντολές</strong></summary>
 
 ```text
 βοήθεια
 κατηγορίες
 λίστα missions
 λίστα maps
+λίστα weapons
+λίστα characters
 δείξε missions M07
 δείξε maps MAP014
 αναζήτηση rorke
@@ -419,16 +548,20 @@ gallery all
 </details>
 
 <details>
-<summary>🗂️ <strong>Δομή Project</strong></summary>
+<summary><strong>Δομή Project</strong></summary>
 
 ```text
 Ghost Project/
 ├── Ghost Project.py
+├── Setup.sh
+├── Run.sh
 ├── modules/
 │   ├── archive.py
 │   ├── audio.py
 │   ├── bootstrap.py
 │   ├── display.py
+│   ├── gallery.py
+│   ├── platforms.py
 │   └── ui.py
 ├── data/
 │   ├── Αγγλικά δεδομένα αρχείου
@@ -437,14 +570,14 @@ Ghost Project/
 ├── documents/
 │   ├── en/
 │   └── el/
+├── images/
+│   ├── maps/
+│   ├── weapons/
+│   └── characters/
 ├── audio/
 │   ├── narration/
 │   ├── original/
 │   └── user/
-├── gallery/
-│   ├── maps/
-│   ├── weapons/
-│   └── characters/
 ├── tools/
 ├── requirements.txt
 └── CONTENT_NOTICE.md
@@ -453,17 +586,17 @@ Ghost Project/
 </details>
 
 <details>
-<summary>⚖️ <strong>Σημείωση Περιεχομένου</strong></summary>
+<summary><strong>Σημείωση περιεχομένου</strong></summary>
 
-Τα Call of Duty, Call of Duty: Ghosts, ονόματα αποστολών, χαρακτήρων, game audio, artwork και σχετικό υλικό ανήκουν στους αντίστοιχους δικαιούχους.
+Τα Call of Duty, Call of Duty: Ghosts, mission names, character names, game audio, artwork και σχετικό υλικό ανήκουν στους αντίστοιχους δικαιούχους.
 
-Το Ghost Project δεν περιλαμβάνει ripped voice recordings, πλήρεις μεταγραφές του παιχνιδιού, textures, models ή άλλα extracted game assets. Περιλαμβάνει πρωτότυπες περιλήψεις, metadata, generated narration και συνδέσμους προς δημόσιες πηγές.
-
-</details>
+Το Ghost Project δεν περιλαμβάνει ripped voice recordings, πλήρεις μεταγραφές παιχνιδιού, textures, models ή άλλα extracted game assets. Περιλαμβάνει πρωτότυπες περιλήψεις, structured metadata, generated narration, original reference cards και links σε δημόσιες πηγές.
 
 </details>
 
------
+</details>
+
+---
 
 ## Disclaimer / Αποποίηση Ευθύνης
 
