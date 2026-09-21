@@ -94,5 +94,21 @@
   "extinction_mode": {
     "title": "Extinction mode",
     "url": "https://callofduty.fandom.com/wiki/Extinction"
+  },
+  "weapon_stats_sheet": {
+    "title": "Ghosts Weapon Stats by Marvel4",
+    "url": "https://docs.google.com/spreadsheets/d/1zCf2h4rc50UNQRkAJ_FS2DS8J8vDdQpMbdjp10PNKmo/edit?usp=sharing"
+  },
+  "create_a_soldier": {
+    "title": "Call of Duty: Ghosts Create-A-Soldier / perks reference",
+    "url": "https://callofduty.fandom.com/wiki/Create-A-Soldier"
+  },
+  "ghosts_perks": {
+    "title": "Call of Duty: Ghosts perks reference",
+    "url": "https://callofduty.fandom.com/wiki/Perks"
+  },
+  "ghosts_strike_packages": {
+    "title": "Call of Duty: Ghosts strike packages reference",
+    "url": "https://callofduty.fandom.com/wiki/Strike_Chain"
   }
 }

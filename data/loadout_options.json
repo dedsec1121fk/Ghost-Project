@@ -1,0 +1,459 @@
+{
+  "rules": {
+    "base_perk_points": 8,
+    "maximum_perk_points": 12,
+    "bonus_perk_point_slots": [
+      "primary",
+      "secondary",
+      "lethal",
+      "tactical"
+    ],
+    "default_attachment_slots": 2,
+    "extra_attachment_slots": 3,
+    "notes": [
+      "Leaving the primary, secondary, lethal, or tactical slot empty adds one perk point.",
+      "Extra Attachment increases the primary attachment limit in this builder.",
+      "Overkill allows a second primary weapon in the secondary slot."
+    ]
+  },
+  "perks": [
+    {
+      "category": "Speed",
+      "name": "Ready Up",
+      "cost": 1,
+      "description": "Weapon is ready faster after sprinting."
+    },
+    {
+      "category": "Speed",
+      "name": "Sleight of Hand",
+      "cost": 2,
+      "description": "Reload weapons faster."
+    },
+    {
+      "category": "Speed",
+      "name": "Agility",
+      "cost": 2,
+      "description": "Move faster."
+    },
+    {
+      "category": "Speed",
+      "name": "Marathon",
+      "cost": 2,
+      "description": "Unlimited sprint."
+    },
+    {
+      "category": "Speed",
+      "name": "Stalker",
+      "cost": 3,
+      "description": "Move faster while aiming down sights."
+    },
+    {
+      "category": "Handling",
+      "name": "Strong Arm",
+      "cost": 1,
+      "description": "Throw equipment farther and improve grenade handling."
+    },
+    {
+      "category": "Handling",
+      "name": "On The Go",
+      "cost": 1,
+      "description": "Reload while sprinting."
+    },
+    {
+      "category": "Handling",
+      "name": "Reflex",
+      "cost": 2,
+      "description": "Swap weapons and use equipment faster."
+    },
+    {
+      "category": "Handling",
+      "name": "Steady Aim",
+      "cost": 2,
+      "description": "Improve hip-fire accuracy."
+    },
+    {
+      "category": "Handling",
+      "name": "Quickdraw",
+      "cost": 3,
+      "description": "Aim down sights faster."
+    },
+    {
+      "category": "Stealth",
+      "name": "Takedown",
+      "cost": 1,
+      "description": "Kills do not reveal the enemy death location."
+    },
+    {
+      "category": "Stealth",
+      "name": "Blind Eye",
+      "cost": 2,
+      "description": "Reduce detection by enemy air support."
+    },
+    {
+      "category": "Stealth",
+      "name": "Dead Silence",
+      "cost": 2,
+      "description": "Reduce footstep noise."
+    },
+    {
+      "category": "Stealth",
+      "name": "Incog",
+      "cost": 3,
+      "description": "Reduce visibility to targeting systems and tracking equipment."
+    },
+    {
+      "category": "Stealth",
+      "name": "Off the Grid",
+      "cost": 3,
+      "description": "Stay hidden from SAT COM radar."
+    },
+    {
+      "category": "Awareness",
+      "name": "Recon",
+      "cost": 1,
+      "description": "Explosive damage paints enemies on the minimap."
+    },
+    {
+      "category": "Awareness",
+      "name": "Scavenger",
+      "cost": 2,
+      "description": "Resupply ammunition from fallen enemies."
+    },
+    {
+      "category": "Awareness",
+      "name": "SitRep",
+      "cost": 2,
+      "description": "Detect enemy equipment."
+    },
+    {
+      "category": "Awareness",
+      "name": "Amplify",
+      "cost": 2,
+      "description": "Hear enemy footsteps more clearly."
+    },
+    {
+      "category": "Awareness",
+      "name": "Wiretap",
+      "cost": 3,
+      "description": "Use enemy SAT COMs as part of your own network."
+    },
+    {
+      "category": "Resistance",
+      "name": "Resilience",
+      "cost": 1,
+      "description": "Reduce falling damage."
+    },
+    {
+      "category": "Resistance",
+      "name": "ICU",
+      "cost": 2,
+      "description": "Regenerate health faster."
+    },
+    {
+      "category": "Resistance",
+      "name": "Focus",
+      "cost": 2,
+      "description": "Reduce weapon sway and flinch."
+    },
+    {
+      "category": "Resistance",
+      "name": "Tac Resist",
+      "cost": 2,
+      "description": "Reduce effects of tactical equipment."
+    },
+    {
+      "category": "Resistance",
+      "name": "Blast Shield",
+      "cost": 2,
+      "description": "Reduce explosive damage."
+    },
+    {
+      "category": "Equipment",
+      "name": "Extra Tactical",
+      "cost": 1,
+      "description": "Carry extra tactical equipment."
+    },
+    {
+      "category": "Equipment",
+      "name": "Extra Lethal",
+      "cost": 2,
+      "description": "Carry extra lethal equipment."
+    },
+    {
+      "category": "Equipment",
+      "name": "Fully Loaded",
+      "cost": 2,
+      "description": "Start with maximum ammunition."
+    },
+    {
+      "category": "Equipment",
+      "name": "Extra Attachment",
+      "cost": 3,
+      "description": "Equip an additional weapon attachment."
+    },
+    {
+      "category": "Equipment",
+      "name": "Danger Close",
+      "cost": 4,
+      "description": "Increase explosive damage."
+    },
+    {
+      "category": "Elite",
+      "name": "Gambler",
+      "cost": 1,
+      "description": "Spawn with a random perk."
+    },
+    {
+      "category": "Elite",
+      "name": "Hardline",
+      "cost": 2,
+      "description": "Reduce point requirements for strike rewards."
+    },
+    {
+      "category": "Elite",
+      "name": "Ping",
+      "cost": 2,
+      "description": "Kills trigger a local enemy-detection ping."
+    },
+    {
+      "category": "Elite",
+      "name": "Overkill",
+      "cost": 3,
+      "description": "Use a primary weapon in the secondary slot."
+    },
+    {
+      "category": "Elite",
+      "name": "Deadeye",
+      "cost": 5,
+      "description": "Consecutive kills can increase bullet damage."
+    }
+  ],
+  "lethal": [
+    "M67 Grenade",
+    "Semtex",
+    "Throwing Knife",
+    "I.E.D.",
+    "C4",
+    "Canister Bomb"
+  ],
+  "tactical": [
+    "9-Bang",
+    "Concussion",
+    "Smoke",
+    "Trophy System",
+    "Motion Sensor",
+    "Thermobaric"
+  ],
+  "attachments": {
+    "Assault Rifles": [
+      "Red Dot Sight",
+      "Holographic Sight",
+      "ACOG Scope",
+      "VMR Sight",
+      "Tracker Sight",
+      "Thermal Hybrid Scope",
+      "Silencer",
+      "Muzzle Brake",
+      "Flash Suppressor",
+      "Grip",
+      "Shotgun",
+      "Grenade Launcher",
+      "Extended Mags",
+      "Armor-Piercing",
+      "Semi-Automatic",
+      "Burst Fire",
+      "Automatic Fire",
+      "Rapid Fire"
+    ],
+    "Submachine Guns": [
+      "Red Dot Sight",
+      "Holographic Sight",
+      "ACOG Scope",
+      "VMR Sight",
+      "Tracker Sight",
+      "Thermal Hybrid Scope",
+      "Silencer",
+      "Muzzle Brake",
+      "Flash Suppressor",
+      "Grip",
+      "Extended Mags",
+      "Armor-Piercing",
+      "Rapid Fire"
+    ],
+    "Light Machine Guns": [
+      "Red Dot Sight",
+      "Holographic Sight",
+      "ACOG Scope",
+      "VMR Sight",
+      "Tracker Sight",
+      "Thermal Hybrid Scope",
+      "Silencer",
+      "Muzzle Brake",
+      "Flash Suppressor",
+      "Grip",
+      "Extended Mags",
+      "Armor-Piercing",
+      "Rapid Fire"
+    ],
+    "Marksman Rifles": [
+      "Red Dot Sight",
+      "Holographic Sight",
+      "ACOG Scope",
+      "VMR Sight",
+      "Tracker Sight",
+      "Thermal Hybrid Scope",
+      "Silencer",
+      "Muzzle Brake",
+      "Flash Suppressor",
+      "Grip",
+      "Extended Mags",
+      "Armor-Piercing"
+    ],
+    "Sniper Rifles": [
+      "Thermal Scope",
+      "ACOG Scope",
+      "Silencer",
+      "Chrome Lined",
+      "Extended Mags",
+      "Armor-Piercing"
+    ],
+    "Shotguns": [
+      "Red Dot Sight",
+      "Holographic Sight",
+      "Silencer",
+      "Muzzle Brake",
+      "Grip",
+      "Extended Mags",
+      "Slug Rounds"
+    ],
+    "Handguns": [
+      "Red Dot Sight",
+      "Silencer",
+      "Muzzle Brake",
+      "Extended Mags",
+      "Armor-Piercing",
+      "Akimbo"
+    ],
+    "Launchers": []
+  },
+  "weapon_attachment_blocks": {
+    "Honey Badger": [
+      "Silencer",
+      "Muzzle Brake",
+      "Flash Suppressor"
+    ],
+    "K7": [
+      "Silencer"
+    ],
+    "VKS": [
+      "Silencer"
+    ]
+  },
+  "strike_packages": {
+    "Assault": [
+      {
+        "points": 3,
+        "name": "SAT COM"
+      },
+      {
+        "points": 5,
+        "name": "I.M.S."
+      },
+      {
+        "points": 5,
+        "name": "Guard Dog"
+      },
+      {
+        "points": 7,
+        "name": "Sentry Gun"
+      },
+      {
+        "points": 7,
+        "name": "Trinity Rocket"
+      },
+      {
+        "points": 9,
+        "name": "Battle Hind"
+      },
+      {
+        "points": 9,
+        "name": "Vulture"
+      },
+      {
+        "points": 10,
+        "name": "Gryphon"
+      },
+      {
+        "points": 10,
+        "name": "Maniac"
+      },
+      {
+        "points": 11,
+        "name": "Juggernaut"
+      },
+      {
+        "points": 12,
+        "name": "Helo Pilot"
+      },
+      {
+        "points": 15,
+        "name": "Loki"
+      }
+    ],
+    "Support": [
+      {
+        "points": 4,
+        "name": "SAT COM"
+      },
+      {
+        "points": 6,
+        "name": "Ammo Crate"
+      },
+      {
+        "points": 8,
+        "name": "Ballistic Vests"
+      },
+      {
+        "points": 9,
+        "name": "MAAWS"
+      },
+      {
+        "points": 10,
+        "name": "Night Owl"
+      },
+      {
+        "points": 11,
+        "name": "Support Squadmate"
+      },
+      {
+        "points": 12,
+        "name": "Ground Jammer"
+      },
+      {
+        "points": 12,
+        "name": "Air Superiority"
+      },
+      {
+        "points": 13,
+        "name": "Helo Scout"
+      },
+      {
+        "points": 14,
+        "name": "Oracle"
+      },
+      {
+        "points": 14,
+        "name": "Juggernaut Recon"
+      },
+      {
+        "points": 16,
+        "name": "Odin"
+      }
+    ]
+  },
+  "source_keys": [
+    "create_a_soldier",
+    "ghosts_perks",
+    "ghosts_strike_packages"
+  ]
+}

@@ -88,8 +88,12 @@ def generate_card(root,category,item,greek=None):
                 ("SCALE / COMBAT",f"{item.get('scale','')} • {item.get('combat','')}"),("DETAIL",item.get("description","")),
                 ("DYNAMICS",item.get("dynamics","")),("CONNECTIONS",item.get("connections","")),("EASTER EGGS",item.get("easter_eggs",""))]
     elif category=="weapons":
+        st=item.get("multiplayer_stats") or {}
+        statline=""
+        if st:
+            statline=f"Damage {st.get('damage_max','-')} -> {st.get('damage_min','-')}  |  {st.get('rpm','-')} RPM  |  Mag {st.get('magazine','-')}"
         fields=[("CLASS",item.get("class","")),("AVAILABILITY",item.get("availability","")),("MODES",_safe(item.get("modes"))),
-                ("ROLE",item.get("role","")),("DETAIL",item.get("special_notes",""))]
+                ("MULTIPLAYER STATS",statline),("ROLE",item.get("role","")),("DETAIL",item.get("special_notes",""))]
     else:
         fields=[("GROUP / FACTION",f"{item.get('group','')} • {item.get('faction','')}"),("ROLE",item.get("role","")),
                 ("STATUS",item.get("status","")),("DETAIL",item.get("notes",""))]

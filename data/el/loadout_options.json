@@ -1,0 +1,459 @@
+{
+  "rules": {
+    "base_perk_points": 8,
+    "maximum_perk_points": 12,
+    "bonus_perk_point_slots": [
+      "primary",
+      "secondary",
+      "lethal",
+      "tactical"
+    ],
+    "default_attachment_slots": 2,
+    "extra_attachment_slots": 3,
+    "notes": [
+      "Αν αφήσεις κενό primary, secondary, lethal ή tactical slot, κερδίζεις έναν επιπλέον perk point.",
+      "Το Extra Attachment αυξάνει το όριο attachments του primary weapon στον builder.",
+      "Το Overkill επιτρέπει primary weapon στο secondary slot."
+    ]
+  },
+  "perks": [
+    {
+      "category": "Speed",
+      "name": "Ready Up",
+      "cost": 1,
+      "description": "Το όπλο ετοιμάζεται γρηγορότερα μετά από sprint."
+    },
+    {
+      "category": "Speed",
+      "name": "Sleight of Hand",
+      "cost": 2,
+      "description": "Γρηγορότερο reload."
+    },
+    {
+      "category": "Speed",
+      "name": "Agility",
+      "cost": 2,
+      "description": "Αυξημένη ταχύτητα κίνησης."
+    },
+    {
+      "category": "Speed",
+      "name": "Marathon",
+      "cost": 2,
+      "description": "Απεριόριστο sprint."
+    },
+    {
+      "category": "Speed",
+      "name": "Stalker",
+      "cost": 3,
+      "description": "Γρηγορότερη κίνηση ενώ σημαδεύεις."
+    },
+    {
+      "category": "Handling",
+      "name": "Strong Arm",
+      "cost": 1,
+      "description": "Μακρύτερες ρίψεις εξοπλισμού και καλύτερος χειρισμός grenade."
+    },
+    {
+      "category": "Handling",
+      "name": "On The Go",
+      "cost": 1,
+      "description": "Reload ενώ κάνεις sprint."
+    },
+    {
+      "category": "Handling",
+      "name": "Reflex",
+      "cost": 2,
+      "description": "Γρηγορότερη αλλαγή όπλου και χρήση εξοπλισμού."
+    },
+    {
+      "category": "Handling",
+      "name": "Steady Aim",
+      "cost": 2,
+      "description": "Καλύτερη hip-fire ακρίβεια."
+    },
+    {
+      "category": "Handling",
+      "name": "Quickdraw",
+      "cost": 3,
+      "description": "Γρηγορότερο ADS."
+    },
+    {
+      "category": "Stealth",
+      "name": "Takedown",
+      "cost": 1,
+      "description": "Τα kills δεν αποκαλύπτουν τη θέση θανάτου του αντιπάλου."
+    },
+    {
+      "category": "Stealth",
+      "name": "Blind Eye",
+      "cost": 2,
+      "description": "Μειωμένος εντοπισμός από enemy air support."
+    },
+    {
+      "category": "Stealth",
+      "name": "Dead Silence",
+      "cost": 2,
+      "description": "Μειωμένος θόρυβος βημάτων."
+    },
+    {
+      "category": "Stealth",
+      "name": "Incog",
+      "cost": 3,
+      "description": "Μειωμένος εντοπισμός από targeting και tracking systems."
+    },
+    {
+      "category": "Stealth",
+      "name": "Off the Grid",
+      "cost": 3,
+      "description": "Παραμένεις κρυμμένος από SAT COM radar."
+    },
+    {
+      "category": "Awareness",
+      "name": "Recon",
+      "cost": 1,
+      "description": "Explosive damage επισημαίνει αντιπάλους στον minimap."
+    },
+    {
+      "category": "Awareness",
+      "name": "Scavenger",
+      "cost": 2,
+      "description": "Αναπλήρωση ammunition από πεσμένους αντιπάλους."
+    },
+    {
+      "category": "Awareness",
+      "name": "SitRep",
+      "cost": 2,
+      "description": "Εντοπισμός enemy equipment."
+    },
+    {
+      "category": "Awareness",
+      "name": "Amplify",
+      "cost": 2,
+      "description": "Ακούς καθαρότερα τα enemy footsteps."
+    },
+    {
+      "category": "Awareness",
+      "name": "Wiretap",
+      "cost": 3,
+      "description": "Χρησιμοποιείς enemy SAT COMs στο δικό σου δίκτυο."
+    },
+    {
+      "category": "Resistance",
+      "name": "Resilience",
+      "cost": 1,
+      "description": "Μειωμένο fall damage."
+    },
+    {
+      "category": "Resistance",
+      "name": "ICU",
+      "cost": 2,
+      "description": "Γρηγορότερη αναγέννηση health."
+    },
+    {
+      "category": "Resistance",
+      "name": "Focus",
+      "cost": 2,
+      "description": "Μειωμένο weapon sway και flinch."
+    },
+    {
+      "category": "Resistance",
+      "name": "Tac Resist",
+      "cost": 2,
+      "description": "Μειωμένη επίδραση tactical equipment."
+    },
+    {
+      "category": "Resistance",
+      "name": "Blast Shield",
+      "cost": 2,
+      "description": "Μειωμένο explosive damage."
+    },
+    {
+      "category": "Equipment",
+      "name": "Extra Tactical",
+      "cost": 1,
+      "description": "Μεταφέρεις επιπλέον tactical equipment."
+    },
+    {
+      "category": "Equipment",
+      "name": "Extra Lethal",
+      "cost": 2,
+      "description": "Μεταφέρεις επιπλέον lethal equipment."
+    },
+    {
+      "category": "Equipment",
+      "name": "Fully Loaded",
+      "cost": 2,
+      "description": "Ξεκινάς με maximum ammunition."
+    },
+    {
+      "category": "Equipment",
+      "name": "Extra Attachment",
+      "cost": 3,
+      "description": "Επιτρέπει επιπλέον weapon attachment."
+    },
+    {
+      "category": "Equipment",
+      "name": "Danger Close",
+      "cost": 4,
+      "description": "Αυξάνει το explosive damage."
+    },
+    {
+      "category": "Elite",
+      "name": "Gambler",
+      "cost": 1,
+      "description": "Κάνεις spawn με τυχαίο perk."
+    },
+    {
+      "category": "Elite",
+      "name": "Hardline",
+      "cost": 2,
+      "description": "Μειώνει τα point requirements των strike rewards."
+    },
+    {
+      "category": "Elite",
+      "name": "Ping",
+      "cost": 2,
+      "description": "Κάθε kill ενεργοποιεί κοντινό enemy-detection ping."
+    },
+    {
+      "category": "Elite",
+      "name": "Overkill",
+      "cost": 3,
+      "description": "Primary weapon στο secondary slot."
+    },
+    {
+      "category": "Elite",
+      "name": "Deadeye",
+      "cost": 5,
+      "description": "Consecutive kills μπορούν να αυξήσουν bullet damage."
+    }
+  ],
+  "lethal": [
+    "M67 Grenade",
+    "Semtex",
+    "Throwing Knife",
+    "I.E.D.",
+    "C4",
+    "Canister Bomb"
+  ],
+  "tactical": [
+    "9-Bang",
+    "Concussion",
+    "Smoke",
+    "Trophy System",
+    "Motion Sensor",
+    "Thermobaric"
+  ],
+  "attachments": {
+    "Assault Rifles": [
+      "Red Dot Sight",
+      "Holographic Sight",
+      "ACOG Scope",
+      "VMR Sight",
+      "Tracker Sight",
+      "Thermal Hybrid Scope",
+      "Silencer",
+      "Muzzle Brake",
+      "Flash Suppressor",
+      "Grip",
+      "Shotgun",
+      "Grenade Launcher",
+      "Extended Mags",
+      "Armor-Piercing",
+      "Semi-Automatic",
+      "Burst Fire",
+      "Automatic Fire",
+      "Rapid Fire"
+    ],
+    "Submachine Guns": [
+      "Red Dot Sight",
+      "Holographic Sight",
+      "ACOG Scope",
+      "VMR Sight",
+      "Tracker Sight",
+      "Thermal Hybrid Scope",
+      "Silencer",
+      "Muzzle Brake",
+      "Flash Suppressor",
+      "Grip",
+      "Extended Mags",
+      "Armor-Piercing",
+      "Rapid Fire"
+    ],
+    "Light Machine Guns": [
+      "Red Dot Sight",
+      "Holographic Sight",
+      "ACOG Scope",
+      "VMR Sight",
+      "Tracker Sight",
+      "Thermal Hybrid Scope",
+      "Silencer",
+      "Muzzle Brake",
+      "Flash Suppressor",
+      "Grip",
+      "Extended Mags",
+      "Armor-Piercing",
+      "Rapid Fire"
+    ],
+    "Marksman Rifles": [
+      "Red Dot Sight",
+      "Holographic Sight",
+      "ACOG Scope",
+      "VMR Sight",
+      "Tracker Sight",
+      "Thermal Hybrid Scope",
+      "Silencer",
+      "Muzzle Brake",
+      "Flash Suppressor",
+      "Grip",
+      "Extended Mags",
+      "Armor-Piercing"
+    ],
+    "Sniper Rifles": [
+      "Thermal Scope",
+      "ACOG Scope",
+      "Silencer",
+      "Chrome Lined",
+      "Extended Mags",
+      "Armor-Piercing"
+    ],
+    "Shotguns": [
+      "Red Dot Sight",
+      "Holographic Sight",
+      "Silencer",
+      "Muzzle Brake",
+      "Grip",
+      "Extended Mags",
+      "Slug Rounds"
+    ],
+    "Handguns": [
+      "Red Dot Sight",
+      "Silencer",
+      "Muzzle Brake",
+      "Extended Mags",
+      "Armor-Piercing",
+      "Akimbo"
+    ],
+    "Launchers": []
+  },
+  "weapon_attachment_blocks": {
+    "Honey Badger": [
+      "Silencer",
+      "Muzzle Brake",
+      "Flash Suppressor"
+    ],
+    "K7": [
+      "Silencer"
+    ],
+    "VKS": [
+      "Silencer"
+    ]
+  },
+  "strike_packages": {
+    "Assault": [
+      {
+        "points": 3,
+        "name": "SAT COM"
+      },
+      {
+        "points": 5,
+        "name": "I.M.S."
+      },
+      {
+        "points": 5,
+        "name": "Guard Dog"
+      },
+      {
+        "points": 7,
+        "name": "Sentry Gun"
+      },
+      {
+        "points": 7,
+        "name": "Trinity Rocket"
+      },
+      {
+        "points": 9,
+        "name": "Battle Hind"
+      },
+      {
+        "points": 9,
+        "name": "Vulture"
+      },
+      {
+        "points": 10,
+        "name": "Gryphon"
+      },
+      {
+        "points": 10,
+        "name": "Maniac"
+      },
+      {
+        "points": 11,
+        "name": "Juggernaut"
+      },
+      {
+        "points": 12,
+        "name": "Helo Pilot"
+      },
+      {
+        "points": 15,
+        "name": "Loki"
+      }
+    ],
+    "Support": [
+      {
+        "points": 4,
+        "name": "SAT COM"
+      },
+      {
+        "points": 6,
+        "name": "Ammo Crate"
+      },
+      {
+        "points": 8,
+        "name": "Ballistic Vests"
+      },
+      {
+        "points": 9,
+        "name": "MAAWS"
+      },
+      {
+        "points": 10,
+        "name": "Night Owl"
+      },
+      {
+        "points": 11,
+        "name": "Support Squadmate"
+      },
+      {
+        "points": 12,
+        "name": "Ground Jammer"
+      },
+      {
+        "points": 12,
+        "name": "Air Superiority"
+      },
+      {
+        "points": 13,
+        "name": "Helo Scout"
+      },
+      {
+        "points": 14,
+        "name": "Oracle"
+      },
+      {
+        "points": 14,
+        "name": "Juggernaut Recon"
+      },
+      {
+        "points": 16,
+        "name": "Odin"
+      }
+    ]
+  },
+  "source_keys": [
+    "create_a_soldier",
+    "ghosts_perks",
+    "ghosts_strike_packages"
+  ]
+}

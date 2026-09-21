@@ -6,7 +6,8 @@
     "notes": "Αναλυτική καταχώρηση Ghost Project με modes, διαθεσιμότητα, ρόλο και ειδικές σημειώσεις.",
     "source_keys": [
       "weapons",
-      "weapons_roster"
+      "weapons_roster",
+      "weapon_stats_sheet"
     ],
     "fire_type": "Automatic / burst depending on weapon",
     "role": "Τυφέκιο γενικής χρήσης",
@@ -20,7 +21,28 @@
       "Extinction"
     ],
     "special_notes": "Βασικό όπλο του Ghosts καταχωρημένο ανά κατηγορία, διαθεσιμότητα και game mode.",
-    "image_local": "images/weapons/W001_SC_2010.jpg"
+    "image_local": "images/weapons/W001_SC_2010.jpg",
+    "multiplayer_stats": {
+      "damage_max": 35,
+      "damage_min": 20,
+      "rpm": 750,
+      "magazine": 30,
+      "starting_ammo": 90,
+      "max_ammo": 180,
+      "reload_loaded_s": 2.8,
+      "reload_empty_s": 3.3,
+      "reload_cancel_s": 1.667,
+      "movement": 0.9,
+      "ads_movement": 0.36,
+      "ads_time_s": 0.3,
+      "centerspeed": 1400,
+      "fire_mode": "fully automatic",
+      "data_scope": "Multiplayer",
+      "source_note": "Τιμές αναφοράς για Multiplayer· attachments και αλλαγές ισορροπίας μπορούν να επηρεάζουν την απόδοση."
+    },
+    "stats_source_keys": [
+      "weapon_stats_sheet"
+    ]
   },
   {
     "id": "W002",
@@ -29,7 +51,8 @@
     "notes": "Αναλυτική καταχώρηση Ghost Project με modes, διαθεσιμότητα, ρόλο και ειδικές σημειώσεις.",
     "source_keys": [
       "weapons",
-      "weapons_roster"
+      "weapons_roster",
+      "weapon_stats_sheet"
     ],
     "fire_type": "Automatic / burst depending on weapon",
     "role": "Τυφέκιο γενικής χρήσης",
@@ -43,7 +66,28 @@
       "Extinction"
     ],
     "special_notes": "Βασικό όπλο του Ghosts καταχωρημένο ανά κατηγορία, διαθεσιμότητα και game mode.",
-    "image_local": "images/weapons/W002_SA_805.jpg"
+    "image_local": "images/weapons/W002_SA_805.jpg",
+    "multiplayer_stats": {
+      "damage_max": 40,
+      "damage_min": 25,
+      "rpm": 769,
+      "magazine": 30,
+      "starting_ammo": 90,
+      "max_ammo": 180,
+      "reload_loaded_s": 2.76,
+      "reload_empty_s": 3.76,
+      "reload_cancel_s": 1.67,
+      "movement": 0.9,
+      "ads_movement": 0.36,
+      "ads_time_s": 0.3,
+      "centerspeed": 1400,
+      "fire_mode": "fully automatic",
+      "data_scope": "Multiplayer",
+      "source_note": "Τιμές αναφοράς για Multiplayer· attachments και αλλαγές ισορροπίας μπορούν να επηρεάζουν την απόδοση."
+    },
+    "stats_source_keys": [
+      "weapon_stats_sheet"
+    ]
   },
   {
     "id": "W003",
@@ -52,7 +96,8 @@
     "notes": "Αναλυτική καταχώρηση Ghost Project με modes, διαθεσιμότητα, ρόλο και ειδικές σημειώσεις.",
     "source_keys": [
       "weapons",
-      "weapons_roster"
+      "weapons_roster",
+      "weapon_stats_sheet"
     ],
     "fire_type": "Automatic / burst depending on weapon",
     "role": "Τυφέκιο γενικής χρήσης",
@@ -66,7 +111,28 @@
       "Extinction"
     ],
     "special_notes": "Βασικό όπλο του Ghosts καταχωρημένο ανά κατηγορία, διαθεσιμότητα και game mode.",
-    "image_local": "images/weapons/W003_AK_12.jpg"
+    "image_local": "images/weapons/W003_AK_12.jpg",
+    "multiplayer_stats": {
+      "damage_max": 48,
+      "damage_min": 25,
+      "rpm": 689,
+      "magazine": 30,
+      "starting_ammo": 90,
+      "max_ammo": 180,
+      "reload_loaded_s": 3.267,
+      "reload_empty_s": 3.6,
+      "reload_cancel_s": 2.03,
+      "movement": 0.9,
+      "ads_movement": 0.36,
+      "ads_time_s": 0.3,
+      "centerspeed": 1300,
+      "fire_mode": "fully automatic",
+      "data_scope": "Multiplayer",
+      "source_note": "Τιμές αναφοράς για Multiplayer· attachments και αλλαγές ισορροπίας μπορούν να επηρεάζουν την απόδοση."
+    },
+    "stats_source_keys": [
+      "weapon_stats_sheet"
+    ]
   },
   {
     "id": "W004",
@@ -75,7 +141,8 @@
     "notes": "Αναλυτική καταχώρηση Ghost Project με modes, διαθεσιμότητα, ρόλο και ειδικές σημειώσεις.",
     "source_keys": [
       "weapons",
-      "weapons_roster"
+      "weapons_roster",
+      "weapon_stats_sheet"
     ],
     "fire_type": "Automatic / burst depending on weapon",
     "role": "Τυφέκιο γενικής χρήσης",
@@ -89,7 +156,28 @@
       "Extinction"
     ],
     "special_notes": "Βασικό όπλο του Ghosts καταχωρημένο ανά κατηγορία, διαθεσιμότητα και game mode.",
-    "image_local": "images/weapons/W004_FAD.jpg"
+    "image_local": "images/weapons/W004_FAD.jpg",
+    "multiplayer_stats": {
+      "damage_max": 34,
+      "damage_min": 25,
+      "rpm": 882,
+      "magazine": 42,
+      "starting_ammo": 126,
+      "max_ammo": 252,
+      "reload_loaded_s": 3.23,
+      "reload_empty_s": 3.9,
+      "reload_cancel_s": 2.3,
+      "movement": 0.9,
+      "ads_movement": 0.36,
+      "ads_time_s": 0.3,
+      "centerspeed": 1350,
+      "fire_mode": "fully automatic",
+      "data_scope": "Multiplayer",
+      "source_note": "Τιμές αναφοράς για Multiplayer· attachments και αλλαγές ισορροπίας μπορούν να επηρεάζουν την απόδοση."
+    },
+    "stats_source_keys": [
+      "weapon_stats_sheet"
+    ]
   },
   {
     "id": "W005",
@@ -98,7 +186,8 @@
     "notes": "Αναλυτική καταχώρηση Ghost Project με modes, διαθεσιμότητα, ρόλο και ειδικές σημειώσεις.",
     "source_keys": [
       "weapons",
-      "weapons_roster"
+      "weapons_roster",
+      "weapon_stats_sheet"
     ],
     "fire_type": "Automatic / burst depending on weapon",
     "role": "Τυφέκιο γενικής χρήσης",
@@ -112,7 +201,28 @@
       "Extinction"
     ],
     "special_notes": "Βασικό όπλο του Ghosts καταχωρημένο ανά κατηγορία, διαθεσιμότητα και game mode.",
-    "image_local": "images/weapons/W005_Remington_R5.jpg"
+    "image_local": "images/weapons/W005_Remington_R5.jpg",
+    "multiplayer_stats": {
+      "damage_max": 48,
+      "damage_min": 20,
+      "rpm": 631,
+      "magazine": 24,
+      "starting_ammo": 72,
+      "max_ammo": 144,
+      "reload_loaded_s": 2.46,
+      "reload_empty_s": 2.83,
+      "reload_cancel_s": 1.6,
+      "movement": 0.9,
+      "ads_movement": 0.36,
+      "ads_time_s": 0.3,
+      "centerspeed": 1400,
+      "fire_mode": "fully automatic",
+      "data_scope": "Multiplayer",
+      "source_note": "Τιμές αναφοράς για Multiplayer· attachments και αλλαγές ισορροπίας μπορούν να επηρεάζουν την απόδοση."
+    },
+    "stats_source_keys": [
+      "weapon_stats_sheet"
+    ]
   },
   {
     "id": "W006",
@@ -121,7 +231,8 @@
     "notes": "Αναλυτική καταχώρηση Ghost Project με modes, διαθεσιμότητα, ρόλο και ειδικές σημειώσεις.",
     "source_keys": [
       "weapons",
-      "weapons_roster"
+      "weapons_roster",
+      "weapon_stats_sheet"
     ],
     "fire_type": "Automatic / burst depending on weapon",
     "role": "Τυφέκιο γενικής χρήσης",
@@ -135,7 +246,30 @@
       "Extinction"
     ],
     "special_notes": "Burst-fire assault rifle που στο multiplayer μπορεί να χρησιμοποιήσει Automatic Fire attachment.",
-    "image_local": "images/weapons/W006_MSBS.jpg"
+    "image_local": "images/weapons/W006_MSBS.jpg",
+    "multiplayer_stats": {
+      "damage_max": 55,
+      "damage_min": 20,
+      "rpm": 491,
+      "magazine": 30,
+      "starting_ammo": 90,
+      "max_ammo": 180,
+      "reload_loaded_s": 2.63,
+      "reload_empty_s": 3.03,
+      "reload_cancel_s": 1.6,
+      "movement": 0.9,
+      "ads_movement": 0.36,
+      "ads_time_s": 0.3,
+      "centerspeed": 1000,
+      "fire_mode": "3-round burst",
+      "burst_rpm": 833,
+      "data_scope": "Multiplayer",
+      "source_note": "Τιμές αναφοράς για Multiplayer· attachments και αλλαγές ισορροπίας μπορούν να επηρεάζουν την απόδοση."
+    },
+    "integrated_attachment": "Burst Fire",
+    "stats_source_keys": [
+      "weapon_stats_sheet"
+    ]
   },
   {
     "id": "W007",
@@ -144,7 +278,8 @@
     "notes": "Αναλυτική καταχώρηση Ghost Project με modes, διαθεσιμότητα, ρόλο και ειδικές σημειώσεις.",
     "source_keys": [
       "weapons",
-      "weapons_roster"
+      "weapons_roster",
+      "weapon_stats_sheet"
     ],
     "fire_type": "Automatic / burst depending on weapon",
     "role": "Τυφέκιο γενικής χρήσης",
@@ -158,7 +293,29 @@
       "Extinction (Chaos mode)"
     ],
     "special_notes": "Ο ενσωματωμένος σιγαστήρας είναι βασικό χαρακτηριστικό του Honey Badger στο Ghosts.",
-    "image_local": "images/weapons/W007_Honey_Badger.jpg"
+    "image_local": "images/weapons/W007_Honey_Badger.jpg",
+    "multiplayer_stats": {
+      "damage_max": 42,
+      "damage_min": 20,
+      "rpm": 800,
+      "magazine": 30,
+      "starting_ammo": 90,
+      "max_ammo": 180,
+      "reload_loaded_s": 2.63,
+      "reload_empty_s": 3.16,
+      "reload_cancel_s": 1.53,
+      "movement": 0.9,
+      "ads_movement": 0.36,
+      "ads_time_s": 0.3,
+      "centerspeed": 1600,
+      "fire_mode": "fully automatic",
+      "data_scope": "Multiplayer",
+      "source_note": "Τιμές αναφοράς για Multiplayer· attachments και αλλαγές ισορροπίας μπορούν να επηρεάζουν την απόδοση."
+    },
+    "integrated_attachment": "Silencer",
+    "stats_source_keys": [
+      "weapon_stats_sheet"
+    ]
   },
   {
     "id": "W008",
@@ -167,7 +324,8 @@
     "notes": "Αναλυτική καταχώρηση Ghost Project με modes, διαθεσιμότητα, ρόλο και ειδικές σημειώσεις.",
     "source_keys": [
       "weapons",
-      "weapons_roster"
+      "weapons_roster",
+      "weapon_stats_sheet"
     ],
     "fire_type": "Automatic / burst depending on weapon",
     "role": "Τυφέκιο γενικής χρήσης",
@@ -181,7 +339,29 @@
       "Extinction"
     ],
     "special_notes": "Βασικό όπλο του Ghosts καταχωρημένο ανά κατηγορία, διαθεσιμότητα και game mode.",
-    "image_local": "images/weapons/W008_ARX_160.jpg"
+    "image_local": "images/weapons/W008_ARX_160.jpg",
+    "multiplayer_stats": {
+      "damage_max": 43,
+      "damage_min": 17,
+      "rpm": 857,
+      "magazine": 30,
+      "starting_ammo": 90,
+      "max_ammo": 180,
+      "reload_loaded_s": 2.867,
+      "reload_empty_s": 3.23,
+      "reload_cancel_s": 1.7,
+      "movement": 0.9,
+      "ads_movement": 0.36,
+      "ads_time_s": 0.3,
+      "centerspeed": 1500,
+      "fire_mode": "fully automatic",
+      "data_scope": "Multiplayer",
+      "source_note": "Τιμές αναφοράς για Multiplayer· attachments και αλλαγές ισορροπίας μπορούν να επηρεάζουν την απόδοση."
+    },
+    "integrated_attachment": "Laser Sight",
+    "stats_source_keys": [
+      "weapon_stats_sheet"
+    ]
   },
   {
     "id": "W009",
@@ -190,7 +370,8 @@
     "notes": "Αναλυτική καταχώρηση Ghost Project με modes, διαθεσιμότητα, ρόλο και ειδικές σημειώσεις.",
     "source_keys": [
       "weapons",
-      "weapons_roster"
+      "weapons_roster",
+      "weapon_stats_sheet"
     ],
     "fire_type": "Automatic / burst depending on weapon",
     "role": "Τυφέκιο γενικής χρήσης",
@@ -204,7 +385,29 @@
       "Extinction"
     ],
     "special_notes": "Assault rifle του Onslaught DLC που συνδέεται με την οικογένεια Maverick-A2.",
-    "image_local": "images/weapons/W009_Maverick.jpg"
+    "image_local": "images/weapons/W009_Maverick.jpg",
+    "multiplayer_stats": {
+      "damage_max": 50,
+      "damage_min": 24,
+      "rpm": 652,
+      "magazine": 30,
+      "starting_ammo": 90,
+      "max_ammo": 180,
+      "reload_loaded_s": 2.6,
+      "reload_empty_s": 3.133,
+      "reload_cancel_s": 1.7,
+      "movement": 0.9,
+      "ads_movement": 0.36,
+      "ads_time_s": 0.3,
+      "centerspeed": 1500,
+      "fire_mode": "fully automatic",
+      "data_scope": "Multiplayer",
+      "source_note": "Τιμές αναφοράς για Multiplayer· attachments και αλλαγές ισορροπίας μπορούν να επηρεάζουν την απόδοση."
+    },
+    "integrated_attachment": "Hyper-Velocity Rounds",
+    "stats_source_keys": [
+      "weapon_stats_sheet"
+    ]
   },
   {
     "id": "W010",
@@ -213,7 +416,8 @@
     "notes": "Αναλυτική καταχώρηση Ghost Project με modes, διαθεσιμότητα, ρόλο και ειδικές σημειώσεις.",
     "source_keys": [
       "weapons",
-      "weapons_roster"
+      "weapons_roster",
+      "weapon_stats_sheet"
     ],
     "fire_type": "Automatic",
     "role": "Όπλο κοντινής απόστασης με υψηλή κινητικότητα",
@@ -227,7 +431,28 @@
       "Extinction"
     ],
     "special_notes": "Βασικό όπλο του Ghosts καταχωρημένο ανά κατηγορία, διαθεσιμότητα και game mode.",
-    "image_local": "images/weapons/W010_Bizon.jpg"
+    "image_local": "images/weapons/W010_Bizon.jpg",
+    "multiplayer_stats": {
+      "damage_max": 42,
+      "damage_min": 17,
+      "rpm": 937,
+      "magazine": 36,
+      "starting_ammo": 108,
+      "max_ammo": 216,
+      "reload_loaded_s": 3.0,
+      "reload_empty_s": 3.8,
+      "reload_cancel_s": 1.93,
+      "movement": 1.0,
+      "ads_movement": 0.8,
+      "ads_time_s": 0.2,
+      "centerspeed": 1600,
+      "fire_mode": "fully automatic",
+      "data_scope": "Multiplayer",
+      "source_note": "Τιμές αναφοράς για Multiplayer· attachments και αλλαγές ισορροπίας μπορούν να επηρεάζουν την απόδοση."
+    },
+    "stats_source_keys": [
+      "weapon_stats_sheet"
+    ]
   },
   {
     "id": "W011",
@@ -236,7 +461,8 @@
     "notes": "Αναλυτική καταχώρηση Ghost Project με modes, διαθεσιμότητα, ρόλο και ειδικές σημειώσεις.",
     "source_keys": [
       "weapons",
-      "weapons_roster"
+      "weapons_roster",
+      "weapon_stats_sheet"
     ],
     "fire_type": "Automatic",
     "role": "Όπλο κοντινής απόστασης με υψηλή κινητικότητα",
@@ -250,7 +476,29 @@
       "Extinction"
     ],
     "special_notes": "Βασικό όπλο του Ghosts καταχωρημένο ανά κατηγορία, διαθεσιμότητα και game mode.",
-    "image_local": "images/weapons/W011_CBJ_MS.jpg"
+    "image_local": "images/weapons/W011_CBJ_MS.jpg",
+    "multiplayer_stats": {
+      "damage_max": 35,
+      "damage_min": 17,
+      "rpm": 1000,
+      "magazine": 34,
+      "starting_ammo": 102,
+      "max_ammo": 204,
+      "reload_loaded_s": 2.966,
+      "reload_empty_s": 3.633,
+      "reload_cancel_s": 2.133,
+      "movement": 1.0,
+      "ads_movement": 0.8,
+      "ads_time_s": 0.2,
+      "centerspeed": 1300,
+      "fire_mode": "fully automatic",
+      "data_scope": "Multiplayer",
+      "source_note": "Τιμές αναφοράς για Multiplayer· attachments και αλλαγές ισορροπίας μπορούν να επηρεάζουν την απόδοση."
+    },
+    "integrated_attachment": "Armor-Piercing",
+    "stats_source_keys": [
+      "weapon_stats_sheet"
+    ]
   },
   {
     "id": "W012",
@@ -259,7 +507,8 @@
     "notes": "Αναλυτική καταχώρηση Ghost Project με modes, διαθεσιμότητα, ρόλο και ειδικές σημειώσεις.",
     "source_keys": [
       "weapons",
-      "weapons_roster"
+      "weapons_roster",
+      "weapon_stats_sheet"
     ],
     "fire_type": "Automatic",
     "role": "Όπλο κοντινής απόστασης με υψηλή κινητικότητα",
@@ -273,7 +522,28 @@
       "Extinction"
     ],
     "special_notes": "Βασικό όπλο του Ghosts καταχωρημένο ανά κατηγορία, διαθεσιμότητα και game mode.",
-    "image_local": "images/weapons/W012_Vector_CRB.jpg"
+    "image_local": "images/weapons/W012_Vector_CRB.jpg",
+    "multiplayer_stats": {
+      "damage_max": 45,
+      "damage_min": 20,
+      "rpm": 759,
+      "magazine": 32,
+      "starting_ammo": 96,
+      "max_ammo": 192,
+      "reload_loaded_s": 2.53,
+      "reload_empty_s": 3.2,
+      "reload_cancel_s": 1.4,
+      "movement": 1.0,
+      "ads_movement": 0.8,
+      "ads_time_s": 0.2,
+      "centerspeed": 1400,
+      "fire_mode": "fully automatic",
+      "data_scope": "Multiplayer",
+      "source_note": "Τιμές αναφοράς για Multiplayer· attachments και αλλαγές ισορροπίας μπορούν να επηρεάζουν την απόδοση."
+    },
+    "stats_source_keys": [
+      "weapon_stats_sheet"
+    ]
   },
   {
     "id": "W013",
@@ -282,7 +552,8 @@
     "notes": "Αναλυτική καταχώρηση Ghost Project με modes, διαθεσιμότητα, ρόλο και ειδικές σημειώσεις.",
     "source_keys": [
       "weapons",
-      "weapons_roster"
+      "weapons_roster",
+      "weapon_stats_sheet"
     ],
     "fire_type": "Automatic",
     "role": "Όπλο κοντινής απόστασης με υψηλή κινητικότητα",
@@ -296,7 +567,28 @@
       "Extinction"
     ],
     "special_notes": "Βασικό όπλο του Ghosts καταχωρημένο ανά κατηγορία, διαθεσιμότητα και game mode.",
-    "image_local": "images/weapons/W013_Vepr.jpg"
+    "image_local": "images/weapons/W013_Vepr.jpg",
+    "multiplayer_stats": {
+      "damage_max": 35,
+      "damage_min": 20,
+      "rpm": 869,
+      "magazine": 42,
+      "starting_ammo": 126,
+      "max_ammo": 252,
+      "reload_loaded_s": 2.96,
+      "reload_empty_s": 3.7,
+      "reload_cancel_s": 1.767,
+      "movement": 1.0,
+      "ads_movement": 0.8,
+      "ads_time_s": 0.2,
+      "centerspeed": 1000,
+      "fire_mode": "fully automatic",
+      "data_scope": "Multiplayer",
+      "source_note": "Τιμές αναφοράς για Multiplayer· attachments και αλλαγές ισορροπίας μπορούν να επηρεάζουν την απόδοση."
+    },
+    "stats_source_keys": [
+      "weapon_stats_sheet"
+    ]
   },
   {
     "id": "W014",
@@ -305,7 +597,8 @@
     "notes": "Αναλυτική καταχώρηση Ghost Project με modes, διαθεσιμότητα, ρόλο και ειδικές σημειώσεις.",
     "source_keys": [
       "weapons",
-      "weapons_roster"
+      "weapons_roster",
+      "weapon_stats_sheet"
     ],
     "fire_type": "Automatic",
     "role": "Όπλο κοντινής απόστασης με υψηλή κινητικότητα",
@@ -319,7 +612,29 @@
       "Extinction"
     ],
     "special_notes": "Βασικό όπλο του Ghosts καταχωρημένο ανά κατηγορία, διαθεσιμότητα και game mode.",
-    "image_local": "images/weapons/W014_K7.jpg"
+    "image_local": "images/weapons/W014_K7.jpg",
+    "multiplayer_stats": {
+      "damage_max": 34,
+      "damage_min": 15,
+      "rpm": 895,
+      "magazine": 32,
+      "starting_ammo": 96,
+      "max_ammo": 192,
+      "reload_loaded_s": 2.5,
+      "reload_empty_s": 3.2,
+      "reload_cancel_s": 1.8,
+      "movement": 1.0,
+      "ads_movement": 0.8,
+      "ads_time_s": 0.2,
+      "centerspeed": 1200,
+      "fire_mode": "fully automatic",
+      "data_scope": "Multiplayer",
+      "source_note": "Τιμές αναφοράς για Multiplayer· attachments και αλλαγές ισορροπίας μπορούν να επηρεάζουν την απόδοση."
+    },
+    "integrated_attachment": "Silencer",
+    "stats_source_keys": [
+      "weapon_stats_sheet"
+    ]
   },
   {
     "id": "W015",
@@ -328,7 +643,8 @@
     "notes": "Αναλυτική καταχώρηση Ghost Project με modes, διαθεσιμότητα, ρόλο και ειδικές σημειώσεις.",
     "source_keys": [
       "weapons",
-      "weapons_roster"
+      "weapons_roster",
+      "weapon_stats_sheet"
     ],
     "fire_type": "Automatic",
     "role": "Όπλο κοντινής απόστασης με υψηλή κινητικότητα",
@@ -342,7 +658,28 @@
       "Extinction"
     ],
     "special_notes": "Βασικό όπλο του Ghosts καταχωρημένο ανά κατηγορία, διαθεσιμότητα και game mode.",
-    "image_local": "images/weapons/W015_MTAR_X.jpg"
+    "image_local": "images/weapons/W015_MTAR_X.jpg",
+    "multiplayer_stats": {
+      "damage_max": 40,
+      "damage_min": 25,
+      "rpm": 810,
+      "magazine": 38,
+      "starting_ammo": 114,
+      "max_ammo": 228,
+      "reload_loaded_s": 3.2,
+      "reload_empty_s": 3.93,
+      "reload_cancel_s": 1.93,
+      "movement": 1.0,
+      "ads_movement": 0.8,
+      "ads_time_s": 0.2,
+      "centerspeed": 1400,
+      "fire_mode": "fully automatic",
+      "data_scope": "Multiplayer",
+      "source_note": "Τιμές αναφοράς για Multiplayer· attachments και αλλαγές ισορροπίας μπορούν να επηρεάζουν την απόδοση."
+    },
+    "stats_source_keys": [
+      "weapon_stats_sheet"
+    ]
   },
   {
     "id": "W016",
@@ -351,7 +688,8 @@
     "notes": "Αναλυτική καταχώρηση Ghost Project με modes, διαθεσιμότητα, ρόλο και ειδικές σημειώσεις.",
     "source_keys": [
       "weapons",
-      "weapons_roster"
+      "weapons_roster",
+      "weapon_stats_sheet"
     ],
     "fire_type": "Automatic",
     "role": "Όπλο κοντινής απόστασης με υψηλή κινητικότητα",
@@ -365,7 +703,29 @@
       "Extinction"
     ],
     "special_notes": "Υβριδικό όπλο που αλλάζει μεταξύ SMG και assault-rifle configuration.",
-    "image_local": "images/weapons/W016_Ripper.jpg"
+    "image_local": "images/weapons/W016_Ripper.jpg",
+    "multiplayer_stats": {
+      "damage_max": 34,
+      "damage_min": 24,
+      "rpm": 967,
+      "magazine": 32,
+      "starting_ammo": 96,
+      "max_ammo": 192,
+      "reload_loaded_s": 3.1,
+      "reload_empty_s": 3.33,
+      "reload_cancel_s": 1.767,
+      "movement": 1.0,
+      "ads_movement": 0.8,
+      "ads_time_s": 0.25,
+      "centerspeed": 1500,
+      "fire_mode": "hybrid SMG / assault-rifle modes",
+      "data_scope": "Multiplayer",
+      "source_note": "Τιμές αναφοράς για Multiplayer· attachments και αλλαγές ισορροπίας μπορούν να επηρεάζουν την απόδοση."
+    },
+    "integrated_attachment": "Hybrid Sight",
+    "stats_source_keys": [
+      "weapon_stats_sheet"
+    ]
   },
   {
     "id": "W017",
@@ -374,7 +734,8 @@
     "notes": "Αναλυτική καταχώρηση Ghost Project με modes, διαθεσιμότητα, ρόλο και ειδικές σημειώσεις.",
     "source_keys": [
       "weapons",
-      "weapons_roster"
+      "weapons_roster",
+      "weapon_stats_sheet"
     ],
     "fire_type": "Automatic",
     "role": "Όπλο υποστήριξης για παρατεταμένα πυρά",
@@ -388,7 +749,28 @@
       "Extinction"
     ],
     "special_notes": "Βασικό όπλο του Ghosts καταχωρημένο ανά κατηγορία, διαθεσιμότητα και game mode.",
-    "image_local": "images/weapons/W017_Ameli.jpg"
+    "image_local": "images/weapons/W017_Ameli.jpg",
+    "multiplayer_stats": {
+      "damage_max": 50,
+      "damage_min": 30,
+      "rpm": 631,
+      "magazine": 100,
+      "starting_ammo": 200,
+      "max_ammo": 300,
+      "reload_loaded_s": 7.0,
+      "reload_empty_s": 8.033,
+      "reload_cancel_s": 4.9,
+      "movement": 0.8,
+      "ads_movement": 0.32,
+      "ads_time_s": 0.314,
+      "centerspeed": 1400,
+      "fire_mode": "fully automatic",
+      "data_scope": "Multiplayer",
+      "source_note": "Τιμές αναφοράς για Multiplayer· attachments και αλλαγές ισορροπίας μπορούν να επηρεάζουν την απόδοση."
+    },
+    "stats_source_keys": [
+      "weapon_stats_sheet"
+    ]
   },
   {
     "id": "W018",
@@ -397,7 +779,8 @@
     "notes": "Αναλυτική καταχώρηση Ghost Project με modes, διαθεσιμότητα, ρόλο και ειδικές σημειώσεις.",
     "source_keys": [
       "weapons",
-      "weapons_roster"
+      "weapons_roster",
+      "weapon_stats_sheet"
     ],
     "fire_type": "Automatic",
     "role": "Όπλο υποστήριξης για παρατεταμένα πυρά",
@@ -411,7 +794,28 @@
       "Extinction"
     ],
     "special_notes": "Βασικό όπλο του Ghosts καταχωρημένο ανά κατηγορία, διαθεσιμότητα και game mode.",
-    "image_local": "images/weapons/W018_M27_IAR.jpg"
+    "image_local": "images/weapons/W018_M27_IAR.jpg",
+    "multiplayer_stats": {
+      "damage_max": 48,
+      "damage_min": 32,
+      "rpm": 705,
+      "magazine": 100,
+      "starting_ammo": 200,
+      "max_ammo": 300,
+      "reload_loaded_s": 4.767,
+      "reload_empty_s": 5.633,
+      "reload_cancel_s": 3.5,
+      "movement": 0.8,
+      "ads_movement": 0.32,
+      "ads_time_s": 0.3,
+      "centerspeed": 1350,
+      "fire_mode": "fully automatic",
+      "data_scope": "Multiplayer",
+      "source_note": "Τιμές αναφοράς για Multiplayer· attachments και αλλαγές ισορροπίας μπορούν να επηρεάζουν την απόδοση."
+    },
+    "stats_source_keys": [
+      "weapon_stats_sheet"
+    ]
   },
   {
     "id": "W019",
@@ -420,7 +824,8 @@
     "notes": "Αναλυτική καταχώρηση Ghost Project με modes, διαθεσιμότητα, ρόλο και ειδικές σημειώσεις.",
     "source_keys": [
       "weapons",
-      "weapons_roster"
+      "weapons_roster",
+      "weapon_stats_sheet"
     ],
     "fire_type": "Automatic",
     "role": "Όπλο υποστήριξης για παρατεταμένα πυρά",
@@ -434,7 +839,28 @@
       "Extinction"
     ],
     "special_notes": "Βασικό όπλο του Ghosts καταχωρημένο ανά κατηγορία, διαθεσιμότητα και game mode.",
-    "image_local": "images/weapons/W019_LSAT.jpg"
+    "image_local": "images/weapons/W019_LSAT.jpg",
+    "multiplayer_stats": {
+      "damage_max": 38,
+      "damage_min": 20,
+      "rpm": 800,
+      "magazine": 100,
+      "starting_ammo": 200,
+      "max_ammo": 300,
+      "reload_loaded_s": 8.0,
+      "reload_empty_s": 8.7,
+      "reload_cancel_s": 6.0,
+      "movement": 0.8,
+      "ads_movement": 0.32,
+      "ads_time_s": 0.275,
+      "centerspeed": 1300,
+      "fire_mode": "fully automatic",
+      "data_scope": "Multiplayer",
+      "source_note": "Τιμές αναφοράς για Multiplayer· attachments και αλλαγές ισορροπίας μπορούν να επηρεάζουν την απόδοση."
+    },
+    "stats_source_keys": [
+      "weapon_stats_sheet"
+    ]
   },
   {
     "id": "W020",
@@ -443,7 +869,8 @@
     "notes": "Αναλυτική καταχώρηση Ghost Project με modes, διαθεσιμότητα, ρόλο και ειδικές σημειώσεις.",
     "source_keys": [
       "weapons",
-      "weapons_roster"
+      "weapons_roster",
+      "weapon_stats_sheet"
     ],
     "fire_type": "Automatic",
     "role": "Όπλο υποστήριξης για παρατεταμένα πυρά",
@@ -457,7 +884,29 @@
       "Extinction"
     ],
     "special_notes": "Βασικό όπλο του Ghosts καταχωρημένο ανά κατηγορία, διαθεσιμότητα και game mode.",
-    "image_local": "images/weapons/W020_Chain_SAW.jpg"
+    "image_local": "images/weapons/W020_Chain_SAW.jpg",
+    "multiplayer_stats": {
+      "damage_max": 34,
+      "damage_min": 24,
+      "rpm": 857,
+      "magazine": 80,
+      "starting_ammo": 160,
+      "max_ammo": 240,
+      "reload_loaded_s": 8.029,
+      "reload_empty_s": 8.83,
+      "reload_cancel_s": 5.93,
+      "movement": 0.9,
+      "ads_movement": 0.36,
+      "ads_time_s": 0.308,
+      "centerspeed": 800,
+      "fire_mode": "fully automatic",
+      "data_scope": "Multiplayer",
+      "source_note": "Τιμές αναφοράς για Multiplayer· attachments και αλλαγές ισορροπίας μπορούν να επηρεάζουν την απόδοση."
+    },
+    "integrated_attachment": "Laser Sight",
+    "stats_source_keys": [
+      "weapon_stats_sheet"
+    ]
   },
   {
     "id": "W021",
@@ -466,7 +915,8 @@
     "notes": "Αναλυτική καταχώρηση Ghost Project με modes, διαθεσιμότητα, ρόλο και ειδικές σημειώσεις.",
     "source_keys": [
       "weapons",
-      "weapons_roster"
+      "weapons_roster",
+      "weapon_stats_sheet"
     ],
     "fire_type": "Semi-automatic / precision fire",
     "role": "Ημιαυτόματο τυφέκιο ακριβείας",
@@ -480,7 +930,29 @@
       "Extinction"
     ],
     "special_notes": "Βασικό όπλο του Ghosts καταχωρημένο ανά κατηγορία, διαθεσιμότητα και game mode.",
-    "image_local": "images/weapons/W021_MR_28.jpg"
+    "image_local": "images/weapons/W021_MR_28.jpg",
+    "multiplayer_stats": {
+      "damage_max": 65,
+      "damage_min": 34,
+      "rpm": 600,
+      "magazine": 24,
+      "starting_ammo": 72,
+      "max_ammo": 144,
+      "reload_loaded_s": 2.465,
+      "reload_empty_s": 2.805,
+      "reload_cancel_s": 1.494,
+      "movement": 0.9,
+      "ads_movement": 0.36,
+      "ads_time_s": 0.3,
+      "centerspeed": 1400,
+      "fire_mode": "semi-automatic",
+      "data_scope": "Multiplayer",
+      "source_note": "Τιμές αναφοράς για Multiplayer· attachments και αλλαγές ισορροπίας μπορούν να επηρεάζουν την απόδοση."
+    },
+    "integrated_attachment": "Foregrip",
+    "stats_source_keys": [
+      "weapon_stats_sheet"
+    ]
   },
   {
     "id": "W022",
@@ -489,7 +961,8 @@
     "notes": "Αναλυτική καταχώρηση Ghost Project με modes, διαθεσιμότητα, ρόλο και ειδικές σημειώσεις.",
     "source_keys": [
       "weapons",
-      "weapons_roster"
+      "weapons_roster",
+      "weapon_stats_sheet"
     ],
     "fire_type": "Semi-automatic / precision fire",
     "role": "Ημιαυτόματο τυφέκιο ακριβείας",
@@ -503,7 +976,28 @@
       "Extinction"
     ],
     "special_notes": "Βασικό όπλο του Ghosts καταχωρημένο ανά κατηγορία, διαθεσιμότητα και game mode.",
-    "image_local": "images/weapons/W022_MK14_EBR.jpg"
+    "image_local": "images/weapons/W022_MK14_EBR.jpg",
+    "multiplayer_stats": {
+      "damage_max": 70,
+      "damage_min": 49,
+      "rpm": 480,
+      "magazine": 18,
+      "starting_ammo": 54,
+      "max_ammo": 108,
+      "reload_loaded_s": 2.967,
+      "reload_empty_s": 4.0,
+      "reload_cancel_s": 1.867,
+      "movement": 0.9,
+      "ads_movement": 0.36,
+      "ads_time_s": 0.3,
+      "centerspeed": 900,
+      "fire_mode": "semi-automatic",
+      "data_scope": "Multiplayer",
+      "source_note": "Τιμές αναφοράς για Multiplayer· attachments και αλλαγές ισορροπίας μπορούν να επηρεάζουν την απόδοση."
+    },
+    "stats_source_keys": [
+      "weapon_stats_sheet"
+    ]
   },
   {
     "id": "W023",
@@ -512,7 +1006,8 @@
     "notes": "Αναλυτική καταχώρηση Ghost Project με modes, διαθεσιμότητα, ρόλο και ειδικές σημειώσεις.",
     "source_keys": [
       "weapons",
-      "weapons_roster"
+      "weapons_roster",
+      "weapon_stats_sheet"
     ],
     "fire_type": "Semi-automatic / precision fire",
     "role": "Ημιαυτόματο τυφέκιο ακριβείας",
@@ -526,7 +1021,28 @@
       "Extinction"
     ],
     "special_notes": "Βασικό όπλο του Ghosts καταχωρημένο ανά κατηγορία, διαθεσιμότητα και game mode.",
-    "image_local": "images/weapons/W023_IA_2.jpg"
+    "image_local": "images/weapons/W023_IA_2.jpg",
+    "multiplayer_stats": {
+      "damage_max": 65,
+      "damage_min": 49,
+      "rpm": 545,
+      "magazine": 18,
+      "starting_ammo": 54,
+      "max_ammo": 108,
+      "reload_loaded_s": 3.1,
+      "reload_empty_s": 3.73,
+      "reload_cancel_s": 1.9,
+      "movement": 0.9,
+      "ads_movement": 0.36,
+      "ads_time_s": 0.3,
+      "centerspeed": 1200,
+      "fire_mode": "semi-automatic",
+      "data_scope": "Multiplayer",
+      "source_note": "Τιμές αναφοράς για Multiplayer· attachments και αλλαγές ισορροπίας μπορούν να επηρεάζουν την απόδοση."
+    },
+    "stats_source_keys": [
+      "weapon_stats_sheet"
+    ]
   },
   {
     "id": "W024",
@@ -535,7 +1051,8 @@
     "notes": "Αναλυτική καταχώρηση Ghost Project με modes, διαθεσιμότητα, ρόλο και ειδικές σημειώσεις.",
     "source_keys": [
       "weapons",
-      "weapons_roster"
+      "weapons_roster",
+      "weapon_stats_sheet"
     ],
     "fire_type": "Semi-automatic / precision fire",
     "role": "Ημιαυτόματο τυφέκιο ακριβείας",
@@ -549,7 +1066,28 @@
       "Extinction"
     ],
     "special_notes": "Βασικό όπλο του Ghosts καταχωρημένο ανά κατηγορία, διαθεσιμότητα και game mode.",
-    "image_local": "images/weapons/W024_SVU.jpg"
+    "image_local": "images/weapons/W024_SVU.jpg",
+    "multiplayer_stats": {
+      "damage_max": 68,
+      "damage_min": 52,
+      "rpm": 400,
+      "magazine": 18,
+      "starting_ammo": 54,
+      "max_ammo": 108,
+      "reload_loaded_s": 3.0,
+      "reload_empty_s": 4.166,
+      "reload_cancel_s": 1.7,
+      "movement": 0.9,
+      "ads_movement": 0.36,
+      "ads_time_s": 0.3,
+      "centerspeed": 1100,
+      "fire_mode": "semi-automatic",
+      "data_scope": "Multiplayer",
+      "source_note": "Τιμές αναφοράς για Multiplayer· attachments και αλλαγές ισορροπίας μπορούν να επηρεάζουν την απόδοση."
+    },
+    "stats_source_keys": [
+      "weapon_stats_sheet"
+    ]
   },
   {
     "id": "W025",
@@ -558,7 +1096,8 @@
     "notes": "Αναλυτική καταχώρηση Ghost Project με modes, διαθεσιμότητα, ρόλο και ειδικές σημειώσεις.",
     "source_keys": [
       "weapons",
-      "weapons_roster"
+      "weapons_roster",
+      "weapon_stats_sheet"
     ],
     "fire_type": "Bolt-action or semi-automatic precision fire",
     "role": "Όπλο ακριβείας μεγάλης απόστασης",
@@ -572,7 +1111,29 @@
       "Extinction"
     ],
     "special_notes": "Βασικό όπλο του Ghosts καταχωρημένο ανά κατηγορία, διαθεσιμότητα και game mode.",
-    "image_local": "images/weapons/W025_USR.jpg"
+    "image_local": "images/weapons/W025_USR.jpg",
+    "multiplayer_stats": {
+      "damage_max": 98,
+      "damage_min": 98,
+      "rpm": 51,
+      "magazine": 6,
+      "starting_ammo": 18,
+      "max_ammo": 36,
+      "reload_loaded_s": 3.5,
+      "reload_empty_s": 4.7,
+      "reload_cancel_s": 2.267,
+      "movement": 0.9,
+      "ads_movement": 0.36,
+      "ads_time_s": 0.48,
+      "centerspeed": 600,
+      "fire_mode": "bolt-action",
+      "data_scope": "Multiplayer",
+      "source_note": "Τιμές αναφοράς για Multiplayer· attachments και αλλαγές ισορροπίας μπορούν να επηρεάζουν την απόδοση."
+    },
+    "integrated_attachment": "Recoil Compensator",
+    "stats_source_keys": [
+      "weapon_stats_sheet"
+    ]
   },
   {
     "id": "W026",
@@ -581,7 +1142,8 @@
     "notes": "Αναλυτική καταχώρηση Ghost Project με modes, διαθεσιμότητα, ρόλο και ειδικές σημειώσεις.",
     "source_keys": [
       "weapons",
-      "weapons_roster"
+      "weapons_roster",
+      "weapon_stats_sheet"
     ],
     "fire_type": "Bolt-action or semi-automatic precision fire",
     "role": "Όπλο ακριβείας μεγάλης απόστασης",
@@ -595,7 +1157,29 @@
       "Extinction"
     ],
     "special_notes": "Βασικό όπλο του Ghosts καταχωρημένο ανά κατηγορία, διαθεσιμότητα και game mode.",
-    "image_local": "images/weapons/W026_L115.jpg"
+    "image_local": "images/weapons/W026_L115.jpg",
+    "multiplayer_stats": {
+      "damage_max": 98,
+      "damage_min": 98,
+      "rpm": 40,
+      "magazine": 5,
+      "starting_ammo": 20,
+      "max_ammo": 40,
+      "reload_loaded_s": 3.36,
+      "reload_empty_s": 4.03,
+      "reload_cancel_s": 2.13,
+      "movement": 0.85,
+      "ads_movement": 0.34,
+      "ads_time_s": 0.48,
+      "centerspeed": 600,
+      "fire_mode": "bolt-action",
+      "data_scope": "Multiplayer",
+      "source_note": "Τιμές αναφοράς για Multiplayer· attachments και αλλαγές ισορροπίας μπορούν να επηρεάζουν την απόδοση."
+    },
+    "integrated_attachment": "Recoil Compensator",
+    "stats_source_keys": [
+      "weapon_stats_sheet"
+    ]
   },
   {
     "id": "W027",
@@ -604,7 +1188,8 @@
     "notes": "Αναλυτική καταχώρηση Ghost Project με modes, διαθεσιμότητα, ρόλο και ειδικές σημειώσεις.",
     "source_keys": [
       "weapons",
-      "weapons_roster"
+      "weapons_roster",
+      "weapon_stats_sheet"
     ],
     "fire_type": "Bolt-action or semi-automatic precision fire",
     "role": "Όπλο ακριβείας μεγάλης απόστασης",
@@ -618,7 +1203,28 @@
       "Extinction"
     ],
     "special_notes": "Βασικό όπλο του Ghosts καταχωρημένο ανά κατηγορία, διαθεσιμότητα και game mode.",
-    "image_local": "images/weapons/W027_Lynx.jpg"
+    "image_local": "images/weapons/W027_Lynx.jpg",
+    "multiplayer_stats": {
+      "damage_max": 98,
+      "damage_min": 98,
+      "rpm": 300,
+      "magazine": 8,
+      "starting_ammo": 24,
+      "max_ammo": 48,
+      "reload_loaded_s": 4.567,
+      "reload_empty_s": 5.1,
+      "reload_cancel_s": 2.6,
+      "movement": 0.8,
+      "ads_movement": 0.32,
+      "ads_time_s": 0.5,
+      "centerspeed": 650,
+      "fire_mode": "semi-automatic",
+      "data_scope": "Multiplayer",
+      "source_note": "Τιμές αναφοράς για Multiplayer· attachments και αλλαγές ισορροπίας μπορούν να επηρεάζουν την απόδοση."
+    },
+    "stats_source_keys": [
+      "weapon_stats_sheet"
+    ]
   },
   {
     "id": "W028",
@@ -627,7 +1233,8 @@
     "notes": "Αναλυτική καταχώρηση Ghost Project με modes, διαθεσιμότητα, ρόλο και ειδικές σημειώσεις.",
     "source_keys": [
       "weapons",
-      "weapons_roster"
+      "weapons_roster",
+      "weapon_stats_sheet"
     ],
     "fire_type": "Bolt-action or semi-automatic precision fire",
     "role": "Όπλο ακριβείας μεγάλης απόστασης",
@@ -641,7 +1248,29 @@
       "Extinction"
     ],
     "special_notes": "Βασικό όπλο του Ghosts καταχωρημένο ανά κατηγορία, διαθεσιμότητα και game mode.",
-    "image_local": "images/weapons/W028_VKS.jpg"
+    "image_local": "images/weapons/W028_VKS.jpg",
+    "multiplayer_stats": {
+      "damage_max": 98,
+      "damage_min": 92,
+      "rpm": 400,
+      "magazine": 10,
+      "starting_ammo": 30,
+      "max_ammo": 60,
+      "reload_loaded_s": 3.43,
+      "reload_empty_s": 4.6,
+      "reload_cancel_s": 2.2,
+      "movement": 0.85,
+      "ads_movement": 0.34,
+      "ads_time_s": 0.48,
+      "centerspeed": 700,
+      "fire_mode": "semi-automatic",
+      "data_scope": "Multiplayer",
+      "source_note": "Τιμές αναφοράς για Multiplayer· attachments και αλλαγές ισορροπίας μπορούν να επηρεάζουν την απόδοση."
+    },
+    "integrated_attachment": "Silencer",
+    "stats_source_keys": [
+      "weapon_stats_sheet"
+    ]
   },
   {
     "id": "W029",
@@ -650,7 +1279,8 @@
     "notes": "Αναλυτική καταχώρηση Ghost Project με modes, διαθεσιμότητα, ρόλο και ειδικές σημειώσεις.",
     "source_keys": [
       "weapons",
-      "weapons_roster"
+      "weapons_roster",
+      "weapon_stats_sheet"
     ],
     "fire_type": "Bolt-action or semi-automatic precision fire",
     "role": "Όπλο ακριβείας μεγάλης απόστασης",
@@ -662,7 +1292,29 @@
       "Multiplayer"
     ],
     "special_notes": "Sniper-rifle παραλλαγή της οικογένειας Maverick από το Onslaught DLC.",
-    "image_local": "images/weapons/W029_Maverick_A2.jpg"
+    "image_local": "images/weapons/W029_Maverick_A2.jpg",
+    "multiplayer_stats": {
+      "damage_max": 88,
+      "damage_min": 88,
+      "rpm": 400,
+      "magazine": 8,
+      "starting_ammo": 24,
+      "max_ammo": 48,
+      "reload_loaded_s": 2.667,
+      "reload_empty_s": 3.233,
+      "reload_cancel_s": 1.8,
+      "movement": 0.85,
+      "ads_movement": 0.34,
+      "ads_time_s": 0.5,
+      "centerspeed": 750,
+      "fire_mode": "semi-automatic",
+      "data_scope": "Multiplayer",
+      "source_note": "Τιμές αναφοράς για Multiplayer· attachments και αλλαγές ισορροπίας μπορούν να επηρεάζουν την απόδοση."
+    },
+    "integrated_attachment": "Tracker Sight",
+    "stats_source_keys": [
+      "weapon_stats_sheet"
+    ]
   },
   {
     "id": "W030",
@@ -671,7 +1323,8 @@
     "notes": "Αναλυτική καταχώρηση Ghost Project με modes, διαθεσιμότητα, ρόλο και ειδικές σημειώσεις.",
     "source_keys": [
       "weapons",
-      "weapons_roster"
+      "weapons_roster",
+      "weapon_stats_sheet"
     ],
     "fire_type": "Pump-action / break-action / revolving shotgun action",
     "role": "Όπλο κοντινής απόστασης με υψηλή ζημιά",
@@ -685,7 +1338,29 @@
       "Extinction"
     ],
     "special_notes": "Βασικό όπλο του Ghosts καταχωρημένο ανά κατηγορία, διαθεσιμότητα και game mode.",
-    "image_local": "images/weapons/W030_Bulldog.jpg"
+    "image_local": "images/weapons/W030_Bulldog.jpg",
+    "multiplayer_stats": {
+      "damage_max": 50,
+      "damage_min": 17,
+      "rpm": 480,
+      "magazine": 6,
+      "starting_ammo": 30,
+      "max_ammo": 60,
+      "reload_loaded_s": 2.6,
+      "reload_empty_s": 2.6,
+      "reload_cancel_s": 1.56,
+      "movement": 1.0,
+      "ads_movement": 0.4,
+      "ads_time_s": 0.2,
+      "centerspeed": 850,
+      "pellets_per_shot": 8,
+      "fire_mode": "semi-automatic",
+      "data_scope": "Multiplayer",
+      "source_note": "Τιμές αναφοράς για Multiplayer· attachments και αλλαγές ισορροπίας μπορούν να επηρεάζουν την απόδοση."
+    },
+    "stats_source_keys": [
+      "weapon_stats_sheet"
+    ]
   },
   {
     "id": "W031",
@@ -694,7 +1369,8 @@
     "notes": "Αναλυτική καταχώρηση Ghost Project με modes, διαθεσιμότητα, ρόλο και ειδικές σημειώσεις.",
     "source_keys": [
       "weapons",
-      "weapons_roster"
+      "weapons_roster",
+      "weapon_stats_sheet"
     ],
     "fire_type": "Pump-action / break-action / revolving shotgun action",
     "role": "Όπλο κοντινής απόστασης με υψηλή ζημιά",
@@ -708,7 +1384,29 @@
       "Extinction"
     ],
     "special_notes": "Βασικό όπλο του Ghosts καταχωρημένο ανά κατηγορία, διαθεσιμότητα και game mode.",
-    "image_local": "images/weapons/W031_FP6.jpg"
+    "image_local": "images/weapons/W031_FP6.jpg",
+    "multiplayer_stats": {
+      "damage_max": 100,
+      "damage_min": 10,
+      "rpm": 89,
+      "magazine": 5,
+      "starting_ammo": 25,
+      "max_ammo": 50,
+      "reload_loaded_s": 0.833,
+      "reload_empty_s": null,
+      "reload_cancel_s": 0.5,
+      "movement": 1.0,
+      "ads_movement": 0.4,
+      "ads_time_s": 0.2,
+      "centerspeed": 1000,
+      "pellets_per_shot": 8,
+      "fire_mode": "pump-action",
+      "data_scope": "Multiplayer",
+      "source_note": "Τιμές αναφοράς για Multiplayer· attachments και αλλαγές ισορροπίας μπορούν να επηρεάζουν την απόδοση."
+    },
+    "stats_source_keys": [
+      "weapon_stats_sheet"
+    ]
   },
   {
     "id": "W032",
@@ -717,7 +1415,8 @@
     "notes": "Αναλυτική καταχώρηση Ghost Project με modes, διαθεσιμότητα, ρόλο και ειδικές σημειώσεις.",
     "source_keys": [
       "weapons",
-      "weapons_roster"
+      "weapons_roster",
+      "weapon_stats_sheet"
     ],
     "fire_type": "Pump-action / break-action / revolving shotgun action",
     "role": "Όπλο κοντινής απόστασης με υψηλή ζημιά",
@@ -731,7 +1430,29 @@
       "Extinction"
     ],
     "special_notes": "Βασικό όπλο του Ghosts καταχωρημένο ανά κατηγορία, διαθεσιμότητα και game mode.",
-    "image_local": "images/weapons/W032_MTS_255.jpg"
+    "image_local": "images/weapons/W032_MTS_255.jpg",
+    "multiplayer_stats": {
+      "damage_max": 60,
+      "damage_min": 13,
+      "rpm": 285,
+      "magazine": 5,
+      "starting_ammo": 20,
+      "max_ammo": 40,
+      "reload_loaded_s": 3.93,
+      "reload_empty_s": 3.93,
+      "reload_cancel_s": 3.13,
+      "movement": 1.0,
+      "ads_movement": 0.4,
+      "ads_time_s": 0.2,
+      "centerspeed": 900,
+      "pellets_per_shot": 8,
+      "fire_mode": "revolving shotgun",
+      "data_scope": "Multiplayer",
+      "source_note": "Τιμές αναφοράς για Multiplayer· attachments και αλλαγές ισορροπίας μπορούν να επηρεάζουν την απόδοση."
+    },
+    "stats_source_keys": [
+      "weapon_stats_sheet"
+    ]
   },
   {
     "id": "W033",
@@ -740,7 +1461,8 @@
     "notes": "Αναλυτική καταχώρηση Ghost Project με modes, διαθεσιμότητα, ρόλο και ειδικές σημειώσεις.",
     "source_keys": [
       "weapons",
-      "weapons_roster"
+      "weapons_roster",
+      "weapon_stats_sheet"
     ],
     "fire_type": "Pump-action / break-action / revolving shotgun action",
     "role": "Όπλο κοντινής απόστασης με υψηλή ζημιά",
@@ -754,7 +1476,30 @@
       "Extinction"
     ],
     "special_notes": "Βασικό όπλο του Ghosts καταχωρημένο ανά κατηγορία, διαθεσιμότητα και game mode.",
-    "image_local": "images/weapons/W033_Tac_12.jpg"
+    "image_local": "images/weapons/W033_Tac_12.jpg",
+    "multiplayer_stats": {
+      "damage_max": 50,
+      "damage_min": 20,
+      "rpm": 85,
+      "magazine": 10,
+      "starting_ammo": 30,
+      "max_ammo": 60,
+      "reload_loaded_s": 0.767,
+      "reload_empty_s": null,
+      "reload_cancel_s": 0.433,
+      "movement": 1.0,
+      "ads_movement": 0.4,
+      "ads_time_s": 0.2,
+      "centerspeed": 1050,
+      "pellets_per_shot": 8,
+      "fire_mode": "pump-action",
+      "data_scope": "Multiplayer",
+      "source_note": "Τιμές αναφοράς για Multiplayer· attachments και αλλαγές ισορροπίας μπορούν να επηρεάζουν την απόδοση."
+    },
+    "integrated_attachment": "Smart Choke",
+    "stats_source_keys": [
+      "weapon_stats_sheet"
+    ]
   },
   {
     "id": "W034",
@@ -763,7 +1508,8 @@
     "notes": "Αναλυτική καταχώρηση Ghost Project με modes, διαθεσιμότητα, ρόλο και ειδικές σημειώσεις.",
     "source_keys": [
       "weapons",
-      "weapons_roster"
+      "weapons_roster",
+      "weapon_stats_sheet"
     ],
     "fire_type": "Semi-automatic / revolver",
     "role": "Δευτερεύον πιστόλι",
@@ -777,7 +1523,28 @@
       "Extinction"
     ],
     "special_notes": "Βασικό όπλο του Ghosts καταχωρημένο ανά κατηγορία, διαθεσιμότητα και game mode.",
-    "image_local": "images/weapons/W034_M9A1.jpg"
+    "image_local": "images/weapons/W034_M9A1.jpg",
+    "multiplayer_stats": {
+      "damage_max": 52,
+      "damage_min": 25,
+      "rpm": 666,
+      "magazine": 12,
+      "starting_ammo": 48,
+      "max_ammo": 72,
+      "reload_loaded_s": 1.63,
+      "reload_empty_s": 1.9,
+      "reload_cancel_s": 1.0,
+      "movement": 1.0,
+      "ads_movement": 0.8,
+      "ads_time_s": 0.2,
+      "centerspeed": 750,
+      "fire_mode": "semi-automatic",
+      "data_scope": "Multiplayer",
+      "source_note": "Τιμές αναφοράς για Multiplayer· attachments και αλλαγές ισορροπίας μπορούν να επηρεάζουν την απόδοση."
+    },
+    "stats_source_keys": [
+      "weapon_stats_sheet"
+    ]
   },
   {
     "id": "W035",
@@ -786,7 +1553,8 @@
     "notes": "Αναλυτική καταχώρηση Ghost Project με modes, διαθεσιμότητα, ρόλο και ειδικές σημειώσεις.",
     "source_keys": [
       "weapons",
-      "weapons_roster"
+      "weapons_roster",
+      "weapon_stats_sheet"
     ],
     "fire_type": "Semi-automatic / revolver",
     "role": "Δευτερεύον πιστόλι",
@@ -800,7 +1568,28 @@
       "Extinction"
     ],
     "special_notes": "Βασικό όπλο του Ghosts καταχωρημένο ανά κατηγορία, διαθεσιμότητα και game mode.",
-    "image_local": "images/weapons/W035_MP_443_Grach.jpg"
+    "image_local": "images/weapons/W035_MP_443_Grach.jpg",
+    "multiplayer_stats": {
+      "damage_max": 52,
+      "damage_min": 20,
+      "rpm": 800,
+      "magazine": 10,
+      "starting_ammo": 40,
+      "max_ammo": 60,
+      "reload_loaded_s": 1.8,
+      "reload_empty_s": 2.1,
+      "reload_cancel_s": 0.967,
+      "movement": 1.0,
+      "ads_movement": 0.8,
+      "ads_time_s": 0.2,
+      "centerspeed": 750,
+      "fire_mode": "semi-automatic",
+      "data_scope": "Multiplayer",
+      "source_note": "Τιμές αναφοράς για Multiplayer· attachments και αλλαγές ισορροπίας μπορούν να επηρεάζουν την απόδοση."
+    },
+    "stats_source_keys": [
+      "weapon_stats_sheet"
+    ]
   },
   {
     "id": "W036",
@@ -809,7 +1598,8 @@
     "notes": "Αναλυτική καταχώρηση Ghost Project με modes, διαθεσιμότητα, ρόλο και ειδικές σημειώσεις.",
     "source_keys": [
       "weapons",
-      "weapons_roster"
+      "weapons_roster",
+      "weapon_stats_sheet"
     ],
     "fire_type": "Semi-automatic / revolver",
     "role": "Δευτερεύον πιστόλι",
@@ -823,7 +1613,28 @@
       "Extinction"
     ],
     "special_notes": "Βασικό όπλο του Ghosts καταχωρημένο ανά κατηγορία, διαθεσιμότητα και game mode.",
-    "image_local": "images/weapons/W036_P226.jpg"
+    "image_local": "images/weapons/W036_P226.jpg",
+    "multiplayer_stats": {
+      "damage_max": 52,
+      "damage_min": 17,
+      "rpm": 705,
+      "magazine": 14,
+      "starting_ammo": 56,
+      "max_ammo": 84,
+      "reload_loaded_s": 2.2,
+      "reload_empty_s": 2.2,
+      "reload_cancel_s": 1.53,
+      "movement": 1.0,
+      "ads_movement": 0.8,
+      "ads_time_s": 0.2,
+      "centerspeed": 750,
+      "fire_mode": "semi-automatic",
+      "data_scope": "Multiplayer",
+      "source_note": "Τιμές αναφοράς για Multiplayer· attachments και αλλαγές ισορροπίας μπορούν να επηρεάζουν την απόδοση."
+    },
+    "stats_source_keys": [
+      "weapon_stats_sheet"
+    ]
   },
   {
     "id": "W037",
@@ -832,7 +1643,8 @@
     "notes": "Αναλυτική καταχώρηση Ghost Project με modes, διαθεσιμότητα, ρόλο και ειδικές σημειώσεις.",
     "source_keys": [
       "weapons",
-      "weapons_roster"
+      "weapons_roster",
+      "weapon_stats_sheet"
     ],
     "fire_type": "Semi-automatic / revolver",
     "role": "Δευτερεύον πιστόλι",
@@ -846,7 +1658,28 @@
       "Extinction"
     ],
     "special_notes": "Βασικό όπλο του Ghosts καταχωρημένο ανά κατηγορία, διαθεσιμότητα και game mode.",
-    "image_local": "images/weapons/W037_44_Magnum.jpg"
+    "image_local": "images/weapons/W037_44_Magnum.jpg",
+    "multiplayer_stats": {
+      "damage_max": 73,
+      "damage_min": 34,
+      "rpm": 200,
+      "magazine": 6,
+      "starting_ammo": 36,
+      "max_ammo": 72,
+      "reload_loaded_s": 3.133,
+      "reload_empty_s": 3.367,
+      "reload_cancel_s": 2.367,
+      "movement": 1.0,
+      "ads_movement": 0.8,
+      "ads_time_s": 0.3,
+      "centerspeed": 600,
+      "fire_mode": "semi-automatic",
+      "data_scope": "Multiplayer",
+      "source_note": "Τιμές αναφοράς για Multiplayer· attachments και αλλαγές ισορροπίας μπορούν να επηρεάζουν την απόδοση."
+    },
+    "stats_source_keys": [
+      "weapon_stats_sheet"
+    ]
   },
   {
     "id": "W038",
@@ -855,7 +1688,8 @@
     "notes": "Αναλυτική καταχώρηση Ghost Project με modes, διαθεσιμότητα, ρόλο και ειδικές σημειώσεις.",
     "source_keys": [
       "weapons",
-      "weapons_roster"
+      "weapons_roster",
+      "weapon_stats_sheet"
     ],
     "fire_type": "Semi-automatic / revolver",
     "role": "Δευτερεύον πιστόλι",
@@ -869,7 +1703,28 @@
       "Extinction"
     ],
     "special_notes": "Βασικό όπλο του Ghosts καταχωρημένο ανά κατηγορία, διαθεσιμότητα και game mode.",
-    "image_local": "images/weapons/W038_PDW.jpg"
+    "image_local": "images/weapons/W038_PDW.jpg",
+    "multiplayer_stats": {
+      "damage_max": 45,
+      "damage_min": 17,
+      "rpm": 446,
+      "magazine": 12,
+      "starting_ammo": 36,
+      "max_ammo": 72,
+      "reload_loaded_s": 2.96,
+      "reload_empty_s": 2.96,
+      "reload_cancel_s": 1.33,
+      "movement": 1.0,
+      "ads_movement": 0.8,
+      "ads_time_s": 0.2,
+      "centerspeed": 1200,
+      "fire_mode": "burst / rapid sidearm",
+      "data_scope": "Multiplayer",
+      "source_note": "Τιμές αναφοράς για Multiplayer· attachments και αλλαγές ισορροπίας μπορούν να επηρεάζουν την απόδοση."
+    },
+    "stats_source_keys": [
+      "weapon_stats_sheet"
+    ]
   },
   {
     "id": "W039",
@@ -878,7 +1733,8 @@
     "notes": "Αναλυτική καταχώρηση Ghost Project με modes, διαθεσιμότητα, ρόλο και ειδικές σημειώσεις.",
     "source_keys": [
       "weapons",
-      "weapons_roster"
+      "weapons_roster",
+      "weapon_stats_sheet"
     ],
     "fire_type": "Single-shot explosive launcher",
     "role": "Εκτοξευτής εκρηκτικών",
@@ -892,7 +1748,12 @@
       "Extinction"
     ],
     "special_notes": "Impact grenade launcher.",
-    "image_local": "images/weapons/W039_Kastet.jpg"
+    "image_local": "images/weapons/W039_Kastet.jpg",
+    "multiplayer_stats": null,
+    "stats_note": "Δεν περιλαμβάνεται τυπικό multiplayer gun-stat profile για αυτό το campaign/Extinction/special όπλο.",
+    "stats_source_keys": [
+      "weapon_stats_sheet"
+    ]
   },
   {
     "id": "W040",
@@ -901,7 +1762,8 @@
     "notes": "Αναλυτική καταχώρηση Ghost Project με modes, διαθεσιμότητα, ρόλο και ειδικές σημειώσεις.",
     "source_keys": [
       "weapons",
-      "weapons_roster"
+      "weapons_roster",
+      "weapon_stats_sheet"
     ],
     "fire_type": "Single-shot explosive launcher",
     "role": "Εκτοξευτής εκρηκτικών",
@@ -915,7 +1777,12 @@
       "Extinction"
     ],
     "special_notes": "Shoulder-fired rocket launcher που χρησιμοποιείται στο Extinction.",
-    "image_local": "images/weapons/W040_Panzerfaust.jpg"
+    "image_local": "images/weapons/W040_Panzerfaust.jpg",
+    "multiplayer_stats": null,
+    "stats_note": "Δεν περιλαμβάνεται τυπικό multiplayer gun-stat profile για αυτό το campaign/Extinction/special όπλο.",
+    "stats_source_keys": [
+      "weapon_stats_sheet"
+    ]
   },
   {
     "id": "W041",
@@ -924,7 +1791,8 @@
     "notes": "Αναλυτική καταχώρηση Ghost Project με modes, διαθεσιμότητα, ρόλο και ειδικές σημειώσεις.",
     "source_keys": [
       "weapons",
-      "weapons_roster"
+      "weapons_roster",
+      "weapon_stats_sheet"
     ],
     "fire_type": "Single-shot explosive launcher",
     "role": "Εκτοξευτής εκρηκτικών",
@@ -938,7 +1806,12 @@
       "Extinction"
     ],
     "special_notes": "Multi-round explosive launcher.",
-    "image_local": "images/weapons/W041_MK32.jpg"
+    "image_local": "images/weapons/W041_MK32.jpg",
+    "multiplayer_stats": null,
+    "stats_note": "Δεν περιλαμβάνεται τυπικό multiplayer gun-stat profile για αυτό το campaign/Extinction/special όπλο.",
+    "stats_source_keys": [
+      "weapon_stats_sheet"
+    ]
   },
   {
     "id": "W042",
@@ -947,7 +1820,8 @@
     "notes": "Αναλυτική καταχώρηση Ghost Project με modes, διαθεσιμότητα, ρόλο και ειδικές σημειώσεις.",
     "source_keys": [
       "weapons",
-      "weapons_roster"
+      "weapons_roster",
+      "weapon_stats_sheet"
     ],
     "fire_type": "Special-purpose weapon",
     "role": "Ειδικό όπλο ή εξοπλισμός",
@@ -960,7 +1834,28 @@
       "Extinction"
     ],
     "special_notes": "Βασικό όπλο του Ghosts καταχωρημένο ανά κατηγορία, διαθεσιμότητα και game mode.",
-    "image_local": "images/weapons/W042_Combat_Knife.jpg"
+    "image_local": "images/weapons/W042_Combat_Knife.jpg",
+    "multiplayer_stats": {
+      "damage_max": 200,
+      "damage_min": 200,
+      "rpm": null,
+      "magazine": null,
+      "starting_ammo": null,
+      "max_ammo": null,
+      "reload_loaded_s": null,
+      "reload_empty_s": null,
+      "reload_cancel_s": null,
+      "movement": 1.0,
+      "ads_movement": null,
+      "ads_time_s": null,
+      "centerspeed": null,
+      "fire_mode": "melee",
+      "data_scope": "Multiplayer",
+      "source_note": "Τιμές αναφοράς για Multiplayer· attachments και αλλαγές ισορροπίας μπορούν να επηρεάζουν την απόδοση."
+    },
+    "stats_source_keys": [
+      "weapon_stats_sheet"
+    ]
   },
   {
     "id": "W043",
@@ -969,7 +1864,8 @@
     "notes": "Αναλυτική καταχώρηση Ghost Project με modes, διαθεσιμότητα, ρόλο και ειδικές σημειώσεις.",
     "source_keys": [
       "weapons",
-      "weapons_roster"
+      "weapons_roster",
+      "weapon_stats_sheet"
     ],
     "fire_type": "Special-purpose weapon",
     "role": "Ειδικό όπλο ή εξοπλισμός",
@@ -982,7 +1878,28 @@
       "Extinction"
     ],
     "special_notes": "Βασικό όπλο του Ghosts καταχωρημένο ανά κατηγορία, διαθεσιμότητα και game mode.",
-    "image_local": "images/weapons/W043_Riot_Shield.jpg"
+    "image_local": "images/weapons/W043_Riot_Shield.jpg",
+    "multiplayer_stats": {
+      "damage_max": 50,
+      "damage_min": 50,
+      "rpm": null,
+      "magazine": null,
+      "starting_ammo": null,
+      "max_ammo": null,
+      "reload_loaded_s": null,
+      "reload_empty_s": null,
+      "reload_cancel_s": null,
+      "movement": 0.8,
+      "ads_movement": null,
+      "ads_time_s": null,
+      "centerspeed": null,
+      "fire_mode": "melee / shield",
+      "data_scope": "Multiplayer",
+      "source_note": "Τιμές αναφοράς για Multiplayer· attachments και αλλαγές ισορροπίας μπορούν να επηρεάζουν την απόδοση."
+    },
+    "stats_source_keys": [
+      "weapon_stats_sheet"
+    ]
   },
   {
     "id": "W044",
@@ -991,7 +1908,8 @@
     "notes": "Αναλυτική καταχώρηση Ghost Project με modes, διαθεσιμότητα, ρόλο και ειδικές σημειώσεις.",
     "source_keys": [
       "weapons",
-      "weapons_roster"
+      "weapons_roster",
+      "weapon_stats_sheet"
     ],
     "fire_type": "Special-purpose weapon",
     "role": "Ειδικό όπλο ή εξοπλισμός",
@@ -1004,7 +1922,28 @@
       "Extinction"
     ],
     "special_notes": "Βασικό όπλο του Ghosts καταχωρημένο ανά κατηγορία, διαθεσιμότητα και game mode.",
-    "image_local": "images/weapons/W044_Minigun.jpg"
+    "image_local": "images/weapons/W044_Minigun.jpg",
+    "multiplayer_stats": {
+      "damage_max": 50,
+      "damage_min": 32,
+      "rpm": 750,
+      "magazine": 255,
+      "starting_ammo": 255,
+      "max_ammo": 255,
+      "reload_loaded_s": 4.0,
+      "reload_empty_s": 4.0,
+      "reload_cancel_s": 3.5,
+      "movement": 0.8,
+      "ads_movement": 0.32,
+      "ads_time_s": 0.4,
+      "centerspeed": 1500,
+      "fire_mode": "fully automatic",
+      "data_scope": "Multiplayer",
+      "source_note": "Τιμές αναφοράς για Multiplayer· attachments και αλλαγές ισορροπίας μπορούν να επηρεάζουν την απόδοση."
+    },
+    "stats_source_keys": [
+      "weapon_stats_sheet"
+    ]
   },
   {
     "id": "W045",
@@ -1013,7 +1952,8 @@
     "notes": "Αναλυτική καταχώρηση Ghost Project με modes, διαθεσιμότητα, ρόλο και ειδικές σημειώσεις.",
     "source_keys": [
       "weapons",
-      "weapons_roster"
+      "weapons_roster",
+      "weapon_stats_sheet"
     ],
     "fire_type": "Special-purpose weapon",
     "role": "Ειδικό όπλο ή εξοπλισμός",
@@ -1025,7 +1965,12 @@
       "Extinction"
     ],
     "special_notes": "Βαρύ ειδικό launcher που χρησιμοποιείται στο Extinction.",
-    "image_local": "images/weapons/W045_MAAWS.jpg"
+    "image_local": "images/weapons/W045_MAAWS.jpg",
+    "multiplayer_stats": null,
+    "stats_note": "Δεν περιλαμβάνεται τυπικό multiplayer gun-stat profile για αυτό το campaign/Extinction/special όπλο.",
+    "stats_source_keys": [
+      "weapon_stats_sheet"
+    ]
   },
   {
     "id": "W046",
@@ -1034,7 +1979,8 @@
     "notes": "Αναλυτική καταχώρηση Ghost Project με modes, διαθεσιμότητα, ρόλο και ειδικές σημειώσεις.",
     "source_keys": [
       "weapons",
-      "weapons_roster"
+      "weapons_roster",
+      "weapon_stats_sheet"
     ],
     "fire_type": "Special-purpose weapon",
     "role": "Ειδικό όπλο ή εξοπλισμός",
@@ -1046,7 +1992,12 @@
       "Extinction"
     ],
     "special_notes": "Alien-tech όπλο του Extinction που εισάγεται μέσα από την ιστορία Nightfall.",
-    "image_local": "images/weapons/W046_Venom_X.jpg"
+    "image_local": "images/weapons/W046_Venom_X.jpg",
+    "multiplayer_stats": null,
+    "stats_note": "Δεν περιλαμβάνεται τυπικό multiplayer gun-stat profile για αυτό το campaign/Extinction/special όπλο.",
+    "stats_source_keys": [
+      "weapon_stats_sheet"
+    ]
   },
   {
     "id": "W047",
@@ -1055,7 +2006,8 @@
     "notes": "Αναλυτική καταχώρηση Ghost Project με modes, διαθεσιμότητα, ρόλο και ειδικές σημειώσεις.",
     "source_keys": [
       "weapons",
-      "weapons_roster"
+      "weapons_roster",
+      "weapon_stats_sheet"
     ],
     "fire_type": "Special-purpose weapon",
     "role": "Ειδικό όπλο ή εξοπλισμός",
@@ -1067,7 +2019,12 @@
       "Campaign"
     ],
     "special_notes": "Campaign όπλο σχεδιασμένο για υποβρύχια μάχη.",
-    "image_local": "images/weapons/W047_APS_Underwater_Rifle.jpg"
+    "image_local": "images/weapons/W047_APS_Underwater_Rifle.jpg",
+    "multiplayer_stats": null,
+    "stats_note": "Δεν περιλαμβάνεται τυπικό multiplayer gun-stat profile για αυτό το campaign/Extinction/special όπλο.",
+    "stats_source_keys": [
+      "weapon_stats_sheet"
+    ]
   },
   {
     "id": "W048",
@@ -1076,7 +2033,8 @@
     "notes": "Αναλυτική καταχώρηση Ghost Project με modes, διαθεσιμότητα, ρόλο και ειδικές σημειώσεις.",
     "source_keys": [
       "weapons",
-      "weapons_roster"
+      "weapons_roster",
+      "weapon_stats_sheet"
     ],
     "fire_type": "Special-purpose weapon",
     "role": "Ειδικό όπλο ή εξοπλισμός",
@@ -1088,7 +2046,12 @@
       "Campaign"
     ],
     "special_notes": "Βασικό όπλο του Ghosts καταχωρημένο ανά κατηγορία, διαθεσιμότητα και game mode.",
-    "image_local": "images/weapons/W048_RPG_7.jpg"
+    "image_local": "images/weapons/W048_RPG_7.jpg",
+    "multiplayer_stats": null,
+    "stats_note": "Δεν περιλαμβάνεται τυπικό multiplayer gun-stat profile για αυτό το campaign/Extinction/special όπλο.",
+    "stats_source_keys": [
+      "weapon_stats_sheet"
+    ]
   },
   {
     "id": "W049",
@@ -1097,7 +2060,8 @@
     "notes": "Αναλυτική καταχώρηση Ghost Project με modes, διαθεσιμότητα, ρόλο και ειδικές σημειώσεις.",
     "source_keys": [
       "weapons",
-      "weapons_roster"
+      "weapons_roster",
+      "weapon_stats_sheet"
     ],
     "fire_type": "Special-purpose weapon",
     "role": "Ειδικό όπλο ή εξοπλισμός",
@@ -1109,7 +2073,12 @@
       "Campaign"
     ],
     "special_notes": "Remote campaign όπλο ακριβείας για overwatch/support.",
-    "image_local": "images/weapons/W049_Remote_Sniper.jpg"
+    "image_local": "images/weapons/W049_Remote_Sniper.jpg",
+    "multiplayer_stats": null,
+    "stats_note": "Δεν περιλαμβάνεται τυπικό multiplayer gun-stat profile για αυτό το campaign/Extinction/special όπλο.",
+    "stats_source_keys": [
+      "weapon_stats_sheet"
+    ]
   },
   {
     "id": "W050",
@@ -1118,7 +2087,8 @@
     "notes": "Αναλυτική καταχώρηση Ghost Project με modes, διαθεσιμότητα, ρόλο και ειδικές σημειώσεις.",
     "source_keys": [
       "weapons",
-      "weapons_roster"
+      "weapons_roster",
+      "weapon_stats_sheet"
     ],
     "fire_type": "Special-purpose weapon",
     "role": "Ειδικό όπλο ή εξοπλισμός",
@@ -1130,6 +2100,11 @@
       "Extinction"
     ],
     "special_notes": "Ειδικό alien-technology όπλο των τελευταίων επεισοδίων Extinction.",
-    "image_local": "images/weapons/W050_NX_1_Disruptor.jpg"
+    "image_local": "images/weapons/W050_NX_1_Disruptor.jpg",
+    "multiplayer_stats": null,
+    "stats_note": "Δεν περιλαμβάνεται τυπικό multiplayer gun-stat profile για αυτό το campaign/Extinction/special όπλο.",
+    "stats_source_keys": [
+      "weapon_stats_sheet"
+    ]
   }
 ]

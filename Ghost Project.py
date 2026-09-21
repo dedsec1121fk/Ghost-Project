@@ -30,6 +30,8 @@ ensure_gallery(ROOT)
 from modules.archive import Archive
 from modules.display import banner,clear,help_text,list_items,show_item,show_search,tr,category_label
 from modules.audio import open_url,play_entry_audio,record_voice
+from modules.weapon_stats import find_weapons,show_stats,compare_weapons
+from modules.loadouts import create_loadout,list_loadouts,get_loadout,show_loadout,delete_loadout,random_loadout
 from modules.ui import COMMAND_ALIASES,CATEGORY_ALIASES
 
 def norm_cat(value):
@@ -149,6 +151,53 @@ def main():
             print(msg)
             if not ok and item.get("audio_url"):
                 print(tr(lang,"public_audio",url=item["audio_url"]))
+        elif cmd=="stats":
+            if len(args)<2:
+                print("Usage: stats <weapon id or name>" if lang=="en" else "Χρήση: stats <weapon id ή όνομα>")
+                continue
+            matches=find_weapons(archive.items("weapons")," ".join(args[1:]))
+            if not matches:
+                print(tr(lang,"entry_not_found")); continue
+            if len(matches)>1:
+                print("Multiple matches:" if lang=="en" else "Πολλαπλά αποτελέσματα:")
+                for w in matches[:20]:
+                    print(f"  {w.get('id')} - {w.get('display_name') or w.get('name')}")
+                continue
+            show_stats(matches[0],lang)
+
+        elif cmd=="compare":
+            if len(args)<3:
+                print('Usage: compare "weapon 1" "weapon 2"' if lang=="en" else 'Χρήση: compare "weapon 1" "weapon 2"')
+                continue
+            a=find_weapons(archive.items("weapons"),args[1])
+            b=find_weapons(archive.items("weapons"),args[2])
+            if len(a)!=1 or len(b)!=1:
+                print("Use exact weapon names or IDs for compare." if lang=="en" else "Χρησιμοποίησε ακριβές όνομα ή ID όπλου για compare.")
+                continue
+            compare_weapons(a[0],b[0],lang)
+
+        elif cmd=="loadout":
+            action=args[1].lower() if len(args)>1 else "list"
+            if action in ("create","new","δημιουργία","δημιουργια"):
+                create_loadout(ROOT,archive,lang)
+            elif action in ("list","ls","λίστα","λιστα"):
+                list_loadouts(ROOT,lang)
+            elif action in ("show","view","δείξε","δειξε"):
+                if len(args)<3:
+                    print("Usage: loadout show <name>"); continue
+                item=get_loadout(ROOT," ".join(args[2:]))
+                if item: show_loadout(item,lang)
+                else: print("Loadout not found." if lang=="en" else "Το loadout δεν βρέθηκε.")
+            elif action in ("delete","remove","rm","διαγραφή","διαγραφη"):
+                if len(args)<3:
+                    print("Usage: loadout delete <name>"); continue
+                delete_loadout(ROOT," ".join(args[2:]),lang)
+            elif action in ("random","τυχαίο","τυχαιο"):
+                random_loadout(ROOT,archive,lang)
+            else:
+                print("Usage: loadout [create|list|show|delete|random]")
+            continue
+
         elif cmd=="image":
             if len(args)<3:
                 print("Usage: image <maps|weapons|characters> <id>"); continue
