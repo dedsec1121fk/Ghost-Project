@@ -1,0 +1,613 @@
+[
+  {
+    "id": "C01",
+    "name": "Logan Walker",
+    "group": "Campaign",
+    "faction": "Ghosts / U.S.",
+    "role": "Λοχίας· playable πρωταγωνιστής",
+    "status": "Αιχμάλωτος πολέμου / τραυματισμένος στο τέλος",
+    "notes": "Κύριος playable χαρακτήρας, γιος του Elias και αδελφός του Hesh. Γίνεται Ghost και αιχμαλωτίζεται από τον Rorke στο τέλος.",
+    "image_local": "images/characters/C01_Logan_Walker.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "ghosts_faction"
+    ]
+  },
+  {
+    "id": "C02",
+    "name": "David 'Hesh' Walker",
+    "group": "Campaign",
+    "faction": "Ghosts / U.S.",
+    "role": "Υπολοχαγός· Ghost operator",
+    "status": "Τραυματισμένος· ζωντανός στο τέλος",
+    "notes": "Μεγαλύτερος αδελφός του Logan και σταθερός field partner σε όλο το campaign.",
+    "image_local": "images/characters/C02_David_Hesh_Walker.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "ghosts_faction"
+    ]
+  },
+  {
+    "id": "C03",
+    "name": "Riley",
+    "group": "Campaign",
+    "faction": "Ghosts / U.S.",
+    "role": "Στρατιωτικός σκύλος εργασίας / playable companion",
+    "status": "Τραυματισμένος· τελευταία εμφάνιση πριν τις τελικές αποστολές",
+    "notes": "German Shepherd για reconnaissance, tracking και επιθέσεις· το όνομα παραπέμπει στον Simon 'Ghost' Riley.",
+    "image_local": "images/characters/C03_Riley.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "ghosts_faction"
+    ]
+  },
+  {
+    "id": "C04",
+    "name": "Elias T. 'Scarecrow' Walker",
+    "group": "Campaign",
+    "faction": "Ghosts / U.S.",
+    "role": "Λοχαγός· ηγέτης των Ghosts",
+    "status": "Σκοτώνεται από τον Rorke",
+    "notes": "Πατέρας των Logan και Hesh, βετεράνος Ghost και πρώην teammate του Rorke.",
+    "image_local": "images/characters/C04_Elias_T_Scarecrow_Walker.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "ghosts_faction"
+    ]
+  },
+  {
+    "id": "C05",
+    "name": "Thomas A. Merrick",
+    "group": "Campaign",
+    "faction": "Ghosts",
+    "role": "Λοχαγός· ανώτερος Ghost operator",
+    "status": "Ζωντανός",
+    "notes": "Ονομασμένος χαρακτήρας/ρόλος του Call of Duty: Ghosts. Το αρχείο κρατά faction, ρόλο, κατάσταση και mode χωρίς να επινοεί μη τεκμηριωμένη βιογραφία.",
+    "image_local": "images/characters/C05_Thomas_A_Merrick.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "ghosts_faction"
+    ]
+  },
+  {
+    "id": "C06",
+    "name": "Keegan P. Russ",
+    "group": "Campaign",
+    "faction": "Ghosts",
+    "role": "Λοχίας· sniper/operator",
+    "status": "Ενεργός στην τελευταία εμφάνιση",
+    "notes": "Ονομασμένος χαρακτήρας/ρόλος του Call of Duty: Ghosts. Το αρχείο κρατά faction, ρόλο, κατάσταση και mode χωρίς να επινοεί μη τεκμηριωμένη βιογραφία.",
+    "image_local": "images/characters/C06_Keegan_P_Russ.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "ghosts_faction"
+    ]
+  },
+  {
+    "id": "C07",
+    "name": "Kick",
+    "group": "Campaign",
+    "faction": "Ghosts",
+    "role": "Technical / intelligence operator",
+    "status": "Ζωντανός",
+    "notes": "Ονομασμένος χαρακτήρας/ρόλος του Call of Duty: Ghosts. Το αρχείο κρατά faction, ρόλο, κατάσταση και mode χωρίς να επινοεί μη τεκμηριωμένη βιογραφία.",
+    "image_local": "images/characters/C07_Kick.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "ghosts_faction"
+    ]
+  },
+  {
+    "id": "C08",
+    "name": "Neptune",
+    "group": "Campaign lore",
+    "faction": "Ghosts",
+    "role": "Ghost operator",
+    "status": "Ζωντανός",
+    "notes": "Ονομασμένος χαρακτήρας/ρόλος του Call of Duty: Ghosts. Το αρχείο κρατά faction, ρόλο, κατάσταση και mode χωρίς να επινοεί μη τεκμηριωμένη βιογραφία.",
+    "image_local": "images/characters/C08_Neptune.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "ghosts_faction"
+    ]
+  },
+  {
+    "id": "C09",
+    "name": "Gabriel T. Rorke",
+    "group": "Campaign",
+    "faction": "Federation / former Ghosts",
+    "role": "Πρώην Ghost captain· Federation operative",
+    "status": "Τραυματισμένος· επιβιώνει στο τέλος",
+    "notes": "Πρώην διοικητής των Ghosts που αιχμαλωτίστηκε και στράφηκε από τη Federation· κύριος antagonist.",
+    "image_local": "images/characters/C09_Gabriel_T_Rorke.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "ghosts_faction"
+    ]
+  },
+  {
+    "id": "C10",
+    "name": "Alex V. 'Ajax' Johnson",
+    "group": "Campaign",
+    "faction": "Ghosts / STALKER",
+    "role": "Λοχίας· Ghost operator",
+    "status": "Νεκρός",
+    "notes": "Ονομασμένος χαρακτήρας/ρόλος του Call of Duty: Ghosts. Το αρχείο κρατά faction, ρόλο, κατάσταση και mode χωρίς να επινοεί μη τεκμηριωμένη βιογραφία.",
+    "image_local": "images/characters/C10_Alex_V_Ajax_Johnson.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "ghosts_faction"
+    ]
+  },
+  {
+    "id": "C11",
+    "name": "Riddian 'Grim' Poe",
+    "group": "Campaign lore",
+    "faction": "Ghosts / STALKER",
+    "role": "Ghost operator",
+    "status": "Αγνοούμενος ή νεκρός",
+    "notes": "Ονομασμένος χαρακτήρας/ρόλος του Call of Duty: Ghosts. Το αρχείο κρατά faction, ρόλο, κατάσταση και mode χωρίς να επινοεί μη τεκμηριωμένη βιογραφία.",
+    "image_local": "images/characters/C11_Riddian_Grim_Poe.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "ghosts_faction"
+    ]
+  },
+  {
+    "id": "C12",
+    "name": "Chris 'Torch' Green",
+    "group": "Campaign lore",
+    "faction": "Ghosts / STALKER",
+    "role": "Ghost operator",
+    "status": "Αγνοούμενος ή νεκρός",
+    "notes": "Ονομασμένος χαρακτήρας/ρόλος του Call of Duty: Ghosts. Το αρχείο κρατά faction, ρόλο, κατάσταση και mode χωρίς να επινοεί μη τεκμηριωμένη βιογραφία.",
+    "image_local": "images/characters/C12_Chris_Torch_Green.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "ghosts_faction"
+    ]
+  },
+  {
+    "id": "C13",
+    "name": "Overlord",
+    "group": "Campaign",
+    "faction": "Ghosts / U.S.",
+    "role": "Διοικητική αρχή / command",
+    "status": "Άγνωστη",
+    "notes": "Ονομασμένος χαρακτήρας/ρόλος του Call of Duty: Ghosts. Το αρχείο κρατά faction, ρόλο, κατάσταση και mode χωρίς να επινοεί μη τεκμηριωμένη βιογραφία.",
+    "image_local": "images/characters/C13_Overlord.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "ghosts_faction"
+    ]
+  },
+  {
+    "id": "C14",
+    "name": "Command",
+    "group": "Campaign",
+    "faction": "Ghosts",
+    "role": "Ασύρματο mission control",
+    "status": "Ζωντανός",
+    "notes": "Ονομασμένος χαρακτήρας/ρόλος του Call of Duty: Ghosts. Το αρχείο κρατά faction, ρόλο, κατάσταση και mode χωρίς να επινοεί μη τεκμηριωμένη βιογραφία.",
+    "image_local": "images/characters/C14_Command.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "ghosts_faction"
+    ]
+  },
+  {
+    "id": "C15",
+    "name": "Badger-Two",
+    "group": "Campaign",
+    "faction": "U.S. Army",
+    "role": "Τεθωρακισμένη μονάδα / playable role",
+    "status": "Ενεργός κατά την τελική επίθεση",
+    "notes": "Ονομασμένος χαρακτήρας/ρόλος του Call of Duty: Ghosts. Το αρχείο κρατά faction, ρόλο, κατάσταση και mode χωρίς να επινοεί μη τεκμηριωμένη βιογραφία.",
+    "image_local": "images/characters/C15_Badger_Two.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "ghosts_faction"
+    ]
+  },
+  {
+    "id": "C16",
+    "name": "Pirate Five-Zero",
+    "group": "Campaign",
+    "faction": "U.S.",
+    "role": "Callsign επιθετικού ελικοπτέρου / playable sequence",
+    "status": "Ενεργός",
+    "notes": "Ονομασμένος χαρακτήρας/ρόλος του Call of Duty: Ghosts. Το αρχείο κρατά faction, ρόλο, κατάσταση και mode χωρίς να επινοεί μη τεκμηριωμένη βιογραφία.",
+    "image_local": "images/characters/C16_Pirate_Five_Zero.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "ghosts_faction"
+    ]
+  },
+  {
+    "id": "C17",
+    "name": "Cobra One-Four",
+    "group": "Campaign",
+    "faction": "U.S. Army",
+    "role": "Υποστηρικτικός στρατιώτης / callsign",
+    "status": "Άγνωστη",
+    "notes": "Ονομασμένος χαρακτήρας/ρόλος του Call of Duty: Ghosts. Το αρχείο κρατά faction, ρόλο, κατάσταση και mode χωρίς να επινοεί μη τεκμηριωμένη βιογραφία.",
+    "image_local": "images/characters/C17_Cobra_One_Four.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "ghosts_faction"
+    ]
+  },
+  {
+    "id": "C18",
+    "name": "Borland",
+    "group": "Campaign",
+    "faction": "U.S. Army",
+    "role": "Υποστηρικτικός στρατιώτης",
+    "status": "Άγνωστη",
+    "notes": "Ονομασμένος χαρακτήρας/ρόλος του Call of Duty: Ghosts. Το αρχείο κρατά faction, ρόλο, κατάσταση και mode χωρίς να επινοεί μη τεκμηριωμένη βιογραφία.",
+    "image_local": "images/characters/C18_Borland.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "ghosts_faction"
+    ]
+  },
+  {
+    "id": "C19",
+    "name": "Taylor",
+    "group": "Campaign",
+    "faction": "U.S. Army",
+    "role": "Υποστηρικτικός στρατιώτης",
+    "status": "Άγνωστη",
+    "notes": "Ονομασμένος χαρακτήρας/ρόλος του Call of Duty: Ghosts. Το αρχείο κρατά faction, ρόλο, κατάσταση και mode χωρίς να επινοεί μη τεκμηριωμένη βιογραφία.",
+    "image_local": "images/characters/C19_Taylor.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "ghosts_faction"
+    ]
+  },
+  {
+    "id": "C20",
+    "name": "Wilson",
+    "group": "Campaign",
+    "faction": "U.S. Army",
+    "role": "Υποστηρικτικός στρατιώτης",
+    "status": "Άγνωστη",
+    "notes": "Ονομασμένος χαρακτήρας/ρόλος του Call of Duty: Ghosts. Το αρχείο κρατά faction, ρόλο, κατάσταση και mode χωρίς να επινοεί μη τεκμηριωμένη βιογραφία.",
+    "image_local": "images/characters/C20_Wilson.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "ghosts_faction"
+    ]
+  },
+  {
+    "id": "C21",
+    "name": "Davis",
+    "group": "Campaign",
+    "faction": "U.S. Army",
+    "role": "Υποστηρικτικός στρατιώτης",
+    "status": "Άγνωστη",
+    "notes": "Ονομασμένος χαρακτήρας/ρόλος του Call of Duty: Ghosts. Το αρχείο κρατά faction, ρόλο, κατάσταση και mode χωρίς να επινοεί μη τεκμηριωμένη βιογραφία.",
+    "image_local": "images/characters/C21_Davis.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "ghosts_faction"
+    ]
+  },
+  {
+    "id": "C22",
+    "name": "Davidson",
+    "group": "Campaign",
+    "faction": "U.S. Army",
+    "role": "Υποστηρικτικός στρατιώτης",
+    "status": "Άγνωστη",
+    "notes": "Ονομασμένος χαρακτήρας/ρόλος του Call of Duty: Ghosts. Το αρχείο κρατά faction, ρόλο, κατάσταση και mode χωρίς να επινοεί μη τεκμηριωμένη βιογραφία.",
+    "image_local": "images/characters/C22_Davidson.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "ghosts_faction"
+    ]
+  },
+  {
+    "id": "C23",
+    "name": "Suarez",
+    "group": "Campaign",
+    "faction": "U.S. Army",
+    "role": "Υποστηρικτικός στρατιώτης",
+    "status": "Άγνωστη",
+    "notes": "Ονομασμένος χαρακτήρας/ρόλος του Call of Duty: Ghosts. Το αρχείο κρατά faction, ρόλο, κατάσταση και mode χωρίς να επινοεί μη τεκμηριωμένη βιογραφία.",
+    "image_local": "images/characters/C23_Suarez.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "ghosts_faction"
+    ]
+  },
+  {
+    "id": "C24",
+    "name": "Harmer",
+    "group": "Campaign",
+    "faction": "U.S. Army",
+    "role": "Υποστηρικτικός στρατιώτης",
+    "status": "Άγνωστη",
+    "notes": "Ονομασμένος χαρακτήρας/ρόλος του Call of Duty: Ghosts. Το αρχείο κρατά faction, ρόλο, κατάσταση και mode χωρίς να επινοεί μη τεκμηριωμένη βιογραφία.",
+    "image_local": "images/characters/C24_Harmer.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "ghosts_faction"
+    ]
+  },
+  {
+    "id": "C25",
+    "name": "Thompson",
+    "group": "Campaign",
+    "faction": "U.S. Air Force / Icarus",
+    "role": "Στρατιώτης διαστημικής επίθεσης· playable",
+    "status": "Ενεργός",
+    "notes": "Ονομασμένος χαρακτήρας/ρόλος του Call of Duty: Ghosts. Το αρχείο κρατά faction, ρόλο, κατάσταση και mode χωρίς να επινοεί μη τεκμηριωμένη βιογραφία.",
+    "image_local": "images/characters/C25_Thompson.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "ghosts_faction"
+    ]
+  },
+  {
+    "id": "C26",
+    "name": "Collins",
+    "group": "Campaign",
+    "faction": "U.S. Air Force / Icarus",
+    "role": "Στρατιώτης διαστημικής επίθεσης",
+    "status": "Άγνωστη",
+    "notes": "Ονομασμένος χαρακτήρας/ρόλος του Call of Duty: Ghosts. Το αρχείο κρατά faction, ρόλο, κατάσταση και mode χωρίς να επινοεί μη τεκμηριωμένη βιογραφία.",
+    "image_local": "images/characters/C26_Collins.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "ghosts_faction"
+    ]
+  },
+  {
+    "id": "C27",
+    "name": "Baker",
+    "group": "Campaign",
+    "faction": "U.S. Air Force",
+    "role": "Αστροναύτης ODIN· playable",
+    "status": "Νεκρός",
+    "notes": "Ονομασμένος χαρακτήρας/ρόλος του Call of Duty: Ghosts. Το αρχείο κρατά faction, ρόλο, κατάσταση και mode χωρίς να επινοεί μη τεκμηριωμένη βιογραφία.",
+    "image_local": "images/characters/C27_Baker.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "ghosts_faction"
+    ]
+  },
+  {
+    "id": "C28",
+    "name": "Kyra Mosley",
+    "group": "Campaign",
+    "faction": "U.S. Air Force",
+    "role": "Αστροναύτης ODIN",
+    "status": "Νεκρός",
+    "notes": "Ονομασμένος χαρακτήρας/ρόλος του Call of Duty: Ghosts. Το αρχείο κρατά faction, ρόλο, κατάσταση και mode χωρίς να επινοεί μη τεκμηριωμένη βιογραφία.",
+    "image_local": "images/characters/C28_Kyra_Mosley.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "ghosts_faction"
+    ]
+  },
+  {
+    "id": "C29",
+    "name": "Arclight",
+    "group": "Campaign / Extinction",
+    "faction": "U.S. / Extinction-linked",
+    "role": "Υποστήριξη / callsign",
+    "status": "Άγνωστη",
+    "notes": "Ονομασμένος χαρακτήρας/ρόλος του Call of Duty: Ghosts. Το αρχείο κρατά faction, ρόλο, κατάσταση και mode χωρίς να επινοεί μη τεκμηριωμένη βιογραφία.",
+    "image_local": "images/characters/C29_Arclight.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "ghosts_faction"
+    ]
+  },
+  {
+    "id": "C30",
+    "name": "Ryan",
+    "group": "Campaign",
+    "faction": "U.S. Navy",
+    "role": "Ναυτικό προσωπικό",
+    "status": "Άγνωστη",
+    "notes": "Ονομασμένος χαρακτήρας/ρόλος του Call of Duty: Ghosts. Το αρχείο κρατά faction, ρόλο, κατάσταση και mode χωρίς να επινοεί μη τεκμηριωμένη βιογραφία.",
+    "image_local": "images/characters/C30_Ryan.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "ghosts_faction"
+    ]
+  },
+  {
+    "id": "C31",
+    "name": "Weaver",
+    "group": "Campaign",
+    "faction": "U.S. Navy",
+    "role": "Ναυτικό προσωπικό",
+    "status": "Άγνωστη",
+    "notes": "Ονομασμένος χαρακτήρας/ρόλος του Call of Duty: Ghosts. Το αρχείο κρατά faction, ρόλο, κατάσταση και mode χωρίς να επινοεί μη τεκμηριωμένη βιογραφία.",
+    "image_local": "images/characters/C31_Weaver.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "ghosts_faction"
+    ]
+  },
+  {
+    "id": "C32",
+    "name": "Victor H. Ramos",
+    "group": "Campaign",
+    "faction": "Federation",
+    "role": "Federation operative",
+    "status": "Βγαίνει από τη δράση κατά τα campaign γεγονότα",
+    "notes": "Ονομασμένος χαρακτήρας/ρόλος του Call of Duty: Ghosts. Το αρχείο κρατά faction, ρόλο, κατάσταση και mode χωρίς να επινοεί μη τεκμηριωμένη βιογραφία.",
+    "image_local": "images/characters/C32_Victor_H_Ramos.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "ghosts_faction"
+    ]
+  },
+  {
+    "id": "C33",
+    "name": "Diego Almagro",
+    "group": "Campaign",
+    "faction": "Federation",
+    "role": "Ηγέτης / στρατηγός της Federation",
+    "status": "Σκοτώνεται το 2016",
+    "notes": "Ονομασμένος χαρακτήρας/ρόλος του Call of Duty: Ghosts. Το αρχείο κρατά faction, ρόλο, κατάσταση και mode χωρίς να επινοεί μη τεκμηριωμένη βιογραφία.",
+    "image_local": "images/characters/C33_Diego_Almagro.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "ghosts_faction"
+    ]
+  },
+  {
+    "id": "C34",
+    "name": "Unknown Federation Soldier",
+    "group": "Campaign",
+    "faction": "Federation",
+    "role": "Στρατιώτης της Federation",
+    "status": "Άγνωστη",
+    "notes": "Ονομασμένος χαρακτήρας/ρόλος του Call of Duty: Ghosts. Το αρχείο κρατά faction, ρόλο, κατάσταση και mode χωρίς να επινοεί μη τεκμηριωμένη βιογραφία.",
+    "image_local": "images/characters/C34_Unknown_Federation_Soldier.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "ghosts_faction"
+    ]
+  },
+  {
+    "id": "C35",
+    "name": "Samantha Cross",
+    "group": "Extinction",
+    "faction": "Nightfall Program / Extinction",
+    "role": "Παλαιογλωσσολόγος· κεντρική μορφή του Extinction",
+    "status": "Κεντρική μορφή της μεταγενέστερης πλοκής",
+    "notes": "Ερευνήτρια της οποίας η σύνδεση με Ancestors, Cortex και Medusa καθορίζει την Extinction ιστορία.",
+    "image_local": "images/characters/C35_Samantha_Cross.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "ghosts_faction",
+      "extinction_mode"
+    ]
+  },
+  {
+    "id": "C36",
+    "name": "David Archer",
+    "group": "Extinction",
+    "faction": "Nightfall Program",
+    "role": "Captain / ηγέτης Nightfall",
+    "status": "Κεντρικός στην ιστορία Nightfall",
+    "notes": "Ηγέτης που συνδέεται με Project Nightfall και την έρευνα των Cryptids.",
+    "image_local": "images/characters/C36_David_Archer.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "ghosts_faction",
+      "extinction_mode"
+    ]
+  },
+  {
+    "id": "C37",
+    "name": "Contact 28",
+    "group": "Extinction",
+    "faction": "Extinction",
+    "role": "Contact / intelligence figure",
+    "status": "Άγνωστη",
+    "notes": "Ονομασμένος χαρακτήρας/ρόλος του Call of Duty: Ghosts. Το αρχείο κρατά faction, ρόλο, κατάσταση και mode χωρίς να επινοεί μη τεκμηριωμένη βιογραφία.",
+    "image_local": "images/characters/C37_Contact_28.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "ghosts_faction",
+      "extinction_mode"
+    ]
+  },
+  {
+    "id": "C38",
+    "name": "'Godfather' Castle",
+    "group": "Extinction",
+    "faction": "Rapid Reaction Force",
+    "role": "Διοικητική μορφή",
+    "status": "Ενεργός",
+    "notes": "Ονομασμένος χαρακτήρας/ρόλος του Call of Duty: Ghosts. Το αρχείο κρατά faction, ρόλο, κατάσταση και mode χωρίς να επινοεί μη τεκμηριωμένη βιογραφία.",
+    "image_local": "images/characters/C38_Godfather_Castle.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "ghosts_faction",
+      "extinction_mode"
+    ]
+  },
+  {
+    "id": "C39",
+    "name": "Kassar",
+    "group": "Extinction",
+    "faction": "Nightfall Program",
+    "role": "Επιζών του Nightfall / supporting figure",
+    "status": "Εμφανίζεται στο υλικό του Mayday",
+    "notes": "Ονομασμένος χαρακτήρας/ρόλος του Call of Duty: Ghosts. Το αρχείο κρατά faction, ρόλο, κατάσταση και mode χωρίς να επινοεί μη τεκμηριωμένη βιογραφία.",
+    "image_local": "images/characters/C39_Kassar.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "ghosts_faction",
+      "extinction_mode"
+    ]
+  },
+  {
+    "id": "C40",
+    "name": "President of the United States",
+    "group": "Extinction",
+    "faction": "United States",
+    "role": "Αρχηγός κράτους",
+    "status": "Άγνωστη",
+    "notes": "Ονομασμένος χαρακτήρας/ρόλος του Call of Duty: Ghosts. Το αρχείο κρατά faction, ρόλο, κατάσταση και mode χωρίς να επινοεί μη τεκμηριωμένη βιογραφία.",
+    "image_local": "images/characters/C40_President_of_the_United_States.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "ghosts_faction",
+      "extinction_mode"
+    ]
+  },
+  {
+    "id": "C41",
+    "name": "Black Flag 4-2",
+    "group": "Extinction",
+    "faction": "U.S. / Extinction support",
+    "role": "Callsign ελικοπτέρου",
+    "status": "Ενεργός στο Point of Contact",
+    "notes": "Ονομασμένος χαρακτήρας/ρόλος του Call of Duty: Ghosts. Το αρχείο κρατά faction, ρόλο, κατάσταση και mode χωρίς να επινοεί μη τεκμηριωμένη βιογραφία.",
+    "image_local": "images/characters/C41_Black_Flag_4_2.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "ghosts_faction",
+      "extinction_mode"
+    ]
+  },
+  {
+    "id": "C42",
+    "name": "Task Force Spectre",
+    "group": "Extinction",
+    "faction": "U.S.",
+    "role": "Playable Extinction task force",
+    "status": "Ενεργός",
+    "notes": "Playable unit στο Point of Contact, αποστέλλεται για καταστροφή Hives και evacuation.",
+    "image_local": "images/characters/C42_Task_Force_Spectre.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "ghosts_faction",
+      "extinction_mode"
+    ]
+  },
+  {
+    "id": "C43",
+    "name": "CIF Team 1",
+    "group": "Extinction",
+    "faction": "Rapid Reaction Force",
+    "role": "Playable Extinction ομάδα",
+    "status": "Ενεργή στα μεταγενέστερα επεισόδια",
+    "notes": "Κύρια playable ομάδα στα Nightfall, Mayday, Awakening και Exodus.",
+    "image_local": "images/characters/C43_CIF_Team_1.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "ghosts_faction",
+      "extinction_mode"
+    ]
+  }
+]

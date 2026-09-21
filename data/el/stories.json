@@ -1,0 +1,26 @@
+[
+  {
+    "id": "STORY-CAMPAIGN",
+    "title": "Επισκόπηση ιστορίας Campaign",
+    "universe": "Campaign",
+    "summary": "Μετά από μια παγκόσμια ενεργειακή κρίση που επιτρέπει στη Federation of the Americas να εξελιχθεί σε μεγάλη δύναμη, η Federation στρέφει το αμερικανικό τροχιακό σύστημα άμυνας ODIN εναντίον των Ηνωμένων Πολιτειών. Δέκα χρόνια αργότερα, οι αδελφοί Logan και Hesh Walker πολεμούν μαζί με την επίλεκτη μονάδα Ghosts υπό τον πατέρα τους, Elias. Κεντρικός εχθρός τους είναι ο Gabriel Rorke, πρώην διοικητής των Ghosts που εγκαταλείφθηκε κατά τη διάρκεια μιας καταστροφικής επιχείρησης στο Καράκας, αιχμαλωτίστηκε και τελικά πέρασε με το μέρος της Federation. Οι Ghosts καταδιώκουν τον Rorke ενώ σαμποτάρουν κρίσιμες εγκαταστάσεις της Federation και τελικά ανακαλύπτουν το LOKI, μια τροχιακή πλατφόρμα κινητικών όπλων. Κατά την τελική αμερικανική αντεπίθεση, αμερικανικές δυνάμεις καταλαμβάνουν το LOKI και το χρησιμοποιούν εναντίον στόχων της Federation. Ο Logan και ο Hesh επιτίθενται στον Rorke μέσα σε ένα τρένο και πιστεύουν ότι τον σκότωσαν, όμως εκείνος επιβιώνει και αιχμαλωτίζει τον Logan, αφήνοντας την ιστορία σε cliffhanger.",
+    "source_keys": [
+      "ghosts_timeline"
+    ],
+    "audio_narration": "audio/narration/stories/campaign.mp3"
+  },
+  {
+    "id": "STORY-EXTINCTION",
+    "title": "Επισκόπηση ιστορίας Extinction",
+    "universe": "Extinction",
+    "summary": "Το Extinction ακολουθεί μια ξεχωριστή ιστορία που επικεντρώνεται στους Cryptids. Το Point of Contact ξεκινά με την αντιμετώπιση της εξάπλωσης, το Nightfall αποκαλύπτει το μυστικό ερευνητικό πρόγραμμα γύρω από τον David Archer και τη Samantha Cross, το Mayday συνεχίζει την καταδίωξη πάνω στο Stormbreaker και επεκτείνει την πλοκή Medusa/Cortex, το Awakening οδηγεί την ομάδα μέσα σε ένα Ancestor Ark κάτω από το Ball's Pyramid και το Exodus ολοκληρώνει το βασικό Extinction arc του Ghosts γύρω από το Medusa Device, τους Cryptid Ancestors και την προσπάθεια επιβίωσης της ανθρωπότητας.",
+    "source_keys": [
+      "extinction_timeline",
+      "extinction_intel",
+      "nightfall",
+      "awakening",
+      "exodus_facility"
+    ],
+    "audio_narration": "audio/narration/stories/extinction.mp3"
+  }
+]

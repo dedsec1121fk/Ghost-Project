@@ -1,0 +1,72 @@
+[
+  {
+    "id": "EE01",
+    "area": "Campaign - Struck Down",
+    "title": "Αναφορές στην προθήκη τροπαίων",
+    "summary": "Μια προθήκη τροπαίων περιλαμβάνει αστείες αναφορές στα The Legend of Zelda, Doctor Who και στον πανικό γύρω από το ημερολόγιο των Μάγια του 2012.",
+    "connection": "Easter eggs από άλλα franchises",
+    "source_keys": [
+      "easter_eggs"
+    ]
+  },
+  {
+    "id": "EE02",
+    "area": "Campaign - Clockwork",
+    "title": "Zork.exe",
+    "summary": "Κατά τη διαδικασία εξαγωγής δεδομένων εμφανίζεται αρχείο με όνομα Zork.exe, αναφορά στο κλασικό interactive-fiction παιχνίδι Zork.",
+    "connection": "Αναφορά σε κλασικό παιχνίδι",
+    "source_keys": [
+      "easter_eggs"
+    ]
+  },
+  {
+    "id": "EE03",
+    "area": "Campaign - Atlas Falls",
+    "title": "Arcade Call of Duty: Modern Warfare",
+    "summary": "Στο common room εμφανίζεται arcade τραπέζι με την ένδειξη Call of Duty: Modern Warfare.",
+    "connection": "Αναφορά στο Call of Duty 4: Modern Warfare",
+    "source_keys": [
+      "atlas_falls"
+    ]
+  },
+  {
+    "id": "EE04",
+    "area": "Multiplayer",
+    "title": "Κρυμμένα teddy bears",
+    "summary": "Έχουν καταγραφεί teddy bears σε αρκετούς multiplayer χάρτες του Ghosts, όπως Sovereign, Stormfront, Flooded, Siege και Freight.",
+    "connection": "Επαναλαμβανόμενο Call of Duty Easter egg",
+    "source_keys": [
+      "easter_eggs"
+    ]
+  },
+  {
+    "id": "EE05",
+    "area": "Extinction - Nightfall",
+    "title": "Εφέ χιονάνθρωπου ZAP",
+    "summary": "Πυροβολώντας τους σπινθηροβόλους μετασχηματιστές με τη σωστή σειρά μπορεί να ενεργοποιηθεί προσωρινό εφέ θανάτου τύπου χιονάνθρωπου για τους Cryptids.",
+    "connection": "Easter egg χάρτη Extinction",
+    "source_keys": [
+      "nightfall"
+    ]
+  },
+  {
+    "id": "EE06",
+    "area": "Extinction - Exodus",
+    "title": "NEVERSOFT / Always Hard",
+    "summary": "Πυροβολώντας γράμματα στην πινακίδα του πλυντηρίου αυτοκινήτων ώστε να σχηματιστεί η λέξη NEVERSOFT ξεκλειδώνει το μυστικό intel 'Always Hard'.",
+    "connection": "Αναφορά στον developer / μυστικό intel",
+    "source_keys": [
+      "extinction_intel"
+    ]
+  },
+  {
+    "id": "EE07",
+    "area": "Campaign / ονοματολογία",
+    "title": "Αναφορά του ονόματος Riley",
+    "summary": "Ο Riley, ο στρατιωτικός σκύλος του Ghosts, έχει τεκμηριωθεί ως αναφορά στον Simon 'Ghost' Riley από το Modern Warfare 2.",
+    "connection": "Modern Warfare 2",
+    "source_keys": [
+      "simon_ghost_trivia"
+    ]
+  }
+]

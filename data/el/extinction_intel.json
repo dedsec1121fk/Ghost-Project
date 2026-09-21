@@ -1,0 +1,574 @@
+[
+  {
+    "id": "EXT-NIG-01",
+    "map": "Nightfall",
+    "title": "Prologue",
+    "kind": "Πληροφορία ιστορίας",
+    "unlock": "ξεκλειδωμένο από την αρχή",
+    "summary": "Το Prologue αποτελεί μέρος του αρχείου πληροφοριών του Extinction για το Nightfall. Το Ghost Project το καταγράφει με βάση τον τίτλο και τον τρόπο ξεκλειδώματος χωρίς να αναπαράγει ολόκληρη την προστατευόμενη ηχογράφηση.",
+    "source_keys": [
+      "extinction_intel"
+    ],
+    "audio_original": "audio/original/extinction/nightfall_01.mp3",
+    "audio_narration": "audio/narration/extinction/nightfall_01.mp3"
+  },
+  {
+    "id": "EXT-NIG-02",
+    "map": "Nightfall",
+    "title": "Cpt. David Archer",
+    "kind": "Αρχείο χαρακτήρα",
+    "unlock": "ξεκλειδωμένο από την αρχή",
+    "summary": "Το Cpt. David Archer αποτελεί μέρος του αρχείου πληροφοριών του Extinction για το Nightfall. Το Ghost Project το καταγράφει με βάση τον τίτλο και τον τρόπο ξεκλειδώματος χωρίς να αναπαράγει ολόκληρη την προστατευόμενη ηχογράφηση.",
+    "source_keys": [
+      "extinction_intel"
+    ],
+    "audio_original": "audio/original/extinction/nightfall_02.mp3",
+    "audio_narration": "audio/narration/extinction/nightfall_02.mp3"
+  },
+  {
+    "id": "EXT-NIG-03",
+    "map": "Nightfall",
+    "title": "Dr. Samantha Cross",
+    "kind": "Αρχείο χαρακτήρα",
+    "unlock": "ξεκλειδωμένο από την αρχή",
+    "summary": "Το Dr. Samantha Cross αποτελεί μέρος του αρχείου πληροφοριών του Extinction για το Nightfall. Το Ghost Project το καταγράφει με βάση τον τίτλο και τον τρόπο ξεκλειδώματος χωρίς να αναπαράγει ολόκληρη την προστατευόμενη ηχογράφηση.",
+    "source_keys": [
+      "extinction_intel"
+    ],
+    "audio_original": "audio/original/extinction/nightfall_03.mp3",
+    "audio_narration": "audio/narration/extinction/nightfall_03.mp3"
+  },
+  {
+    "id": "EXT-NIG-04",
+    "map": "Nightfall",
+    "title": "Epilogue",
+    "kind": "Πληροφορία ιστορίας",
+    "unlock": "ξεκλειδώνεται μετά την ήττα του Breeder",
+    "summary": "Το Epilogue αποτελεί μέρος του αρχείου πληροφοριών του Extinction για το Nightfall. Το Ghost Project το καταγράφει με βάση τον τίτλο και τον τρόπο ξεκλειδώματος χωρίς να αναπαράγει ολόκληρη την προστατευόμενη ηχογράφηση.",
+    "source_keys": [
+      "extinction_intel"
+    ],
+    "audio_original": "audio/original/extinction/nightfall_04.mp3",
+    "audio_narration": "audio/narration/extinction/nightfall_04.mp3"
+  },
+  {
+    "id": "EXT-NIG-05",
+    "map": "Nightfall",
+    "title": "Arrival",
+    "kind": "Αρχείο Nightfall",
+    "unlock": "τυχαίο Search Pile",
+    "summary": "Το Arrival αποτελεί μέρος του αρχείου πληροφοριών του Extinction για το Nightfall. Το Ghost Project το καταγράφει με βάση τον τίτλο και τον τρόπο ξεκλειδώματος χωρίς να αναπαράγει ολόκληρη την προστατευόμενη ηχογράφηση.",
+    "source_keys": [
+      "extinction_intel"
+    ],
+    "audio_original": "audio/original/extinction/nightfall_05.mp3",
+    "audio_narration": "audio/narration/extinction/nightfall_05.mp3"
+  },
+  {
+    "id": "EXT-NIG-06",
+    "map": "Nightfall",
+    "title": "Origins",
+    "kind": "Αρχείο Nightfall",
+    "unlock": "τυχαίο Search Pile",
+    "summary": "Το Origins αποτελεί μέρος του αρχείου πληροφοριών του Extinction για το Nightfall. Το Ghost Project το καταγράφει με βάση τον τίτλο και τον τρόπο ξεκλειδώματος χωρίς να αναπαράγει ολόκληρη την προστατευόμενη ηχογράφηση.",
+    "source_keys": [
+      "extinction_intel"
+    ],
+    "audio_original": "audio/original/extinction/nightfall_06.mp3",
+    "audio_narration": "audio/narration/extinction/nightfall_06.mp3"
+  },
+  {
+    "id": "EXT-NIG-07",
+    "map": "Nightfall",
+    "title": "Xenobiology",
+    "kind": "Αρχείο Nightfall",
+    "unlock": "τυχαίο Search Pile",
+    "summary": "Το Xenobiology αποτελεί μέρος του αρχείου πληροφοριών του Extinction για το Nightfall. Το Ghost Project το καταγράφει με βάση τον τίτλο και τον τρόπο ξεκλειδώματος χωρίς να αναπαράγει ολόκληρη την προστατευόμενη ηχογράφηση.",
+    "source_keys": [
+      "extinction_intel"
+    ],
+    "audio_original": "audio/original/extinction/nightfall_07.mp3",
+    "audio_narration": "audio/narration/extinction/nightfall_07.mp3"
+  },
+  {
+    "id": "EXT-NIG-08",
+    "map": "Nightfall",
+    "title": "The Obelisk",
+    "kind": "Αρχείο Nightfall",
+    "unlock": "τυχαίο Search Pile",
+    "summary": "Το The Obelisk αποτελεί μέρος του αρχείου πληροφοριών του Extinction για το Nightfall. Το Ghost Project το καταγράφει με βάση τον τίτλο και τον τρόπο ξεκλειδώματος χωρίς να αναπαράγει ολόκληρη την προστατευόμενη ηχογράφηση.",
+    "source_keys": [
+      "extinction_intel"
+    ],
+    "audio_original": "audio/original/extinction/nightfall_08.mp3",
+    "audio_narration": "audio/narration/extinction/nightfall_08.mp3"
+  },
+  {
+    "id": "EXT-NIG-09",
+    "map": "Nightfall",
+    "title": "The Hatchery",
+    "kind": "Αρχείο Nightfall",
+    "unlock": "τυχαίο Search Pile",
+    "summary": "Το The Hatchery αποτελεί μέρος του αρχείου πληροφοριών του Extinction για το Nightfall. Το Ghost Project το καταγράφει με βάση τον τίτλο και τον τρόπο ξεκλειδώματος χωρίς να αναπαράγει ολόκληρη την προστατευόμενη ηχογράφηση.",
+    "source_keys": [
+      "extinction_intel"
+    ],
+    "audio_original": "audio/original/extinction/nightfall_09.mp3",
+    "audio_narration": "audio/narration/extinction/nightfall_09.mp3"
+  },
+  {
+    "id": "EXT-NIG-10",
+    "map": "Nightfall",
+    "title": "Outbreak",
+    "kind": "Αρχείο Nightfall",
+    "unlock": "τυχαίο Search Pile",
+    "summary": "Το Outbreak αποτελεί μέρος του αρχείου πληροφοριών του Extinction για το Nightfall. Το Ghost Project το καταγράφει με βάση τον τίτλο και τον τρόπο ξεκλειδώματος χωρίς να αναπαράγει ολόκληρη την προστατευόμενη ηχογράφηση.",
+    "source_keys": [
+      "extinction_intel"
+    ],
+    "audio_original": "audio/original/extinction/nightfall_10.mp3",
+    "audio_narration": "audio/narration/extinction/nightfall_10.mp3"
+  },
+  {
+    "id": "EXT-NIG-11",
+    "map": "Nightfall",
+    "title": "Treason",
+    "kind": "Αρχείο υποκλοπής",
+    "unlock": "laptop",
+    "summary": "Το Treason αποτελεί μέρος του αρχείου πληροφοριών του Extinction για το Nightfall. Το Ghost Project το καταγράφει με βάση τον τίτλο και τον τρόπο ξεκλειδώματος χωρίς να αναπαράγει ολόκληρη την προστατευόμενη ηχογράφηση.",
+    "source_keys": [
+      "extinction_intel"
+    ],
+    "audio_original": "audio/original/extinction/nightfall_11.mp3",
+    "audio_narration": "audio/narration/extinction/nightfall_11.mp3"
+  },
+  {
+    "id": "EXT-NIG-12",
+    "map": "Nightfall",
+    "title": "Security Breach",
+    "kind": "Αρχείο υποκλοπής",
+    "unlock": "laptop",
+    "summary": "Το Security Breach αποτελεί μέρος του αρχείου πληροφοριών του Extinction για το Nightfall. Το Ghost Project το καταγράφει με βάση τον τίτλο και τον τρόπο ξεκλειδώματος χωρίς να αναπαράγει ολόκληρη την προστατευόμενη ηχογράφηση.",
+    "source_keys": [
+      "extinction_intel"
+    ],
+    "audio_original": "audio/original/extinction/nightfall_12.mp3",
+    "audio_narration": "audio/narration/extinction/nightfall_12.mp3"
+  },
+  {
+    "id": "EXT-NIG-13",
+    "map": "Nightfall",
+    "title": "Exfil Denied",
+    "kind": "Αρχείο υποκλοπής",
+    "unlock": "laptop",
+    "summary": "Το Exfil Denied αποτελεί μέρος του αρχείου πληροφοριών του Extinction για το Nightfall. Το Ghost Project το καταγράφει με βάση τον τίτλο και τον τρόπο ξεκλειδώματος χωρίς να αναπαράγει ολόκληρη την προστατευόμενη ηχογράφηση.",
+    "source_keys": [
+      "extinction_intel"
+    ],
+    "audio_original": "audio/original/extinction/nightfall_13.mp3",
+    "audio_narration": "audio/narration/extinction/nightfall_13.mp3"
+  },
+  {
+    "id": "EXT-NIG-14",
+    "map": "Nightfall",
+    "title": "Sabotage",
+    "kind": "Αρχείο υποκλοπής",
+    "unlock": "laptop",
+    "summary": "Το Sabotage αποτελεί μέρος του αρχείου πληροφοριών του Extinction για το Nightfall. Το Ghost Project το καταγράφει με βάση τον τίτλο και τον τρόπο ξεκλειδώματος χωρίς να αναπαράγει ολόκληρη την προστατευόμενη ηχογράφηση.",
+    "source_keys": [
+      "extinction_intel"
+    ],
+    "audio_original": "audio/original/extinction/nightfall_14.mp3",
+    "audio_narration": "audio/narration/extinction/nightfall_14.mp3"
+  },
+  {
+    "id": "EXT-NIG-15",
+    "map": "Nightfall",
+    "title": "The Ark",
+    "kind": "Αρχείο υποκλοπής",
+    "unlock": "laptop",
+    "summary": "Το The Ark αποτελεί μέρος του αρχείου πληροφοριών του Extinction για το Nightfall. Το Ghost Project το καταγράφει με βάση τον τίτλο και τον τρόπο ξεκλειδώματος χωρίς να αναπαράγει ολόκληρη την προστατευόμενη ηχογράφηση.",
+    "source_keys": [
+      "extinction_intel"
+    ],
+    "audio_original": "audio/original/extinction/nightfall_15.mp3",
+    "audio_narration": "audio/narration/extinction/nightfall_15.mp3"
+  },
+  {
+    "id": "EXT-MAY-01",
+    "map": "Mayday",
+    "title": "Prologue",
+    "kind": "Αρχείο Medusa",
+    "unlock": "περιλαμβάνεται με τον χάρτη",
+    "summary": "Το Prologue αποτελεί μέρος του αρχείου πληροφοριών του Extinction για το Mayday. Το Ghost Project το καταγράφει με βάση τον τίτλο και τον τρόπο ξεκλειδώματος χωρίς να αναπαράγει ολόκληρη την προστατευόμενη ηχογράφηση.",
+    "source_keys": [
+      "extinction_intel"
+    ],
+    "audio_original": "audio/original/extinction/mayday_01.mp3",
+    "audio_narration": "audio/narration/extinction/mayday_01.mp3"
+  },
+  {
+    "id": "EXT-MAY-02",
+    "map": "Mayday",
+    "title": "Terra Incognita",
+    "kind": "Αρχείο Medusa",
+    "unlock": "τυχαίο Search Pile",
+    "summary": "Το Terra Incognita αποτελεί μέρος του αρχείου πληροφοριών του Extinction για το Mayday. Το Ghost Project το καταγράφει με βάση τον τίτλο και τον τρόπο ξεκλειδώματος χωρίς να αναπαράγει ολόκληρη την προστατευόμενη ηχογράφηση.",
+    "source_keys": [
+      "extinction_intel"
+    ],
+    "audio_original": "audio/original/extinction/mayday_02.mp3",
+    "audio_narration": "audio/narration/extinction/mayday_02.mp3"
+  },
+  {
+    "id": "EXT-MAY-03",
+    "map": "Mayday",
+    "title": "Beasts of War",
+    "kind": "Αρχείο Medusa",
+    "unlock": "τυχαίο Search Pile",
+    "summary": "Το Beasts of War αποτελεί μέρος του αρχείου πληροφοριών του Extinction για το Mayday. Το Ghost Project το καταγράφει με βάση τον τίτλο και τον τρόπο ξεκλειδώματος χωρίς να αναπαράγει ολόκληρη την προστατευόμενη ηχογράφηση.",
+    "source_keys": [
+      "extinction_intel"
+    ],
+    "audio_original": "audio/original/extinction/mayday_03.mp3",
+    "audio_narration": "audio/narration/extinction/mayday_03.mp3"
+  },
+  {
+    "id": "EXT-MAY-04",
+    "map": "Mayday",
+    "title": "Medusa",
+    "kind": "Αρχείο Medusa",
+    "unlock": "τυχαίο Search Pile",
+    "summary": "Το Medusa αποτελεί μέρος του αρχείου πληροφοριών του Extinction για το Mayday. Το Ghost Project το καταγράφει με βάση τον τίτλο και τον τρόπο ξεκλειδώματος χωρίς να αναπαράγει ολόκληρη την προστατευόμενη ηχογράφηση.",
+    "source_keys": [
+      "extinction_intel"
+    ],
+    "audio_original": "audio/original/extinction/mayday_04.mp3",
+    "audio_narration": "audio/narration/extinction/mayday_04.mp3"
+  },
+  {
+    "id": "EXT-MAY-05",
+    "map": "Mayday",
+    "title": "Desperate Allies",
+    "kind": "Αρχείο Medusa",
+    "unlock": "τυχαίο Search Pile",
+    "summary": "Το Desperate Allies αποτελεί μέρος του αρχείου πληροφοριών του Extinction για το Mayday. Το Ghost Project το καταγράφει με βάση τον τίτλο και τον τρόπο ξεκλειδώματος χωρίς να αναπαράγει ολόκληρη την προστατευόμενη ηχογράφηση.",
+    "source_keys": [
+      "extinction_intel"
+    ],
+    "audio_original": "audio/original/extinction/mayday_05.mp3",
+    "audio_narration": "audio/narration/extinction/mayday_05.mp3"
+  },
+  {
+    "id": "EXT-MAY-06",
+    "map": "Mayday",
+    "title": "Epilogue",
+    "kind": "Αρχείο Medusa",
+    "unlock": "ξεκλειδώνεται μετά την ήττα του Kraken",
+    "summary": "Το Epilogue αποτελεί μέρος του αρχείου πληροφοριών του Extinction για το Mayday. Το Ghost Project το καταγράφει με βάση τον τίτλο και τον τρόπο ξεκλειδώματος χωρίς να αναπαράγει ολόκληρη την προστατευόμενη ηχογράφηση.",
+    "source_keys": [
+      "extinction_intel"
+    ],
+    "audio_original": "audio/original/extinction/mayday_06.mp3",
+    "audio_narration": "audio/narration/extinction/mayday_06.mp3"
+  },
+  {
+    "id": "EXT-MAY-07",
+    "map": "Mayday",
+    "title": "Sleeper Agent",
+    "kind": "Cinematic Kassar",
+    "unlock": "σταθερό collectible",
+    "summary": "Το Sleeper Agent αποτελεί μέρος του αρχείου πληροφοριών του Extinction για το Mayday. Το Ghost Project το καταγράφει με βάση τον τίτλο και τον τρόπο ξεκλειδώματος χωρίς να αναπαράγει ολόκληρη την προστατευόμενη ηχογράφηση.",
+    "source_keys": [
+      "extinction_intel"
+    ],
+    "audio_original": "audio/original/extinction/mayday_07.mp3",
+    "audio_narration": "audio/narration/extinction/mayday_07.mp3"
+  },
+  {
+    "id": "EXT-MAY-08",
+    "map": "Mayday",
+    "title": "Encrypted",
+    "kind": "Cinematic Kassar",
+    "unlock": "σταθερό collectible",
+    "summary": "Το Encrypted αποτελεί μέρος του αρχείου πληροφοριών του Extinction για το Mayday. Το Ghost Project το καταγράφει με βάση τον τίτλο και τον τρόπο ξεκλειδώματος χωρίς να αναπαράγει ολόκληρη την προστατευόμενη ηχογράφηση.",
+    "source_keys": [
+      "extinction_intel"
+    ],
+    "audio_original": "audio/original/extinction/mayday_08.mp3",
+    "audio_narration": "audio/narration/extinction/mayday_08.mp3"
+  },
+  {
+    "id": "EXT-MAY-09",
+    "map": "Mayday",
+    "title": "Witchcraft",
+    "kind": "Cinematic Kassar",
+    "unlock": "σταθερό collectible",
+    "summary": "Το Witchcraft αποτελεί μέρος του αρχείου πληροφοριών του Extinction για το Mayday. Το Ghost Project το καταγράφει με βάση τον τίτλο και τον τρόπο ξεκλειδώματος χωρίς να αναπαράγει ολόκληρη την προστατευόμενη ηχογράφηση.",
+    "source_keys": [
+      "extinction_intel"
+    ],
+    "audio_original": "audio/original/extinction/mayday_09.mp3",
+    "audio_narration": "audio/narration/extinction/mayday_09.mp3"
+  },
+  {
+    "id": "EXT-MAY-10",
+    "map": "Mayday",
+    "title": "Mutiny",
+    "kind": "Cinematic Kassar",
+    "unlock": "σταθερό collectible",
+    "summary": "Το Mutiny αποτελεί μέρος του αρχείου πληροφοριών του Extinction για το Mayday. Το Ghost Project το καταγράφει με βάση τον τίτλο και τον τρόπο ξεκλειδώματος χωρίς να αναπαράγει ολόκληρη την προστατευόμενη ηχογράφηση.",
+    "source_keys": [
+      "extinction_intel"
+    ],
+    "audio_original": "audio/original/extinction/mayday_10.mp3",
+    "audio_narration": "audio/narration/extinction/mayday_10.mp3"
+  },
+  {
+    "id": "EXT-MAY-11",
+    "map": "Mayday",
+    "title": "The Guardian",
+    "kind": "Cinematic Kassar",
+    "unlock": "σταθερό collectible",
+    "summary": "Το The Guardian αποτελεί μέρος του αρχείου πληροφοριών του Extinction για το Mayday. Το Ghost Project το καταγράφει με βάση τον τίτλο και τον τρόπο ξεκλειδώματος χωρίς να αναπαράγει ολόκληρη την προστατευόμενη ηχογράφηση.",
+    "source_keys": [
+      "extinction_intel"
+    ],
+    "audio_original": "audio/original/extinction/mayday_11.mp3",
+    "audio_narration": "audio/narration/extinction/mayday_11.mp3"
+  },
+  {
+    "id": "EXT-AWA-01",
+    "map": "Awakening",
+    "title": "Prologue",
+    "kind": "Πληροφορία ιστορίας",
+    "unlock": "περιλαμβάνεται με τον χάρτη",
+    "summary": "Το Prologue αποτελεί μέρος του αρχείου πληροφοριών του Extinction για το Awakening. Το Ghost Project το καταγράφει με βάση τον τίτλο και τον τρόπο ξεκλειδώματος χωρίς να αναπαράγει ολόκληρη την προστατευόμενη ηχογράφηση.",
+    "source_keys": [
+      "extinction_intel"
+    ],
+    "audio_original": "audio/original/extinction/awakening_01.mp3",
+    "audio_narration": "audio/narration/extinction/awakening_01.mp3"
+  },
+  {
+    "id": "EXT-AWA-02",
+    "map": "Awakening",
+    "title": "Guardian Angel",
+    "kind": "Πληροφορία ιστορίας",
+    "unlock": "υπολογιστής / Search Pile",
+    "summary": "Το Guardian Angel αποτελεί μέρος του αρχείου πληροφοριών του Extinction για το Awakening. Το Ghost Project το καταγράφει με βάση τον τίτλο και τον τρόπο ξεκλειδώματος χωρίς να αναπαράγει ολόκληρη την προστατευόμενη ηχογράφηση.",
+    "source_keys": [
+      "extinction_intel"
+    ],
+    "audio_original": "audio/original/extinction/awakening_02.mp3",
+    "audio_narration": "audio/narration/extinction/awakening_02.mp3"
+  },
+  {
+    "id": "EXT-AWA-03",
+    "map": "Awakening",
+    "title": "Fugitive",
+    "kind": "Πληροφορία ιστορίας",
+    "unlock": "υπολογιστής / Search Pile",
+    "summary": "Το Fugitive αποτελεί μέρος του αρχείου πληροφοριών του Extinction για το Awakening. Το Ghost Project το καταγράφει με βάση τον τίτλο και τον τρόπο ξεκλειδώματος χωρίς να αναπαράγει ολόκληρη την προστατευόμενη ηχογράφηση.",
+    "source_keys": [
+      "extinction_intel"
+    ],
+    "audio_original": "audio/original/extinction/awakening_03.mp3",
+    "audio_narration": "audio/narration/extinction/awakening_03.mp3"
+  },
+  {
+    "id": "EXT-AWA-04",
+    "map": "Awakening",
+    "title": "Defector",
+    "kind": "Πληροφορία ιστορίας",
+    "unlock": "υπολογιστής / Search Pile",
+    "summary": "Το Defector αποτελεί μέρος του αρχείου πληροφοριών του Extinction για το Awakening. Το Ghost Project το καταγράφει με βάση τον τίτλο και τον τρόπο ξεκλειδώματος χωρίς να αναπαράγει ολόκληρη την προστατευόμενη ηχογράφηση.",
+    "source_keys": [
+      "extinction_intel"
+    ],
+    "audio_original": "audio/original/extinction/awakening_04.mp3",
+    "audio_narration": "audio/narration/extinction/awakening_04.mp3"
+  },
+  {
+    "id": "EXT-AWA-05",
+    "map": "Awakening",
+    "title": "Dead or Alive",
+    "kind": "Πληροφορία ιστορίας",
+    "unlock": "υπολογιστής / Search Pile",
+    "summary": "Το Dead or Alive αποτελεί μέρος του αρχείου πληροφοριών του Extinction για το Awakening. Το Ghost Project το καταγράφει με βάση τον τίτλο και τον τρόπο ξεκλειδώματος χωρίς να αναπαράγει ολόκληρη την προστατευόμενη ηχογράφηση.",
+    "source_keys": [
+      "extinction_intel"
+    ],
+    "audio_original": "audio/original/extinction/awakening_05.mp3",
+    "audio_narration": "audio/narration/extinction/awakening_05.mp3"
+  },
+  {
+    "id": "EXT-AWA-06",
+    "map": "Awakening",
+    "title": "The Cortex",
+    "kind": "Πληροφορία ιστορίας",
+    "unlock": "υπολογιστής / Search Pile",
+    "summary": "Το The Cortex αποτελεί μέρος του αρχείου πληροφοριών του Extinction για το Awakening. Το Ghost Project το καταγράφει με βάση τον τίτλο και τον τρόπο ξεκλειδώματος χωρίς να αναπαράγει ολόκληρη την προστατευόμενη ηχογράφηση.",
+    "source_keys": [
+      "extinction_intel"
+    ],
+    "audio_original": "audio/original/extinction/awakening_06.mp3",
+    "audio_narration": "audio/narration/extinction/awakening_06.mp3"
+  },
+  {
+    "id": "EXT-AWA-07",
+    "map": "Awakening",
+    "title": "Executioner",
+    "kind": "Πληροφορία ιστορίας",
+    "unlock": "υπολογιστής / Search Pile",
+    "summary": "Το Executioner αποτελεί μέρος του αρχείου πληροφοριών του Extinction για το Awakening. Το Ghost Project το καταγράφει με βάση τον τίτλο και τον τρόπο ξεκλειδώματος χωρίς να αναπαράγει ολόκληρη την προστατευόμενη ηχογράφηση.",
+    "source_keys": [
+      "extinction_intel"
+    ],
+    "audio_original": "audio/original/extinction/awakening_07.mp3",
+    "audio_narration": "audio/narration/extinction/awakening_07.mp3"
+  },
+  {
+    "id": "EXT-AWA-08",
+    "map": "Awakening",
+    "title": "Epilogue",
+    "kind": "Πληροφορία ιστορίας",
+    "unlock": "ξεκλειδώνεται μετά τη διαφυγή από το Awakening",
+    "summary": "Το Epilogue αποτελεί μέρος του αρχείου πληροφοριών του Extinction για το Awakening. Το Ghost Project το καταγράφει με βάση τον τίτλο και τον τρόπο ξεκλειδώματος χωρίς να αναπαράγει ολόκληρη την προστατευόμενη ηχογράφηση.",
+    "source_keys": [
+      "extinction_intel"
+    ],
+    "audio_original": "audio/original/extinction/awakening_08.mp3",
+    "audio_narration": "audio/narration/extinction/awakening_08.mp3"
+  },
+  {
+    "id": "EXT-EXO-01",
+    "map": "Exodus",
+    "title": "Prologue",
+    "kind": "Πληροφορία ιστορίας",
+    "unlock": "περιλαμβάνεται με τον χάρτη",
+    "summary": "Το Prologue αποτελεί μέρος του αρχείου πληροφοριών του Extinction για το Exodus. Το Ghost Project το καταγράφει με βάση τον τίτλο και τον τρόπο ξεκλειδώματος χωρίς να αναπαράγει ολόκληρη την προστατευόμενη ηχογράφηση.",
+    "source_keys": [
+      "extinction_intel"
+    ],
+    "audio_original": "audio/original/extinction/exodus_01.mp3",
+    "audio_narration": "audio/narration/extinction/exodus_01.mp3"
+  },
+  {
+    "id": "EXT-EXO-02",
+    "map": "Exodus",
+    "title": "Exodus",
+    "kind": "Πληροφορία ιστορίας",
+    "unlock": "tablet / Search Pile",
+    "summary": "Το Exodus αποτελεί μέρος του αρχείου πληροφοριών του Extinction για το Exodus. Το Ghost Project το καταγράφει με βάση τον τίτλο και τον τρόπο ξεκλειδώματος χωρίς να αναπαράγει ολόκληρη την προστατευόμενη ηχογράφηση.",
+    "source_keys": [
+      "extinction_intel"
+    ],
+    "audio_original": "audio/original/extinction/exodus_02.mp3",
+    "audio_narration": "audio/narration/extinction/exodus_02.mp3"
+  },
+  {
+    "id": "EXT-EXO-03",
+    "map": "Exodus",
+    "title": "Gargoyles",
+    "kind": "Πληροφορία ιστορίας",
+    "unlock": "tablet / Search Pile",
+    "summary": "Το Gargoyles αποτελεί μέρος του αρχείου πληροφοριών του Extinction για το Exodus. Το Ghost Project το καταγράφει με βάση τον τίτλο και τον τρόπο ξεκλειδώματος χωρίς να αναπαράγει ολόκληρη την προστατευόμενη ηχογράφηση.",
+    "source_keys": [
+      "extinction_intel"
+    ],
+    "audio_original": "audio/original/extinction/exodus_03.mp3",
+    "audio_narration": "audio/narration/extinction/exodus_03.mp3"
+  },
+  {
+    "id": "EXT-EXO-04",
+    "map": "Exodus",
+    "title": "Psionic Warfare",
+    "kind": "Πληροφορία ιστορίας",
+    "unlock": "tablet / Search Pile",
+    "summary": "Το Psionic Warfare αποτελεί μέρος του αρχείου πληροφοριών του Extinction για το Exodus. Το Ghost Project το καταγράφει με βάση τον τίτλο και τον τρόπο ξεκλειδώματος χωρίς να αναπαράγει ολόκληρη την προστατευόμενη ηχογράφηση.",
+    "source_keys": [
+      "extinction_intel"
+    ],
+    "audio_original": "audio/original/extinction/exodus_04.mp3",
+    "audio_narration": "audio/narration/extinction/exodus_04.mp3"
+  },
+  {
+    "id": "EXT-EXO-05",
+    "map": "Exodus",
+    "title": "Ancestor Combat",
+    "kind": "Πληροφορία ιστορίας",
+    "unlock": "tablet / Search Pile",
+    "summary": "Το Ancestor Combat αποτελεί μέρος του αρχείου πληροφοριών του Extinction για το Exodus. Το Ghost Project το καταγράφει με βάση τον τίτλο και τον τρόπο ξεκλειδώματος χωρίς να αναπαράγει ολόκληρη την προστατευόμενη ηχογράφηση.",
+    "source_keys": [
+      "extinction_intel"
+    ],
+    "audio_original": "audio/original/extinction/exodus_05.mp3",
+    "audio_narration": "audio/narration/extinction/exodus_05.mp3"
+  },
+  {
+    "id": "EXT-EXO-06",
+    "map": "Exodus",
+    "title": "The Final Option",
+    "kind": "Πληροφορία ιστορίας",
+    "unlock": "tablet / Search Pile",
+    "summary": "Το The Final Option αποτελεί μέρος του αρχείου πληροφοριών του Extinction για το Exodus. Το Ghost Project το καταγράφει με βάση τον τίτλο και τον τρόπο ξεκλειδώματος χωρίς να αναπαράγει ολόκληρη την προστατευόμενη ηχογράφηση.",
+    "source_keys": [
+      "extinction_intel"
+    ],
+    "audio_original": "audio/original/extinction/exodus_06.mp3",
+    "audio_narration": "audio/narration/extinction/exodus_06.mp3"
+  },
+  {
+    "id": "EXT-EXO-07",
+    "map": "Exodus",
+    "title": "Caller ID: Unknown",
+    "kind": "Πληροφορία ιστορίας",
+    "unlock": "tablet / Search Pile",
+    "summary": "Το Caller ID: Unknown αποτελεί μέρος του αρχείου πληροφοριών του Extinction για το Exodus. Το Ghost Project το καταγράφει με βάση τον τίτλο και τον τρόπο ξεκλειδώματος χωρίς να αναπαράγει ολόκληρη την προστατευόμενη ηχογράφηση.",
+    "source_keys": [
+      "extinction_intel"
+    ],
+    "audio_original": "audio/original/extinction/exodus_07.mp3",
+    "audio_narration": "audio/narration/extinction/exodus_07.mp3"
+  },
+  {
+    "id": "EXT-EXO-08",
+    "map": "Exodus",
+    "title": "More Than Human",
+    "kind": "Πληροφορία ιστορίας",
+    "unlock": "tablet / Search Pile",
+    "summary": "Το More Than Human αποτελεί μέρος του αρχείου πληροφοριών του Extinction για το Exodus. Το Ghost Project το καταγράφει με βάση τον τίτλο και τον τρόπο ξεκλειδώματος χωρίς να αναπαράγει ολόκληρη την προστατευόμενη ηχογράφηση.",
+    "source_keys": [
+      "extinction_intel"
+    ],
+    "audio_original": "audio/original/extinction/exodus_08.mp3",
+    "audio_narration": "audio/narration/extinction/exodus_08.mp3"
+  },
+  {
+    "id": "EXT-EXO-09",
+    "map": "Exodus",
+    "title": "Epilogue",
+    "kind": "Πληροφορία ιστορίας",
+    "unlock": "ξεκλειδώνεται μετά την ολοκλήρωση του Exodus",
+    "summary": "Το Epilogue αποτελεί μέρος του αρχείου πληροφοριών του Extinction για το Exodus. Το Ghost Project το καταγράφει με βάση τον τίτλο και τον τρόπο ξεκλειδώματος χωρίς να αναπαράγει ολόκληρη την προστατευόμενη ηχογράφηση.",
+    "source_keys": [
+      "extinction_intel"
+    ],
+    "audio_original": "audio/original/extinction/exodus_09.mp3",
+    "audio_narration": "audio/narration/extinction/exodus_09.mp3"
+  },
+  {
+    "id": "EXT-EXO-10",
+    "map": "Exodus",
+    "title": "Always Hard",
+    "kind": "Μυστική πληροφορία",
+    "unlock": "σχημάτισε τη λέξη NEVERSOFT πυροβολώντας τα γράμματα στην πινακίδα του πλυντηρίου αυτοκινήτων",
+    "summary": "Το Always Hard αποτελεί μέρος του αρχείου πληροφοριών του Extinction για το Exodus. Το Ghost Project το καταγράφει με βάση τον τίτλο και τον τρόπο ξεκλειδώματος χωρίς να αναπαράγει ολόκληρη την προστατευόμενη ηχογράφηση.",
+    "source_keys": [
+      "extinction_intel"
+    ],
+    "audio_original": "audio/original/extinction/exodus_10.mp3",
+    "audio_narration": "audio/narration/extinction/exodus_10.mp3"
+  }
+]

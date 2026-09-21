@@ -1,0 +1,650 @@
+[
+  {
+    "id": "MAP001",
+    "name": "Chasm",
+    "type": "Multiplayer",
+    "pack": "Base game",
+    "location": "Los Angeles, California",
+    "scale": "Medium-large",
+    "combat": "Vertical; close to long sightlines",
+    "description": "Bombed-out Los Angeles built around a collapsed structure, street ruins and a subway section.",
+    "dynamics": "A hanging bus and elevator can be dropped, changing traversal and creating hazards.",
+    "connections": "Uses destroyed-Los-Angeles scenery tied to the opening campaign area.",
+    "easter_eggs": "Developer-name signage and environmental jokes appear around the subway.",
+    "image_local": "images/maps/MAP001_Chasm.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "maps_roster"
+    ]
+  },
+  {
+    "id": "MAP002",
+    "name": "Flooded",
+    "type": "Multiplayer",
+    "pack": "Base game",
+    "location": "Caracas, Venezuela",
+    "scale": "Medium",
+    "combat": "Mixed; water routes and close-medium fights",
+    "description": "Devastated urban area after a dam collapse, with partially submerged streets, vehicles and buildings.",
+    "dynamics": "Players can enter the water; floating vehicles shift and affect access to higher routes.",
+    "connections": "Visually echoes the flooded Caracas events associated with Legends Never Die.",
+    "easter_eggs": "A teddy bear is hidden around the office/ventilation area.",
+    "image_local": "images/maps/MAP002_Flooded.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "maps_roster"
+    ]
+  },
+  {
+    "id": "MAP003",
+    "name": "Freight",
+    "type": "Multiplayer",
+    "pack": "Base game",
+    "location": "Industrial transport depot",
+    "scale": "Medium",
+    "combat": "Classic lanes; close-medium",
+    "description": "Rail yard and factory transport depot with train cars, warehouses, alleys and an underground flank.",
+    "dynamics": "Doors, a movable cart/gate route and a shootable ladder alter access and cover.",
+    "connections": "Grounded industrial multiplayer setting.",
+    "easter_eggs": "Includes a hidden MC Hammer reference and teddy bear.",
+    "image_local": "images/maps/MAP003_Freight.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "maps_roster"
+    ]
+  },
+  {
+    "id": "MAP004",
+    "name": "Octane",
+    "type": "Multiplayer",
+    "pack": "Base game",
+    "location": "Las Vegas, Nevada",
+    "scale": "Medium",
+    "combat": "Fast close-medium",
+    "description": "Deserted Las Vegas roadside district around a gas station, buildings and open streets.",
+    "dynamics": "The gas station can be destroyed to change cover; a trailer can reveal a care package.",
+    "connections": "Shares the Las Vegas setting used later in Sin City.",
+    "easter_eggs": "Environmental jokes and signs are scattered around the businesses.",
+    "image_local": "images/maps/MAP004_Octane.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "maps_roster"
+    ]
+  },
+  {
+    "id": "MAP005",
+    "name": "Overlord",
+    "type": "Multiplayer",
+    "pack": "Base game",
+    "location": "Atacama Desert, Chile",
+    "scale": "Medium-large",
+    "combat": "Medium-long; bunker fighting",
+    "description": "Federation satellite outpost with open desert sightlines, bunkers and a central drone facility.",
+    "dynamics": "Doors on the central building can be opened or closed to control movement.",
+    "connections": "Uses the Chilean satellite-installation setting associated with Severed Ties.",
+    "easter_eggs": "Two teddy bears can be found in a box in the tunnel.",
+    "image_local": "images/maps/MAP005_Overlord.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "maps_roster"
+    ]
+  },
+  {
+    "id": "MAP006",
+    "name": "Prison Break",
+    "type": "Multiplayer",
+    "pack": "Base game",
+    "location": "Yucatán, Mexico",
+    "scale": "Large",
+    "combat": "Mixed range; stealth-friendly",
+    "description": "Jungle prison construction site with cliffs, water, vegetation and multi-level routes.",
+    "dynamics": "A tree can be dropped to create a shortcut; logs can be released as a lethal hazard.",
+    "connections": "Shares jungle imagery with The Hunted.",
+    "easter_eggs": "Contains a hidden monkey-with-a-saw gag.",
+    "image_local": "images/maps/MAP006_Prison_Break.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "maps_roster"
+    ]
+  },
+  {
+    "id": "MAP007",
+    "name": "Siege",
+    "type": "Multiplayer",
+    "pack": "Base game",
+    "location": "Gulf of Mexico",
+    "scale": "Large",
+    "combat": "Open; medium-long",
+    "description": "Abandoned industrial island with damaged structures, rail equipment, cliffs and exposed lanes.",
+    "dynamics": "A rail car can be repositioned; a Field Order can call a Missile Strike against exposed enemies.",
+    "connections": "Fits the Federation Gulf infrastructure seen in the campaign.",
+    "easter_eggs": "A teddy bear is hidden inside a metal pipe.",
+    "image_local": "images/maps/MAP007_Siege.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "maps_roster"
+    ]
+  },
+  {
+    "id": "MAP008",
+    "name": "Sovereign",
+    "type": "Multiplayer",
+    "pack": "Base game",
+    "location": "Rio de Janeiro, Brazil",
+    "scale": "Small-medium",
+    "combat": "Fast close-medium",
+    "description": "Federation tank assembly facility with industrial lanes, machinery, catwalks and assembly-line cover.",
+    "dynamics": "The assembly line moves tanks and blocks routes; a reward can fill areas with gas and alter traversal.",
+    "connections": "Brazilian industrial setting connects with Federation weapons infrastructure.",
+    "easter_eggs": "A hard-hat teddy bear and hidden message can be found.",
+    "image_local": "images/maps/MAP008_Sovereign.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "maps_roster"
+    ]
+  },
+  {
+    "id": "MAP009",
+    "name": "Stonehaven",
+    "type": "Multiplayer",
+    "pack": "Base game",
+    "location": "Scottish Highlands, United Kingdom",
+    "scale": "Very large",
+    "combat": "Long-range; sniper-friendly",
+    "description": "Ruined castle and surrounding highland fields, cliffs and open approaches.",
+    "dynamics": "A large castle gate can be dropped and reopened with explosives.",
+    "connections": "One of Ghosts' most open multiplayer spaces.",
+    "easter_eggs": "A crashed U.S. satellite and fictional local-history signage appear.",
+    "image_local": "images/maps/MAP009_Stonehaven.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "maps_roster"
+    ]
+  },
+  {
+    "id": "MAP010",
+    "name": "Stormfront",
+    "type": "Multiplayer",
+    "pack": "Base game",
+    "location": "San Diego, California",
+    "scale": "Large",
+    "combat": "Vertical mixed range",
+    "description": "Modern city district with plazas, offices, transit infrastructure and changing storm conditions.",
+    "dynamics": "Weather intensifies during play and changes the atmosphere.",
+    "connections": "Returns to the San Diego area devastated during the campaign opening.",
+    "easter_eggs": "A teddy bear can be spotted in distant signage; survivor writing appears on walls.",
+    "image_local": "images/maps/MAP010_Stormfront.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "maps_roster"
+    ]
+  },
+  {
+    "id": "MAP011",
+    "name": "Strikezone",
+    "type": "Multiplayer",
+    "pack": "Base game",
+    "location": "San Diego, California",
+    "scale": "Small",
+    "combat": "Fast arena combat",
+    "description": "Baseball stadium and concourse designed for quick engagements and objective play.",
+    "dynamics": "A K.E.M. Strike can destroy the stadium and permanently transform the map layout for the match.",
+    "connections": "The stadium environment is associated with Struck Down.",
+    "easter_eggs": "Contains hot-dog-stand voice jokes and baseball props.",
+    "image_local": "images/maps/MAP011_Strikezone.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "maps_roster"
+    ]
+  },
+  {
+    "id": "MAP012",
+    "name": "Tremor",
+    "type": "Multiplayer",
+    "pack": "Base game",
+    "location": "Austin, Texas",
+    "scale": "Medium",
+    "combat": "Multi-level close-medium",
+    "description": "Damaged Texas urban area beside an impact crater with garages, streets and broken buildings.",
+    "dynamics": "Periodic tremors shake the battlefield and activate some hazards.",
+    "connections": "Shows wider U.S. devastation beyond the coastal campaign locations.",
+    "easter_eggs": "Graffiti and survivor-style messages include regional jokes.",
+    "image_local": "images/maps/MAP012_Tremor.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "maps_roster"
+    ]
+  },
+  {
+    "id": "MAP013",
+    "name": "Warhawk",
+    "type": "Multiplayer",
+    "pack": "Base game",
+    "location": "Morrowville, Kansas",
+    "scale": "Medium",
+    "combat": "Balanced all-range",
+    "description": "Evacuated small-town streets, shops and alleys damaged by continuing mortar fire.",
+    "dynamics": "Random mortars damage the environment; a Field Order can trigger sustained bombardment.",
+    "connections": "Represents the ruined American home front.",
+    "easter_eggs": "Multiple garden gnomes are hidden around the map.",
+    "image_local": "images/maps/MAP013_Warhawk.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "maps_roster"
+    ]
+  },
+  {
+    "id": "MAP014",
+    "name": "Whiteout",
+    "type": "Multiplayer",
+    "pack": "Base game",
+    "location": "Alaska, United States",
+    "scale": "Large",
+    "combat": "Rough terrain; medium-long",
+    "description": "Snow-covered Alaskan outpost with frozen water, cabins, oil infrastructure and broken terrain.",
+    "dynamics": "A Satellite Crash reward creates an EMP-like zone and continued SAT COM support.",
+    "connections": "Its frozen atmosphere foreshadows Nightfall's Alaskan setting.",
+    "easter_eggs": "Includes a snowman and lethal helicopter-rotor hazard.",
+    "image_local": "images/maps/MAP014_Whiteout.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "maps_roster"
+    ]
+  },
+  {
+    "id": "MAP015",
+    "name": "Free Fall",
+    "type": "Multiplayer",
+    "pack": "Bonus map",
+    "location": "Caracas, Venezuela",
+    "scale": "Small",
+    "combat": "Frenetic close-quarters",
+    "description": "Interior of a collapsing skyscraper wedged between other high-rises.",
+    "dynamics": "The structure shifts during play; a K.E.M. Strike creates a darker damaged state.",
+    "connections": "Uses Caracas skyscraper imagery associated with Federation Day.",
+    "easter_eggs": "The unstable building itself is the map's central environmental gimmick.",
+    "image_local": "images/maps/MAP015_Free_Fall.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "maps_roster"
+    ]
+  },
+  {
+    "id": "MAP016",
+    "name": "Fog",
+    "type": "Multiplayer",
+    "pack": "Onslaught",
+    "location": "Washington, United States",
+    "scale": "Medium",
+    "combat": "Mixed; horror-themed",
+    "description": "Foggy woodland/camp environment with caves, cabins and dense vegetation inspired by slasher films.",
+    "dynamics": "A unique Field Order lets the player become Michael Myers and changes the music.",
+    "connections": "One of Ghosts' strongest crossover-style map gimmicks.",
+    "easter_eggs": "Contains an Extinction Egg for the Onslaught Egg Hunt.",
+    "image_local": "images/maps/MAP016_Fog.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "maps_roster"
+    ]
+  },
+  {
+    "id": "MAP017",
+    "name": "BayView",
+    "type": "Multiplayer",
+    "pack": "Onslaught",
+    "location": "California, United States",
+    "scale": "Small",
+    "combat": "Close-medium; fast",
+    "description": "Seaside boardwalk and marina with gift shops, aquarium spaces, rooftops and coastal lanes.",
+    "dynamics": "A moving trolley provides cover; Field Orders can call artillery from an offshore destroyer.",
+    "connections": "Adds a civilian California coastal location to multiplayer.",
+    "easter_eggs": "Contains an Extinction Egg hidden around the pier.",
+    "image_local": "images/maps/MAP017_BayView.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "maps_roster"
+    ]
+  },
+  {
+    "id": "MAP018",
+    "name": "Containment",
+    "type": "Multiplayer",
+    "pack": "Onslaught",
+    "location": "Mexico",
+    "scale": "Small-medium",
+    "combat": "Close-medium; rooftop sightlines",
+    "description": "War-torn town split by a dry riverbed and centered on a bridge carrying radioactive material.",
+    "dynamics": "The hazardous central truck and elevated roofs shape movement and sightlines.",
+    "connections": "Builds on damaged Federation-region environments.",
+    "easter_eggs": "Contains an Extinction Egg.",
+    "image_local": "images/maps/MAP018_Containment.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "maps_roster"
+    ]
+  },
+  {
+    "id": "MAP019",
+    "name": "Ignition",
+    "type": "Multiplayer",
+    "pack": "Onslaught",
+    "location": "Florida, United States",
+    "scale": "Medium",
+    "combat": "Close-medium industrial",
+    "description": "Aging space-launch facility with warehouses, trenches, crawler equipment and underground routes.",
+    "dynamics": "Rocket test engines and a failed launch create major hazards.",
+    "connections": "Reimagines Scrapyard from Modern Warfare 2.",
+    "easter_eggs": "Contains an Extinction Egg after the rocket event.",
+    "image_local": "images/maps/MAP019_Ignition.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "maps_roster"
+    ]
+  },
+  {
+    "id": "MAP020",
+    "name": "Behemoth",
+    "type": "Multiplayer",
+    "pack": "Devastation",
+    "location": "South America",
+    "scale": "Medium",
+    "combat": "Close-medium with long lanes",
+    "description": "Battlefield on a gigantic excavation vehicle with narrow decks, machinery and interior control spaces.",
+    "dynamics": "Its Field Order provides an attack-helicopter reward.",
+    "connections": "Unique industrial setting centered on an enormous excavation machine.",
+    "easter_eggs": "Contains a Devastation Extinction Egg.",
+    "image_local": "images/maps/MAP020_Behemoth.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "maps_roster"
+    ]
+  },
+  {
+    "id": "MAP021",
+    "name": "Ruins",
+    "type": "Multiplayer",
+    "pack": "Devastation",
+    "location": "Mexico",
+    "scale": "Medium",
+    "combat": "Vertical close-medium",
+    "description": "Jungle-covered mountaintop Mayan ruins with temple spaces, underground areas and a threatening volcano.",
+    "dynamics": "Map events and rewards use the volcanic/temple environment.",
+    "connections": "Combines Federation-region geography with adventure-film imagery.",
+    "easter_eggs": "Contains an Extinction Egg and hidden map secrets.",
+    "image_local": "images/maps/MAP021_Ruins.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "maps_roster"
+    ]
+  },
+  {
+    "id": "MAP022",
+    "name": "Unearthed",
+    "type": "Multiplayer",
+    "pack": "Devastation",
+    "location": "Nightfall archaeological site, Yucatán, Mexico",
+    "scale": "Small",
+    "combat": "Tight close-quarters",
+    "description": "Abandoned Project Nightfall excavation site filled with Cryptid artifacts and research equipment.",
+    "dynamics": "A Field Order can unleash Seeker Cryptids; a crane puzzle can expose a Venom-X pickup.",
+    "connections": "Reimagines Dome from Modern Warfare 3 and directly connects multiplayer with Extinction lore.",
+    "easter_eggs": "Contains an Extinction Egg and Venom-X Easter egg.",
+    "image_local": "images/maps/MAP022_Unearthed.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "maps_roster"
+    ]
+  },
+  {
+    "id": "MAP023",
+    "name": "Collision",
+    "type": "Multiplayer",
+    "pack": "Devastation",
+    "location": "Brooklyn Bridge, New York City",
+    "scale": "Small-medium",
+    "combat": "Close-quarters/objective",
+    "description": "Cargo ship wrecked into the Brooklyn Bridge, with containers, damaged decks and bridge debris forming lanes.",
+    "dynamics": "Its Field Order grants A-10 strafing runs.",
+    "connections": "Echoes remotely controlled air support used in the campaign.",
+    "easter_eggs": "Contains an Extinction Egg and small toy/teddy-bear details.",
+    "image_local": "images/maps/MAP023_Collision.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "maps_roster"
+    ]
+  },
+  {
+    "id": "MAP024",
+    "name": "Pharaoh",
+    "type": "Multiplayer",
+    "pack": "Invasion",
+    "location": "Egypt",
+    "scale": "Medium",
+    "combat": "Complex multi-level mixed combat",
+    "description": "Abandoned archaeological site around an ancient Egyptian palace, temples and chambers.",
+    "dynamics": "Collapsing structures, scarab-filled urns and traps reward map knowledge.",
+    "connections": "A stylized archaeology setting distinct from the military campaign.",
+    "easter_eggs": "Anubis imagery and hidden site secrets are integrated into the map.",
+    "image_local": "images/maps/MAP024_Pharaoh.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "maps_roster"
+    ]
+  },
+  {
+    "id": "MAP025",
+    "name": "Departed",
+    "type": "Multiplayer",
+    "pack": "Invasion",
+    "location": "Mexico",
+    "scale": "Medium",
+    "combat": "Close-medium street fighting",
+    "description": "Rural Mexican town during Día de los Muertos with decorated streets, vendors and storefronts.",
+    "dynamics": "The unique Field Order unlocks the Death Mariachi reward.",
+    "connections": "Strong festival styling gives the map a distinctive identity.",
+    "easter_eggs": "Contains themed props, chickens and an Extinction Egg.",
+    "image_local": "images/maps/MAP025_Departed.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "maps_roster"
+    ]
+  },
+  {
+    "id": "MAP026",
+    "name": "Mutiny",
+    "type": "Multiplayer",
+    "pack": "Invasion",
+    "location": "Caribbean island",
+    "scale": "Small-medium",
+    "combat": "Fast close-quarters",
+    "description": "Hidden pirate cove with abandoned trading posts, prison cells, docks and twisting pathways.",
+    "dynamics": "The dense pirate hideout favors movement, flanking and short-range weapons.",
+    "connections": "A theatrical pirate setting compared with the campaign's military realism.",
+    "easter_eggs": "Hidden skeleton/pirate details, a gnome and an Extinction Egg appear.",
+    "image_local": "images/maps/MAP026_Mutiny.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "maps_roster"
+    ]
+  },
+  {
+    "id": "MAP027",
+    "name": "Favela",
+    "type": "Multiplayer",
+    "pack": "Invasion",
+    "location": "Rio de Janeiro, Brazil",
+    "scale": "Medium",
+    "combat": "Close-medium vertical urban",
+    "description": "Dense hillside neighborhood with rooftops, alleys, shops and layered elevation.",
+    "dynamics": "The map-specific reward gives control of a heavy gunship.",
+    "connections": "A refreshed remake of Favela from Modern Warfare 2.",
+    "easter_eggs": "Contains soccer details and an Extinction Egg.",
+    "image_local": "images/maps/MAP027_Favela.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "maps_roster"
+    ]
+  },
+  {
+    "id": "MAP028",
+    "name": "Dynasty",
+    "type": "Multiplayer",
+    "pack": "Nemesis",
+    "location": "China",
+    "scale": "Medium",
+    "combat": "Tight interiors plus open streets",
+    "description": "Lakeside Chinese market village with lanterns, waterside buildings, tunnels and open lanes.",
+    "dynamics": "A unique airstrike reward can be earned through its Field Order.",
+    "connections": "One of Nemesis' original maps with a historic-village aesthetic.",
+    "easter_eggs": "Contains dragons, lanterns, chickens, a teddy bear and an Extinction Egg.",
+    "image_local": "images/maps/MAP028_Dynasty.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "maps_roster"
+    ]
+  },
+  {
+    "id": "MAP029",
+    "name": "Goldrush",
+    "type": "Multiplayer",
+    "pack": "Nemesis",
+    "location": "Abandoned gold mine",
+    "scale": "Small-medium",
+    "combat": "Close-medium",
+    "description": "Mining complex of tunnels, machinery, wooden structures and mine-cart routes.",
+    "dynamics": "Mine equipment and tracks shape traversal through underground and industrial lanes.",
+    "connections": "Part of Nemesis' deliberately varied final multiplayer set.",
+    "easter_eggs": "Contains a hidden Extinction Egg.",
+    "image_local": "images/maps/MAP029_Goldrush.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "maps_roster"
+    ]
+  },
+  {
+    "id": "MAP030",
+    "name": "Showtime",
+    "type": "Multiplayer",
+    "pack": "Nemesis",
+    "location": "Stadium combat arena",
+    "scale": "Very small",
+    "combat": "Very fast close-quarters",
+    "description": "Arena/stadium reinterpretation of the classic Shipment layout.",
+    "dynamics": "Field Order effects include automated defenses, care packages and gas that pushes combat inward.",
+    "connections": "Reimagines Shipment from Call of Duty 4: Modern Warfare.",
+    "easter_eggs": "Contains an Extinction Egg and arena-show details.",
+    "image_local": "images/maps/MAP030_Showtime.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "maps_roster"
+    ]
+  },
+  {
+    "id": "MAP031",
+    "name": "Subzero",
+    "type": "Multiplayer",
+    "pack": "Nemesis",
+    "location": "Canadian submarine base",
+    "scale": "Small-medium",
+    "combat": "Close-medium",
+    "description": "Cold-weather submarine installation with military buildings, ice and exposed exterior lanes.",
+    "dynamics": "The layout mixes narrow interiors with vulnerable exterior approaches.",
+    "connections": "Completes Nemesis' geographically diverse original maps.",
+    "easter_eggs": "Contains an Extinction Egg.",
+    "image_local": "images/maps/MAP031_Subzero.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "maps_roster"
+    ]
+  },
+  {
+    "id": "MAP032",
+    "name": "Point of Contact",
+    "type": "Extinction",
+    "pack": "Base game",
+    "location": "Caldera Peak, Colorado",
+    "scale": "Large episode",
+    "combat": "Co-op PvE progression",
+    "description": "First Extinction map: Task Force Spectre destroys Cryptid Hives across three main areas before a nuclear countdown and escape.",
+    "dynamics": "Fourteen Hives including Barrier Hives structure the route; enemy types escalate through the map.",
+    "connections": "Introduces Hive drilling, Search Piles, challenges and skill-point progression.",
+    "easter_eggs": "The escape sequence sends the squad back through earlier areas under heavy pressure.",
+    "image_local": "images/maps/MAP032_Point_of_Contact.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "maps_roster"
+    ]
+  },
+  {
+    "id": "MAP033",
+    "name": "Nightfall",
+    "type": "Extinction",
+    "pack": "Onslaught",
+    "location": "Point Barrow, Alaska",
+    "scale": "Large episode",
+    "combat": "Co-op PvE / research facility",
+    "description": "Episode at an abandoned Alaskan Nightfall Program facility, expanding Samantha Cross and David Archer's story.",
+    "dynamics": "Adds major boss encounters and structured research-complex progression.",
+    "connections": "Deepens Project Nightfall lore and introduces Venom-X.",
+    "easter_eggs": "Intel files and special Easter eggs expand the hidden backstory.",
+    "image_local": "images/maps/MAP033_Nightfall.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "maps_roster"
+    ]
+  },
+  {
+    "id": "MAP034",
+    "name": "Mayday",
+    "type": "Extinction",
+    "pack": "Devastation",
+    "location": "Stormbreaker, South Pacific",
+    "scale": "Large episode",
+    "combat": "Co-op PvE / shipboard",
+    "description": "CIF Team 1 investigates the Stormbreaker vessel while pursuing Cross and the Nightfall story.",
+    "dynamics": "Shipboard areas, crafting-style interactions and the Kraken boss define the episode.",
+    "connections": "Continues the Medusa/Cortex narrative directly after Nightfall.",
+    "easter_eggs": "Kassar cinematics and additional intel are hidden across the episode.",
+    "image_local": "images/maps/MAP034_Mayday.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "maps_roster"
+    ]
+  },
+  {
+    "id": "MAP035",
+    "name": "Awakening",
+    "type": "Extinction",
+    "pack": "Invasion",
+    "location": "Ball's Pyramid, Australia",
+    "scale": "Large episode",
+    "combat": "Co-op PvE / Ancestor environment",
+    "description": "The team descends beneath Ball's Pyramid into an Ancestor Ark and alien environment.",
+    "dynamics": "Introduces more powerful Ancestor enemies and vertical underground traversal.",
+    "connections": "Expands the origin and scale of the Cryptid/Ancestor conflict.",
+    "easter_eggs": "Story intel is distributed through computers and Search Piles.",
+    "image_local": "images/maps/MAP035_Awakening.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "maps_roster"
+    ]
+  },
+  {
+    "id": "MAP036",
+    "name": "Exodus",
+    "type": "Extinction",
+    "pack": "Nemesis",
+    "location": "Exodus launch facility / defended city zone",
+    "scale": "Large episode",
+    "combat": "Co-op PvE / final defense",
+    "description": "Final Ghosts Extinction episode centered on the Medusa Device, evacuation and large Cryptid/Ancestor assaults.",
+    "dynamics": "The finale combines defensive objectives, Ancestor combat and the closing Medusa sequence.",
+    "connections": "Concludes the main Ghosts Extinction arc and leaves links used by later Call of Duty material.",
+    "easter_eggs": "Includes the secret Always Hard intel via the NEVERSOFT letter Easter egg.",
+    "image_local": "images/maps/MAP036_Exodus.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "maps_roster"
+    ]
+  }
+]

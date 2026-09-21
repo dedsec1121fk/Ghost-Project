@@ -1,0 +1,393 @@
+[
+  {
+    "id": "M01",
+    "title": "Ghost Stories",
+    "order": 1,
+    "date": "2018-07-10 / πλαίσιο αφήγησης 2028",
+    "locations": [
+      "Τροχιακός σταθμός ODIN",
+      "Σαν Ντιέγκο, Καλιφόρνια"
+    ],
+    "player": "Logan Walker / ακολουθία πληρώματος ODIN",
+    "summary": "Η εισαγωγή παρουσιάζει τον θρύλο των Ghosts και δείχνει τη Federation να καταλαμβάνει το αμερικανικό τροχιακό όπλο ODIN. Το ODIN στρέφεται εναντίον αμερικανικών πόλεων πριν καταστραφεί ο σταθμός. Δέκα χρόνια αργότερα, ο Logan και ο Hesh Walker υπηρετούν στα κατεστραμμένα σύνορα των Ηνωμένων Πολιτειών.",
+    "key_events": [
+      "Κατάληψη του ODIN",
+      "Κινητικά πλήγματα στις Ηνωμένες Πολιτείες",
+      "Άλμα δέκα ετών στον πόλεμο με τη Federation"
+    ],
+    "rorke_file": "RF01",
+    "source_keys": [
+      "ghosts_game",
+      "ghosts_timeline"
+    ],
+    "audio_narration": "audio/narration/missions/M01.mp3"
+  },
+  {
+    "id": "M02",
+    "title": "Brave New World",
+    "order": 2,
+    "date": "2028-06-06",
+    "locations": [
+      "Liberty Wall",
+      "Fort Santa Monica, Λος Άντζελες"
+    ],
+    "player": "Logan Walker",
+    "summary": "Ο Logan, ο Hesh και ο Riley επιστρέφουν από το Liberty Wall μετά από εισβολή της Federation. Στο Fort Santa Monica λαμβάνουν νέες εντολές από τον Elias Walker, ο οποίος έχει πολύ στενότερη σχέση με τους Ghosts απ’ ό,τι γνωρίζουν αρχικά οι γιοι του.",
+    "key_events": [
+      "Άμυνα του Liberty Wall",
+      "Επιστροφή στο Fort Santa Monica",
+      "Ο Elias δίνει αποστολή πέρα από το Wall"
+    ],
+    "rorke_file": "RF02",
+    "source_keys": [
+      "ghosts_game",
+      "ghosts_timeline"
+    ],
+    "audio_narration": "audio/narration/missions/M02.mp3"
+  },
+  {
+    "id": "M03",
+    "title": "No Man's Land",
+    "order": 3,
+    "date": "2028-06-07",
+    "locations": [
+      "No Man's Land",
+      "Βόρεια του Σαν Ντιέγκο, Καλιφόρνια"
+    ],
+    "player": "Logan Walker",
+    "summary": "Ο Logan, ο Hesh και ο Riley διασχίζουν την κατεστραμμένη ζώνη πέρα από το Wall. Ανακαλύπτουν δραστηριότητα της Federation γύρω από ένα σημείο συντριβής του ODIN, μαθαίνουν ότι εμπλέκεται ο Gabriel Rorke και συναντούν τους Ghost operators Merrick και Keegan.",
+    "key_events": [
+      "Αναγνώριση με τον Riley",
+      "Έρευνα στο σημείο συντριβής του ODIN",
+      "Ταυτοποίηση του Rorke",
+      "Συνάντηση με Merrick και Keegan"
+    ],
+    "rorke_file": "RF03",
+    "source_keys": [
+      "ghosts_timeline"
+    ],
+    "audio_narration": "audio/narration/missions/M03.mp3"
+  },
+  {
+    "id": "M04",
+    "title": "Struck Down",
+    "order": 4,
+    "date": "2028-06-07",
+    "locations": [
+      "Στάδιο υπό κατοχή της Federation, περιοχή Σαν Ντιέγκο"
+    ],
+    "player": "Logan Walker",
+    "summary": "Η ομάδα επιτίθεται σε στάδιο που ελέγχει η Federation για να διασώσει τον αιχμάλωτο Ghost Alex 'Ajax' Johnson. Ο Ajax βρίσκεται θανάσιμα τραυματισμένος, επιβεβαιώνοντας ότι ο Rorke κυνηγά συστηματικά τους Ghosts.",
+    "key_events": [
+      "Έφοδος στο στάδιο",
+      "Ανάκτηση του Ajax",
+      "Επιβεβαίωση της εκστρατείας του Rorke εναντίον των Ghosts"
+    ],
+    "rorke_file": "RF04",
+    "source_keys": [
+      "ghosts_game",
+      "ghosts_timeline"
+    ],
+    "audio_narration": "audio/narration/missions/M04.mp3"
+  },
+  {
+    "id": "M05",
+    "title": "Homecoming",
+    "order": 5,
+    "date": "2028-06-08",
+    "locations": [
+      "Fort Santa Monica, Λος Άντζελες, Καλιφόρνια"
+    ],
+    "player": "Logan Walker",
+    "summary": "Οι δυνάμεις της Federation εξαπολύουν μεγάλη επίθεση στο Fort Santa Monica. Ο Logan και ο Hesh βοηθούν στην άμυνα, ενώ ο πόλεμος πλησιάζει την τελευταία σημαντική αμερικανική αμυντική γραμμή της περιοχής.",
+    "key_events": [
+      "Επίθεση της Federation",
+      "Άμυνα του Fort Santa Monica",
+      "Οι αδελφοί Walker εμπλέκονται βαθύτερα στις επιχειρήσεις των Ghosts"
+    ],
+    "rorke_file": "RF05",
+    "source_keys": [
+      "ghosts_timeline"
+    ],
+    "audio_narration": "audio/narration/missions/M05.mp3"
+  },
+  {
+    "id": "M06",
+    "title": "Legends Never Die",
+    "order": 6,
+    "date": "Flashback: 2016-07-08",
+    "locations": [
+      "Καράκας, Βενεζουέλα"
+    ],
+    "player": "Elias Walker (flashback)",
+    "summary": "Ένα flashback δείχνει τους Ghosts υπό τον Gabriel Rorke κατά την Operation Return to Sender. Σκοτώνουν τον ηγέτη της Federation Diego Almagro, όμως μια καταστροφική πλημμύρα αναγκάζει τον Elias να αφήσει πίσω τον Rorke για να σώσει την υπόλοιπη ομάδα. Ο Rorke αργότερα αιχμαλωτίζεται και στρέφεται υπέρ της Federation.",
+    "key_events": [
+      "Operation Return to Sender",
+      "Θάνατος του Almagro",
+      "Πλημμύρα στο Καράκας",
+      "Εγκατάλειψη και μετέπειτα αιχμαλωσία του Rorke"
+    ],
+    "rorke_file": "RF06",
+    "source_keys": [
+      "ghosts_timeline"
+    ],
+    "audio_narration": "audio/narration/missions/M06.mp3"
+  },
+  {
+    "id": "M07",
+    "title": "Federation Day",
+    "order": 7,
+    "date": "2028-06-15",
+    "locations": [
+      "Καράκας, Βενεζουέλα"
+    ],
+    "player": "Logan Walker",
+    "summary": "Οι Ghosts διεισδύουν σε ουρανοξύστη στο Καράκας κατά τη διάρκεια του Federation Day και ανακρίνουν τον Victor Ramos για πληροφορίες σχετικά με την τοποθεσία του Rorke. Η αποστολή δείχνει πόσο βαθιά έχει ενσωματωθεί ο Rorke στις επιχειρήσεις της Federation.",
+    "key_events": [
+      "Διείσδυση σε ουρανοξύστη",
+      "Ανάκριση του Victor Ramos",
+      "Απόκτηση πληροφοριών για την τοποθεσία του Rorke"
+    ],
+    "rorke_file": "RF07",
+    "source_keys": [
+      "ghosts_timeline"
+    ],
+    "audio_narration": "audio/narration/missions/M07.mp3"
+  },
+  {
+    "id": "M08",
+    "title": "Birds of Prey",
+    "order": 8,
+    "date": "2028-06-16",
+    "locations": [
+      "Πετρελαϊκά πεδία Campeche, Κόλπος του Μεξικού"
+    ],
+    "player": "Logan Walker",
+    "summary": "Μια επίθεση με Apache υποστηρίζει τους Ghosts καθώς χτυπούν τα πετρελαϊκά πεδία όπου κρύβεται ο Rorke. Η ομάδα τον αιχμαλωτίζει και ξεκινά τη μεταφορά του πίσω προς αμερικανικό έδαφος.",
+    "key_events": [
+      "Επίθεση με Apache",
+      "Έφοδος στα πετρελαϊκά πεδία",
+      "Αιχμαλωσία του Rorke"
+    ],
+    "rorke_file": "RF08",
+    "source_keys": [
+      "ghosts_timeline"
+    ],
+    "audio_narration": "audio/narration/missions/M08.mp3"
+  },
+  {
+    "id": "M09",
+    "title": "The Hunted",
+    "order": 9,
+    "date": "2028-06-17",
+    "locations": [
+      "Ζούγκλα Γιουκατάν, Μεξικό"
+    ],
+    "player": "Logan Walker",
+    "summary": "Δυνάμεις της Federation καταστρέφουν το αεροσκάφος μεταφοράς των Ghosts και απελευθερώνουν τον Rorke. Ο Logan χωρίζεται από τους υπόλοιπους στη ζούγκλα του Γιουκατάν και πρέπει να επιβιώσει από την καταδίωξη πριν επανενωθεί με την ομάδα.",
+    "key_events": [
+      "Καταστροφή του αεροσκάφους μεταφοράς",
+      "Απόδραση του Rorke",
+      "Επιβίωση και επανένωση στη ζούγκλα"
+    ],
+    "rorke_file": "RF09",
+    "source_keys": [
+      "ghosts_timeline"
+    ],
+    "audio_narration": "audio/narration/missions/M09.mp3"
+  },
+  {
+    "id": "M10",
+    "title": "Clockwork",
+    "order": 10,
+    "date": "2028-06-20",
+    "locations": [
+      "Άνδεις, σύνορα Αργεντινής-Χιλής"
+    ],
+    "player": "Logan Walker",
+    "summary": "Μεταμφιεσμένοι με στολές της Federation, οι Ghosts διεισδύουν σε απομακρυσμένη ερευνητική βάση και κλέβουν δεδομένα υπολογιστών. Οι πληροφορίες αποκαλύπτουν μεγαλύτερα σχέδια της Federation εναντίον των Ηνωμένων Πολιτειών.",
+    "key_events": [
+      "Διείσδυση με μεταμφίεση",
+      "Κλοπή δεδομένων",
+      "Αποκάλυψη σχεδίων της Federation"
+    ],
+    "rorke_file": "RF10",
+    "source_keys": [
+      "ghosts_timeline",
+      "easter_eggs"
+    ],
+    "audio_narration": "audio/narration/missions/M10.mp3"
+  },
+  {
+    "id": "M11",
+    "title": "Atlas Falls",
+    "order": 11,
+    "date": "2028-06-25",
+    "locations": [
+      "Πλατφόρμα Atlas, Drake Passage / Ανταρκτική"
+    ],
+    "player": "Logan Walker",
+    "summary": "Οι Ghosts επιτίθενται σε κρίσιμη πετρελαϊκή πλατφόρμα της Federation για να δημιουργήσουν στρατηγικό αντιπερισπασμό και να αποδυναμώσουν τις ναυτικές επιχειρήσεις. Η πλατφόρμα καταστρέφεται ως μέρος του ευρύτερου σχεδίου για άνοιγμα διαδρόμου προς σημαντικά assets της Federation.",
+    "key_events": [
+      "Έφοδος στην πετρελαϊκή πλατφόρμα",
+      "Καταστροφή της πλατφόρμας",
+      "Αντιπερισπασμός του στόλου της Federation"
+    ],
+    "rorke_file": "RF11",
+    "source_keys": [
+      "ghosts_timeline",
+      "atlas_falls"
+    ],
+    "audio_narration": "audio/narration/missions/M11.mp3"
+  },
+  {
+    "id": "M12",
+    "title": "Into the Deep",
+    "order": 12,
+    "date": "2028-06-27",
+    "locations": [
+      "Ανοιχτά του Ρίο ντε Τζανέιρο, Βραζιλία"
+    ],
+    "player": "Logan Walker",
+    "summary": "Ο Logan και ο Keegan εκτελούν υποβρύχια επιχείρηση εναντίον σκάφους της Federation που διαθέτει καταστροφικό όπλο sonar. Ο Logan χρησιμοποιεί πύραυλο Proteus για να καταστρέψει το πλοίο.",
+    "key_events": [
+      "Υποβρύχια διείσδυση",
+      "Στόχευση ναυτικού πρωτοτύπου της Federation",
+      "Καταστροφή του σκάφους"
+    ],
+    "rorke_file": "RF12",
+    "source_keys": [
+      "ghosts_timeline"
+    ],
+    "audio_narration": "audio/narration/missions/M12.mp3"
+  },
+  {
+    "id": "M13",
+    "title": "End of the Line",
+    "order": 13,
+    "date": "2028-06-27",
+    "locations": [
+      "Εργοστάσιο όπλων της Federation, περιοχή Ρίο ντε Τζανέιρο, Βραζιλία"
+    ],
+    "player": "Logan Walker",
+    "summary": "Οι Ghosts διεισδύουν σε εγκατάσταση παραγωγής όπλων της Federation και ανακαλύπτουν ότι η Federation αναπτύσσει δικό της τροχιακό σύστημα κινητικού βομβαρδισμού, το οποίο αργότερα αναγνωρίζεται ως LOKI.",
+    "key_events": [
+      "Διείσδυση στο εργοστάσιο όπλων",
+      "Αποκάλυψη του προγράμματος LOKI",
+      "Δυνατότητα πλήγματος στο εργοστάσιο"
+    ],
+    "rorke_file": "RF13",
+    "source_keys": [
+      "ghosts_timeline"
+    ],
+    "audio_narration": "audio/narration/missions/M13.mp3"
+  },
+  {
+    "id": "M14",
+    "title": "Sin City",
+    "order": 14,
+    "date": "2028-06-28",
+    "locations": [
+      "Λας Βέγκας, Νεβάδα"
+    ],
+    "player": "Logan Walker",
+    "summary": "Ο Rorke αιχμαλωτίζει τους Ghosts στο ασφαλές καταφύγιό τους στο Λας Βέγκας. Ο Elias Walker εκτελείται μπροστά στους γιους του, μετατρέποντας τη σύγκρουση με τον Rorke σε βαθιά προσωπική βεντέτα.",
+    "key_events": [
+      "Παραβίαση του safehouse των Ghosts",
+      "Εκτέλεση του Elias από τον Rorke",
+      "Απόδραση των επιζώντων"
+    ],
+    "rorke_file": "RF14",
+    "source_keys": [
+      "ghosts_timeline"
+    ],
+    "audio_narration": "audio/narration/missions/M14.mp3"
+  },
+  {
+    "id": "M15",
+    "title": "All or Nothing",
+    "order": 15,
+    "date": "2028-07-05",
+    "locations": [
+      "USS Liberator, Ειρηνικός Ωκεανός"
+    ],
+    "player": "Logan Walker",
+    "summary": "Οι Ηνωμένες Πολιτείες χρησιμοποιούν το USS Liberator σε μια τελική προσπάθεια να σταματήσουν το τροχιακό όπλο της Federation. Ο Logan και ο Hesh υπερασπίζονται το αεροπλανοφόρο κατά τη διάρκεια τεράστιας ναυτικής και αεροπορικής μάχης.",
+    "key_events": [
+      "Εμπλοκή του USS Liberator",
+      "Μάχη γύρω από το αεροπλανοφόρο",
+      "Έναρξη της τελικής αμερικανικής αντεπίθεσης"
+    ],
+    "rorke_file": "RF15",
+    "source_keys": [
+      "ghosts_timeline"
+    ],
+    "audio_narration": "audio/narration/missions/M15.mp3"
+  },
+  {
+    "id": "M16",
+    "title": "Severed Ties",
+    "order": 16,
+    "date": "2028-07-05",
+    "locations": [
+      "Έρημος Ατακάμα, Χιλή"
+    ],
+    "player": "Badger-Two / Logan Walker",
+    "summary": "Αμερικανικές χερσαίες δυνάμεις επιτίθενται στην υποδομή ελέγχου δορυφόρων της Federation στη Χιλή. Η καταστροφή της επίγειας συστοιχίας επιτρέπει σε αμερικανική ομάδα στο διάστημα να καταλάβει το LOKI.",
+    "key_events": [
+      "Τεθωρακισμένη επίθεση",
+      "Καταστροφή της δορυφορικής συστοιχίας",
+      "Δυνατότητα κατάληψης του LOKI"
+    ],
+    "rorke_file": "RF16",
+    "source_keys": [
+      "ghosts_timeline"
+    ],
+    "audio_narration": "audio/narration/missions/M16.mp3"
+  },
+  {
+    "id": "M17",
+    "title": "Loki",
+    "order": 17,
+    "date": "2028-07-05",
+    "locations": [
+      "Τροχιακός σταθμός LOKI"
+    ],
+    "player": "Sgt. Thompson",
+    "summary": "Μια αμερικανική διαστημική ομάδα επιβιβάζεται και καταλαμβάνει τον σταθμό LOKI της Federation. Το τροχιακό όπλο στρέφεται στη συνέχεια εναντίον στρατιωτικών στόχων της Federation στο έδαφος.",
+    "key_events": [
+      "Επιβίβαση στο LOKI",
+      "Κατάληψη του σταθμού",
+      "Ανακατεύθυνση τροχιακών πληγμάτων εναντίον της Federation"
+    ],
+    "rorke_file": "RF17",
+    "source_keys": [
+      "ghosts_game",
+      "ghosts_timeline"
+    ],
+    "audio_narration": "audio/narration/missions/M17.mp3"
+  },
+  {
+    "id": "M18",
+    "title": "The Ghost Killer",
+    "order": 18,
+    "date": "2028-07-05",
+    "locations": [
+      "Τρένο ανεφοδιασμού της Federation, Έρημος Ατακάμα, Χιλή",
+      "Ακτή Ειρηνικού"
+    ],
+    "player": "Logan Walker",
+    "summary": "Ο Logan και ο Hesh επιβιβάζονται στο τρένο του Rorke για να εκδικηθούν τον Elias. Φαινομενικά τον σκοτώνουν αφού καλούν χτύπημα του LOKI στο τρένο, όμως ο Rorke επιβιώνει, αιφνιδιάζει τους αδελφούς στην ακτή και σέρνει μακριά τον Logan, αφήνοντας την campaign ιστορία άλυτη.",
+    "key_events": [
+      "Έφοδος στο τρένο",
+      "Κλήση χτυπήματος LOKI στο τρένο",
+      "Επιβίωση του Rorke",
+      "Αιχμαλωσία του Logan"
+    ],
+    "rorke_file": "RF18",
+    "source_keys": [
+      "ghosts_timeline"
+    ],
+    "audio_narration": "audio/narration/missions/M18.mp3"
+  }
+]

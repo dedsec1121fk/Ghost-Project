@@ -1,0 +1,290 @@
+[
+  {
+    "id": "RF01",
+    "collectible_number": 1,
+    "mission": "Ghost Stories",
+    "type": "Campaign collectible / ηχητικό αρχείο πληροφοριών",
+    "summary": "Παρουσιάζει πληροφορίες σχετικά με το ψυχολογικό ιστορικό του Gabriel Rorke και την παλαιότερη στρατιωτική του υπηρεσία.",
+    "location_note": "Υπάρχει ένα Rorke File collectible σε αυτή την αποστολή. Δες τον αναφερόμενο οδηγό collectibles για την ακριβή διαδρομή.",
+    "audio_url": "https://www.youtube.com/watch?v=6l4QU9fHOLQ",
+    "copyright_note": "Ο αυθεντικός ήχος του παιχνιδιού δεν περιλαμβάνεται. Μπορείς να προσθέσεις δική σου νόμιμα αποκτημένη ηχογράφηση στη διαδρομή audio_original.",
+    "source_keys": [
+      "rorke_files",
+      "rorke_video"
+    ],
+    "audio_original": "audio/original/rorke/RF01.mp3",
+    "audio_narration": "audio/narration/rorke/RF01.mp3"
+  },
+  {
+    "id": "RF02",
+    "collectible_number": 2,
+    "mission": "Brave New World",
+    "type": "Campaign collectible / ηχητικό αρχείο πληροφοριών",
+    "summary": "Προσθέτει υπόβαθρο για τον Rorke και το δίκτυο που τον παρακολουθεί ή τον μελετά.",
+    "location_note": "Υπάρχει ένα Rorke File collectible σε αυτή την αποστολή. Δες τον αναφερόμενο οδηγό collectibles για την ακριβή διαδρομή.",
+    "audio_url": "https://www.youtube.com/watch?v=6l4QU9fHOLQ",
+    "copyright_note": "Ο αυθεντικός ήχος του παιχνιδιού δεν περιλαμβάνεται. Μπορείς να προσθέσεις δική σου νόμιμα αποκτημένη ηχογράφηση στη διαδρομή audio_original.",
+    "source_keys": [
+      "rorke_files",
+      "rorke_video"
+    ],
+    "audio_original": "audio/original/rorke/RF02.mp3",
+    "audio_narration": "audio/narration/rorke/RF02.mp3"
+  },
+  {
+    "id": "RF03",
+    "collectible_number": 3,
+    "mission": "No Man's Land",
+    "type": "Campaign collectible / ηχητικό αρχείο πληροφοριών",
+    "summary": "Επεκτείνει το αρχείο γύρω από το στρατιωτικό παρελθόν του Rorke και το κυνήγι των Ghosts.",
+    "location_note": "Υπάρχει ένα Rorke File collectible σε αυτή την αποστολή. Δες τον αναφερόμενο οδηγό collectibles για την ακριβή διαδρομή.",
+    "audio_url": "https://www.youtube.com/watch?v=6l4QU9fHOLQ",
+    "copyright_note": "Ο αυθεντικός ήχος του παιχνιδιού δεν περιλαμβάνεται. Μπορείς να προσθέσεις δική σου νόμιμα αποκτημένη ηχογράφηση στη διαδρομή audio_original.",
+    "source_keys": [
+      "rorke_files",
+      "rorke_video"
+    ],
+    "audio_original": "audio/original/rorke/RF03.mp3",
+    "audio_narration": "audio/narration/rorke/RF03.mp3"
+  },
+  {
+    "id": "RF04",
+    "collectible_number": 4,
+    "mission": "Struck Down",
+    "type": "Campaign collectible / ηχητικό αρχείο πληροφοριών",
+    "summary": "Συνδέει άμεσα την εκστρατεία του Rorke με απώλειες των Ghosts και αιχμαλωτισμένο προσωπικό.",
+    "location_note": "Υπάρχει ένα Rorke File collectible σε αυτή την αποστολή. Δες τον αναφερόμενο οδηγό collectibles για την ακριβή διαδρομή.",
+    "audio_url": "https://www.youtube.com/watch?v=6l4QU9fHOLQ",
+    "copyright_note": "Ο αυθεντικός ήχος του παιχνιδιού δεν περιλαμβάνεται. Μπορείς να προσθέσεις δική σου νόμιμα αποκτημένη ηχογράφηση στη διαδρομή audio_original.",
+    "source_keys": [
+      "rorke_files",
+      "rorke_video"
+    ],
+    "audio_original": "audio/original/rorke/RF04.mp3",
+    "audio_narration": "audio/narration/rorke/RF04.mp3"
+  },
+  {
+    "id": "RF05",
+    "collectible_number": 5,
+    "mission": "Homecoming",
+    "type": "Campaign collectible / ηχητικό αρχείο πληροφοριών",
+    "summary": "Προσθέτει επιχειρησιακό πλαίσιο γύρω από την επίθεση της Federation και την καταδίωξη της ομάδας από τον Rorke.",
+    "location_note": "Υπάρχει ένα Rorke File collectible σε αυτή την αποστολή. Δες τον αναφερόμενο οδηγό collectibles για την ακριβή διαδρομή.",
+    "audio_url": "https://www.youtube.com/watch?v=6l4QU9fHOLQ",
+    "copyright_note": "Ο αυθεντικός ήχος του παιχνιδιού δεν περιλαμβάνεται. Μπορείς να προσθέσεις δική σου νόμιμα αποκτημένη ηχογράφηση στη διαδρομή audio_original.",
+    "source_keys": [
+      "rorke_files",
+      "rorke_video"
+    ],
+    "audio_original": "audio/original/rorke/RF05.mp3",
+    "audio_narration": "audio/narration/rorke/RF05.mp3"
+  },
+  {
+    "id": "RF06",
+    "collectible_number": 6,
+    "mission": "Legends Never Die",
+    "type": "Campaign collectible / ηχητικό αρχείο πληροφοριών",
+    "summary": "Παρέχει πλαίσιο για την ιστορία του Rorke με τον Elias και τους Ghosts πριν από την αποσκίρτησή του.",
+    "location_note": "Υπάρχει ένα Rorke File collectible σε αυτή την αποστολή. Δες τον αναφερόμενο οδηγό collectibles για την ακριβή διαδρομή.",
+    "audio_url": "https://www.youtube.com/watch?v=6l4QU9fHOLQ",
+    "copyright_note": "Ο αυθεντικός ήχος του παιχνιδιού δεν περιλαμβάνεται. Μπορείς να προσθέσεις δική σου νόμιμα αποκτημένη ηχογράφηση στη διαδρομή audio_original.",
+    "source_keys": [
+      "rorke_files",
+      "rorke_video"
+    ],
+    "audio_original": "audio/original/rorke/RF06.mp3",
+    "audio_narration": "audio/narration/rorke/RF06.mp3"
+  },
+  {
+    "id": "RF07",
+    "collectible_number": 7,
+    "mission": "Federation Day",
+    "type": "Campaign collectible / ηχητικό αρχείο πληροφοριών",
+    "summary": "Προσθέτει πληροφορίες που συνδέονται με τις επαφές του Rorke στη Federation και τις επιχειρήσεις στο Καράκας.",
+    "location_note": "Υπάρχει ένα Rorke File collectible σε αυτή την αποστολή. Δες τον αναφερόμενο οδηγό collectibles για την ακριβή διαδρομή.",
+    "audio_url": "https://www.youtube.com/watch?v=6l4QU9fHOLQ",
+    "copyright_note": "Ο αυθεντικός ήχος του παιχνιδιού δεν περιλαμβάνεται. Μπορείς να προσθέσεις δική σου νόμιμα αποκτημένη ηχογράφηση στη διαδρομή audio_original.",
+    "source_keys": [
+      "rorke_files",
+      "rorke_video"
+    ],
+    "audio_original": "audio/original/rorke/RF07.mp3",
+    "audio_narration": "audio/narration/rorke/RF07.mp3"
+  },
+  {
+    "id": "RF08",
+    "collectible_number": 8,
+    "mission": "Birds of Prey",
+    "type": "Campaign collectible / ηχητικό αρχείο πληροφοριών",
+    "summary": "Προσθέτει στοιχεία για το κυνήγι του Rorke καθώς οι Ghosts κινούνται για να τον αιχμαλωτίσουν.",
+    "location_note": "Υπάρχει ένα Rorke File collectible σε αυτή την αποστολή. Δες τον αναφερόμενο οδηγό collectibles για την ακριβή διαδρομή.",
+    "audio_url": "https://www.youtube.com/watch?v=6l4QU9fHOLQ",
+    "copyright_note": "Ο αυθεντικός ήχος του παιχνιδιού δεν περιλαμβάνεται. Μπορείς να προσθέσεις δική σου νόμιμα αποκτημένη ηχογράφηση στη διαδρομή audio_original.",
+    "source_keys": [
+      "rorke_files",
+      "rorke_video"
+    ],
+    "audio_original": "audio/original/rorke/RF08.mp3",
+    "audio_narration": "audio/narration/rorke/RF08.mp3"
+  },
+  {
+    "id": "RF09",
+    "collectible_number": 9,
+    "mission": "The Hunted",
+    "type": "Campaign collectible / ηχητικό αρχείο πληροφοριών",
+    "summary": "Προσθέτει πλαίσιο γύρω από τη διάσωση του Rorke και τη συνεχιζόμενη καταδίωξη από τη Federation.",
+    "location_note": "Υπάρχει ένα Rorke File collectible σε αυτή την αποστολή. Δες τον αναφερόμενο οδηγό collectibles για την ακριβή διαδρομή.",
+    "audio_url": "https://www.youtube.com/watch?v=6l4QU9fHOLQ",
+    "copyright_note": "Ο αυθεντικός ήχος του παιχνιδιού δεν περιλαμβάνεται. Μπορείς να προσθέσεις δική σου νόμιμα αποκτημένη ηχογράφηση στη διαδρομή audio_original.",
+    "source_keys": [
+      "rorke_files",
+      "rorke_video"
+    ],
+    "audio_original": "audio/original/rorke/RF09.mp3",
+    "audio_narration": "audio/narration/rorke/RF09.mp3"
+  },
+  {
+    "id": "RF10",
+    "collectible_number": 10,
+    "mission": "Clockwork",
+    "type": "Campaign collectible / ηχητικό αρχείο πληροφοριών",
+    "summary": "Επεκτείνει τη στρατηγική εικόνα που αποκαλύπτεται από τα κλεμμένα δεδομένα της Federation.",
+    "location_note": "Υπάρχει ένα Rorke File collectible σε αυτή την αποστολή. Δες τον αναφερόμενο οδηγό collectibles για την ακριβή διαδρομή.",
+    "audio_url": "https://www.youtube.com/watch?v=6l4QU9fHOLQ",
+    "copyright_note": "Ο αυθεντικός ήχος του παιχνιδιού δεν περιλαμβάνεται. Μπορείς να προσθέσεις δική σου νόμιμα αποκτημένη ηχογράφηση στη διαδρομή audio_original.",
+    "source_keys": [
+      "rorke_files",
+      "rorke_video"
+    ],
+    "audio_original": "audio/original/rorke/RF10.mp3",
+    "audio_narration": "audio/narration/rorke/RF10.mp3"
+  },
+  {
+    "id": "RF11",
+    "collectible_number": 11,
+    "mission": "Atlas Falls",
+    "type": "Campaign collectible / ηχητικό αρχείο πληροφοριών",
+    "summary": "Συνδέει την εκστρατεία του Rorke με τις επιθέσεις των Ghosts σε κρίσιμες εγκαταστάσεις της Federation.",
+    "location_note": "Υπάρχει ένα Rorke File collectible σε αυτή την αποστολή. Δες τον αναφερόμενο οδηγό collectibles για την ακριβή διαδρομή.",
+    "audio_url": "https://www.youtube.com/watch?v=6l4QU9fHOLQ",
+    "copyright_note": "Ο αυθεντικός ήχος του παιχνιδιού δεν περιλαμβάνεται. Μπορείς να προσθέσεις δική σου νόμιμα αποκτημένη ηχογράφηση στη διαδρομή audio_original.",
+    "source_keys": [
+      "rorke_files",
+      "rorke_video"
+    ],
+    "audio_original": "audio/original/rorke/RF11.mp3",
+    "audio_narration": "audio/narration/rorke/RF11.mp3"
+  },
+  {
+    "id": "RF12",
+    "collectible_number": 12,
+    "mission": "Into the Deep",
+    "type": "Campaign collectible / ηχητικό αρχείο πληροφοριών",
+    "summary": "Παρέχει επιπλέον επιχειρησιακό πλαίσιο καθώς οι Ghosts χτυπούν ναυτικούς στόχους.",
+    "location_note": "Υπάρχει ένα Rorke File collectible σε αυτή την αποστολή. Δες τον αναφερόμενο οδηγό collectibles για την ακριβή διαδρομή.",
+    "audio_url": "https://www.youtube.com/watch?v=6l4QU9fHOLQ",
+    "copyright_note": "Ο αυθεντικός ήχος του παιχνιδιού δεν περιλαμβάνεται. Μπορείς να προσθέσεις δική σου νόμιμα αποκτημένη ηχογράφηση στη διαδρομή audio_original.",
+    "source_keys": [
+      "rorke_files",
+      "rorke_video"
+    ],
+    "audio_original": "audio/original/rorke/RF12.mp3",
+    "audio_narration": "audio/narration/rorke/RF12.mp3"
+  },
+  {
+    "id": "RF13",
+    "collectible_number": 13,
+    "mission": "End of the Line",
+    "type": "Campaign collectible / ηχητικό αρχείο πληροφοριών",
+    "summary": "Προσθέτει υπόβαθρο σχετικά με το πρόγραμμα όπλων της Federation και τον ρόλο του Rorke στον πόλεμο.",
+    "location_note": "Υπάρχει ένα Rorke File collectible σε αυτή την αποστολή. Δες τον αναφερόμενο οδηγό collectibles για την ακριβή διαδρομή.",
+    "audio_url": "https://www.youtube.com/watch?v=6l4QU9fHOLQ",
+    "copyright_note": "Ο αυθεντικός ήχος του παιχνιδιού δεν περιλαμβάνεται. Μπορείς να προσθέσεις δική σου νόμιμα αποκτημένη ηχογράφηση στη διαδρομή audio_original.",
+    "source_keys": [
+      "rorke_files",
+      "rorke_video"
+    ],
+    "audio_original": "audio/original/rorke/RF13.mp3",
+    "audio_narration": "audio/narration/rorke/RF13.mp3"
+  },
+  {
+    "id": "RF14",
+    "collectible_number": 14,
+    "mission": "Sin City",
+    "type": "Campaign collectible / ηχητικό αρχείο πληροφοριών",
+    "summary": "Εμβαθύνει το αρχείο γύρω από τον Rorke αμέσως πριν και μετά την επίθεση στο Λας Βέγκας.",
+    "location_note": "Υπάρχει ένα Rorke File collectible σε αυτή την αποστολή. Δες τον αναφερόμενο οδηγό collectibles για την ακριβή διαδρομή.",
+    "audio_url": "https://www.youtube.com/watch?v=6l4QU9fHOLQ",
+    "copyright_note": "Ο αυθεντικός ήχος του παιχνιδιού δεν περιλαμβάνεται. Μπορείς να προσθέσεις δική σου νόμιμα αποκτημένη ηχογράφηση στη διαδρομή audio_original.",
+    "source_keys": [
+      "rorke_files",
+      "rorke_video"
+    ],
+    "audio_original": "audio/original/rorke/RF14.mp3",
+    "audio_narration": "audio/narration/rorke/RF14.mp3"
+  },
+  {
+    "id": "RF15",
+    "collectible_number": 15,
+    "mission": "All or Nothing",
+    "type": "Campaign collectible / ηχητικό αρχείο πληροφοριών",
+    "summary": "Προσθέτει πλαίσιο στην τελική αμερικανική αντεπίθεση και στο κυνήγι του Rorke.",
+    "location_note": "Υπάρχει ένα Rorke File collectible σε αυτή την αποστολή. Δες τον αναφερόμενο οδηγό collectibles για την ακριβή διαδρομή.",
+    "audio_url": "https://www.youtube.com/watch?v=6l4QU9fHOLQ",
+    "copyright_note": "Ο αυθεντικός ήχος του παιχνιδιού δεν περιλαμβάνεται. Μπορείς να προσθέσεις δική σου νόμιμα αποκτημένη ηχογράφηση στη διαδρομή audio_original.",
+    "source_keys": [
+      "rorke_files",
+      "rorke_video"
+    ],
+    "audio_original": "audio/original/rorke/RF15.mp3",
+    "audio_narration": "audio/narration/rorke/RF15.mp3"
+  },
+  {
+    "id": "RF16",
+    "collectible_number": 16,
+    "mission": "Severed Ties",
+    "type": "Campaign collectible / ηχητικό αρχείο πληροφοριών",
+    "summary": "Συνδέει τη χερσαία επίθεση στη Χιλή με την προσπάθεια κατάληψης του LOKI.",
+    "location_note": "Υπάρχει ένα Rorke File collectible σε αυτή την αποστολή. Δες τον αναφερόμενο οδηγό collectibles για την ακριβή διαδρομή.",
+    "audio_url": "https://www.youtube.com/watch?v=6l4QU9fHOLQ",
+    "copyright_note": "Ο αυθεντικός ήχος του παιχνιδιού δεν περιλαμβάνεται. Μπορείς να προσθέσεις δική σου νόμιμα αποκτημένη ηχογράφηση στη διαδρομή audio_original.",
+    "source_keys": [
+      "rorke_files",
+      "rorke_video"
+    ],
+    "audio_original": "audio/original/rorke/RF16.mp3",
+    "audio_narration": "audio/narration/rorke/RF16.mp3"
+  },
+  {
+    "id": "RF17",
+    "collectible_number": 17,
+    "mission": "Loki",
+    "type": "Campaign collectible / ηχητικό αρχείο πληροφοριών",
+    "summary": "Προσθέτει πληροφορίες που σχετίζονται με τη διαστημική μάχη και το τελικό στάδιο εναντίον της Federation.",
+    "location_note": "Υπάρχει ένα Rorke File collectible σε αυτή την αποστολή. Δες τον αναφερόμενο οδηγό collectibles για την ακριβή διαδρομή.",
+    "audio_url": "https://www.youtube.com/watch?v=6l4QU9fHOLQ",
+    "copyright_note": "Ο αυθεντικός ήχος του παιχνιδιού δεν περιλαμβάνεται. Μπορείς να προσθέσεις δική σου νόμιμα αποκτημένη ηχογράφηση στη διαδρομή audio_original.",
+    "source_keys": [
+      "rorke_files",
+      "rorke_video"
+    ],
+    "audio_original": "audio/original/rorke/RF17.mp3",
+    "audio_narration": "audio/narration/rorke/RF17.mp3"
+  },
+  {
+    "id": "RF18",
+    "collectible_number": 18,
+    "mission": "The Ghost Killer",
+    "type": "Campaign collectible / ηχητικό αρχείο πληροφοριών",
+    "summary": "Το τελευταίο campaign collectible προσθέτει πληροφορίες για τον Rorke λίγο πριν από το cliffhanger.",
+    "location_note": "Υπάρχει ένα Rorke File collectible σε αυτή την αποστολή. Δες τον αναφερόμενο οδηγό collectibles για την ακριβή διαδρομή.",
+    "audio_url": "https://www.youtube.com/watch?v=6l4QU9fHOLQ",
+    "copyright_note": "Ο αυθεντικός ήχος του παιχνιδιού δεν περιλαμβάνεται. Μπορείς να προσθέσεις δική σου νόμιμα αποκτημένη ηχογράφηση στη διαδρομή audio_original.",
+    "source_keys": [
+      "rorke_files",
+      "rorke_video"
+    ],
+    "audio_original": "audio/original/rorke/RF18.mp3",
+    "audio_narration": "audio/narration/rorke/RF18.mp3"
+  }
+]

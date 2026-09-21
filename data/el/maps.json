@@ -1,0 +1,650 @@
+[
+  {
+    "id": "MAP001",
+    "name": "Chasm",
+    "type": "Multiplayer",
+    "pack": "Βασικό παιχνίδι",
+    "location": "Los Angeles, California",
+    "scale": "Μεσαίος-μεγάλος",
+    "combat": "Κάθετη διάταξη· από κοντινές μέχρι μεγάλες αποστάσεις",
+    "description": "Κατεστραμμένο Λος Άντζελες γύρω από πεσμένο κτίριο, ερείπια δρόμων και υπόγειο σταθμό.",
+    "dynamics": "Ένα κρεμασμένο λεωφορείο και ένα ασανσέρ μπορούν να πέσουν, αλλάζοντας τις διαδρομές και δημιουργώντας κινδύνους.",
+    "connections": "Το περιβάλλον συνδέεται οπτικά με το κατεστραμμένο Λος Άντζελες της αρχής του campaign.",
+    "easter_eggs": "Υπάρχουν developer references και μικρά περιβαλλοντικά αστεία στον υπόγειο σταθμό.",
+    "image_local": "images/maps/MAP001_Chasm.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "maps_roster"
+    ]
+  },
+  {
+    "id": "MAP002",
+    "name": "Flooded",
+    "type": "Multiplayer",
+    "pack": "Βασικό παιχνίδι",
+    "location": "Caracas, Venezuela",
+    "scale": "Μεσαίος",
+    "combat": "Μικτές αποστάσεις με υδάτινες διαδρομές και close-medium μάχες",
+    "description": "Κατεστραμμένη αστική περιοχή μετά την κατάρρευση φράγματος, με μισοβυθισμένους δρόμους, οχήματα και κτίρια.",
+    "dynamics": "Ο παίκτης μπορεί να κινηθεί μέσα στο νερό, ενώ επιπλέοντα οχήματα μετακινούνται και αλλάζουν πρόσβαση σε ψηλότερα σημεία.",
+    "connections": "Η εικόνα θυμίζει τα πλημμυρισμένα γεγονότα του Καράκας στο Legends Never Die.",
+    "easter_eggs": "Υπάρχει κρυμμένο teddy bear κοντά στο office/ventilation section.",
+    "image_local": "images/maps/MAP002_Flooded.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "maps_roster"
+    ]
+  },
+  {
+    "id": "MAP003",
+    "name": "Freight",
+    "type": "Multiplayer",
+    "pack": "Βασικό παιχνίδι",
+    "location": "Industrial transport depot",
+    "scale": "Μεσαίος",
+    "combat": "Κλασικές λωρίδες μάχης· κοντινή έως μεσαία απόσταση",
+    "description": "Σιδηροδρομικός και βιομηχανικός σταθμός μεταφορών με βαγόνια, αποθήκες, στενά και υπόγεια flank route.",
+    "dynamics": "Πόρτες, κινητό cart/gate και shootable ladder μεταβάλλουν τις διαθέσιμες διαδρομές και το cover.",
+    "connections": "Είναι καθαρά βιομηχανικός multiplayer χώρος χωρίς άμεση campaign σκηνή.",
+    "easter_eggs": "Περιλαμβάνει κρυφή αναφορά στον MC Hammer και teddy bear.",
+    "image_local": "images/maps/MAP003_Freight.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "maps_roster"
+    ]
+  },
+  {
+    "id": "MAP004",
+    "name": "Octane",
+    "type": "Multiplayer",
+    "pack": "Βασικό παιχνίδι",
+    "location": "Las Vegas, Nevada",
+    "scale": "Μεσαίος",
+    "combat": "Γρήγορη μάχη κοντινής έως μεσαίας απόστασης",
+    "description": "Εγκαταλελειμμένη περιοχή του Λας Βέγκας γύρω από βενζινάδικο, κτίρια και ανοιχτούς δρόμους.",
+    "dynamics": "Το βενζινάδικο μπορεί να καταστραφεί και να αλλάξει το cover, ενώ ένα trailer μπορεί να αποκαλύψει care package.",
+    "connections": "Μοιράζεται το Las Vegas setting με το Sin City.",
+    "easter_eggs": "Υπάρχουν περιβαλλοντικά αστεία και ιδιαίτερες πινακίδες γύρω από τα εγκαταλελειμμένα καταστήματα.",
+    "image_local": "images/maps/MAP004_Octane.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "maps_roster"
+    ]
+  },
+  {
+    "id": "MAP005",
+    "name": "Overlord",
+    "type": "Multiplayer",
+    "pack": "Βασικό παιχνίδι",
+    "location": "Atacama Desert, Chile",
+    "scale": "Μεσαίος-μεγάλος",
+    "combat": "Μεσαία έως μεγάλη απόσταση με μάχη σε bunkers",
+    "description": "Στρατιωτικό δορυφορικό φυλάκιο της Federation με έρημο, bunkers και κεντρική εγκατάσταση drones.",
+    "dynamics": "Οι πόρτες του κεντρικού κτιρίου ανοίγουν/κλείνουν ώστε να ελέγχεται η κίνηση μέσα από το κέντρο.",
+    "connections": "Συνδέεται με τις δορυφορικές εγκαταστάσεις της Χιλής στο Severed Ties.",
+    "easter_eggs": "Δύο teddy bears βρίσκονται κρυμμένα μέσα σε κουτί στο tunnel.",
+    "image_local": "images/maps/MAP005_Overlord.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "maps_roster"
+    ]
+  },
+  {
+    "id": "MAP006",
+    "name": "Prison Break",
+    "type": "Multiplayer",
+    "pack": "Βασικό παιχνίδι",
+    "location": "Yucatán, Mexico",
+    "scale": "Μεγάλος",
+    "combat": "Μικτές αποστάσεις, κατάλληλο και για stealth προσέγγιση",
+    "description": "Φυλακή μέσα στη ζούγκλα με γκρεμούς, νερό, βλάστηση και διαδρομές πολλών επιπέδων.",
+    "dynamics": "Ένα δέντρο μπορεί να πέσει δημιουργώντας shortcut, ενώ κορμοί μπορούν να απελευθερωθούν ως θανατηφόρο environmental hazard.",
+    "connections": "Η ζούγκλα παραπέμπει στην ατμόσφαιρα του The Hunted.",
+    "easter_eggs": "Περιλαμβάνει κρυμμένο αστείο με monkey-with-a-saw.",
+    "image_local": "images/maps/MAP006_Prison_Break.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "maps_roster"
+    ]
+  },
+  {
+    "id": "MAP007",
+    "name": "Siege",
+    "type": "Multiplayer",
+    "pack": "Βασικό παιχνίδι",
+    "location": "Gulf of Mexico",
+    "scale": "Μεγάλος",
+    "combat": "Ανοιχτή μάχη μεσαίας έως μεγάλης απόστασης",
+    "description": "Εγκαταλελειμμένο βιομηχανικό νησί με κατεστραμμένες εγκαταστάσεις, βράχια και ανοιχτές γραμμές βολής.",
+    "dynamics": "Rail car μπορεί να μετακινηθεί και Field Order μπορεί να καλέσει Missile Strike εναντίον εκτεθειμένων εχθρών.",
+    "connections": "Ταιριάζει στις υπεράκτιες βιομηχανικές εγκαταστάσεις της Federation.",
+    "easter_eggs": "Κρυμμένο teddy bear βρίσκεται μέσα σε μεταλλικό σωλήνα.",
+    "image_local": "images/maps/MAP007_Siege.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "maps_roster"
+    ]
+  },
+  {
+    "id": "MAP008",
+    "name": "Sovereign",
+    "type": "Multiplayer",
+    "pack": "Βασικό παιχνίδι",
+    "location": "Rio de Janeiro, Brazil",
+    "scale": "Μικρός-μεσαίος",
+    "combat": "Γρήγορη μάχη κοντινής έως μεσαίας απόστασης",
+    "description": "Εργοστάσιο συναρμολόγησης αρμάτων της Federation με μηχανήματα, catwalks και στενούς διαδρόμους.",
+    "dynamics": "Η γραμμή συναρμολόγησης κινεί άρματα και κλείνει διαδρομές, ενώ ειδικό reward γεμίζει περιοχές με αέριο.",
+    "connections": "Το βραζιλιάνικο industrial setting συνδέεται με τη στρατιωτική βιομηχανία της Federation.",
+    "easter_eggs": "Υπάρχει teddy bear με κράνος και κρυφό μήνυμα σε restricted area.",
+    "image_local": "images/maps/MAP008_Sovereign.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "maps_roster"
+    ]
+  },
+  {
+    "id": "MAP009",
+    "name": "Stonehaven",
+    "type": "Multiplayer",
+    "pack": "Βασικό παιχνίδι",
+    "location": "Scottish Highlands, United Kingdom",
+    "scale": "Πολύ μεγάλος",
+    "combat": "Μεγάλες αποστάσεις, κατάλληλο για snipers",
+    "description": "Ερειπωμένο κάστρο στα Highlands της Σκωτίας με πολύ ανοιχτή διάταξη και μεγάλες αποστάσεις.",
+    "dynamics": "Η μεγάλη πύλη του κάστρου μπορεί να πέσει και να ξανανοίξει με explosives.",
+    "connections": "Είναι ένας από τους πιο ανοιχτούς multiplayer χώρους του Ghosts, σχεδιασμένος για μεγάλες αποστάσεις.",
+    "easter_eggs": "Υπάρχει crashed U.S. satellite και fictional local-history signage.",
+    "image_local": "images/maps/MAP009_Stonehaven.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "maps_roster"
+    ]
+  },
+  {
+    "id": "MAP010",
+    "name": "Stormfront",
+    "type": "Multiplayer",
+    "pack": "Βασικό παιχνίδι",
+    "location": "San Diego, California",
+    "scale": "Μεγάλος",
+    "combat": "Κάθετη διάταξη με μικτές αποστάσεις",
+    "description": "Σύγχρονη αστική περιοχή με γραφεία, πλατείες και καιρικές συνθήκες που χειροτερεύουν κατά τη μάχη.",
+    "dynamics": "Ο καιρός χειροτερεύει κατά τη διάρκεια του match και η καταιγίδα αλλάζει την ατμόσφαιρα.",
+    "connections": "Επιστρέφει στην περιοχή του San Diego που καταστρέφεται στην αρχή του campaign.",
+    "easter_eggs": "Υπάρχουν teddy bear σε μακρινή πινακίδα και survivor-style μηνύματα στους τοίχους.",
+    "image_local": "images/maps/MAP010_Stormfront.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "maps_roster"
+    ]
+  },
+  {
+    "id": "MAP011",
+    "name": "Strikezone",
+    "type": "Multiplayer",
+    "pack": "Βασικό παιχνίδι",
+    "location": "San Diego, California",
+    "scale": "Μικρός",
+    "combat": "Γρήγορη μάχη τύπου arena",
+    "description": "Στάδιο baseball και διάδρομοι σχεδιασμένοι για γρήγορες μάχες και objective modes.",
+    "dynamics": "K.E.M. Strike μπορεί να καταστρέψει το στάδιο και να αλλάξει μόνιμα τη διάταξη για το υπόλοιπο match.",
+    "connections": "Το στάδιο συνδέεται με το περιβάλλον του Struck Down.",
+    "easter_eggs": "Υπάρχουν αστεία voice lines σε hot-dog stand και πολλά baseball props.",
+    "image_local": "images/maps/MAP011_Strikezone.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "maps_roster"
+    ]
+  },
+  {
+    "id": "MAP012",
+    "name": "Tremor",
+    "type": "Multiplayer",
+    "pack": "Βασικό παιχνίδι",
+    "location": "Austin, Texas",
+    "scale": "Μεσαίος",
+    "combat": "Πολλαπλά επίπεδα, κοντινή έως μεσαία μάχη",
+    "description": "Κατεστραμμένη περιοχή του Τέξας δίπλα σε κρατήρα πρόσκρουσης με δρόμους, garages και σεισμικά συμβάντα.",
+    "dynamics": "Περιοδικοί σεισμοί ταρακουνούν τον χάρτη και ενεργοποιούν ορισμένα hazards.",
+    "connections": "Δείχνει την ευρύτερη καταστροφή των ΗΠΑ πέρα από τις campaign coastal περιοχές.",
+    "easter_eggs": "Graffiti και survivor μηνύματα περιλαμβάνουν τοπικά αστεία.",
+    "image_local": "images/maps/MAP012_Tremor.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "maps_roster"
+    ]
+  },
+  {
+    "id": "MAP013",
+    "name": "Warhawk",
+    "type": "Multiplayer",
+    "pack": "Βασικό παιχνίδι",
+    "location": "Morrowville, Kansas",
+    "scale": "Μεσαίος",
+    "combat": "Ισορροπημένη μάχη σε όλες τις αποστάσεις",
+    "description": "Εκκενωμένη αμερικανική μικρή πόλη με δρόμους, καταστήματα και συνεχείς επιθέσεις όλμων.",
+    "dynamics": "Τυχαίοι όλμοι καταστρέφουν το περιβάλλον και ειδικό Field Order ενεργοποιεί παρατεταμένο mortar fire.",
+    "connections": "Αναπαριστά το κατεστραμμένο αμερικανικό home front.",
+    "easter_eggs": "Πολλά garden gnomes είναι κρυμμένα σε διαφορετικά σημεία.",
+    "image_local": "images/maps/MAP013_Warhawk.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "maps_roster"
+    ]
+  },
+  {
+    "id": "MAP014",
+    "name": "Whiteout",
+    "type": "Multiplayer",
+    "pack": "Βασικό παιχνίδι",
+    "location": "Alaska, United States",
+    "scale": "Μεγάλος",
+    "combat": "Δύσβατο έδαφος, μεσαία έως μεγάλη απόσταση",
+    "description": "Χιονισμένο φυλάκιο στην Αλάσκα με παγωμένο νερό, cabins και πετρελαϊκές εγκαταστάσεις.",
+    "dynamics": "Satellite Crash reward δημιουργεί EMP-like ζώνη και συνεχιζόμενη υποστήριξη SAT COM.",
+    "connections": "Η παγωμένη ατμόσφαιρα προϊδεάζει για το Alaskan setting του Nightfall.",
+    "easter_eggs": "Περιλαμβάνει snowman και θανατηφόρο hazard από rotor ελικοπτέρου.",
+    "image_local": "images/maps/MAP014_Whiteout.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "maps_roster"
+    ]
+  },
+  {
+    "id": "MAP015",
+    "name": "Free Fall",
+    "type": "Multiplayer",
+    "pack": "Bonus map",
+    "location": "Caracas, Venezuela",
+    "scale": "Μικρός",
+    "combat": "Πολύ γρήγορη close-quarters μάχη",
+    "description": "Εσωτερικό ουρανοξύστη που καταρρέει ανάμεσα σε ψηλά κτίρια στο Καράκας.",
+    "dynamics": "Το κτίριο μετακινείται κατά τη μάχη και αλλάζει sightlines, ενώ K.E.M. Strike δημιουργεί πιο σκοτεινή κατεστραμμένη κατάσταση.",
+    "connections": "Χρησιμοποιεί skyscraper εικόνα του Καράκας που θυμίζει Federation Day.",
+    "easter_eggs": "Η αστάθεια του ίδιου του κτιρίου είναι το βασικό περιβαλλοντικό gimmick.",
+    "image_local": "images/maps/MAP015_Free_Fall.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "maps_roster"
+    ]
+  },
+  {
+    "id": "MAP016",
+    "name": "Fog",
+    "type": "Multiplayer",
+    "pack": "Onslaught",
+    "location": "Washington, United States",
+    "scale": "Μεσαίος",
+    "combat": "Μικτές αποστάσεις με horror θεματολογία",
+    "description": "Ομιχλώδες δάσος/camp με σπηλιές και cabins, εμπνευσμένο από slasher ταινίες.",
+    "dynamics": "Μοναδικό Field Order μετατρέπει τον παίκτη σε Michael Myers και αλλάζει τη μουσική του match.",
+    "connections": "Είναι από τα πιο έντονα crossover-style gimmicks του Ghosts.",
+    "easter_eggs": "Περιλαμβάνει Extinction Egg για το Onslaught Egg Hunt.",
+    "image_local": "images/maps/MAP016_Fog.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "maps_roster"
+    ]
+  },
+  {
+    "id": "MAP017",
+    "name": "BayView",
+    "type": "Multiplayer",
+    "pack": "Onslaught",
+    "location": "California, United States",
+    "scale": "Μικρός",
+    "combat": "Γρήγορη κοντινή έως μεσαία μάχη",
+    "description": "Παραθαλάσσιος boardwalk και marina στην Καλιφόρνια με μαγαζιά, rooftops και κινούμενο trolley.",
+    "dynamics": "Κινούμενο trolley λειτουργεί ως cover και Field Order καλεί artillery από offshore destroyer.",
+    "connections": "Προσθέτει πολιτικό/τουριστικό California coastal setting στο multiplayer.",
+    "easter_eggs": "Περιλαμβάνει Extinction Egg κρυμμένο κοντά στο pier.",
+    "image_local": "images/maps/MAP017_BayView.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "maps_roster"
+    ]
+  },
+  {
+    "id": "MAP018",
+    "name": "Containment",
+    "type": "Multiplayer",
+    "pack": "Onslaught",
+    "location": "Mexico",
+    "scale": "Μικρός-μεσαίος",
+    "combat": "Κοντινή έως μεσαία μάχη με rooftop sightlines",
+    "description": "Κατεστραμμένη πόλη χωρισμένη από ξερή κοίτη ποταμού, με ραδιενεργό φορτίο στο κέντρο.",
+    "dynamics": "Το ραδιενεργό φορτίο στο κέντρο και τα rooftops καθορίζουν τις διαδρομές και τα sightlines.",
+    "connections": "Συνεχίζει την εικόνα κατεστραμμένων περιοχών υπό τη Federation.",
+    "easter_eggs": "Περιλαμβάνει Extinction Egg.",
+    "image_local": "images/maps/MAP018_Containment.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "maps_roster"
+    ]
+  },
+  {
+    "id": "MAP019",
+    "name": "Ignition",
+    "type": "Multiplayer",
+    "pack": "Onslaught",
+    "location": "Florida, United States",
+    "scale": "Μεσαίος",
+    "combat": "Κοντινή έως μεσαία βιομηχανική μάχη",
+    "description": "Παλιό διαστημικό launch facility στη Florida, reimagining του Scrapyard.",
+    "dynamics": "Rocket test engines και failed launch δημιουργούν σημαντικά environmental hazards.",
+    "connections": "Είναι reimagining του Scrapyard από Modern Warfare 2.",
+    "easter_eggs": "Περιλαμβάνει Extinction Egg μετά το rocket event.",
+    "image_local": "images/maps/MAP019_Ignition.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "maps_roster"
+    ]
+  },
+  {
+    "id": "MAP020",
+    "name": "Behemoth",
+    "type": "Multiplayer",
+    "pack": "Devastation",
+    "location": "South America",
+    "scale": "Μεσαίος",
+    "combat": "Κοντινή έως μεσαία μάχη με ορισμένες μεγάλες λωρίδες",
+    "description": "Πεδίο μάχης πάνω σε τεράστιο όχημα εκσκαφής με μηχανήματα και στενά decks.",
+    "dynamics": "Το Field Order δίνει attack-helicopter reward πάνω από το τεράστιο excavator.",
+    "connections": "Μοναδικό industrial setting χτισμένο πάνω σε γιγάντια μηχανή εκσκαφής.",
+    "easter_eggs": "Περιλαμβάνει Extinction Egg του Devastation.",
+    "image_local": "images/maps/MAP020_Behemoth.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "maps_roster"
+    ]
+  },
+  {
+    "id": "MAP021",
+    "name": "Ruins",
+    "type": "Multiplayer",
+    "pack": "Devastation",
+    "location": "Mexico",
+    "scale": "Μεσαίος",
+    "combat": "Κάθετη close-medium μάχη",
+    "description": "Ερειπωμένος χώρος των Μάγια πάνω σε βουνό με ναούς, υπόγεια τμήματα και ηφαίστειο.",
+    "dynamics": "Τα map events και rewards αξιοποιούν το ηφαίστειο, τον ναό και το vertical terrain.",
+    "connections": "Συνδυάζει Federation-region γεωγραφία με adventure-style αισθητική.",
+    "easter_eggs": "Περιλαμβάνει Extinction Egg και κρυφά map secrets.",
+    "image_local": "images/maps/MAP021_Ruins.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "maps_roster"
+    ]
+  },
+  {
+    "id": "MAP022",
+    "name": "Unearthed",
+    "type": "Multiplayer",
+    "pack": "Devastation",
+    "location": "Nightfall archaeological site, Yucatán, Mexico",
+    "scale": "Μικρός",
+    "combat": "Σφιχτή close-quarters διάταξη",
+    "description": "Project Nightfall excavation site με Cryptid artifacts, research εξοπλισμό και Venom-X secret.",
+    "dynamics": "Field Order μπορεί να απελευθερώσει Seeker Cryptids, ενώ crane puzzle αποκαλύπτει Venom-X pickup.",
+    "connections": "Είναι reimagining του Dome από Modern Warfare 3 και άμεση σύνδεση multiplayer με Extinction lore.",
+    "easter_eggs": "Περιλαμβάνει Extinction Egg και Venom-X Easter egg.",
+    "image_local": "images/maps/MAP022_Unearthed.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "maps_roster"
+    ]
+  },
+  {
+    "id": "MAP023",
+    "name": "Collision",
+    "type": "Multiplayer",
+    "pack": "Devastation",
+    "location": "Brooklyn Bridge, New York City",
+    "scale": "Μικρός-μεσαίος",
+    "combat": "Close-quarters μάχη με έμφαση στα objectives",
+    "description": "Cargo ship που έχει συντριβεί στη Brooklyn Bridge με containers και συντρίμμια.",
+    "dynamics": "Το Field Order δίνει A-10 strafing runs πάνω από τον χάρτη.",
+    "connections": "Παραπέμπει στη remote air support λογική που χρησιμοποιείται και στο campaign.",
+    "easter_eggs": "Περιλαμβάνει Extinction Egg και μικρά toy/teddy-bear details.",
+    "image_local": "images/maps/MAP023_Collision.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "maps_roster"
+    ]
+  },
+  {
+    "id": "MAP024",
+    "name": "Pharaoh",
+    "type": "Multiplayer",
+    "pack": "Invasion",
+    "location": "Egypt",
+    "scale": "Μεσαίος",
+    "combat": "Σύνθετη μάχη πολλών επιπέδων και αποστάσεων",
+    "description": "Αιγυπτιακός αρχαιολογικός χώρος με παλάτι, temples, traps και scarabs.",
+    "dynamics": "Καταρρεύσεις, scarab urns και traps ανταμείβουν τη γνώση του χάρτη.",
+    "connections": "Προσφέρει archaeology/adventure setting διαφορετικό από το στρατιωτικό campaign.",
+    "easter_eggs": "Anubis imagery και κρυμμένα secrets ενσωματώνονται στον χώρο.",
+    "image_local": "images/maps/MAP024_Pharaoh.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "maps_roster"
+    ]
+  },
+  {
+    "id": "MAP025",
+    "name": "Departed",
+    "type": "Multiplayer",
+    "pack": "Invasion",
+    "location": "Mexico",
+    "scale": "Μεσαίος",
+    "combat": "Μάχη δρόμου κοντινής έως μεσαίας απόστασης",
+    "description": "Μεξικανική πόλη κατά το Día de los Muertos με διακοσμημένους δρόμους και Death Mariachi reward.",
+    "dynamics": "Το ειδικό Field Order ξεκλειδώνει το Death Mariachi reward.",
+    "connections": "Το Día de los Muertos styling δίνει στον χάρτη ιδιαίτερα αναγνωρίσιμη ταυτότητα.",
+    "easter_eggs": "Περιλαμβάνει themed props, chickens και Extinction Egg.",
+    "image_local": "images/maps/MAP025_Departed.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "maps_roster"
+    ]
+  },
+  {
+    "id": "MAP026",
+    "name": "Mutiny",
+    "type": "Multiplayer",
+    "pack": "Invasion",
+    "location": "Caribbean island",
+    "scale": "Μικρός-μεσαίος",
+    "combat": "Γρήγορη close-quarters μάχη",
+    "description": "Κρυμμένος πειρατικός όρμος στην Καραϊβική με docks, prison cells και στενά περάσματα.",
+    "dynamics": "Η πυκνή pirate διάταξη ευνοεί γρήγορο flanking και short-range weapons.",
+    "connections": "Είναι θεατρικό pirate setting σε αντίθεση με τον στρατιωτικό ρεαλισμό του campaign.",
+    "easter_eggs": "Υπάρχουν skeleton/pirate details, κρυμμένο gnome και Extinction Egg.",
+    "image_local": "images/maps/MAP026_Mutiny.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "maps_roster"
+    ]
+  },
+  {
+    "id": "MAP027",
+    "name": "Favela",
+    "type": "Multiplayer",
+    "pack": "Invasion",
+    "location": "Rio de Janeiro, Brazil",
+    "scale": "Μεσαίος",
+    "combat": "Κάθετη αστική μάχη κοντινής έως μεσαίας απόστασης",
+    "description": "Πυκνή γειτονιά στο Rio de Janeiro με rooftops, σοκάκια και κάθετη διάταξη.",
+    "dynamics": "Το map-specific reward δίνει έλεγχο heavy gunship.",
+    "connections": "Είναι ανανεωμένο remake του Favela από Modern Warfare 2.",
+    "easter_eggs": "Περιλαμβάνει soccer-themed details και Extinction Egg.",
+    "image_local": "images/maps/MAP027_Favela.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "maps_roster"
+    ]
+  },
+  {
+    "id": "MAP028",
+    "name": "Dynasty",
+    "type": "Multiplayer",
+    "pack": "Nemesis",
+    "location": "China",
+    "scale": "Μεσαίος",
+    "combat": "Στενοί εσωτερικοί χώροι μαζί με ανοιχτούς δρόμους",
+    "description": "Παραλίμνιο κινεζικό χωριό/αγορά με lanterns, tunnels και ανοιχτούς δρόμους.",
+    "dynamics": "Μοναδικό airstrike reward αποκτάται μέσω Field Order.",
+    "connections": "Ένας από τους original Nemesis χάρτες με historic-village αισθητική.",
+    "easter_eggs": "Περιλαμβάνει dragons, lanterns, chickens, teddy bear και Extinction Egg.",
+    "image_local": "images/maps/MAP028_Dynasty.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "maps_roster"
+    ]
+  },
+  {
+    "id": "MAP029",
+    "name": "Goldrush",
+    "type": "Multiplayer",
+    "pack": "Nemesis",
+    "location": "Abandoned gold mine",
+    "scale": "Μικρός-μεσαίος",
+    "combat": "Κοντινή έως μεσαία μάχη",
+    "description": "Εγκαταλελειμμένο χρυσωρυχείο με tunnels, mine carts και βιομηχανικό εξοπλισμό.",
+    "dynamics": "Mine equipment και tracks διαμορφώνουν την κίνηση μέσα στους υπόγειους/industrial διαδρόμους.",
+    "connections": "Αποτελεί μέρος του ιδιαίτερα ποικιλόμορφου Nemesis map set.",
+    "easter_eggs": "Περιλαμβάνει hidden Extinction Egg.",
+    "image_local": "images/maps/MAP029_Goldrush.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "maps_roster"
+    ]
+  },
+  {
+    "id": "MAP030",
+    "name": "Showtime",
+    "type": "Multiplayer",
+    "pack": "Nemesis",
+    "location": "Stadium combat arena",
+    "scale": "Πολύ μικρός",
+    "combat": "Εξαιρετικά γρήγορη close-quarters μάχη",
+    "description": "Arena/stadium reimagining του Shipment με εξαιρετικά γρήγορη close-quarters μάχη.",
+    "dynamics": "Field Order effects περιλαμβάνουν automated defenses, care packages και gas που πιέζει τη μάχη προς το κέντρο.",
+    "connections": "Είναι reimagining του Shipment από Call of Duty 4: Modern Warfare.",
+    "easter_eggs": "Περιλαμβάνει Extinction Egg και arena-show details.",
+    "image_local": "images/maps/MAP030_Showtime.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "maps_roster"
+    ]
+  },
+  {
+    "id": "MAP031",
+    "name": "Subzero",
+    "type": "Multiplayer",
+    "pack": "Nemesis",
+    "location": "Canadian submarine base",
+    "scale": "Μικρός-μεσαίος",
+    "combat": "Κοντινή έως μεσαία μάχη",
+    "description": "Παγωμένη καναδική βάση υποβρυχίων με στενούς εσωτερικούς και ανοιχτούς εξωτερικούς χώρους.",
+    "dynamics": "Η διάταξη συνδυάζει στενούς εσωτερικούς χώρους με εκτεθειμένες εξωτερικές προσεγγίσεις.",
+    "connections": "Ολοκληρώνει το γεωγραφικά ποικιλόμορφο Nemesis multiplayer set.",
+    "easter_eggs": "Περιλαμβάνει Extinction Egg.",
+    "image_local": "images/maps/MAP031_Subzero.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "maps_roster"
+    ]
+  },
+  {
+    "id": "MAP032",
+    "name": "Point of Contact",
+    "type": "Extinction",
+    "pack": "Βασικό παιχνίδι",
+    "location": "Caldera Peak, Colorado",
+    "scale": "Μεγάλο επεισόδιο",
+    "combat": "Co-op PvE με σταδιακή πρόοδο",
+    "description": "Πρώτος χάρτης Extinction: καταστροφή Hives σε τρεις περιοχές και τελική πυρηνική αντίστροφη μέτρηση/διαφυγή.",
+    "dynamics": "Δεκατέσσερα Hives, μαζί με Barrier Hives, οργανώνουν την πρόοδο και οι εχθροί γίνονται σταδιακά δυσκολότεροι.",
+    "connections": "Εισάγει Hive drilling, Search Piles, challenges και skill-point progression.",
+    "easter_eggs": "Η τελική διαφυγή αναγκάζει την ομάδα να επιστρέψει μέσα από προηγούμενες περιοχές υπό μεγάλη πίεση.",
+    "image_local": "images/maps/MAP032_Point_of_Contact.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "maps_roster"
+    ]
+  },
+  {
+    "id": "MAP033",
+    "name": "Nightfall",
+    "type": "Extinction",
+    "pack": "Onslaught",
+    "location": "Point Barrow, Alaska",
+    "scale": "Μεγάλο επεισόδιο",
+    "combat": "Co-op PvE σε ερευνητική εγκατάσταση",
+    "description": "Εγκατάσταση Project Nightfall στην Αλάσκα που επεκτείνει την ιστορία των Samantha Cross και David Archer.",
+    "dynamics": "Προσθέτει μεγάλα boss encounters και πιο οργανωμένη progression μέσα στο research complex.",
+    "connections": "Εμβαθύνει το Project Nightfall lore και εισάγει το Venom-X.",
+    "easter_eggs": "Intel files και ειδικά Easter eggs επεκτείνουν το κρυφό backstory.",
+    "image_local": "images/maps/MAP033_Nightfall.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "maps_roster"
+    ]
+  },
+  {
+    "id": "MAP034",
+    "name": "Mayday",
+    "type": "Extinction",
+    "pack": "Devastation",
+    "location": "Stormbreaker, South Pacific",
+    "scale": "Μεγάλο επεισόδιο",
+    "combat": "Co-op PvE πάνω σε πλοίο",
+    "description": "Έρευνα στο Stormbreaker από την CIF Team 1, με Kraken boss και συνέχεια της ιστορίας Medusa/Cortex.",
+    "dynamics": "Shipboard περιοχές, crafting-style interactions και Kraken boss καθορίζουν το επεισόδιο.",
+    "connections": "Συνεχίζει απευθείας το Medusa/Cortex narrative μετά το Nightfall.",
+    "easter_eggs": "Kassar cinematics και επιπλέον intel βρίσκονται μέσα στο επεισόδιο.",
+    "image_local": "images/maps/MAP034_Mayday.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "maps_roster"
+    ]
+  },
+  {
+    "id": "MAP035",
+    "name": "Awakening",
+    "type": "Extinction",
+    "pack": "Invasion",
+    "location": "Ball's Pyramid, Australia",
+    "scale": "Μεγάλο επεισόδιο",
+    "combat": "Co-op PvE σε περιβάλλον Ancestors",
+    "description": "Κάθοδος κάτω από το Ball's Pyramid σε Ancestor Ark και καθαρά alien περιβάλλον.",
+    "dynamics": "Εισάγει ισχυρότερους Ancestors και vertical/underground traversal.",
+    "connections": "Επεκτείνει την προέλευση και την κλίμακα της σύγκρουσης Cryptids/Ancestors.",
+    "easter_eggs": "Story intel βρίσκεται μέσα από computers και Search Piles.",
+    "image_local": "images/maps/MAP035_Awakening.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "maps_roster"
+    ]
+  },
+  {
+    "id": "MAP036",
+    "name": "Exodus",
+    "type": "Extinction",
+    "pack": "Nemesis",
+    "location": "Exodus launch facility / defended city zone",
+    "scale": "Μεγάλο επεισόδιο",
+    "combat": "Co-op PvE τελικής άμυνας",
+    "description": "Τελικό επεισόδιο Extinction με Medusa Device, evacuation και μάχη εναντίον Cryptids/Ancestors.",
+    "dynamics": "Το finale συνδυάζει defensive objectives, μάχη με Ancestors και την τελική Medusa sequence.",
+    "connections": "Ολοκληρώνει το βασικό Ghosts Extinction arc και αφήνει συνδέσεις για μεταγενέστερο Call of Duty υλικό.",
+    "easter_eggs": "Περιλαμβάνει το secret intel Always Hard μέσω του NEVERSOFT letter Easter egg.",
+    "image_local": "images/maps/MAP036_Exodus.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "maps_roster"
+    ]
+  }
+]

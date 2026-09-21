@@ -1,0 +1,58 @@
+[
+  {
+    "id": "XG01",
+    "game": "Call of Duty: Modern Warfare 2",
+    "topic": "Riley / Simon 'Ghost' Riley",
+    "summary": "Το όνομα του σκύλου Riley αποτελεί τεκμηριωμένη αναφορά στον Simon “Ghost” Riley. Πρόκειται για αναφορά και όχι απόδειξη ότι το Ghosts campaign ανήκει στην ίδια συνέχεια με το αρχικό Modern Warfare.",
+    "source_keys": [
+      "simon_ghost_trivia"
+    ]
+  },
+  {
+    "id": "XG02",
+    "game": "Call of Duty: Modern Warfare 2 -> Ghosts",
+    "topic": "Favela",
+    "summary": "Ο χάρτης Favela του Modern Warfare 2 επέστρεψε στο Call of Duty: Ghosts μέσω του Invasion DLC, με αλλαγές στο περιβάλλον.",
+    "source_keys": [
+      "favela"
+    ]
+  },
+  {
+    "id": "XG03",
+    "game": "Call of Duty: Modern Warfare series",
+    "topic": "Makarov Legend Pack",
+    "summary": "Το Ghosts έλαβε camouflage/Legend Pack με θέμα τον Makarov, αναφορά στον Vladimir Makarov της αρχικής ιστορίας Modern Warfare.",
+    "source_keys": [
+      "makarov_camo"
+    ]
+  },
+  {
+    "id": "XG04",
+    "game": "Call of Duty: Modern Warfare II (2022)",
+    "topic": "Ghost Team",
+    "summary": "Η ονομασία Joint Task Force - Ghost Team έχει τεκμηριωθεί ως αναφορά στη faction Ghosts, όμως οι δύο ομάδες δεν μοιράζονται μέλη.",
+    "source_keys": [
+      "ghosts_faction"
+    ]
+  },
+  {
+    "id": "XG05",
+    "game": "Call of Duty: Infinite Warfare - Zombies",
+    "topic": "Σύνδεση Nightfall / Extinction ως ταινία",
+    "summary": "Η ιστορία Zombies του Infinite Warfare αναφέρεται στο Nightfall ως μέρος της φανταστικής σειράς ταινιών Extinction του Willard Wyler, δημιουργώντας μια meta σύνδεση και όχι απλή κοινή ιστορική συνέχεια.",
+    "source_keys": [
+      "nightfall",
+      "beast_beyond"
+    ]
+  },
+  {
+    "id": "XG06",
+    "game": "Call of Duty: Infinite Warfare - Zombies",
+    "topic": "Cryptids και Cortex",
+    "summary": "Οι Cryptids και η ιδέα Cortex/Medusa επανεμφανίζονται ή αναφέρονται στο Infinite Warfare Zombies, ιδιαίτερα γύρω από το The Beast From Beyond και υλικό του Zombies in Spaceland.",
+    "source_keys": [
+      "cryptids",
+      "cortex"
+    ]
+  }
+]

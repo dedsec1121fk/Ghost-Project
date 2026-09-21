@@ -1,0 +1,154 @@
+[
+  {
+    "date": "2005",
+    "universe": "Campaign",
+    "event": "The Tel Aviv War contributes to a global energy crisis. Operation Sand Viper becomes the origin story for the Ghosts name.",
+    "source_keys": [
+      "ghosts_timeline"
+    ]
+  },
+  {
+    "date": "Pre-2016",
+    "universe": "Campaign",
+    "event": "Venezuela, Brazil and Chile unite under the Federation of the Americas and grow into a major power during the energy crisis.",
+    "source_keys": [
+      "ghosts_timeline"
+    ]
+  },
+  {
+    "date": "2016-07-08",
+    "universe": "Campaign",
+    "event": "Operation Return to Sender: the Ghosts kill Diego Almagro in Caracas. Elias is forced to leave Rorke behind; Rorke is later captured and turned by the Federation.",
+    "source_keys": [
+      "ghosts_timeline"
+    ]
+  },
+  {
+    "date": "2018-07-10",
+    "universe": "Campaign",
+    "event": "Federation forces hijack ODIN and launch kinetic strikes against U.S. cities before the station is destroyed.",
+    "source_keys": [
+      "ghosts_timeline"
+    ]
+  },
+  {
+    "date": "2018-2028",
+    "universe": "Campaign",
+    "event": "The Federation War settles into a ten-year stalemate while the United States fortifies surviving territory.",
+    "source_keys": [
+      "ghosts_timeline"
+    ]
+  },
+  {
+    "date": "2028-06-06",
+    "universe": "Campaign",
+    "event": "Logan, Hesh and Riley defend the Liberty Wall and receive orders from Elias.",
+    "source_keys": [
+      "ghosts_timeline"
+    ]
+  },
+  {
+    "date": "2028-06-07",
+    "universe": "Campaign",
+    "event": "The brothers enter No Man's Land, discover Rorke's involvement and attempt to rescue Ajax.",
+    "source_keys": [
+      "ghosts_timeline"
+    ]
+  },
+  {
+    "date": "2028-06-08",
+    "universe": "Campaign",
+    "event": "Fort Santa Monica is attacked by the Federation.",
+    "source_keys": [
+      "ghosts_timeline"
+    ]
+  },
+  {
+    "date": "2028-06-15",
+    "universe": "Campaign",
+    "event": "Ghosts infiltrate Caracas and interrogate Victor Ramos.",
+    "source_keys": [
+      "ghosts_timeline"
+    ]
+  },
+  {
+    "date": "2028-06-16",
+    "universe": "Campaign",
+    "event": "Ghosts capture Rorke in the Gulf of Mexico.",
+    "source_keys": [
+      "ghosts_timeline"
+    ]
+  },
+  {
+    "date": "2028-06-17",
+    "universe": "Campaign",
+    "event": "Rorke escapes after a Federation attack destroys the Ghosts' transport plane over Yucatán.",
+    "source_keys": [
+      "ghosts_timeline"
+    ]
+  },
+  {
+    "date": "2028-06-20",
+    "universe": "Campaign",
+    "event": "Clockwork operation steals Federation data from a base in the Andes.",
+    "source_keys": [
+      "ghosts_timeline"
+    ]
+  },
+  {
+    "date": "2028-06-25",
+    "universe": "Campaign",
+    "event": "The Atlas oil platform is destroyed.",
+    "source_keys": [
+      "ghosts_timeline"
+    ]
+  },
+  {
+    "date": "2028-06-27",
+    "universe": "Campaign",
+    "event": "Ghosts destroy a Federation naval weapon and uncover the Federation's orbital-weapon plan.",
+    "source_keys": [
+      "ghosts_timeline"
+    ]
+  },
+  {
+    "date": "2028-06-28",
+    "universe": "Campaign",
+    "event": "Rorke kills Elias at the Las Vegas safehouse.",
+    "source_keys": [
+      "ghosts_timeline"
+    ]
+  },
+  {
+    "date": "2028-07-05",
+    "universe": "Campaign",
+    "event": "The United States launches its final counteroffensive, captures LOKI, attacks Federation targets, and Logan/Hesh strike Rorke's train. Rorke survives and captures Logan.",
+    "source_keys": [
+      "ghosts_timeline"
+    ]
+  },
+  {
+    "date": "2017-10-30",
+    "universe": "Extinction",
+    "event": "Nightfall takes place at the Alaska facility, 14 weeks after the Colorado outbreak.",
+    "source_keys": [
+      "nightfall"
+    ]
+  },
+  {
+    "date": "2017-11-26",
+    "universe": "Extinction",
+    "event": "Awakening occurs beneath Ball's Pyramid, 36 hours after Mayday.",
+    "source_keys": [
+      "awakening"
+    ]
+  },
+  {
+    "date": "Extinction finale",
+    "universe": "Extinction",
+    "event": "Exodus culminates with the Medusa Device and an evacuation attempt while CIF Team 1 holds back the Cryptid threat.",
+    "source_keys": [
+      "exodus_facility"
+    ]
+  }
+]

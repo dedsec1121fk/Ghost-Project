@@ -1,0 +1,26 @@
+[
+  {
+    "id": "STORY-CAMPAIGN",
+    "title": "Campaign story overview",
+    "universe": "Campaign",
+    "summary": "After a global energy crisis enables the Federation of the Americas to rise, the Federation turns the U.S. ODIN orbital-defense system against the United States. Ten years later, brothers Logan and Hesh Walker fight alongside the elite Ghosts under their father Elias. Their central enemy is Gabriel Rorke, a former Ghost commander who was abandoned during a disastrous Caracas operation, captured, and turned by the Federation. The Ghosts hunt Rorke while sabotaging Federation infrastructure and eventually discover LOKI, a Federation orbital kinetic-weapon platform. During the final American counteroffensive, U.S. forces seize LOKI and use it against Federation targets. Logan and Hesh attack Rorke aboard a train and believe they have killed him, but he survives and captures Logan, ending the campaign on a cliffhanger.",
+    "source_keys": [
+      "ghosts_timeline"
+    ],
+    "audio_narration": "audio/narration/stories/campaign.mp3"
+  },
+  {
+    "id": "STORY-EXTINCTION",
+    "title": "Extinction story overview",
+    "universe": "Extinction",
+    "summary": "Extinction follows a separate Cryptid-focused storyline. Point of Contact begins the outbreak response; Nightfall reveals the secret research program around David Archer and Samantha Cross; Mayday continues the pursuit aboard the Stormbreaker and expands the Medusa/Cortex plot; Awakening takes the team into an Ancestor Ark beneath Ball's Pyramid; and Exodus concludes the main Ghosts Extinction arc around the Medusa Device, Cryptid Ancestors, and humanity's survival effort.",
+    "source_keys": [
+      "extinction_timeline",
+      "extinction_intel",
+      "nightfall",
+      "awakening",
+      "exodus_facility"
+    ],
+    "audio_narration": "audio/narration/stories/extinction.mp3"
+  }
+]

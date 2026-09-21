@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Σαν Ντιέγκο, Καλιφόρνια",
+    "universe": "Campaign",
+    "importance": "Περιοχή που καταστρέφεται από το ODIN και βασικό σκηνικό της αρχής του campaign· το No Man's Land βρίσκεται βόρεια της πόλης.",
+    "source_keys": [
+      "ghosts_timeline"
+    ]
+  },
+  {
+    "name": "Fort Santa Monica, Λος Άντζελες",
+    "universe": "Campaign",
+    "importance": "Μεγάλη αμερικανική αμυντική θέση που δέχεται επίθεση από τη Federation.",
+    "source_keys": [
+      "ghosts_timeline"
+    ]
+  },
+  {
+    "name": "Καράκας, Βενεζουέλα",
+    "universe": "Campaign",
+    "importance": "Τοποθεσία της Operation Return to Sender και της διείσδυσης κατά το Federation Day.",
+    "source_keys": [
+      "ghosts_timeline"
+    ]
+  },
+  {
+    "name": "Πετρελαϊκά πεδία Campeche, Κόλπος του Μεξικού",
+    "universe": "Campaign",
+    "importance": "Εδώ αιχμαλωτίζεται ο Rorke κατά την αεροπορικά υποστηριζόμενη έφοδο των Ghosts.",
+    "source_keys": [
+      "ghosts_timeline"
+    ]
+  },
+  {
+    "name": "Γιουκατάν, Μεξικό",
+    "universe": "Campaign",
+    "importance": "Οι Ghosts συντρίβονται εδώ αφού ο Rorke διασωθεί από τη Federation.",
+    "source_keys": [
+      "ghosts_timeline"
+    ]
+  },
+  {
+    "name": "Άνδεις / σύνορα Αργεντινής-Χιλής",
+    "universe": "Campaign",
+    "importance": "Τοποθεσία της διείσδυσης στη βάση της Federation στην αποστολή Clockwork.",
+    "source_keys": [
+      "ghosts_timeline"
+    ]
+  },
+  {
+    "name": "Πλατφόρμα Atlas / Drake Passage",
+    "universe": "Campaign",
+    "importance": "Πετρελαϊκή πλατφόρμα της Federation που καταστρέφεται από τους Ghosts.",
+    "source_keys": [
+      "ghosts_timeline"
+    ]
+  },
+  {
+    "name": "Ακτές Ρίο ντε Τζανέιρο, Βραζιλία",
+    "universe": "Campaign",
+    "importance": "Περιοχή της υποβρύχιας ναυτικής επίθεσης και της επιχείρησης στο εργοστάσιο όπλων της Federation.",
+    "source_keys": [
+      "ghosts_timeline"
+    ]
+  },
+  {
+    "name": "Λας Βέγκας, Νεβάδα",
+    "universe": "Campaign",
+    "importance": "Το safehouse των Ghosts όπου ο Elias σκοτώνεται από τον Rorke.",
+    "source_keys": [
+      "ghosts_timeline"
+    ]
+  },
+  {
+    "name": "Έρημος Ατακάμα, Χιλή",
+    "universe": "Campaign",
+    "importance": "Τελική χερσαία επίθεση, επίθεση στη δορυφορική συστοιχία και επιχείρηση στο τρένο του Rorke.",
+    "source_keys": [
+      "ghosts_timeline"
+    ]
+  },
+  {
+    "name": "Τροχιακός σταθμός LOKI",
+    "universe": "Campaign",
+    "importance": "Τροχιακό κινητικό όπλο της Federation που καταλαμβάνεται από αμερικανικές δυνάμεις.",
+    "source_keys": [
+      "ghosts_timeline"
+    ]
+  },
+  {
+    "name": "Εγκατάσταση Nightfall, Point Barrow, Αλάσκα",
+    "universe": "Extinction",
+    "importance": "Σκηνικό του Nightfall και σημαντικός ερευνητικός χώρος του Nightfall Program.",
+    "source_keys": [
+      "nightfall"
+    ]
+  },
+  {
+    "name": "Stormbreaker",
+    "universe": "Extinction",
+    "importance": "Σκηνικό του Mayday και των cinematics που αφορούν τους Kassar και Cross.",
+    "source_keys": [
+      "extinction_intel"
+    ]
+  },
+  {
+    "name": "Ball's Pyramid, Αυστραλία",
+    "universe": "Extinction",
+    "importance": "Το Awakening οδηγεί σε ένα Ancestor Ark κάτω από την περιοχή.",
+    "source_keys": [
+      "awakening"
+    ]
+  },
+  {
+    "name": "Exodus Launch Facility",
+    "universe": "Extinction",
+    "importance": "Τοποθεσία του τελικού επεισοδίου Extinction όπου ενεργοποιείται το Medusa Device.",
+    "source_keys": [
+      "exodus_facility"
+    ]
+  }
+]

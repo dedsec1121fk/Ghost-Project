@@ -1,0 +1,613 @@
+[
+  {
+    "id": "C01",
+    "name": "Logan Walker",
+    "group": "Campaign",
+    "faction": "Ghosts / U.S.",
+    "role": "Sergeant; playable protagonist",
+    "status": "P.O.W. / wounded at ending",
+    "notes": "Main playable character; son of Elias and brother of Hesh. Joins the Ghosts and is captured by Rorke after the final train battle.",
+    "image_local": "images/characters/C01_Logan_Walker.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "ghosts_faction"
+    ]
+  },
+  {
+    "id": "C02",
+    "name": "David 'Hesh' Walker",
+    "group": "Campaign",
+    "faction": "Ghosts / U.S.",
+    "role": "Lieutenant; Ghost operator",
+    "status": "Wounded; alive at ending",
+    "notes": "Logan's older brother and constant field partner throughout the campaign.",
+    "image_local": "images/characters/C02_David_Hesh_Walker.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "ghosts_faction"
+    ]
+  },
+  {
+    "id": "C03",
+    "name": "Riley",
+    "group": "Campaign",
+    "faction": "Ghosts / U.S.",
+    "role": "Military working dog / playable companion",
+    "status": "Wounded; last seen before final missions",
+    "notes": "German Shepherd used for reconnaissance, tracking and attacks; named as a reference to Simon 'Ghost' Riley.",
+    "image_local": "images/characters/C03_Riley.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "ghosts_faction"
+    ]
+  },
+  {
+    "id": "C04",
+    "name": "Elias T. 'Scarecrow' Walker",
+    "group": "Campaign",
+    "faction": "Ghosts / U.S.",
+    "role": "Captain; Ghost leader",
+    "status": "Killed by Rorke",
+    "notes": "Father of Logan and Hesh, veteran Ghost and former teammate of Rorke.",
+    "image_local": "images/characters/C04_Elias_T_Scarecrow_Walker.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "ghosts_faction"
+    ]
+  },
+  {
+    "id": "C05",
+    "name": "Thomas A. Merrick",
+    "group": "Campaign",
+    "faction": "Ghosts",
+    "role": "Captain; senior Ghost operator",
+    "status": "Alive",
+    "notes": "Veteran of the Caracas operation and senior field leader.",
+    "image_local": "images/characters/C05_Thomas_A_Merrick.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "ghosts_faction"
+    ]
+  },
+  {
+    "id": "C06",
+    "name": "Keegan P. Russ",
+    "group": "Campaign",
+    "faction": "Ghosts",
+    "role": "Sergeant; sniper/operator",
+    "status": "Active when last seen",
+    "notes": "Stealth and precision specialist who supports the Walker brothers.",
+    "image_local": "images/characters/C06_Keegan_P_Russ.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "ghosts_faction"
+    ]
+  },
+  {
+    "id": "C07",
+    "name": "Kick",
+    "group": "Campaign",
+    "faction": "Ghosts",
+    "role": "Technical/intelligence operator",
+    "status": "Alive",
+    "notes": "Ghost member strongly associated with computers, coordinates and intelligence support.",
+    "image_local": "images/characters/C07_Kick.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "ghosts_faction"
+    ]
+  },
+  {
+    "id": "C08",
+    "name": "Neptune",
+    "group": "Campaign lore",
+    "faction": "Ghosts",
+    "role": "Ghost operator",
+    "status": "Alive",
+    "notes": "Named Ghost member with limited on-screen biography.",
+    "image_local": "images/characters/C08_Neptune.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "ghosts_faction"
+    ]
+  },
+  {
+    "id": "C09",
+    "name": "Gabriel T. Rorke",
+    "group": "Campaign",
+    "faction": "Federation / former Ghosts",
+    "role": "Former Ghost captain; Federation operative",
+    "status": "Wounded; survives ending",
+    "notes": "Former Ghost commander captured and turned by the Federation; main antagonist and dedicated Ghost hunter.",
+    "image_local": "images/characters/C09_Gabriel_T_Rorke.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "ghosts_faction"
+    ]
+  },
+  {
+    "id": "C10",
+    "name": "Alex V. 'Ajax' Johnson",
+    "group": "Campaign",
+    "faction": "Ghosts / STALKER",
+    "role": "Sergeant; Ghost operator",
+    "status": "Killed",
+    "notes": "Captured and tortured by the Federation; target of the Struck Down rescue operation.",
+    "image_local": "images/characters/C10_Alex_V_Ajax_Johnson.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "ghosts_faction"
+    ]
+  },
+  {
+    "id": "C11",
+    "name": "Riddian 'Grim' Poe",
+    "group": "Campaign lore",
+    "faction": "Ghosts / STALKER",
+    "role": "Ghost operator",
+    "status": "Missing or killed",
+    "notes": "Named STALKER/Ghosts member with limited public biography.",
+    "image_local": "images/characters/C11_Riddian_Grim_Poe.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "ghosts_faction"
+    ]
+  },
+  {
+    "id": "C12",
+    "name": "Chris 'Torch' Green",
+    "group": "Campaign lore",
+    "faction": "Ghosts / STALKER",
+    "role": "Ghost operator",
+    "status": "Missing or killed",
+    "notes": "Named STALKER/Ghosts member with limited public biography.",
+    "image_local": "images/characters/C12_Chris_Torch_Green.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "ghosts_faction"
+    ]
+  },
+  {
+    "id": "C13",
+    "name": "Overlord",
+    "group": "Campaign",
+    "faction": "Ghosts / U.S.",
+    "role": "Command authority",
+    "status": "Unknown",
+    "notes": "Command/overwatch figure associated with Ghost operations.",
+    "image_local": "images/characters/C13_Overlord.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "ghosts_faction"
+    ]
+  },
+  {
+    "id": "C14",
+    "name": "Command",
+    "group": "Campaign",
+    "faction": "Ghosts",
+    "role": "Radio mission control",
+    "status": "Alive",
+    "notes": "Unseen voice relaying information to the Ghosts across multiple operations.",
+    "image_local": "images/characters/C14_Command.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "ghosts_faction"
+    ]
+  },
+  {
+    "id": "C15",
+    "name": "Badger-Two",
+    "group": "Campaign",
+    "faction": "U.S. Army",
+    "role": "Armored unit / playable role",
+    "status": "Operational during final offensive",
+    "notes": "Player role/callsign used during the armored assault in Severed Ties.",
+    "image_local": "images/characters/C15_Badger_Two.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "ghosts_faction"
+    ]
+  },
+  {
+    "id": "C16",
+    "name": "Pirate Five-Zero",
+    "group": "Campaign",
+    "faction": "U.S.",
+    "role": "Attack-helicopter callsign / playable sequence",
+    "status": "Operational",
+    "notes": "Playable helicopter role during Birds of Prey.",
+    "image_local": "images/characters/C16_Pirate_Five_Zero.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "ghosts_faction"
+    ]
+  },
+  {
+    "id": "C17",
+    "name": "Cobra One-Four",
+    "group": "Campaign",
+    "faction": "U.S. Army",
+    "role": "Supporting soldier/callsign",
+    "status": "Unknown",
+    "notes": "Named supporting U.S. Army campaign character/callsign.",
+    "image_local": "images/characters/C17_Cobra_One_Four.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "ghosts_faction"
+    ]
+  },
+  {
+    "id": "C18",
+    "name": "Borland",
+    "group": "Campaign",
+    "faction": "U.S. Army",
+    "role": "Supporting soldier",
+    "status": "Unknown",
+    "notes": "Named U.S. Army supporting character.",
+    "image_local": "images/characters/C18_Borland.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "ghosts_faction"
+    ]
+  },
+  {
+    "id": "C19",
+    "name": "Taylor",
+    "group": "Campaign",
+    "faction": "U.S. Army",
+    "role": "Supporting soldier",
+    "status": "Unknown",
+    "notes": "Named U.S. Army supporting character.",
+    "image_local": "images/characters/C19_Taylor.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "ghosts_faction"
+    ]
+  },
+  {
+    "id": "C20",
+    "name": "Wilson",
+    "group": "Campaign",
+    "faction": "U.S. Army",
+    "role": "Supporting soldier",
+    "status": "Unknown",
+    "notes": "Named U.S. Army supporting character.",
+    "image_local": "images/characters/C20_Wilson.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "ghosts_faction"
+    ]
+  },
+  {
+    "id": "C21",
+    "name": "Davis",
+    "group": "Campaign",
+    "faction": "U.S. Army",
+    "role": "Supporting soldier",
+    "status": "Unknown",
+    "notes": "Named U.S. Army supporting character.",
+    "image_local": "images/characters/C21_Davis.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "ghosts_faction"
+    ]
+  },
+  {
+    "id": "C22",
+    "name": "Davidson",
+    "group": "Campaign",
+    "faction": "U.S. Army",
+    "role": "Supporting soldier",
+    "status": "Unknown",
+    "notes": "Named U.S. Army supporting character.",
+    "image_local": "images/characters/C22_Davidson.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "ghosts_faction"
+    ]
+  },
+  {
+    "id": "C23",
+    "name": "Suarez",
+    "group": "Campaign",
+    "faction": "U.S. Army",
+    "role": "Supporting soldier",
+    "status": "Unknown",
+    "notes": "Named U.S. Army supporting character.",
+    "image_local": "images/characters/C23_Suarez.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "ghosts_faction"
+    ]
+  },
+  {
+    "id": "C24",
+    "name": "Harmer",
+    "group": "Campaign",
+    "faction": "U.S. Army",
+    "role": "Supporting soldier",
+    "status": "Unknown",
+    "notes": "Named U.S. Army supporting character.",
+    "image_local": "images/characters/C24_Harmer.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "ghosts_faction"
+    ]
+  },
+  {
+    "id": "C25",
+    "name": "Thompson",
+    "group": "Campaign",
+    "faction": "U.S. Air Force / Icarus",
+    "role": "Space-assault soldier; playable",
+    "status": "Operational",
+    "notes": "Playable U.S. space operator during Loki and the seizure of the orbital platform.",
+    "image_local": "images/characters/C25_Thompson.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "ghosts_faction"
+    ]
+  },
+  {
+    "id": "C26",
+    "name": "Collins",
+    "group": "Campaign",
+    "faction": "U.S. Air Force / Icarus",
+    "role": "Space-assault soldier",
+    "status": "Unknown",
+    "notes": "Supporting member of the U.S. space-assault element.",
+    "image_local": "images/characters/C26_Collins.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "ghosts_faction"
+    ]
+  },
+  {
+    "id": "C27",
+    "name": "Baker",
+    "group": "Campaign",
+    "faction": "U.S. Air Force",
+    "role": "ODIN astronaut; playable",
+    "status": "Killed",
+    "notes": "Playable astronaut in Ghost Stories who helps sabotage ODIN after the Federation takeover.",
+    "image_local": "images/characters/C27_Baker.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "ghosts_faction"
+    ]
+  },
+  {
+    "id": "C28",
+    "name": "Kyra Mosley",
+    "group": "Campaign",
+    "faction": "U.S. Air Force",
+    "role": "ODIN astronaut",
+    "status": "Killed",
+    "notes": "Astronaut who fights the Federation boarding force and helps destroy ODIN.",
+    "image_local": "images/characters/C28_Kyra_Mosley.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "ghosts_faction"
+    ]
+  },
+  {
+    "id": "C29",
+    "name": "Arclight",
+    "group": "Campaign / Extinction",
+    "faction": "U.S. / Extinction-linked",
+    "role": "Support/callsign",
+    "status": "Unknown",
+    "notes": "Name/callsign appearing in Ghosts' U.S. and Extinction character listings.",
+    "image_local": "images/characters/C29_Arclight.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "ghosts_faction"
+    ]
+  },
+  {
+    "id": "C30",
+    "name": "Ryan",
+    "group": "Campaign",
+    "faction": "U.S. Navy",
+    "role": "Naval personnel",
+    "status": "Unknown",
+    "notes": "Named U.S. Navy supporting character.",
+    "image_local": "images/characters/C30_Ryan.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "ghosts_faction"
+    ]
+  },
+  {
+    "id": "C31",
+    "name": "Weaver",
+    "group": "Campaign",
+    "faction": "U.S. Navy",
+    "role": "Naval personnel",
+    "status": "Unknown",
+    "notes": "Named U.S. Navy supporting character.",
+    "image_local": "images/characters/C31_Weaver.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "ghosts_faction"
+    ]
+  },
+  {
+    "id": "C32",
+    "name": "Victor H. Ramos",
+    "group": "Campaign",
+    "faction": "Federation",
+    "role": "Federation operative",
+    "status": "Removed during campaign events",
+    "notes": "Interrogated during Federation Day for information on Rorke.",
+    "image_local": "images/characters/C32_Victor_H_Ramos.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "ghosts_faction"
+    ]
+  },
+  {
+    "id": "C33",
+    "name": "Diego Almagro",
+    "group": "Campaign",
+    "faction": "Federation",
+    "role": "Federation leader / general",
+    "status": "Killed in 2016",
+    "notes": "Major Federation leader targeted in Operation Return to Sender.",
+    "image_local": "images/characters/C33_Diego_Almagro.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "ghosts_faction"
+    ]
+  },
+  {
+    "id": "C34",
+    "name": "Unknown Federation Soldier",
+    "group": "Campaign",
+    "faction": "Federation",
+    "role": "Federation soldier",
+    "status": "Unknown",
+    "notes": "Specifically listed generic Federation character in campaign material.",
+    "image_local": "images/characters/C34_Unknown_Federation_Soldier.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "ghosts_faction"
+    ]
+  },
+  {
+    "id": "C35",
+    "name": "Samantha Cross",
+    "group": "Extinction",
+    "faction": "Nightfall Program / Extinction",
+    "role": "Paleolinguist; central Extinction figure",
+    "status": "Central to later plot",
+    "notes": "Researcher whose connection to the Ancestors, Cortex and Medusa drives the DLC storyline.",
+    "image_local": "images/characters/C35_Samantha_Cross.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "ghosts_faction",
+      "extinction_mode"
+    ]
+  },
+  {
+    "id": "C36",
+    "name": "David Archer",
+    "group": "Extinction",
+    "faction": "Nightfall Program",
+    "role": "Captain / Nightfall leader",
+    "status": "Central to Nightfall storyline",
+    "notes": "Leader associated with Project Nightfall and Cryptid research.",
+    "image_local": "images/characters/C36_David_Archer.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "ghosts_faction",
+      "extinction_mode"
+    ]
+  },
+  {
+    "id": "C37",
+    "name": "Contact 28",
+    "group": "Extinction",
+    "faction": "Extinction",
+    "role": "Contact / intelligence figure",
+    "status": "Unknown",
+    "notes": "Named Extinction contact with limited public biography.",
+    "image_local": "images/characters/C37_Contact_28.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "ghosts_faction",
+      "extinction_mode"
+    ]
+  },
+  {
+    "id": "C38",
+    "name": "'Godfather' Castle",
+    "group": "Extinction",
+    "faction": "Rapid Reaction Force",
+    "role": "Command figure",
+    "status": "Operational",
+    "notes": "Command voice supporting CIF Team 1.",
+    "image_local": "images/characters/C38_Godfather_Castle.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "ghosts_faction",
+      "extinction_mode"
+    ]
+  },
+  {
+    "id": "C39",
+    "name": "Kassar",
+    "group": "Extinction",
+    "faction": "Nightfall Program",
+    "role": "Nightfall survivor / supporting figure",
+    "status": "Appears in Mayday material",
+    "notes": "Linked to Samantha Cross and featured in Mayday cinematics.",
+    "image_local": "images/characters/C39_Kassar.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "ghosts_faction",
+      "extinction_mode"
+    ]
+  },
+  {
+    "id": "C40",
+    "name": "President of the United States",
+    "group": "Extinction",
+    "faction": "United States",
+    "role": "Head of state",
+    "status": "Unknown",
+    "notes": "Appears/referenced in the wider Extinction crisis context.",
+    "image_local": "images/characters/C40_President_of_the_United_States.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "ghosts_faction",
+      "extinction_mode"
+    ]
+  },
+  {
+    "id": "C41",
+    "name": "Black Flag 4-2",
+    "group": "Extinction",
+    "faction": "U.S. / Extinction support",
+    "role": "Helicopter callsign",
+    "status": "Operational in Point of Contact",
+    "notes": "Helicopter support callsign connected with Task Force Spectre.",
+    "image_local": "images/characters/C41_Black_Flag_4_2.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "ghosts_faction",
+      "extinction_mode"
+    ]
+  },
+  {
+    "id": "C42",
+    "name": "Task Force Spectre",
+    "group": "Extinction",
+    "faction": "U.S.",
+    "role": "Playable Extinction task force",
+    "status": "Operational",
+    "notes": "Playable Point of Contact unit deployed to destroy Hives and evacuate.",
+    "image_local": "images/characters/C42_Task_Force_Spectre.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "ghosts_faction",
+      "extinction_mode"
+    ]
+  },
+  {
+    "id": "C43",
+    "name": "CIF Team 1",
+    "group": "Extinction",
+    "faction": "Rapid Reaction Force",
+    "role": "Playable Extinction team",
+    "status": "Operational through later episodes",
+    "notes": "Primary playable team through Nightfall, Mayday, Awakening and Exodus.",
+    "image_local": "images/characters/C43_CIF_Team_1.jpg",
+    "source_keys": [
+      "ghosts_game",
+      "ghosts_faction",
+      "extinction_mode"
+    ]
+  }
+]

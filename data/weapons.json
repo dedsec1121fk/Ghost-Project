@@ -1,0 +1,1135 @@
+[
+  {
+    "id": "W001",
+    "name": "SC-2010",
+    "class": "Assault Rifles",
+    "notes": "Detailed Ghost Project weapon record with mode, availability, role and special notes.",
+    "source_keys": [
+      "weapons",
+      "weapons_roster"
+    ],
+    "fire_type": "Automatic / burst depending on weapon",
+    "role": "General-purpose rifle",
+    "availability": "Base game",
+    "detail": "Modern-feeling assault rifle often valued for clean handling and versatility. In Ghost Project it is documented as a assault rifles serving the role of 'Versatile frontline primary'.",
+    "image_path": "gallery/weapons/W001.jpg",
+    "display_name": "SC-2010",
+    "modes": [
+      "Multiplayer",
+      "Campaign",
+      "Extinction"
+    ],
+    "special_notes": "Core Ghosts weapon indexed by class, availability and game mode.",
+    "image_local": "images/weapons/W001_SC_2010.jpg"
+  },
+  {
+    "id": "W002",
+    "name": "SA-805",
+    "class": "Assault Rifles",
+    "notes": "Detailed Ghost Project weapon record with mode, availability, role and special notes.",
+    "source_keys": [
+      "weapons",
+      "weapons_roster"
+    ],
+    "fire_type": "Automatic / burst depending on weapon",
+    "role": "General-purpose rifle",
+    "availability": "Base game",
+    "detail": "SA-805 is indexed as part of the Ghosts arsenal. In Ghost Project it is documented as a assault rifles serving the role of 'Versatile frontline primary'.",
+    "image_path": "gallery/weapons/W002.jpg",
+    "display_name": "SA-805",
+    "modes": [
+      "Multiplayer",
+      "Campaign",
+      "Extinction"
+    ],
+    "special_notes": "Core Ghosts weapon indexed by class, availability and game mode.",
+    "image_local": "images/weapons/W002_SA_805.jpg"
+  },
+  {
+    "id": "W003",
+    "name": "AK-12",
+    "class": "Assault Rifles",
+    "notes": "Detailed Ghost Project weapon record with mode, availability, role and special notes.",
+    "source_keys": [
+      "weapons",
+      "weapons_roster"
+    ],
+    "fire_type": "Automatic / burst depending on weapon",
+    "role": "General-purpose rifle",
+    "availability": "Base game",
+    "detail": "Hard-hitting rifle that rewards disciplined recoil control. In Ghost Project it is documented as a assault rifles serving the role of 'Versatile frontline primary'.",
+    "image_path": "gallery/weapons/W003.jpg",
+    "display_name": "AK-12",
+    "modes": [
+      "Multiplayer",
+      "Campaign",
+      "Extinction"
+    ],
+    "special_notes": "Core Ghosts weapon indexed by class, availability and game mode.",
+    "image_local": "images/weapons/W003_AK_12.jpg"
+  },
+  {
+    "id": "W004",
+    "name": "FAD",
+    "class": "Assault Rifles",
+    "notes": "Detailed Ghost Project weapon record with mode, availability, role and special notes.",
+    "source_keys": [
+      "weapons",
+      "weapons_roster"
+    ],
+    "fire_type": "Automatic / burst depending on weapon",
+    "role": "General-purpose rifle",
+    "availability": "Base game",
+    "detail": "Fast-firing assault rifle that performs best when controlling recoil in sustained fights. In Ghost Project it is documented as a assault rifles serving the role of 'Versatile frontline primary'.",
+    "image_path": "gallery/weapons/W004.jpg",
+    "display_name": "FAD",
+    "modes": [
+      "Multiplayer",
+      "Campaign",
+      "Extinction"
+    ],
+    "special_notes": "Core Ghosts weapon indexed by class, availability and game mode.",
+    "image_local": "images/weapons/W004_FAD.jpg"
+  },
+  {
+    "id": "W005",
+    "name": "Remington R5",
+    "class": "Assault Rifles",
+    "notes": "Detailed Ghost Project weapon record with mode, availability, role and special notes.",
+    "source_keys": [
+      "weapons",
+      "weapons_roster"
+    ],
+    "fire_type": "Automatic / burst depending on weapon",
+    "role": "General-purpose rifle",
+    "availability": "Base game",
+    "detail": "Reliable all-round assault rifle with a straightforward role in many balanced classes. In Ghost Project it is documented as a assault rifles serving the role of 'Versatile frontline primary'.",
+    "image_path": "gallery/weapons/W005.jpg",
+    "display_name": "Remington R5",
+    "modes": [
+      "Multiplayer",
+      "Campaign",
+      "Extinction"
+    ],
+    "special_notes": "Core Ghosts weapon indexed by class, availability and game mode.",
+    "image_local": "images/weapons/W005_Remington_R5.jpg"
+  },
+  {
+    "id": "W006",
+    "name": "MSBS",
+    "class": "Assault Rifles",
+    "notes": "Detailed Ghost Project weapon record with mode, availability, role and special notes.",
+    "source_keys": [
+      "weapons",
+      "weapons_roster"
+    ],
+    "fire_type": "Automatic / burst depending on weapon",
+    "role": "General-purpose rifle",
+    "availability": "Base game",
+    "detail": "MSBS is indexed as part of the Ghosts arsenal. In Ghost Project it is documented as a assault rifles serving the role of 'Versatile frontline primary'.",
+    "image_path": "gallery/weapons/W006.jpg",
+    "display_name": "MSBS",
+    "modes": [
+      "Multiplayer",
+      "Campaign",
+      "Extinction"
+    ],
+    "special_notes": "Burst-fire assault rifle; multiplayer supports an Automatic Fire attachment.",
+    "image_local": "images/weapons/W006_MSBS.jpg"
+  },
+  {
+    "id": "W007",
+    "name": "Honey Badger",
+    "class": "Assault Rifles",
+    "notes": "Detailed Ghost Project weapon record with mode, availability, role and special notes.",
+    "source_keys": [
+      "weapons",
+      "weapons_roster"
+    ],
+    "fire_type": "Automatic / burst depending on weapon",
+    "role": "General-purpose rifle",
+    "availability": "Base game",
+    "detail": "Integrated-suppressor assault rifle favored for stealthy, flexible loadouts. In Ghost Project it is documented as a assault rifles serving the role of 'Versatile frontline primary'.",
+    "image_path": "gallery/weapons/W007.jpg",
+    "display_name": "Honey Badger",
+    "modes": [
+      "Multiplayer",
+      "Campaign",
+      "Extinction (Chaos mode)"
+    ],
+    "special_notes": "Integrated suppressor is a defining feature of the weapon in Ghosts.",
+    "image_local": "images/weapons/W007_Honey_Badger.jpg"
+  },
+  {
+    "id": "W008",
+    "name": "ARX-160",
+    "class": "Assault Rifles",
+    "notes": "Detailed Ghost Project weapon record with mode, availability, role and special notes.",
+    "source_keys": [
+      "weapons",
+      "weapons_roster"
+    ],
+    "fire_type": "Automatic / burst depending on weapon",
+    "role": "General-purpose rifle",
+    "availability": "Base game",
+    "detail": "ARX-160 is indexed as part of the Ghosts arsenal. In Ghost Project it is documented as a assault rifles serving the role of 'Versatile frontline primary'.",
+    "image_path": "gallery/weapons/W008.jpg",
+    "display_name": "ARX-160",
+    "modes": [
+      "Multiplayer",
+      "Campaign",
+      "Extinction"
+    ],
+    "special_notes": "Core Ghosts weapon indexed by class, availability and game mode.",
+    "image_local": "images/weapons/W008_ARX_160.jpg"
+  },
+  {
+    "id": "W009",
+    "name": "Maverick (Onslaught DLC)",
+    "class": "Assault Rifles",
+    "notes": "Detailed Ghost Project weapon record with mode, availability, role and special notes.",
+    "source_keys": [
+      "weapons",
+      "weapons_roster"
+    ],
+    "fire_type": "Automatic / burst depending on weapon",
+    "role": "General-purpose rifle",
+    "availability": "Onslaught",
+    "detail": "Hybrid-feeling rifle added through DLC, remembered as one of Ghosts' notable bonus weapons. In Ghost Project it is documented as a assault rifles serving the role of 'Versatile frontline primary'.",
+    "image_path": "gallery/weapons/W009.jpg",
+    "display_name": "Maverick",
+    "modes": [
+      "Multiplayer",
+      "Campaign",
+      "Extinction"
+    ],
+    "special_notes": "Onslaught DLC assault rifle paired with the Maverick-A2 family.",
+    "image_local": "images/weapons/W009_Maverick.jpg"
+  },
+  {
+    "id": "W010",
+    "name": "Bizon",
+    "class": "Submachine Guns",
+    "notes": "Detailed Ghost Project weapon record with mode, availability, role and special notes.",
+    "source_keys": [
+      "weapons",
+      "weapons_roster"
+    ],
+    "fire_type": "Automatic",
+    "role": "Close-range high-mobility weapon",
+    "availability": "Base game",
+    "detail": "High-capacity SMG suitable for constant aggressive pressure. In Ghost Project it is documented as a submachine guns serving the role of 'Aggressive close-quarters primary'.",
+    "image_path": "gallery/weapons/W010.jpg",
+    "display_name": "Bizon",
+    "modes": [
+      "Multiplayer",
+      "Campaign",
+      "Extinction"
+    ],
+    "special_notes": "Core Ghosts weapon indexed by class, availability and game mode.",
+    "image_local": "images/weapons/W010_Bizon.jpg"
+  },
+  {
+    "id": "W011",
+    "name": "CBJ-MS",
+    "class": "Submachine Guns",
+    "notes": "Detailed Ghost Project weapon record with mode, availability, role and special notes.",
+    "source_keys": [
+      "weapons",
+      "weapons_roster"
+    ],
+    "fire_type": "Automatic",
+    "role": "Close-range high-mobility weapon",
+    "availability": "Base game",
+    "detail": "CBJ-MS is indexed as part of the Ghosts arsenal. In Ghost Project it is documented as a submachine guns serving the role of 'Aggressive close-quarters primary'.",
+    "image_path": "gallery/weapons/W011.jpg",
+    "display_name": "CBJ-MS",
+    "modes": [
+      "Multiplayer",
+      "Campaign",
+      "Extinction"
+    ],
+    "special_notes": "Core Ghosts weapon indexed by class, availability and game mode.",
+    "image_local": "images/weapons/W011_CBJ_MS.jpg"
+  },
+  {
+    "id": "W012",
+    "name": "Vector CRB",
+    "class": "Submachine Guns",
+    "notes": "Detailed Ghost Project weapon record with mode, availability, role and special notes.",
+    "source_keys": [
+      "weapons",
+      "weapons_roster"
+    ],
+    "fire_type": "Automatic",
+    "role": "Close-range high-mobility weapon",
+    "availability": "Base game",
+    "detail": "Fast-handling SMG built for close-range pushes and quick kills. In Ghost Project it is documented as a submachine guns serving the role of 'Aggressive close-quarters primary'.",
+    "image_path": "gallery/weapons/W012.jpg",
+    "display_name": "Vector CRB",
+    "modes": [
+      "Multiplayer",
+      "Campaign",
+      "Extinction"
+    ],
+    "special_notes": "Core Ghosts weapon indexed by class, availability and game mode.",
+    "image_local": "images/weapons/W012_Vector_CRB.jpg"
+  },
+  {
+    "id": "W013",
+    "name": "Vepr",
+    "class": "Submachine Guns",
+    "notes": "Detailed Ghost Project weapon record with mode, availability, role and special notes.",
+    "source_keys": [
+      "weapons",
+      "weapons_roster"
+    ],
+    "fire_type": "Automatic",
+    "role": "Close-range high-mobility weapon",
+    "availability": "Base game",
+    "detail": "Vepr is indexed as part of the Ghosts arsenal. In Ghost Project it is documented as a submachine guns serving the role of 'Aggressive close-quarters primary'.",
+    "image_path": "gallery/weapons/W013.jpg",
+    "display_name": "Vepr",
+    "modes": [
+      "Multiplayer",
+      "Campaign",
+      "Extinction"
+    ],
+    "special_notes": "Core Ghosts weapon indexed by class, availability and game mode.",
+    "image_local": "images/weapons/W013_Vepr.jpg"
+  },
+  {
+    "id": "W014",
+    "name": "K7",
+    "class": "Submachine Guns",
+    "notes": "Detailed Ghost Project weapon record with mode, availability, role and special notes.",
+    "source_keys": [
+      "weapons",
+      "weapons_roster"
+    ],
+    "fire_type": "Automatic",
+    "role": "Close-range high-mobility weapon",
+    "availability": "Base game",
+    "detail": "K7 is indexed as part of the Ghosts arsenal. In Ghost Project it is documented as a submachine guns serving the role of 'Aggressive close-quarters primary'.",
+    "image_path": "gallery/weapons/W014.jpg",
+    "display_name": "K7",
+    "modes": [
+      "Multiplayer",
+      "Campaign",
+      "Extinction"
+    ],
+    "special_notes": "Core Ghosts weapon indexed by class, availability and game mode.",
+    "image_local": "images/weapons/W014_K7.jpg"
+  },
+  {
+    "id": "W015",
+    "name": "MTAR-X",
+    "class": "Submachine Guns",
+    "notes": "Detailed Ghost Project weapon record with mode, availability, role and special notes.",
+    "source_keys": [
+      "weapons",
+      "weapons_roster"
+    ],
+    "fire_type": "Automatic",
+    "role": "Close-range high-mobility weapon",
+    "availability": "Base game",
+    "detail": "Versatile SMG or rifle-like option that rewards mobile but accurate play. In Ghost Project it is documented as a submachine guns serving the role of 'Aggressive close-quarters primary'.",
+    "image_path": "gallery/weapons/W015.jpg",
+    "display_name": "MTAR-X",
+    "modes": [
+      "Multiplayer",
+      "Campaign",
+      "Extinction"
+    ],
+    "special_notes": "Core Ghosts weapon indexed by class, availability and game mode.",
+    "image_local": "images/weapons/W015_MTAR_X.jpg"
+  },
+  {
+    "id": "W016",
+    "name": "Ripper (Devastation DLC)",
+    "class": "Submachine Guns",
+    "notes": "Detailed Ghost Project weapon record with mode, availability, role and special notes.",
+    "source_keys": [
+      "weapons",
+      "weapons_roster"
+    ],
+    "fire_type": "Automatic",
+    "role": "Close-range high-mobility weapon",
+    "availability": "Devastation",
+    "detail": "DLC weapon known for its dual-mode identity and flexibility. In Ghost Project it is documented as a submachine guns serving the role of 'Aggressive close-quarters primary'.",
+    "image_path": "gallery/weapons/W016.jpg",
+    "display_name": "Ripper",
+    "modes": [
+      "Multiplayer",
+      "Campaign",
+      "Extinction"
+    ],
+    "special_notes": "Hybrid weapon that switches between SMG and assault-rifle configurations.",
+    "image_local": "images/weapons/W016_Ripper.jpg"
+  },
+  {
+    "id": "W017",
+    "name": "Ameli",
+    "class": "Light Machine Guns",
+    "notes": "Detailed Ghost Project weapon record with mode, availability, role and special notes.",
+    "source_keys": [
+      "weapons",
+      "weapons_roster"
+    ],
+    "fire_type": "Automatic",
+    "role": "Sustained-fire support weapon",
+    "availability": "Base game",
+    "detail": "Ameli is indexed as part of the Ghosts arsenal. In Ghost Project it is documented as a light machine guns serving the role of 'Sustained-fire support weapon'.",
+    "image_path": "gallery/weapons/W017.jpg",
+    "display_name": "Ameli",
+    "modes": [
+      "Multiplayer",
+      "Campaign",
+      "Extinction"
+    ],
+    "special_notes": "Core Ghosts weapon indexed by class, availability and game mode.",
+    "image_local": "images/weapons/W017_Ameli.jpg"
+  },
+  {
+    "id": "W018",
+    "name": "M27-IAR",
+    "class": "Light Machine Guns",
+    "notes": "Detailed Ghost Project weapon record with mode, availability, role and special notes.",
+    "source_keys": [
+      "weapons",
+      "weapons_roster"
+    ],
+    "fire_type": "Automatic",
+    "role": "Sustained-fire support weapon",
+    "availability": "Base game",
+    "detail": "M27-IAR is indexed as part of the Ghosts arsenal. In Ghost Project it is documented as a light machine guns serving the role of 'Sustained-fire support weapon'.",
+    "image_path": "gallery/weapons/W018.jpg",
+    "display_name": "M27-IAR",
+    "modes": [
+      "Multiplayer",
+      "Campaign",
+      "Extinction"
+    ],
+    "special_notes": "Core Ghosts weapon indexed by class, availability and game mode.",
+    "image_local": "images/weapons/W018_M27_IAR.jpg"
+  },
+  {
+    "id": "W019",
+    "name": "LSAT",
+    "class": "Light Machine Guns",
+    "notes": "Detailed Ghost Project weapon record with mode, availability, role and special notes.",
+    "source_keys": [
+      "weapons",
+      "weapons_roster"
+    ],
+    "fire_type": "Automatic",
+    "role": "Sustained-fire support weapon",
+    "availability": "Base game",
+    "detail": "LSAT is indexed as part of the Ghosts arsenal. In Ghost Project it is documented as a light machine guns serving the role of 'Sustained-fire support weapon'.",
+    "image_path": "gallery/weapons/W019.jpg",
+    "display_name": "LSAT",
+    "modes": [
+      "Multiplayer",
+      "Campaign",
+      "Extinction"
+    ],
+    "special_notes": "Core Ghosts weapon indexed by class, availability and game mode.",
+    "image_local": "images/weapons/W019_LSAT.jpg"
+  },
+  {
+    "id": "W020",
+    "name": "Chain SAW",
+    "class": "Light Machine Guns",
+    "notes": "Detailed Ghost Project weapon record with mode, availability, role and special notes.",
+    "source_keys": [
+      "weapons",
+      "weapons_roster"
+    ],
+    "fire_type": "Automatic",
+    "role": "Sustained-fire support weapon",
+    "availability": "Base game",
+    "detail": "Chain SAW is indexed as part of the Ghosts arsenal. In Ghost Project it is documented as a light machine guns serving the role of 'Sustained-fire support weapon'.",
+    "image_path": "gallery/weapons/W020.jpg",
+    "display_name": "Chain SAW",
+    "modes": [
+      "Multiplayer",
+      "Campaign",
+      "Extinction"
+    ],
+    "special_notes": "Core Ghosts weapon indexed by class, availability and game mode.",
+    "image_local": "images/weapons/W020_Chain_SAW.jpg"
+  },
+  {
+    "id": "W021",
+    "name": "MR-28",
+    "class": "Marksman Rifles",
+    "notes": "Detailed Ghost Project weapon record with mode, availability, role and special notes.",
+    "source_keys": [
+      "weapons",
+      "weapons_roster"
+    ],
+    "fire_type": "Semi-automatic / precision fire",
+    "role": "Precision semi-automatic rifle",
+    "availability": "Base game",
+    "detail": "MR-28 is indexed as part of the Ghosts arsenal. In Ghost Project it is documented as a marksman rifles serving the role of 'Accurate mid-to-long-range rifle'.",
+    "image_path": "gallery/weapons/W021.jpg",
+    "display_name": "MR-28",
+    "modes": [
+      "Multiplayer",
+      "Campaign",
+      "Extinction"
+    ],
+    "special_notes": "Core Ghosts weapon indexed by class, availability and game mode.",
+    "image_local": "images/weapons/W021_MR_28.jpg"
+  },
+  {
+    "id": "W022",
+    "name": "MK14 EBR",
+    "class": "Marksman Rifles",
+    "notes": "Detailed Ghost Project weapon record with mode, availability, role and special notes.",
+    "source_keys": [
+      "weapons",
+      "weapons_roster"
+    ],
+    "fire_type": "Semi-automatic / precision fire",
+    "role": "Precision semi-automatic rifle",
+    "availability": "Base game",
+    "detail": "MK14 EBR is indexed as part of the Ghosts arsenal. In Ghost Project it is documented as a marksman rifles serving the role of 'Accurate mid-to-long-range rifle'.",
+    "image_path": "gallery/weapons/W022.jpg",
+    "display_name": "MK14 EBR",
+    "modes": [
+      "Multiplayer",
+      "Campaign",
+      "Extinction"
+    ],
+    "special_notes": "Core Ghosts weapon indexed by class, availability and game mode.",
+    "image_local": "images/weapons/W022_MK14_EBR.jpg"
+  },
+  {
+    "id": "W023",
+    "name": "IA-2",
+    "class": "Marksman Rifles",
+    "notes": "Detailed Ghost Project weapon record with mode, availability, role and special notes.",
+    "source_keys": [
+      "weapons",
+      "weapons_roster"
+    ],
+    "fire_type": "Semi-automatic / precision fire",
+    "role": "Precision semi-automatic rifle",
+    "availability": "Base game",
+    "detail": "IA-2 is indexed as part of the Ghosts arsenal. In Ghost Project it is documented as a marksman rifles serving the role of 'Accurate mid-to-long-range rifle'.",
+    "image_path": "gallery/weapons/W023.jpg",
+    "display_name": "IA-2",
+    "modes": [
+      "Multiplayer",
+      "Campaign",
+      "Extinction"
+    ],
+    "special_notes": "Core Ghosts weapon indexed by class, availability and game mode.",
+    "image_local": "images/weapons/W023_IA_2.jpg"
+  },
+  {
+    "id": "W024",
+    "name": "SVU",
+    "class": "Marksman Rifles",
+    "notes": "Detailed Ghost Project weapon record with mode, availability, role and special notes.",
+    "source_keys": [
+      "weapons",
+      "weapons_roster"
+    ],
+    "fire_type": "Semi-automatic / precision fire",
+    "role": "Precision semi-automatic rifle",
+    "availability": "Base game",
+    "detail": "SVU is indexed as part of the Ghosts arsenal. In Ghost Project it is documented as a marksman rifles serving the role of 'Accurate mid-to-long-range rifle'.",
+    "image_path": "gallery/weapons/W024.jpg",
+    "display_name": "SVU",
+    "modes": [
+      "Multiplayer",
+      "Campaign",
+      "Extinction"
+    ],
+    "special_notes": "Core Ghosts weapon indexed by class, availability and game mode.",
+    "image_local": "images/weapons/W024_SVU.jpg"
+  },
+  {
+    "id": "W025",
+    "name": "USR",
+    "class": "Sniper Rifles",
+    "notes": "Detailed Ghost Project weapon record with mode, availability, role and special notes.",
+    "source_keys": [
+      "weapons",
+      "weapons_roster"
+    ],
+    "fire_type": "Bolt-action or semi-automatic precision fire",
+    "role": "Long-range precision weapon",
+    "availability": "Base game",
+    "detail": "Classic bolt-action sniper rifle focused on clean precision shots. In Ghost Project it is documented as a sniper rifles serving the role of 'Long-range precision weapon'.",
+    "image_path": "gallery/weapons/W025.jpg",
+    "display_name": "USR",
+    "modes": [
+      "Multiplayer",
+      "Campaign",
+      "Extinction"
+    ],
+    "special_notes": "Core Ghosts weapon indexed by class, availability and game mode.",
+    "image_local": "images/weapons/W025_USR.jpg"
+  },
+  {
+    "id": "W026",
+    "name": "L115",
+    "class": "Sniper Rifles",
+    "notes": "Detailed Ghost Project weapon record with mode, availability, role and special notes.",
+    "source_keys": [
+      "weapons",
+      "weapons_roster"
+    ],
+    "fire_type": "Bolt-action or semi-automatic precision fire",
+    "role": "Long-range precision weapon",
+    "availability": "Base game",
+    "detail": "Heavy sniper rifle associated with powerful long-range stopping power. In Ghost Project it is documented as a sniper rifles serving the role of 'Long-range precision weapon'.",
+    "image_path": "gallery/weapons/W026.jpg",
+    "display_name": "L115",
+    "modes": [
+      "Multiplayer",
+      "Campaign",
+      "Extinction"
+    ],
+    "special_notes": "Core Ghosts weapon indexed by class, availability and game mode.",
+    "image_local": "images/weapons/W026_L115.jpg"
+  },
+  {
+    "id": "W027",
+    "name": "Lynx",
+    "class": "Sniper Rifles",
+    "notes": "Detailed Ghost Project weapon record with mode, availability, role and special notes.",
+    "source_keys": [
+      "weapons",
+      "weapons_roster"
+    ],
+    "fire_type": "Bolt-action or semi-automatic precision fire",
+    "role": "Long-range precision weapon",
+    "availability": "Base game",
+    "detail": "Semi-automatic anti-materiel-style sniper with rapid follow-up shots. In Ghost Project it is documented as a sniper rifles serving the role of 'Long-range precision weapon'.",
+    "image_path": "gallery/weapons/W027.jpg",
+    "display_name": "Lynx",
+    "modes": [
+      "Multiplayer",
+      "Campaign",
+      "Extinction"
+    ],
+    "special_notes": "Core Ghosts weapon indexed by class, availability and game mode.",
+    "image_local": "images/weapons/W027_Lynx.jpg"
+  },
+  {
+    "id": "W028",
+    "name": "VKS",
+    "class": "Sniper Rifles",
+    "notes": "Detailed Ghost Project weapon record with mode, availability, role and special notes.",
+    "source_keys": [
+      "weapons",
+      "weapons_roster"
+    ],
+    "fire_type": "Bolt-action or semi-automatic precision fire",
+    "role": "Long-range precision weapon",
+    "availability": "Base game",
+    "detail": "Suppressed sniper option suitable for stealthier ranged play. In Ghost Project it is documented as a sniper rifles serving the role of 'Long-range precision weapon'.",
+    "image_path": "gallery/weapons/W028.jpg",
+    "display_name": "VKS",
+    "modes": [
+      "Multiplayer",
+      "Campaign",
+      "Extinction"
+    ],
+    "special_notes": "Core Ghosts weapon indexed by class, availability and game mode.",
+    "image_local": "images/weapons/W028_VKS.jpg"
+  },
+  {
+    "id": "W029",
+    "name": "Maverick-A2 (Onslaught DLC)",
+    "class": "Sniper Rifles",
+    "notes": "Detailed Ghost Project weapon record with mode, availability, role and special notes.",
+    "source_keys": [
+      "weapons",
+      "weapons_roster"
+    ],
+    "fire_type": "Bolt-action or semi-automatic precision fire",
+    "role": "Long-range precision weapon",
+    "availability": "Onslaught",
+    "detail": "Maverick-A2 (Onslaught DLC) is indexed as part of the Ghosts arsenal. In Ghost Project it is documented as a sniper rifles serving the role of 'Long-range precision weapon'.",
+    "image_path": "gallery/weapons/W029.jpg",
+    "display_name": "Maverick-A2",
+    "modes": [
+      "Multiplayer"
+    ],
+    "special_notes": "Onslaught DLC sniper-rifle variant of the Maverick family.",
+    "image_local": "images/weapons/W029_Maverick_A2.jpg"
+  },
+  {
+    "id": "W030",
+    "name": "Bulldog",
+    "class": "Shotguns",
+    "notes": "Detailed Ghost Project weapon record with mode, availability, role and special notes.",
+    "source_keys": [
+      "weapons",
+      "weapons_roster"
+    ],
+    "fire_type": "Pump-action / break-action / revolving shotgun action",
+    "role": "Close-range high-damage weapon",
+    "availability": "Base game",
+    "detail": "Semi-auto shotgun built for direct aggression indoors. In Ghost Project it is documented as a shotguns serving the role of 'Close-range breaching weapon'.",
+    "image_path": "gallery/weapons/W030.jpg",
+    "display_name": "Bulldog",
+    "modes": [
+      "Multiplayer",
+      "Campaign",
+      "Extinction"
+    ],
+    "special_notes": "Core Ghosts weapon indexed by class, availability and game mode.",
+    "image_local": "images/weapons/W030_Bulldog.jpg"
+  },
+  {
+    "id": "W031",
+    "name": "FP6",
+    "class": "Shotguns",
+    "notes": "Detailed Ghost Project weapon record with mode, availability, role and special notes.",
+    "source_keys": [
+      "weapons",
+      "weapons_roster"
+    ],
+    "fire_type": "Pump-action / break-action / revolving shotgun action",
+    "role": "Close-range high-damage weapon",
+    "availability": "Base game",
+    "detail": "FP6 is indexed as part of the Ghosts arsenal. In Ghost Project it is documented as a shotguns serving the role of 'Close-range breaching weapon'.",
+    "image_path": "gallery/weapons/W031.jpg",
+    "display_name": "FP6",
+    "modes": [
+      "Multiplayer",
+      "Campaign",
+      "Extinction"
+    ],
+    "special_notes": "Core Ghosts weapon indexed by class, availability and game mode.",
+    "image_local": "images/weapons/W031_FP6.jpg"
+  },
+  {
+    "id": "W032",
+    "name": "MTS-255",
+    "class": "Shotguns",
+    "notes": "Detailed Ghost Project weapon record with mode, availability, role and special notes.",
+    "source_keys": [
+      "weapons",
+      "weapons_roster"
+    ],
+    "fire_type": "Pump-action / break-action / revolving shotgun action",
+    "role": "Close-range high-damage weapon",
+    "availability": "Base game",
+    "detail": "Unique revolving shotgun with a distinct reload and firing identity. In Ghost Project it is documented as a shotguns serving the role of 'Close-range breaching weapon'.",
+    "image_path": "gallery/weapons/W032.jpg",
+    "display_name": "MTS-255",
+    "modes": [
+      "Multiplayer",
+      "Campaign",
+      "Extinction"
+    ],
+    "special_notes": "Core Ghosts weapon indexed by class, availability and game mode.",
+    "image_local": "images/weapons/W032_MTS_255.jpg"
+  },
+  {
+    "id": "W033",
+    "name": "Tac 12",
+    "class": "Shotguns",
+    "notes": "Detailed Ghost Project weapon record with mode, availability, role and special notes.",
+    "source_keys": [
+      "weapons",
+      "weapons_roster"
+    ],
+    "fire_type": "Pump-action / break-action / revolving shotgun action",
+    "role": "Close-range high-damage weapon",
+    "availability": "Base game",
+    "detail": "Tac 12 is indexed as part of the Ghosts arsenal. In Ghost Project it is documented as a shotguns serving the role of 'Close-range breaching weapon'.",
+    "image_path": "gallery/weapons/W033.jpg",
+    "display_name": "Tac 12",
+    "modes": [
+      "Multiplayer",
+      "Campaign",
+      "Extinction"
+    ],
+    "special_notes": "Core Ghosts weapon indexed by class, availability and game mode.",
+    "image_local": "images/weapons/W033_Tac_12.jpg"
+  },
+  {
+    "id": "W034",
+    "name": "M9A1",
+    "class": "Handguns",
+    "notes": "Detailed Ghost Project weapon record with mode, availability, role and special notes.",
+    "source_keys": [
+      "weapons",
+      "weapons_roster"
+    ],
+    "fire_type": "Semi-automatic / revolver",
+    "role": "Secondary sidearm",
+    "availability": "Base game",
+    "detail": "Standard dependable sidearm. In Ghost Project it is documented as a handguns serving the role of 'Backup sidearm'.",
+    "image_path": "gallery/weapons/W034.jpg",
+    "display_name": "M9A1",
+    "modes": [
+      "Multiplayer",
+      "Campaign",
+      "Extinction"
+    ],
+    "special_notes": "Core Ghosts weapon indexed by class, availability and game mode.",
+    "image_local": "images/weapons/W034_M9A1.jpg"
+  },
+  {
+    "id": "W035",
+    "name": "MP-443 Grach",
+    "class": "Handguns",
+    "notes": "Detailed Ghost Project weapon record with mode, availability, role and special notes.",
+    "source_keys": [
+      "weapons",
+      "weapons_roster"
+    ],
+    "fire_type": "Semi-automatic / revolver",
+    "role": "Secondary sidearm",
+    "availability": "Base game",
+    "detail": "MP-443 Grach is indexed as part of the Ghosts arsenal. In Ghost Project it is documented as a handguns serving the role of 'Backup sidearm'.",
+    "image_path": "gallery/weapons/W035.jpg",
+    "display_name": "MP-443 Grach",
+    "modes": [
+      "Multiplayer",
+      "Campaign",
+      "Extinction"
+    ],
+    "special_notes": "Core Ghosts weapon indexed by class, availability and game mode.",
+    "image_local": "images/weapons/W035_MP_443_Grach.jpg"
+  },
+  {
+    "id": "W036",
+    "name": "P226",
+    "class": "Handguns",
+    "notes": "Detailed Ghost Project weapon record with mode, availability, role and special notes.",
+    "source_keys": [
+      "weapons",
+      "weapons_roster"
+    ],
+    "fire_type": "Semi-automatic / revolver",
+    "role": "Secondary sidearm",
+    "availability": "Base game",
+    "detail": "P226 is indexed as part of the Ghosts arsenal. In Ghost Project it is documented as a handguns serving the role of 'Backup sidearm'.",
+    "image_path": "gallery/weapons/W036.jpg",
+    "display_name": "P226",
+    "modes": [
+      "Multiplayer",
+      "Campaign",
+      "Extinction"
+    ],
+    "special_notes": "Core Ghosts weapon indexed by class, availability and game mode.",
+    "image_local": "images/weapons/W036_P226.jpg"
+  },
+  {
+    "id": "W037",
+    "name": ".44 Magnum",
+    "class": "Handguns",
+    "notes": "Detailed Ghost Project weapon record with mode, availability, role and special notes.",
+    "source_keys": [
+      "weapons",
+      "weapons_roster"
+    ],
+    "fire_type": "Semi-automatic / revolver",
+    "role": "Secondary sidearm",
+    "availability": "Base game",
+    "detail": "Powerful revolver-style handgun rewarding accuracy over fire rate. In Ghost Project it is documented as a handguns serving the role of 'Backup sidearm'.",
+    "image_path": "gallery/weapons/W037.jpg",
+    "display_name": ".44 Magnum",
+    "modes": [
+      "Multiplayer",
+      "Campaign",
+      "Extinction"
+    ],
+    "special_notes": "Core Ghosts weapon indexed by class, availability and game mode.",
+    "image_local": "images/weapons/W037_44_Magnum.jpg"
+  },
+  {
+    "id": "W038",
+    "name": "PDW",
+    "class": "Handguns",
+    "notes": "Detailed Ghost Project weapon record with mode, availability, role and special notes.",
+    "source_keys": [
+      "weapons",
+      "weapons_roster"
+    ],
+    "fire_type": "Semi-automatic / revolver",
+    "role": "Secondary sidearm",
+    "availability": "Base game",
+    "detail": "PDW is indexed as part of the Ghosts arsenal. In Ghost Project it is documented as a handguns serving the role of 'Backup sidearm'.",
+    "image_path": "gallery/weapons/W038.jpg",
+    "display_name": "PDW",
+    "modes": [
+      "Multiplayer",
+      "Campaign",
+      "Extinction"
+    ],
+    "special_notes": "Core Ghosts weapon indexed by class, availability and game mode.",
+    "image_local": "images/weapons/W038_PDW.jpg"
+  },
+  {
+    "id": "W039",
+    "name": "Kastet",
+    "class": "Launchers",
+    "notes": "Detailed Ghost Project weapon record with mode, availability, role and special notes.",
+    "source_keys": [
+      "weapons",
+      "weapons_roster"
+    ],
+    "fire_type": "Single-shot explosive launcher",
+    "role": "Explosive launcher",
+    "availability": "Base game",
+    "detail": "Launcher useful against grouped enemies or streak-related targets. In Ghost Project it is documented as a launchers serving the role of 'Anti-vehicle / anti-group explosive option'.",
+    "image_path": "gallery/weapons/W039.jpg",
+    "display_name": "Kastet",
+    "modes": [
+      "Multiplayer",
+      "Campaign",
+      "Extinction"
+    ],
+    "special_notes": "Impact grenade launcher.",
+    "image_local": "images/weapons/W039_Kastet.jpg"
+  },
+  {
+    "id": "W040",
+    "name": "Panzerfaust",
+    "class": "Launchers",
+    "notes": "Detailed Ghost Project weapon record with mode, availability, role and special notes.",
+    "source_keys": [
+      "weapons",
+      "weapons_roster"
+    ],
+    "fire_type": "Single-shot explosive launcher",
+    "role": "Explosive launcher",
+    "availability": "Base game",
+    "detail": "Panzerfaust is indexed as part of the Ghosts arsenal. In Ghost Project it is documented as a launchers serving the role of 'Anti-vehicle / anti-group explosive option'.",
+    "image_path": "gallery/weapons/W040.jpg",
+    "display_name": "Panzerfaust",
+    "modes": [
+      "Multiplayer",
+      "Campaign",
+      "Extinction"
+    ],
+    "special_notes": "Shoulder-fired rocket launcher used in Extinction.",
+    "image_local": "images/weapons/W040_Panzerfaust.jpg"
+  },
+  {
+    "id": "W041",
+    "name": "MK32",
+    "class": "Launchers",
+    "notes": "Detailed Ghost Project weapon record with mode, availability, role and special notes.",
+    "source_keys": [
+      "weapons",
+      "weapons_roster"
+    ],
+    "fire_type": "Single-shot explosive launcher",
+    "role": "Explosive launcher",
+    "availability": "Base game",
+    "detail": "MK32 is indexed as part of the Ghosts arsenal. In Ghost Project it is documented as a launchers serving the role of 'Anti-vehicle / anti-group explosive option'.",
+    "image_path": "gallery/weapons/W041.jpg",
+    "display_name": "MK32",
+    "modes": [
+      "Multiplayer",
+      "Campaign",
+      "Extinction"
+    ],
+    "special_notes": "Multi-round explosive launcher.",
+    "image_local": "images/weapons/W041_MK32.jpg"
+  },
+  {
+    "id": "W042",
+    "name": "Combat Knife",
+    "class": "Special / Campaign / Extinction",
+    "notes": "Detailed Ghost Project weapon record with mode, availability, role and special notes.",
+    "source_keys": [
+      "weapons",
+      "weapons_roster"
+    ],
+    "fire_type": "Special-purpose weapon",
+    "role": "Special-purpose weapon/equipment",
+    "availability": "Base game",
+    "detail": "Combat Knife is indexed as part of the Ghosts arsenal. In Ghost Project it is documented as a special / campaign / extinction serving the role of 'Scenario-specific or mode-specific gear'.",
+    "image_path": "gallery/weapons/W042.jpg",
+    "display_name": "Combat Knife",
+    "modes": [
+      "Campaign",
+      "Extinction"
+    ],
+    "special_notes": "Core Ghosts weapon indexed by class, availability and game mode.",
+    "image_local": "images/weapons/W042_Combat_Knife.jpg"
+  },
+  {
+    "id": "W043",
+    "name": "Riot Shield",
+    "class": "Special / Campaign / Extinction",
+    "notes": "Detailed Ghost Project weapon record with mode, availability, role and special notes.",
+    "source_keys": [
+      "weapons",
+      "weapons_roster"
+    ],
+    "fire_type": "Special-purpose weapon",
+    "role": "Special-purpose weapon/equipment",
+    "availability": "Base game",
+    "detail": "Riot Shield is indexed as part of the Ghosts arsenal. In Ghost Project it is documented as a special / campaign / extinction serving the role of 'Scenario-specific or mode-specific gear'.",
+    "image_path": "gallery/weapons/W043.jpg",
+    "display_name": "Riot Shield",
+    "modes": [
+      "Campaign",
+      "Extinction"
+    ],
+    "special_notes": "Core Ghosts weapon indexed by class, availability and game mode.",
+    "image_local": "images/weapons/W043_Riot_Shield.jpg"
+  },
+  {
+    "id": "W044",
+    "name": "Minigun",
+    "class": "Special / Campaign / Extinction",
+    "notes": "Detailed Ghost Project weapon record with mode, availability, role and special notes.",
+    "source_keys": [
+      "weapons",
+      "weapons_roster"
+    ],
+    "fire_type": "Special-purpose weapon",
+    "role": "Special-purpose weapon/equipment",
+    "availability": "Base game",
+    "detail": "Minigun is indexed as part of the Ghosts arsenal. In Ghost Project it is documented as a special / campaign / extinction serving the role of 'Scenario-specific or mode-specific gear'.",
+    "image_path": "gallery/weapons/W044.jpg",
+    "display_name": "Minigun",
+    "modes": [
+      "Campaign",
+      "Extinction"
+    ],
+    "special_notes": "Core Ghosts weapon indexed by class, availability and game mode.",
+    "image_local": "images/weapons/W044_Minigun.jpg"
+  },
+  {
+    "id": "W045",
+    "name": "MAAWS",
+    "class": "Special / Campaign / Extinction",
+    "notes": "Detailed Ghost Project weapon record with mode, availability, role and special notes.",
+    "source_keys": [
+      "weapons",
+      "weapons_roster"
+    ],
+    "fire_type": "Special-purpose weapon",
+    "role": "Special-purpose weapon/equipment",
+    "availability": "Base game",
+    "detail": "MAAWS is indexed as part of the Ghosts arsenal. In Ghost Project it is documented as a special / campaign / extinction serving the role of 'Scenario-specific or mode-specific gear'.",
+    "image_path": "gallery/weapons/W045.jpg",
+    "display_name": "MAAWS",
+    "modes": [
+      "Extinction"
+    ],
+    "special_notes": "Heavy special launcher used in Extinction.",
+    "image_local": "images/weapons/W045_MAAWS.jpg"
+  },
+  {
+    "id": "W046",
+    "name": "Venom-X",
+    "class": "Special / Campaign / Extinction",
+    "notes": "Detailed Ghost Project weapon record with mode, availability, role and special notes.",
+    "source_keys": [
+      "weapons",
+      "weapons_roster"
+    ],
+    "fire_type": "Special-purpose weapon",
+    "role": "Special-purpose weapon/equipment",
+    "availability": "Base game",
+    "detail": "Signature Extinction wonder-weapon built for Cryptid control and area denial. In Ghost Project it is documented as a special / campaign / extinction serving the role of 'Scenario-specific or mode-specific gear'.",
+    "image_path": "gallery/weapons/W046.jpg",
+    "display_name": "Venom-X",
+    "modes": [
+      "Extinction"
+    ],
+    "special_notes": "Extinction alien-tech weapon introduced through the Nightfall storyline.",
+    "image_local": "images/weapons/W046_Venom_X.jpg"
+  },
+  {
+    "id": "W047",
+    "name": "APS Underwater Rifle",
+    "class": "Special / Campaign / Extinction",
+    "notes": "Detailed Ghost Project weapon record with mode, availability, role and special notes.",
+    "source_keys": [
+      "weapons",
+      "weapons_roster"
+    ],
+    "fire_type": "Special-purpose weapon",
+    "role": "Special-purpose weapon/equipment",
+    "availability": "Base game",
+    "detail": "Special underwater weapon associated with Into the Deep mission sequences. In Ghost Project it is documented as a special / campaign / extinction serving the role of 'Scenario-specific or mode-specific gear'.",
+    "image_path": "gallery/weapons/W047.jpg",
+    "display_name": "APS Underwater Rifle",
+    "modes": [
+      "Campaign"
+    ],
+    "special_notes": "Campaign weapon designed for underwater combat.",
+    "image_local": "images/weapons/W047_APS_Underwater_Rifle.jpg"
+  },
+  {
+    "id": "W048",
+    "name": "RPG-7",
+    "class": "Special / Campaign / Extinction",
+    "notes": "Detailed Ghost Project weapon record with mode, availability, role and special notes.",
+    "source_keys": [
+      "weapons",
+      "weapons_roster"
+    ],
+    "fire_type": "Special-purpose weapon",
+    "role": "Special-purpose weapon/equipment",
+    "availability": "Base game",
+    "detail": "RPG-7 is indexed as part of the Ghosts arsenal. In Ghost Project it is documented as a special / campaign / extinction serving the role of 'Scenario-specific or mode-specific gear'.",
+    "image_path": "gallery/weapons/W048.jpg",
+    "display_name": "RPG-7",
+    "modes": [
+      "Campaign"
+    ],
+    "special_notes": "Core Ghosts weapon indexed by class, availability and game mode.",
+    "image_local": "images/weapons/W048_RPG_7.jpg"
+  },
+  {
+    "id": "W049",
+    "name": "Remote Sniper",
+    "class": "Special / Campaign / Extinction",
+    "notes": "Detailed Ghost Project weapon record with mode, availability, role and special notes.",
+    "source_keys": [
+      "weapons",
+      "weapons_roster"
+    ],
+    "fire_type": "Special-purpose weapon",
+    "role": "Special-purpose weapon/equipment",
+    "availability": "Base game",
+    "detail": "Remote Sniper is indexed as part of the Ghosts arsenal. In Ghost Project it is documented as a special / campaign / extinction serving the role of 'Scenario-specific or mode-specific gear'.",
+    "image_path": "gallery/weapons/W049.jpg",
+    "display_name": "Remote Sniper",
+    "modes": [
+      "Campaign"
+    ],
+    "special_notes": "Campaign remote precision weapon used for overwatch/support.",
+    "image_local": "images/weapons/W049_Remote_Sniper.jpg"
+  },
+  {
+    "id": "W050",
+    "name": "NX-1 Disruptor",
+    "class": "Special / Campaign / Extinction",
+    "notes": "Detailed Ghost Project weapon record with mode, availability, role and special notes.",
+    "source_keys": [
+      "weapons",
+      "weapons_roster"
+    ],
+    "fire_type": "Special-purpose weapon",
+    "role": "Special-purpose weapon/equipment",
+    "availability": "Base game",
+    "detail": "Futuristic special weapon associated with the Extinction and Ancestors side of the universe. In Ghost Project it is documented as a special / campaign / extinction serving the role of 'Scenario-specific or mode-specific gear'.",
+    "image_path": "gallery/weapons/W050.jpg",
+    "display_name": "NX-1 Disruptor",
+    "modes": [
+      "Extinction"
+    ],
+    "special_notes": "Late-Extinction alien-technology special weapon.",
+    "image_local": "images/weapons/W050_NX_1_Disruptor.jpg"
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "id": "EE01",
+    "area": "Campaign - Struck Down",
+    "title": "Trophy-case references",
+    "summary": "A trophy case includes jokes referencing The Legend of Zelda, Doctor Who and the 2012 Mayan-calendar end-of-world panic.",
+    "connection": "Cross-franchise Easter eggs",
+    "source_keys": [
+      "easter_eggs"
+    ]
+  },
+  {
+    "id": "EE02",
+    "area": "Campaign - Clockwork",
+    "title": "Zork.exe",
+    "summary": "A file named Zork.exe appears during the computer-extraction sequence, referencing the classic interactive-fiction game Zork.",
+    "connection": "Classic game reference",
+    "source_keys": [
+      "easter_eggs"
+    ]
+  },
+  {
+    "id": "EE03",
+    "area": "Campaign - Atlas Falls",
+    "title": "Call of Duty: Modern Warfare arcade",
+    "summary": "An arcade table labeled Call of Duty: Modern Warfare appears in the common room.",
+    "connection": "Call of Duty 4: Modern Warfare reference",
+    "source_keys": [
+      "atlas_falls"
+    ]
+  },
+  {
+    "id": "EE04",
+    "area": "Multiplayer",
+    "title": "Hidden teddy bears",
+    "summary": "Teddy bears are documented on several Ghosts multiplayer maps including Sovereign, Stormfront, Flooded, Siege and Freight.",
+    "connection": "Recurring Call of Duty Easter-egg motif",
+    "source_keys": [
+      "easter_eggs"
+    ]
+  },
+  {
+    "id": "EE05",
+    "area": "Extinction - Nightfall",
+    "title": "ZAP snowman effect",
+    "summary": "Shooting the sparkling transformers in the correct sequence can trigger a temporary snowman-style death effect on Cryptids.",
+    "connection": "Extinction map Easter egg",
+    "source_keys": [
+      "nightfall"
+    ]
+  },
+  {
+    "id": "EE06",
+    "area": "Extinction - Exodus",
+    "title": "NEVERSOFT / Always Hard",
+    "summary": "Shooting letters on the car-wash sign to spell NEVERSOFT unlocks the secret intel 'Always Hard'.",
+    "connection": "Developer reference / secret intel",
+    "source_keys": [
+      "extinction_intel"
+    ]
+  },
+  {
+    "id": "EE07",
+    "area": "Campaign / naming",
+    "title": "Riley name reference",
+    "summary": "Riley, the Ghosts military dog, is documented as a reference to Simon 'Ghost' Riley from Modern Warfare 2.",
+    "connection": "Modern Warfare 2",
+    "source_keys": [
+      "simon_ghost_trivia"
+    ]
+  }
+]

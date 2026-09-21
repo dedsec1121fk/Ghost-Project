@@ -1,0 +1,290 @@
+[
+  {
+    "id": "RF01",
+    "collectible_number": 1,
+    "mission": "Ghost Stories",
+    "type": "Campaign collectible / audio intelligence",
+    "summary": "Introduces intelligence surrounding Gabriel Rorke's psychological history and earlier service.",
+    "location_note": "One Rorke File collectible is present in this mission. See the cited collectible guide for an exact pickup route.",
+    "audio_url": "https://www.youtube.com/watch?v=6l4QU9fHOLQ",
+    "copyright_note": "Game audio is not bundled. Add your own legally obtained recording to audio_local.",
+    "source_keys": [
+      "rorke_files",
+      "rorke_video"
+    ],
+    "audio_original": "audio/original/rorke/RF01.mp3",
+    "audio_narration": "audio/narration/rorke/RF01.mp3"
+  },
+  {
+    "id": "RF02",
+    "collectible_number": 2,
+    "mission": "Brave New World",
+    "type": "Campaign collectible / audio intelligence",
+    "summary": "Adds background on Rorke and the network tracking or studying him.",
+    "location_note": "One Rorke File collectible is present in this mission. See the cited collectible guide for an exact pickup route.",
+    "audio_url": "https://www.youtube.com/watch?v=6l4QU9fHOLQ",
+    "copyright_note": "Game audio is not bundled. Add your own legally obtained recording to audio_local.",
+    "source_keys": [
+      "rorke_files",
+      "rorke_video"
+    ],
+    "audio_original": "audio/original/rorke/RF02.mp3",
+    "audio_narration": "audio/narration/rorke/RF02.mp3"
+  },
+  {
+    "id": "RF03",
+    "collectible_number": 3,
+    "mission": "No Man's Land",
+    "type": "Campaign collectible / audio intelligence",
+    "summary": "Expands the archive around Rorke's military history and the search for the Ghosts.",
+    "location_note": "One Rorke File collectible is present in this mission. See the cited collectible guide for an exact pickup route.",
+    "audio_url": "https://www.youtube.com/watch?v=6l4QU9fHOLQ",
+    "copyright_note": "Game audio is not bundled. Add your own legally obtained recording to audio_local.",
+    "source_keys": [
+      "rorke_files",
+      "rorke_video"
+    ],
+    "audio_original": "audio/original/rorke/RF03.mp3",
+    "audio_narration": "audio/narration/rorke/RF03.mp3"
+  },
+  {
+    "id": "RF04",
+    "collectible_number": 4,
+    "mission": "Struck Down",
+    "type": "Campaign collectible / audio intelligence",
+    "summary": "Connects Rorke's campaign directly to Ghost casualties and captured personnel.",
+    "location_note": "One Rorke File collectible is present in this mission. See the cited collectible guide for an exact pickup route.",
+    "audio_url": "https://www.youtube.com/watch?v=6l4QU9fHOLQ",
+    "copyright_note": "Game audio is not bundled. Add your own legally obtained recording to audio_local.",
+    "source_keys": [
+      "rorke_files",
+      "rorke_video"
+    ],
+    "audio_original": "audio/original/rorke/RF04.mp3",
+    "audio_narration": "audio/narration/rorke/RF04.mp3"
+  },
+  {
+    "id": "RF05",
+    "collectible_number": 5,
+    "mission": "Homecoming",
+    "type": "Campaign collectible / audio intelligence",
+    "summary": "Adds operational context around the Federation offensive and Rorke's pursuit of the team.",
+    "location_note": "One Rorke File collectible is present in this mission. See the cited collectible guide for an exact pickup route.",
+    "audio_url": "https://www.youtube.com/watch?v=6l4QU9fHOLQ",
+    "copyright_note": "Game audio is not bundled. Add your own legally obtained recording to audio_local.",
+    "source_keys": [
+      "rorke_files",
+      "rorke_video"
+    ],
+    "audio_original": "audio/original/rorke/RF05.mp3",
+    "audio_narration": "audio/narration/rorke/RF05.mp3"
+  },
+  {
+    "id": "RF06",
+    "collectible_number": 6,
+    "mission": "Legends Never Die",
+    "type": "Campaign collectible / audio intelligence",
+    "summary": "Provides context for Rorke's history with Elias and the Ghosts before his defection.",
+    "location_note": "One Rorke File collectible is present in this mission. See the cited collectible guide for an exact pickup route.",
+    "audio_url": "https://www.youtube.com/watch?v=6l4QU9fHOLQ",
+    "copyright_note": "Game audio is not bundled. Add your own legally obtained recording to audio_local.",
+    "source_keys": [
+      "rorke_files",
+      "rorke_video"
+    ],
+    "audio_original": "audio/original/rorke/RF06.mp3",
+    "audio_narration": "audio/narration/rorke/RF06.mp3"
+  },
+  {
+    "id": "RF07",
+    "collectible_number": 7,
+    "mission": "Federation Day",
+    "type": "Campaign collectible / audio intelligence",
+    "summary": "Adds intelligence tied to Rorke's Federation contacts and Caracas operations.",
+    "location_note": "One Rorke File collectible is present in this mission. See the cited collectible guide for an exact pickup route.",
+    "audio_url": "https://www.youtube.com/watch?v=6l4QU9fHOLQ",
+    "copyright_note": "Game audio is not bundled. Add your own legally obtained recording to audio_local.",
+    "source_keys": [
+      "rorke_files",
+      "rorke_video"
+    ],
+    "audio_original": "audio/original/rorke/RF07.mp3",
+    "audio_narration": "audio/narration/rorke/RF07.mp3"
+  },
+  {
+    "id": "RF08",
+    "collectible_number": 8,
+    "mission": "Birds of Prey",
+    "type": "Campaign collectible / audio intelligence",
+    "summary": "Documents the hunt for Rorke as the Ghosts move to capture him.",
+    "location_note": "One Rorke File collectible is present in this mission. See the cited collectible guide for an exact pickup route.",
+    "audio_url": "https://www.youtube.com/watch?v=6l4QU9fHOLQ",
+    "copyright_note": "Game audio is not bundled. Add your own legally obtained recording to audio_local.",
+    "source_keys": [
+      "rorke_files",
+      "rorke_video"
+    ],
+    "audio_original": "audio/original/rorke/RF08.mp3",
+    "audio_narration": "audio/narration/rorke/RF08.mp3"
+  },
+  {
+    "id": "RF09",
+    "collectible_number": 9,
+    "mission": "The Hunted",
+    "type": "Campaign collectible / audio intelligence",
+    "summary": "Adds context around Rorke's rescue and the Federation's continuing pursuit.",
+    "location_note": "One Rorke File collectible is present in this mission. See the cited collectible guide for an exact pickup route.",
+    "audio_url": "https://www.youtube.com/watch?v=6l4QU9fHOLQ",
+    "copyright_note": "Game audio is not bundled. Add your own legally obtained recording to audio_local.",
+    "source_keys": [
+      "rorke_files",
+      "rorke_video"
+    ],
+    "audio_original": "audio/original/rorke/RF09.mp3",
+    "audio_narration": "audio/narration/rorke/RF09.mp3"
+  },
+  {
+    "id": "RF10",
+    "collectible_number": 10,
+    "mission": "Clockwork",
+    "type": "Campaign collectible / audio intelligence",
+    "summary": "Expands the strategic picture revealed by the stolen Federation data.",
+    "location_note": "One Rorke File collectible is present in this mission. See the cited collectible guide for an exact pickup route.",
+    "audio_url": "https://www.youtube.com/watch?v=6l4QU9fHOLQ",
+    "copyright_note": "Game audio is not bundled. Add your own legally obtained recording to audio_local.",
+    "source_keys": [
+      "rorke_files",
+      "rorke_video"
+    ],
+    "audio_original": "audio/original/rorke/RF10.mp3",
+    "audio_narration": "audio/narration/rorke/RF10.mp3"
+  },
+  {
+    "id": "RF11",
+    "collectible_number": 11,
+    "mission": "Atlas Falls",
+    "type": "Campaign collectible / audio intelligence",
+    "summary": "Connects Rorke's campaign to the Ghosts' attacks on Federation infrastructure.",
+    "location_note": "One Rorke File collectible is present in this mission. See the cited collectible guide for an exact pickup route.",
+    "audio_url": "https://www.youtube.com/watch?v=6l4QU9fHOLQ",
+    "copyright_note": "Game audio is not bundled. Add your own legally obtained recording to audio_local.",
+    "source_keys": [
+      "rorke_files",
+      "rorke_video"
+    ],
+    "audio_original": "audio/original/rorke/RF11.mp3",
+    "audio_narration": "audio/narration/rorke/RF11.mp3"
+  },
+  {
+    "id": "RF12",
+    "collectible_number": 12,
+    "mission": "Into the Deep",
+    "type": "Campaign collectible / audio intelligence",
+    "summary": "Provides additional operational context as the Ghosts strike naval assets.",
+    "location_note": "One Rorke File collectible is present in this mission. See the cited collectible guide for an exact pickup route.",
+    "audio_url": "https://www.youtube.com/watch?v=6l4QU9fHOLQ",
+    "copyright_note": "Game audio is not bundled. Add your own legally obtained recording to audio_local.",
+    "source_keys": [
+      "rorke_files",
+      "rorke_video"
+    ],
+    "audio_original": "audio/original/rorke/RF12.mp3",
+    "audio_narration": "audio/narration/rorke/RF12.mp3"
+  },
+  {
+    "id": "RF13",
+    "collectible_number": 13,
+    "mission": "End of the Line",
+    "type": "Campaign collectible / audio intelligence",
+    "summary": "Adds background related to the Federation weapons program and Rorke's role in the war.",
+    "location_note": "One Rorke File collectible is present in this mission. See the cited collectible guide for an exact pickup route.",
+    "audio_url": "https://www.youtube.com/watch?v=6l4QU9fHOLQ",
+    "copyright_note": "Game audio is not bundled. Add your own legally obtained recording to audio_local.",
+    "source_keys": [
+      "rorke_files",
+      "rorke_video"
+    ],
+    "audio_original": "audio/original/rorke/RF13.mp3",
+    "audio_narration": "audio/narration/rorke/RF13.mp3"
+  },
+  {
+    "id": "RF14",
+    "collectible_number": 14,
+    "mission": "Sin City",
+    "type": "Campaign collectible / audio intelligence",
+    "summary": "Deepens the archive surrounding Rorke immediately before and after the Las Vegas attack.",
+    "location_note": "One Rorke File collectible is present in this mission. See the cited collectible guide for an exact pickup route.",
+    "audio_url": "https://www.youtube.com/watch?v=6l4QU9fHOLQ",
+    "copyright_note": "Game audio is not bundled. Add your own legally obtained recording to audio_local.",
+    "source_keys": [
+      "rorke_files",
+      "rorke_video"
+    ],
+    "audio_original": "audio/original/rorke/RF14.mp3",
+    "audio_narration": "audio/narration/rorke/RF14.mp3"
+  },
+  {
+    "id": "RF15",
+    "collectible_number": 15,
+    "mission": "All or Nothing",
+    "type": "Campaign collectible / audio intelligence",
+    "summary": "Adds context to the final American counteroffensive and Rorke hunt.",
+    "location_note": "One Rorke File collectible is present in this mission. See the cited collectible guide for an exact pickup route.",
+    "audio_url": "https://www.youtube.com/watch?v=6l4QU9fHOLQ",
+    "copyright_note": "Game audio is not bundled. Add your own legally obtained recording to audio_local.",
+    "source_keys": [
+      "rorke_files",
+      "rorke_video"
+    ],
+    "audio_original": "audio/original/rorke/RF15.mp3",
+    "audio_narration": "audio/narration/rorke/RF15.mp3"
+  },
+  {
+    "id": "RF16",
+    "collectible_number": 16,
+    "mission": "Severed Ties",
+    "type": "Campaign collectible / audio intelligence",
+    "summary": "Links the ground offensive in Chile with the effort to take LOKI.",
+    "location_note": "One Rorke File collectible is present in this mission. See the cited collectible guide for an exact pickup route.",
+    "audio_url": "https://www.youtube.com/watch?v=6l4QU9fHOLQ",
+    "copyright_note": "Game audio is not bundled. Add your own legally obtained recording to audio_local.",
+    "source_keys": [
+      "rorke_files",
+      "rorke_video"
+    ],
+    "audio_original": "audio/original/rorke/RF16.mp3",
+    "audio_narration": "audio/narration/rorke/RF16.mp3"
+  },
+  {
+    "id": "RF17",
+    "collectible_number": 17,
+    "mission": "Loki",
+    "type": "Campaign collectible / audio intelligence",
+    "summary": "Adds information tied to the orbital battle and endgame against the Federation.",
+    "location_note": "One Rorke File collectible is present in this mission. See the cited collectible guide for an exact pickup route.",
+    "audio_url": "https://www.youtube.com/watch?v=6l4QU9fHOLQ",
+    "copyright_note": "Game audio is not bundled. Add your own legally obtained recording to audio_local.",
+    "source_keys": [
+      "rorke_files",
+      "rorke_video"
+    ],
+    "audio_original": "audio/original/rorke/RF17.mp3",
+    "audio_narration": "audio/narration/rorke/RF17.mp3"
+  },
+  {
+    "id": "RF18",
+    "collectible_number": 18,
+    "mission": "The Ghost Killer",
+    "type": "Campaign collectible / audio intelligence",
+    "summary": "Final campaign collectible, adding late-stage Rorke intelligence before the cliffhanger.",
+    "location_note": "One Rorke File collectible is present in this mission. See the cited collectible guide for an exact pickup route.",
+    "audio_url": "https://www.youtube.com/watch?v=6l4QU9fHOLQ",
+    "copyright_note": "Game audio is not bundled. Add your own legally obtained recording to audio_local.",
+    "source_keys": [
+      "rorke_files",
+      "rorke_video"
+    ],
+    "audio_original": "audio/original/rorke/RF18.mp3",
+    "audio_narration": "audio/narration/rorke/RF18.mp3"
+  }
+]

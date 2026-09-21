@@ -1,0 +1,58 @@
+[
+  {
+    "id": "XG01",
+    "game": "Call of Duty: Modern Warfare 2",
+    "topic": "Riley / Simon 'Ghost' Riley",
+    "summary": "The dog Riley's name is documented as a reference to Simon 'Ghost' Riley. This is a reference, not evidence that the Ghosts campaign shares the original Modern Warfare continuity.",
+    "source_keys": [
+      "simon_ghost_trivia"
+    ]
+  },
+  {
+    "id": "XG02",
+    "game": "Call of Duty: Modern Warfare 2 -> Ghosts",
+    "topic": "Favela",
+    "summary": "The Modern Warfare 2 map Favela returned in Call of Duty: Ghosts as part of the Invasion DLC, with environmental changes.",
+    "source_keys": [
+      "favela"
+    ]
+  },
+  {
+    "id": "XG03",
+    "game": "Call of Duty: Modern Warfare series",
+    "topic": "Makarov Legend Pack",
+    "summary": "Ghosts received a Makarov-themed camouflage/Legend Pack referencing Vladimir Makarov from the original Modern Warfare storyline.",
+    "source_keys": [
+      "makarov_camo"
+    ]
+  },
+  {
+    "id": "XG04",
+    "game": "Call of Duty: Modern Warfare II (2022)",
+    "topic": "Ghost Team",
+    "summary": "The Joint Task Force - Ghost Team name is documented as a reference to the Ghosts faction, but the teams do not share members.",
+    "source_keys": [
+      "ghosts_faction"
+    ]
+  },
+  {
+    "id": "XG05",
+    "game": "Call of Duty: Infinite Warfare - Zombies",
+    "topic": "Nightfall / Extinction film connection",
+    "summary": "Infinite Warfare's Zombies storyline references Nightfall as part of Willard Wyler's fictional Extinction film series, creating a meta connection rather than a straightforward shared historical continuity.",
+    "source_keys": [
+      "nightfall",
+      "beast_beyond"
+    ]
+  },
+  {
+    "id": "XG06",
+    "game": "Call of Duty: Infinite Warfare - Zombies",
+    "topic": "Cryptids and Cortex",
+    "summary": "Cryptids and the Cortex/Medusa concept reappear or are referenced in Infinite Warfare Zombies, especially around The Beast From Beyond and Zombies in Spaceland material.",
+    "source_keys": [
+      "cryptids",
+      "cortex"
+    ]
+  }
+]

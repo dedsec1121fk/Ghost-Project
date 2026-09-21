@@ -1,0 +1,122 @@
+[
+  {
+    "name": "San Diego, California",
+    "universe": "Campaign",
+    "importance": "ODIN devastation and early campaign setting; No Man's Land lies north of the city.",
+    "source_keys": [
+      "ghosts_timeline"
+    ]
+  },
+  {
+    "name": "Fort Santa Monica, Los Angeles",
+    "universe": "Campaign",
+    "importance": "Major U.S. defensive position attacked by the Federation.",
+    "source_keys": [
+      "ghosts_timeline"
+    ]
+  },
+  {
+    "name": "Caracas, Venezuela",
+    "universe": "Campaign",
+    "importance": "Site of Operation Return to Sender and the Federation Day infiltration.",
+    "source_keys": [
+      "ghosts_timeline"
+    ]
+  },
+  {
+    "name": "Campeche oil fields, Gulf of Mexico",
+    "universe": "Campaign",
+    "importance": "Rorke is captured here during the Ghosts' helicopter-supported raid.",
+    "source_keys": [
+      "ghosts_timeline"
+    ]
+  },
+  {
+    "name": "Yucatán, Mexico",
+    "universe": "Campaign",
+    "importance": "The Ghosts crash here after Rorke is rescued by the Federation.",
+    "source_keys": [
+      "ghosts_timeline"
+    ]
+  },
+  {
+    "name": "Andes / Argentine-Chilean border",
+    "universe": "Campaign",
+    "importance": "Location of the Clockwork Federation research-base infiltration.",
+    "source_keys": [
+      "ghosts_timeline"
+    ]
+  },
+  {
+    "name": "Atlas Platform / Drake Passage",
+    "universe": "Campaign",
+    "importance": "Federation oil platform destroyed by the Ghosts.",
+    "source_keys": [
+      "ghosts_timeline"
+    ]
+  },
+  {
+    "name": "Rio de Janeiro coast, Brazil",
+    "universe": "Campaign",
+    "importance": "Area of the underwater naval strike and Federation weapons-factory operation.",
+    "source_keys": [
+      "ghosts_timeline"
+    ]
+  },
+  {
+    "name": "Las Vegas, Nevada",
+    "universe": "Campaign",
+    "importance": "Ghost safehouse where Elias is killed by Rorke.",
+    "source_keys": [
+      "ghosts_timeline"
+    ]
+  },
+  {
+    "name": "Atacama Desert, Chile",
+    "universe": "Campaign",
+    "importance": "Final ground offensive, satellite-array attack and Rorke train operation.",
+    "source_keys": [
+      "ghosts_timeline"
+    ]
+  },
+  {
+    "name": "LOKI orbital station",
+    "universe": "Campaign",
+    "importance": "Federation orbital kinetic weapon captured by U.S. forces.",
+    "source_keys": [
+      "ghosts_timeline"
+    ]
+  },
+  {
+    "name": "Nightfall Facility, Point Barrow, Alaska",
+    "universe": "Extinction",
+    "importance": "Setting of Nightfall and major Nightfall Program research site.",
+    "source_keys": [
+      "nightfall"
+    ]
+  },
+  {
+    "name": "Stormbreaker",
+    "universe": "Extinction",
+    "importance": "Setting for Mayday and the Kassar/Cross cinematics.",
+    "source_keys": [
+      "extinction_intel"
+    ]
+  },
+  {
+    "name": "Ball's Pyramid, Australia",
+    "universe": "Extinction",
+    "importance": "Awakening descends into the Ancestor Ark beneath the area.",
+    "source_keys": [
+      "awakening"
+    ]
+  },
+  {
+    "name": "Exodus Launch Facility",
+    "universe": "Extinction",
+    "importance": "Final Extinction episode location where the Medusa Device is activated.",
+    "source_keys": [
+      "exodus_facility"
+    ]
+  }
+]
