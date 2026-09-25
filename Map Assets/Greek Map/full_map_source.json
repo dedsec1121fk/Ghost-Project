@@ -1,0 +1,6 @@
+{
+  "url": "",
+  "release_tag": "greek-map-packs",
+  "filename": "greece.mbtiles",
+  "note": "Legacy single-package source. Tiered downloads now use map_packages.json and per-tier release manifests."
+}

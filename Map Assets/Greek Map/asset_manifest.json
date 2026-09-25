@@ -1,0 +1,23 @@
+{
+  "updated_utc": "2026-09-25T13:13:09Z",
+  "greekos_version": "2.2.0-project",
+  "maplibre_js": false,
+  "maplibre_css": false,
+  "offline_database": true,
+  "cache_files": 0,
+  "cache_megabytes": 0.0,
+  "athens_wifi": {
+    "ok": false,
+    "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+  },
+  "optional_full_greece_mbtiles": false,
+  "featured_places": 46,
+  "wifi_data_places": [
+    "alexandroupoli",
+    "athens",
+    "drama",
+    "lamia",
+    "patras"
+  ],
+  "full_map_release_tag": "greek-map-data"
+}

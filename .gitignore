@@ -3,3 +3,15 @@ data/settings.json
 .venv/
 __pycache__/
 *.pyc
+# Optional full-Greece offline vector basemap can be many GB.
+Map Assets/Greek Map/runtime/greece.mbtiles
+Map Assets/Greek Map/runtime/greece.mbtiles-shm
+Map Assets/Greek Map/runtime/greece.mbtiles-wal
+.greek-map-build/
+.greek-map-build
+
+# Resumable Greek Map package downloads / installs.
+Map Assets/Greek Map/runtime/package-downloads/
+Map Assets/Greek Map/runtime/*.assembling
+Map Assets/Greek Map/runtime/*.download-state.json
+Map Assets/Greek Map/runtime/installed_package.json

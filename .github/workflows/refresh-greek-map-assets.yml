@@ -1,0 +1,51 @@
+name: Refresh Greek Map assets
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '27 4 * * 0'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-greek-map-assets
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Refresh bundled Greek Map assets and public data
+        run: python3 tools/update_greek_map_assets.py
+
+      - name: Show asset sizes
+        run: |
+          du -sh "Map Assets/Greek Map" || true
+          find "Map Assets/Greek Map/runtime" -maxdepth 2 -type f -printf '%p %k KB\n' | sort || true
+
+      - name: Commit refreshed assets
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "Map Assets/Greek Map/runtime/vendor" \
+                  "Map Assets/Greek Map/runtime/http-cache" \
+                  "Map Assets/Greek Map/runtime/greekos.sqlite3" \
+                  "Map Assets/Greek Map/asset_manifest.json"
+          if git diff --cached --quiet; then
+            echo "No Greek Map asset changes."
+          else
+            git commit -m "chore: refresh Greek Map assets"
+            git push
+          fi

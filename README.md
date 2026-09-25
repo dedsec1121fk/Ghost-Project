@@ -480,3 +480,33 @@ Ghost Project/
 **Ghost Project is unofficial and is not affiliated with or endorsed by Activision, Infinity Ward, or the Call of Duty rights holders.**
 
 **Το Ghost Project είναι ανεπίσημο και δεν συνδέεται ούτε υποστηρίζεται από την Activision, την Infinity Ward ή τους δικαιούχους του Call of Duty.**
+
+## Greek Map
+
+Ghost Project now includes a browser-based **Greek Map** module.
+
+From the Ghost Project prompt, run either:
+
+```text
+Greek Map
+```
+
+or:
+
+```text
+greek-map
+```
+
+The map server opens automatically in the default browser while the Ghost Project prompt remains usable. Its project-local assets live under `Map Assets/Greek Map/` and are refreshed weekly by `.github/workflows/refresh-greek-map-assets.yml`.
+
+The bundled map supports the Greece overview/local 3D workflow, address/place/POI search, GPS location/follow mode, navigation, public aggregate Athens Wi-Fi visualization, optional traffic, offline caching and optional local `greece.mbtiles` data.
+
+A complete street-level offline dataset for all of Greece is too large for a normal GitHub repository. The weekly workflow therefore refreshes the redistributable browser dependencies, compact Greece-wide place index, style/runtime cache and public aggregate data. If `Map Assets/Greek Map/runtime/greece.mbtiles` is supplied separately, Greek Map uses it automatically as the local basemap.
+
+### Greek Map full offline download
+
+Inside **Greek Map**, press **⇩** to open the Offline Maps panel. You can cache only the visible area or download the complete Greece vector map. The complete-map download has a live percentage/progress bar and is stored as `Map Assets/Greek Map/runtime/greece.mbtiles`. A separate weekly workflow, `.github/workflows/build-greek-map-full.yml`, rebuilds that large package and publishes it through the `greek-map-data` GitHub Release rather than committing a multi-hundred-megabyte/GB file to the repository.
+
+### Greek Map offline tiers
+
+The `Greek Map` option supports optional offline Greece packages at 10/15/20/25/30 GB budgets. Large map data is distributed as checksum-verified 128 MiB GitHub Release chunks so interrupted downloads can resume safely without making the Git repository itself enormous.

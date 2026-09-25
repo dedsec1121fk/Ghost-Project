@@ -1,0 +1,114 @@
+name: Build Greek Map Lite package
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '10 2 * * 6'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-greek-map-lite
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    env:
+      BUILD_DIR: ${{ github.workspace }}/.greek-map-build
+      PBF_URL: https://download.geofabrik.de/europe/greece-latest.osm.pbf
+      RELEASE_TAG: greek-map-packs
+      TIER: lite
+      TARGET_GB: '10'
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Prepare build directory
+        run: mkdir -p "$BUILD_DIR/store" "$BUILD_DIR/chunks"
+
+      - name: Download current Greece OpenStreetMap extract
+        run: |
+          curl --fail --location --retry 6 --retry-delay 5 \
+            --continue-at - \
+            --output "$BUILD_DIR/greece-latest.osm.pbf" \
+            "$PBF_URL"
+          ls -lh "$BUILD_DIR/greece-latest.osm.pbf"
+
+      - name: Build OpenMapTiles-compatible MBTiles
+        uses: systemed/tilemaker@v2.0.0
+        with:
+          input: ${{ github.workspace }}/.greek-map-build/greece-latest.osm.pbf
+          output: ${{ github.workspace }}/.greek-map-build/greece.mbtiles
+          extra: --store ${{ github.workspace }}/.greek-map-build/store --threads 0
+
+      - name: Validate MBTiles
+        run: |
+          python3 - <<'PY'
+          import os, sqlite3
+          from pathlib import Path
+          p=Path(os.environ['BUILD_DIR'])/'greece.mbtiles'
+          if not p.exists() or p.stat().st_size < 1024*1024:
+              raise SystemExit('greece.mbtiles was not created correctly')
+          db=sqlite3.connect(p)
+          db.execute('SELECT 1 FROM metadata LIMIT 1').fetchone()
+          db.execute('SELECT 1 FROM tiles LIMIT 1').fetchone()
+          db.close()
+          print(f'validated {p.stat().st_size/1024/1024:.1f} MiB')
+          PY
+
+      - name: Split into resumable 128 MiB chunks
+        run: |
+          python3 tools/chunk_greek_map_package.py \
+            --input "$BUILD_DIR/greece.mbtiles" \
+            --output-dir "$BUILD_DIR/chunks" \
+            --tier "$TIER" \
+            --label "Lite" \
+            --target-gb "$TARGET_GB" \
+            --chunk-mib 128 \
+            --release-tag "$RELEASE_TAG"
+          ls -lh "$BUILD_DIR/chunks" | tail
+
+      - name: Create or update package release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if gh release view "$RELEASE_TAG" >/dev/null 2>&1; then
+            gh release edit "$RELEASE_TAG" \
+              --title "Greek Map offline packages" \
+              --notes "Resumable chunked offline packages for Greek Map. Chunks are at most 128 MiB."
+          else
+            gh release create "$RELEASE_TAG" \
+              --title "Greek Map offline packages" \
+              --notes "Resumable chunked offline packages for Greek Map. Chunks are at most 128 MiB."
+          fi
+
+      - name: Remove previous Lite assets
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh api "repos/${GITHUB_REPOSITORY}/releases/tags/${RELEASE_TAG}" > "$BUILD_DIR/release.json"
+          python3 - <<'PY' > "$BUILD_DIR/delete-assets.txt"
+          import json, os
+          from pathlib import Path
+          data=json.loads((Path(os.environ['BUILD_DIR'])/'release.json').read_text())
+          for a in data.get('assets',[]):
+              n=a.get('name','')
+              if n.startswith('greek-map-lite.part') or n=='greek-map-lite-manifest.json':
+                  print(a['id'])
+          PY
+          while read -r id; do
+            [ -z "$id" ] || gh api -X DELETE "repos/${GITHUB_REPOSITORY}/releases/assets/$id"
+          done < "$BUILD_DIR/delete-assets.txt"
+
+      - name: Upload Lite chunks and manifest
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          for f in "$BUILD_DIR"/chunks/greek-map-lite.part* "$BUILD_DIR"/chunks/greek-map-lite-manifest.json; do
+            gh release upload "$RELEASE_TAG" "$f" --clobber
+          done

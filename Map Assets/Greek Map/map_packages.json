@@ -1,0 +1,42 @@
+{
+  "schema": 1,
+  "release_tag": "greek-map-packs",
+  "chunk_mib": 128,
+  "tiers": [
+    {
+      "id": "lite",
+      "label": "Lite",
+      "target_gb": 10,
+      "manifest_asset": "greek-map-lite-manifest.json",
+      "description": "Core offline Greece map, major/local roads, places, addresses and POIs."
+    },
+    {
+      "id": "standard",
+      "label": "Standard",
+      "target_gb": 15,
+      "manifest_asset": "greek-map-standard-manifest.json",
+      "description": "More local road/building/address detail and denser POIs."
+    },
+    {
+      "id": "enhanced",
+      "label": "Enhanced",
+      "target_gb": 20,
+      "manifest_asset": "greek-map-enhanced-manifest.json",
+      "description": "Higher-detail cities, buildings, roads and offline search coverage."
+    },
+    {
+      "id": "detailed",
+      "label": "Detailed",
+      "target_gb": 25,
+      "manifest_asset": "greek-map-detailed-manifest.json",
+      "description": "Dense nationwide local detail with larger offline indexes."
+    },
+    {
+      "id": "full",
+      "label": "Full",
+      "target_gb": 30,
+      "manifest_asset": "greek-map-full-manifest.json",
+      "description": "Maximum published Greek Map package and highest offline detail."
+    }
+  ]
+}

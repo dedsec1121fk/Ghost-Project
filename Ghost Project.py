@@ -246,6 +246,7 @@ from modules.audio import open_url, play_entry_audio, record_voice
 from modules.weapon_stats import find_weapons, show_stats, compare_weapons
 from modules.loadouts import create_loadout, list_loadouts, get_loadout, show_loadout, delete_loadout, random_loadout
 from modules.ui import COMMAND_ALIASES, CATEGORY_ALIASES
+from modules.greek_map import launch_greek_map
 
 
 def norm_cat(value):
@@ -423,6 +424,11 @@ def main():
                 print(tr(lang,"entry_not_found")); continue
             _,msg=open_image(ROOT,item)
             print(msg)
+        elif cmd in ("greek-map", "greekmap") or (cmd == "greek" and len(args) > 1 and args[1].lower() == "map"):
+            ok,msg=launch_greek_map(ROOT,lang)
+            print(msg)
+            continue
+
         elif cmd=="gallery":
             category=norm_cat(args[1]) if len(args)>1 else "all"
             if category not in ("all","maps","weapons","characters"):
