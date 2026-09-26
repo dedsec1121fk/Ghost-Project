@@ -39,12 +39,20 @@ jobs:
             "$PBF_URL"
           ls -lh "$BUILD_DIR/greece-latest.osm.pbf"
 
+      - name: Pull current tilemaker image
+        run: docker pull ghcr.io/systemed/tilemaker:master
+
       - name: Build OpenMapTiles-compatible MBTiles
-        uses: systemed/tilemaker@v2.0.0
-        with:
-          input: ${{ github.workspace }}/.greek-map-build/greece-latest.osm.pbf
-          output: ${{ github.workspace }}/.greek-map-build/greece.mbtiles
-          extra: --store ${{ github.workspace }}/.greek-map-build/store --threads 0
+        run: |
+          docker run --rm --pull always \
+            -v "$BUILD_DIR:/data" \
+            ghcr.io/systemed/tilemaker:master \
+            /data/greece-latest.osm.pbf \
+            --output /data/greece.mbtiles \
+            --store /data/store \
+            --threads 0 \
+            --verbose
+          ls -lh "$BUILD_DIR/greece.mbtiles"
 
       - name: Validate MBTiles
         run: |
