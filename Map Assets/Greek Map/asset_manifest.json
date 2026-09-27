@@ -1,14 +1,14 @@
 {
-  "updated_utc": "2026-09-25T13:13:09Z",
-  "greekos_version": "2.2.0-project",
+  "updated_utc": "2026-09-27T04:38:47Z",
+  "greekos_version": "2.3.0-project",
   "maplibre_js": false,
   "maplibre_css": false,
   "offline_database": true,
-  "cache_files": 0,
-  "cache_megabytes": 0.0,
+  "cache_files": 25,
+  "cache_megabytes": 11.1,
   "athens_wifi": {
-    "ok": false,
-    "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+    "ok": true,
+    "stations": 81
   },
   "optional_full_greece_mbtiles": false,
   "featured_places": 46,
@@ -19,5 +19,12 @@
     "lamia",
     "patras"
   ],
-  "full_map_release_tag": "greek-map-data"
+  "offline_package_tiers": [
+    "lite",
+    "standard",
+    "enhanced",
+    "detailed",
+    "full"
+  ],
+  "offline_package_release_tag": "greek-map-packs"
 }
