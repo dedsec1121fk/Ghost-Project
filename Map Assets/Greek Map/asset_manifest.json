@@ -1,11 +1,11 @@
 {
-  "updated_utc": "2026-10-25T04:39:14Z",
+  "updated_utc": "2026-11-01T04:32:51Z",
   "greekos_version": "2.3.0-project",
   "maplibre_js": false,
   "maplibre_css": false,
   "offline_database": true,
-  "cache_files": 25,
-  "cache_megabytes": 11.8,
+  "cache_files": 26,
+  "cache_megabytes": 11.9,
   "athens_wifi": {
     "ok": true,
     "stations": 81
